@@ -1,4 +1,4 @@
-# leetCode problems
+## leetCode problems
 
--code 
--study notes
+- code
+- study notes
