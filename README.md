@@ -1,8 +1,10 @@
-## leetCode problems
+# leetCode problems
 
-- code
-- study notes
+### Solved problems
 
-### current problem: addTwoNumbers
+- twoSum(ease)
+- addTwoNumbers(median)
 
-### list of problems you want to work on
+### Current problem:
+
+### To be sovled:
