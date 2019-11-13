@@ -2,8 +2,9 @@
 
 ### Solved problems
 
-- twoSum(ease)
+- twoSum(easy)
 - addTwoNumbers(median)
+- reverseInteger(easy)
 
 ### Current problem:
 
