@@ -1,4 +1,4 @@
-### twoSum (easy)
+### Two Sum (easy)
 
 - python dictionary: distinct keys
 - hash-based search: trade off space for speed
@@ -11,7 +11,7 @@
   has time complexity O(n) because ```dictionary.keys()``` is a list.
 - one-pass hash table   
 
-### addTwoNumbers (median)
+### Add Two Numbers (median)
 
 #### Data structure: linked list
 - single-linked list: next
@@ -21,3 +21,7 @@ Python doesn't have a predefined data type for linked list. To implement linked 
 
 #### Recursion
 exception handling: catch NoneType ListNode.  
+
+### Longest Mountain (median)
+
+#### Trick: set two variables. Fix one variable and run a while loop on the other.
