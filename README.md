@@ -1,7 +1,5 @@
 # LeetCode Problems
 
-## Classic problems 
-
 ### Easy 
 
 *  0020 Valid parenthese
