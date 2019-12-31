@@ -1,8 +1,8 @@
 /*
-Runtime: 2 ms, faster than 54.53% of Java online submissions for Valid Parentheses.
-Memory Usage: 34.3 MB, less than 100.00% of Java online submissions for Valid Parentheses.
+* Runtime: 2 ms, faster than 54.53% of Java online submissions for Valid Parentheses.
+* Memory Usage: 34.3 MB, less than 100.00% of Java online submissions for Valid Parentheses.
+* @dataStrucutre: stack 
 */
-
 
 class Solution {
     // use HashMap class to build ST
@@ -29,5 +29,5 @@ System.out.println(Solution.isValid( '{[]]()]}' ));
 
 /*
 time complexity: worst O(n)
-space complexity: worst O(n) 
+space complexity: worst O(n)
 */
