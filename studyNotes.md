@@ -1,3 +1,23 @@
+#### Dynamical programming
+two key attributes
+1. optimal substructure: optimal solution to its sub-problems -> optimal solution
+2. overlapping sub-problems: the space of sub-problems is small, recursive algorithm solves the same sub-problems over and over.
+
+##### Examples
+- Fibonacci numbers
+- Dijkstra's algorithm for shortest path.
+
+
+#### Divide and conquer
+1. optimal substructure
+2. non-overlapping sub-problems
+
+##### Examples
+- merge sort
+- quick sort 
+
+
+
 ### Two Sum (easy)
 
 - python dictionary: distinct keys
@@ -12,15 +32,6 @@
 - one-pass hash table   
 
 ### Add Two Numbers (median)
-
-#### Data structure: linked list
-- single-linked list: next
-- double-linked list: next and previous
-
-Python doesn't have a predefined data type for linked list. To implement linked lists, one has to create data type like ListNode. For a complete reference see [here](https://stackabuse.com/python-linked-lists/ "Python linked lists").
-
-#### Recursion
-exception handling: catch NoneType ListNode.  
 
 ### Longest Mountain (median)
 
