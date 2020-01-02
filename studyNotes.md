@@ -5,6 +5,7 @@ two key attributes
 
 ##### Examples
 - Fibonacci numbers
+- Knapsack 
 - Dijkstra's algorithm for shortest path.
 
 
@@ -14,7 +15,7 @@ two key attributes
 
 ##### Examples
 - merge sort
-- quick sort 
+- quick sort
 
 
 
