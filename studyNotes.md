@@ -1,11 +1,11 @@
 #### Dynamical programming
-two key attributes
+Two key attributes
 1. optimal substructure: optimal solution to its sub-problems -> optimal solution
 2. overlapping sub-problems: the space of sub-problems is small, recursive algorithm solves the same sub-problems over and over.
 
 ##### Examples
 - Fibonacci numbers
-- Knapsack 
+- Knapsack
 - Dijkstra's algorithm for shortest path.
 
 
@@ -17,7 +17,29 @@ two key attributes
 - merge sort
 - quick sort
 
+#### XOR logic operation
+exclusive or = addition modulo 2
 
+#### Bitwise operators
+- bitwise OR |
+- bitwise AND &
+- bitwise XOR ^
+- bitwise Complement ~
+
+##### Examples
+```
+a = 5 = 0101
+b = 7 = 0111
+a | b = 0111 = 7
+a & b = 0101 = 5
+a ^ b = 0010 = 2
+~ a = 1010 = 10
+```
+##### Bitwise XOR properties
+* ```a ^ 0 = 0```
+* ```a ^ a = 0```
+* Commutativity ```a ^ b = b ^ a ```
+* Associativity ```(a ^ b) ^ c = a ^ (b ^ c)```
 
 ### Two Sum (easy)
 
