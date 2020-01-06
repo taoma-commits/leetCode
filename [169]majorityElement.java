@@ -1,7 +1,7 @@
 /*
 Runtime: 2 ms, faster than 61.19% of Java online submissions for Majority Element.
 Memory Usage: 42.8 MB, less than 47.06% of Java online submissions for Majority Element.
-Note: Boyer-Moore string-search algorithm OR bit manipulation
+Note: Boyer-Moore voting algorithm OR bit manipulation
 */
 
 class Solution {
