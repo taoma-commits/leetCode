@@ -14,3 +14,13 @@ class Solution {
         return result;
     }
 }
+
+/*
+class Solution {
+    public int trailingZeroes(int n) {
+        n = n / 5;
+        int result = (n == 0)? n : n + trailingZeroes(n);
+        return result;
+    }
+}
+*/
