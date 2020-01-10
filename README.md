@@ -12,3 +12,8 @@
 * 0125 Valid palindrome
 * 0136 Single number
 * 0155 Min stack
+* 0167 Two sums II
+* 0169 Majority element
+* 0172 Factorial trailing zeros
+* 0190 Reverse bits
+* 0198 House robber
