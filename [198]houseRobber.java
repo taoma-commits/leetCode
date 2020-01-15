@@ -4,8 +4,6 @@ Memory Usage: 34 MB, less than 100.00% of Java online submissions for House Robb
 @dynamicProgramming
 */
 
-
-
 class Solution {
     public int rob(int[] nums) {
         int len = nums.length;

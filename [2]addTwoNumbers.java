@@ -4,8 +4,6 @@ Memory Usage: 44.9 MB, less than 85.58% of Java online submissions for Add Two N
 @linkedList
 */
 
-
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -16,7 +14,7 @@ Memory Usage: 44.9 MB, less than 85.58% of Java online submissions for Add Two N
  */
 
 // instantiate ListNode: new ListNode(int x);
-// l3 handle 
+// l3 handle
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(0);
