@@ -2,6 +2,8 @@
 
 ### Easy
 
+* 0001 Two sums
+* 0002 Add two numbers
 * 0020 Valid parenthesis
 * 0026 Remove duplicates from sorted-array
 * 0053 Maximum sum subarray
@@ -16,4 +18,11 @@
 * 0169 Majority element
 * 0172 Factorial trailing zeros
 * 0190 Reverse bits
+* 0191 Number of 1 bit 
 * 0198 House robber
+* 0203 Remove linked list elements
+* 0206 Reverse linked list
+* 0217 Contains duplicate
+* 0219 Contains duplicate II
+*
+*
