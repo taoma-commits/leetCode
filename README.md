@@ -18,11 +18,19 @@
 * 0169 Majority element
 * 0172 Factorial trailing zeros
 * 0190 Reverse bits
-* 0191 Number of 1 bit 
+* 0191 Number of 1 bit
 * 0198 House robber
 * 0203 Remove linked list elements
 * 0206 Reverse linked list
 * 0217 Contains duplicate
 * 0219 Contains duplicate II
-*
-*
+* 0283 Move zeros
+* 0342 Power of four
+* 0349 Intersection of two arrays
+* 0371 Sum of two integers
+* 0437 Path sum III
+* 0501 Find mode in binary search tree
+* 0575 Distribute candies
+* 1260 Shift 2d grid
+
+### Medium 
