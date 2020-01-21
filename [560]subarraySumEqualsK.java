@@ -4,8 +4,8 @@ Memory Usage: 48.1 MB, less than 5.43% of Java online submissions for Subarray S
 */
 
 /*
-* Note: hashMap;
-* Note: update hashMap value: map.getOrDefault(sum, 0)
+* hashMap
+* update hashMap value: map.getOrDefault(sum, 0)
 */
 
 
