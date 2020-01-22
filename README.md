@@ -16,7 +16,7 @@
 * 0167 Two sums II
 * 0169 Majority element
 * 0172 Factorial trailing zeros
-* 0189 Rotate array 
+* 0189 Rotate array
 * 0190 Reverse bits
 * 0191 Number of 1 bit
 * 0198 House robber
@@ -35,3 +35,35 @@
 
 ### Medium
 * 0002 Add two numbers
+* 0003 Longest substring without repeating characters
+* 0005 Longest palindromic substring
+* 0011 Container with most water
+* 0015 3 sum
+* 0019 Remove nth node from end of list
+* 0024 Swap nodes in pairs
+* 0029 Divide two integers
+* 0031 Next permutation
+* 0033 Search in rotated sorted array
+* 0039 Combination sum
+* 0040 Combination sum II
+* 0046 Permutation
+* 0047 Permutation II
+* 0048 Rotate image
+* 0049 Group anagrams
+* 0055 Jump game
+* 0056 Merge intervals
+* 0073 Set matrix zeros
+* 0075 Sort colors
+* 0078
+* 0079
+* 0080
+* 0086
+* 0090
+* 0091
+* 0092
+* 0094
+* 0095
+* 0096
+* 0098
+* 0102
+* 0103
