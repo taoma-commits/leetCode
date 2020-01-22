@@ -3,7 +3,6 @@
 ### Easy
 
 * 0001 Two sums
-* 0002 Add two numbers
 * 0020 Valid parenthesis
 * 0026 Remove duplicates from sorted-array
 * 0053 Maximum sum subarray
@@ -17,6 +16,7 @@
 * 0167 Two sums II
 * 0169 Majority element
 * 0172 Factorial trailing zeros
+* 0189 Rotate array 
 * 0190 Reverse bits
 * 0191 Number of 1 bit
 * 0198 House robber
@@ -33,4 +33,5 @@
 * 0575 Distribute candies
 * 1260 Shift 2d grid
 
-### Medium 
+### Medium
+* 0002 Add two numbers

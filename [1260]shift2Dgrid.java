@@ -28,6 +28,8 @@ Runtime: 7 ms, faster than 35.52% of Java online submissions for Shift 2D Grid.
 Memory Usage: 48.2 MB, less than 100.00% of Java online submissions for Shift 2D Grid.
 */
 
+// inspired by [189] rotate array: translate an array by three rotations.
+
 class Solution {
     private void reverse(int[] array, int front, int end) {
         while (front < end) {
