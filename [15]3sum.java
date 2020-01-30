@@ -1,54 +1,48 @@
 /*
-Runtime: 24 ms, faster than 98.30% of Java online submissions for 3Sum.
+Runtime: 21 ms, faster than 98.93% of Java online submissions for 3Sum.
 Memory Usage: 45.6 MB, less than 96.11% of Java online submissions for 3Sum.
 */
 
 //tag: array, two pointers.
 
-class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        if (nums.length < 3) return ans;
-        Arrays.sort(nums);
-        for (int i = 2; i < nums.length - 1; i++) {
-            if (nums[i] >= 0 && nums[i] != nums[i + 1]) {
-                int curr = nums[i];
-                List<List<Integer>> list = twoSum(Arrays.copyOfRange(nums, 0, i), -curr);
-                for (List<Integer> l : list) l.add(curr);
-                ans.addAll(list);
-                }
-            }
-        int last = nums[nums.length - 1];
-        if (last >= 0) {
-            List<List<Integer>> list = twoSum(Arrays.copyOfRange(nums, 0, nums.length - 1), -last);
-            for (List<Integer> l : list) l.add(last);
-            ans.addAll(list);
-            }
-        return ans;
-        }
+/*idea: begins with the 3rd term, iterate through array. For ith term,
+* use twoSum method to find all triples with last term the value of ith term
+* and update the global variable ans. 
+* Cares are taken to avoid duplicates.
+*/
 
-    private List<List<Integer>> twoSum(int[] nums, int sum) {
-        List<List<Integer>> ans = new ArrayList<>();
-        int i = 0, j = nums.length - 1;
-        int l = nums[0] - 1, r = nums[nums.length - 1] + 1;
-        while (i < j) {
-            if (nums[i] == l && nums[j] == r && l + r == sum) {
-                i++;
-                j--;
-            }
-            else {
-                l = nums[i];
-                r = nums[j];
-                if (l + r <= sum) i++;
-                if (l + r >= sum) j--;
-                if (l + r == sum) {
-                    List<Integer> list = new ArrayList<>();
-                    list.add(l);
-                    list.add(r);
-                    ans.add(list);
-                }
-            }
+class Solution {
+    // return the global variable ans
+    List<List<Integer>> ans = new ArrayList<>();
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        if (nums == null || nums.length < 3) return ans;
+        Arrays.sort(nums);
+        for (int i = 2; i < nums.length; i++) {
+            if (nums[i] < 0) continue; // an optimization
+            // guarantees nums[i] is the LAST among duplicates
+            if (i < nums.length - 1 && nums[i] == nums[i + 1]) continue;
+            twoSum(nums, i - 1, - nums[i]);
         }
         return ans;
+    }
+
+    // assume nums is sorted and end < nums.length
+    private void twoSum(int[] nums, int end, int sum) {
+        int j = end;
+        for (int i = 0; i < end; i++) {
+            // guarantees nums[i] is always the FIRST among duplicates
+            if (i > 0 && nums[i - 1] == nums[i]) continue;
+            // for fixed i, reduce j by one if nums[i] + nums[j] > sum
+            while (j > i && nums[j] + nums[i] > sum) j--;
+            if (i >= j) continue; // because i is the FIRST among duplicates, i >= j rules out nums[i]
+            if (nums[i] + nums[j] == sum) {
+                List<Integer> triple = new ArrayList<>();
+                triple.add(nums[i]);
+                triple.add(nums[j]);
+                triple.add(- sum);
+                ans.add(triple);
+            }
+        }
     }
 }
