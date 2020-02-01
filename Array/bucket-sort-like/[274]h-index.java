@@ -4,6 +4,8 @@ Memory Usage: 37.2 MB, less than 100.00% of Java online submissions for H-Index.
 */
 
 // notes: bucket-sort-like; make sure you fully understand the problem!
+// time complexity: O(n)
+// alternate solution: sort and binary search, O(nlog(n))
 
 class Solution {
     public int hIndex(int[] citations) {
