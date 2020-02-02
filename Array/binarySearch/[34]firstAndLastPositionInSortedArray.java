@@ -3,7 +3,15 @@ Runtime: 0 ms, faster than 100.00% of Java online submissions for Find First and
 Memory Usage: 42.9 MB, less than 99.29% of Java online submissions for Find First and Last Position of Element in Sorted Array.
 */
 
-//tag : array, binary search, two-time binary search
+/* Notes:
+* two-time binary search
+* corner cases
+** set low = mid + 1 to escape deadlock in binary search
+** set high = nums.length instead of nums.length - 1
+              so that binary(nums, target, false) always return the index of
+              the last duplicate plus one even the index = length of array
+* one array for range
+*/
 
 class Solution {
     public int[] searchRange(int[] nums, int target) {
@@ -30,12 +38,7 @@ class Solution {
 }
 
 
-/* Notes:
-* corner cases
-* set low = mid + 1 to escape deadlock in binary search
-* set high = nums.length instead of nums.length - 1
-* one array for range
-*/
+
 
 /*
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Find First and Last Position of Element in Sorted Array.
