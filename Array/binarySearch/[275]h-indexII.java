@@ -1,11 +1,3 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for H-Index II.
-Memory Usage: 45 MB, less than 83.33% of Java online submissions for H-Index II.
-*/
-
-// Notes: see corresponding md file.  
-
-
 class Solution {
     public int hIndex(int[] citations) {
         if (citations == null || citations.length == 0) return 0;
@@ -23,3 +15,8 @@ class Solution {
         return len - lo;
     }
 }
+
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for H-Index II.
+Memory Usage: 45 MB, less than 83.33% of Java online submissions for H-Index II.
+*/
