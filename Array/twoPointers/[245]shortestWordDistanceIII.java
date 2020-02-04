@@ -17,6 +17,8 @@ class Solution {
 * notes:
       1. let dist, idx1, and idx2 be long type can avoid overflow
       2. cast dist back to int type by (int) distance
-      3. one line code takes care of special case.
+      3. special case when word1 == word2: do not want to update two pointers to
+        the same index. Solution is to set pointer 1 to old pointer 2
+        before update pointer 2.
 * companies: LinkedIn 2, Microsoft 2, Adobe, Walmart lab, Google.
 */
