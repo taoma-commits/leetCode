@@ -1,9 +1,3 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
-Memory Usage: 36.8 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
-@dynamicProgramming
-*/
-
 class Solution {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
@@ -15,3 +9,9 @@ class Solution {
         return profit;
     }
 }
+
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
+Memory Usage: 36.8 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
+* notes: dynamical programming.
+*/
