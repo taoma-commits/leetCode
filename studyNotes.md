@@ -1,3 +1,62 @@
+# Part I. Primitive Data Type
+
+## ```int```
+1. The default value of ```int``` is 0. (Do not need to manually set an undefined variable of ```int``` type to 0!)
+
+## ```short```
+
+## ```long```
+
+## ```float```
+
+## ```double```
+
+## ```boolean```
+
+## ```char```
+1. ```int x = (char) A```,
+then x is the ASCII code of character A.
+
+2. Get ```int``` value of a decimal digit character by
+```int y = x -'0'```
+This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
+
+## ```byte```
+
+## ```void```
+
+## Arithmetic operators
+
+## Bitwise operations
+
+
+# Part II. Non-primitive Data Type
+
+## String
+
+1. convert a string to array of char's
+```str.toCharArray()```
+
+2. compare two strings:
+```(boolean) str1.equals(str2)```
+
+## Array
+
+* Array sorting: ```Arrays.sort(arr, start_idx, end_idx + 1)```
+* Array slicing:
+```int[] slice = Arrays.copyOfRange(arr, start_idx, end_idx)```
+
+### List class
+* append element e to the end:
+  ```list.add(E e)```
+* insert e at index i: ```list.add(int i, E e)```   
+*
+
+#### ArrayList class
+
+1.  
+
+
 #### Dynamical programming
 Two key attributes
 1. optimal substructure: optimal solution to its sub-problems -> optimal solution
