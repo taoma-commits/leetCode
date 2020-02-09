@@ -13,11 +13,11 @@ class Solution {
             return profit;
         }
 
-        int[][] dp = new int[k + 1][n];
-        for (int i = 1; i <= k; i++) {
-            int hold = - prices[0];
+        int[][] dp = new int[k + 1][n]; // the default value is zero
+        for (int i = 1; i <= k; i++) { // fix a number of transaction
+            int hold = - prices[0]; // the maximum profit right before the last sell at j
             for (int j = 1; j < n; j++) {
-                dp[i][j] = Math.max(dp[i][j - 1], hold + prices[j]);
+                dp[i][j] = Math.max(dp[i][j - 1], hold + prices[j]); // note
                 hold = Math.max(hold, dp[i - 1][j] - prices[j]);
             }
         }
@@ -27,9 +27,11 @@ class Solution {
 
 /**
 * performance: 2 ms < 99%, 36.6 MB < 42.43%.
-* notes:
-      1. 
-      2.
-      3.
-*
+* tag: 2D dp 
+* notes: dp[i][j] divided into two cases:
+            case 1: last sell is done before reach j
+            case 2: last sell is done exactly at j
+          The profit in case 1 is dp[i][j - 1].
+          The profit in case 2 is hold.
+* companies: Amazon, Apple.
 */

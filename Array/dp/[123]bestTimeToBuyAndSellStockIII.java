@@ -19,5 +19,6 @@ class Solution {
 
 /**
 * performance: 1 ms < 100%, 37 MB < 80%.
-* notes: the problem to learn DP.
+* tag: 1D dp
+* notes: the inner loop of [188].
 */
