@@ -30,16 +30,20 @@ class Solution {
 same performance, better written code.
 */
 
-public class Solution {
+class Solution {
     public int maxArea(int[] height) {
-        int maxarea = 0, l = 0, r = height.length - 1;
+        int l = 0;
+        int r = height.length - 1;
+        int area = 0;
         while (l < r) {
-            maxarea = Math.max(maxarea, Math.min(height[l], height[r]) * (r - l));
-            if (height[l] < height[r])
+            area = Math.max(area, (r - l) * Math.min(height[l], height[r]));
+            if (height[l] < height[r]) {
                 l++;
-            else
+            }
+            else {
                 r--;
+            }
         }
-        return maxarea;
+        return area;
     }
 }
