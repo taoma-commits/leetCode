@@ -19,6 +19,6 @@ class Solution {
 
 /**
 * performance: 1 ms < 100%, 37 MB < 80%.
-* tag: 1D dp
-* notes: the inner loop of [188].
+* tag: 2D dp
+* notes: compare [188].
 */
