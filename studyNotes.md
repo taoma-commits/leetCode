@@ -1,7 +1,9 @@
 # Part I. Primitive Data Type
 
 ## ```int```
-1. The default value of ```int``` is 0. (Do not need to manually set an undefined variable of ```int``` type to 0!)
+* The default value of ```int``` is 0.
+  1. initialize ```int[]```, default elements are 0.
+  2. can NOT initialize ```int ``` without assign value.
 
 ## ```short```
 
