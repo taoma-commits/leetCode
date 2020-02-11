@@ -1,11 +1,3 @@
-// tag : array, bucket sort
-// notes: bucket-sort-like algorithm, in-place so constant memory complexity.
-
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for First Missing Positive.
-Memory Usage: 37.4 MB, less than 6.85% of Java online submissions for First Missing Positive.
-*/
-
 class Solution {
     public int firstMissingPositive(int[] nums) {
         if (nums == null || nums.length == 0) return 1;
@@ -23,9 +15,11 @@ class Solution {
 }
 
 /*
-Runtime: 2 ms, faster than 12.32% of Java online submissions for First Missing Positive.
-Memory Usage: 39.2 MB, less than 6.85% of Java online submissions for First Missing Positive.
+* performance: 0 ms < 100.00%, 37.4 MB < 6.85%
+* tag: bucket sort
+* notes: bucket-sort-like algorithm, in-place so constant memory complexity.
 */
+
 
 class Solution {
     public int firstMissingPositive(int[] nums) {
@@ -38,3 +32,10 @@ class Solution {
         return i;
     }
 }
+
+/**
+* performance: 2 ms < 12.32%, 39.2 MB < 6.85%.
+* notes: 1. hash table
+        2. time complexity = O(n)
+        3. space complexity = O(n)
+*/

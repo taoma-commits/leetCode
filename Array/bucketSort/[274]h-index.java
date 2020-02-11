@@ -1,12 +1,3 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for H-Index.
-Memory Usage: 37.2 MB, less than 100.00% of Java online submissions for H-Index.
-*/
-
-// notes: bucket-sort-like; make sure you fully understand the problem!
-// time complexity: O(n)
-// alternate solution: sort and binary search, O(nlog(n))
-
 class Solution {
     public int hIndex(int[] citations) {
         int len = citations.length, sum = 0;
@@ -23,3 +14,10 @@ class Solution {
         return h;
     }
 }
+
+/**
+* performance: 0 ms < 100%, 37MB < 100%.
+* tag: bucket sort
+* notes:
+* companies: Google, Adobe.
+*/
