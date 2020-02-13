@@ -23,7 +23,7 @@ class Solution {
             return Math.min(nums1[s1], nums2[s2]);
         }
 
-        int i1 = s1 + Math.min(len1, k / 2) - 1;
+        int i1 = s1 + Math.min(len1, k / 2) - 1; // note 4
         int i2 = s2 + Math.min(len2, k / 2) - 1;
 
         if (nums1[i1] >= nums2[i2]) {
@@ -37,6 +37,8 @@ class Solution {
 /**
 * performance: 3ms < 98%, 51 MB < 5%.
 * tag: binary search
-* notes: 1. find the kth element of two sorted array
-        2. time complexity O(log(m + n))
+* notes: 1. find the kth element of two sorted array: binary search like algorithm
+        2. time complexity O(log(m + n)): also aware of time O(n + m) space O(1) solution!  
+        3. trick: n numbers. The median is between (n + 1) / 2 th number and (n + 2) / 2 th number
+        4. one array could be shorter than k / 2.
 */
