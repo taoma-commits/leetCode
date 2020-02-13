@@ -47,6 +47,11 @@ This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecu
 * Array sorting: ```Arrays.sort(arr, start_idx, end_idx + 1)```
 * Array slicing:
 ```int[] slice = Arrays.copyOfRange(arr, start_idx, end_idx)```
+* Array filling: ```Arrays.fill(arr, value)```
+* Array sum:
+    - ```IntStream.of(arr).sum()```
+    - ```Arrays.stream(arr).sum()``` overloaded for ```long``` and ```double``` arrays
+
 
 ### List class
 * append element e to the end:
