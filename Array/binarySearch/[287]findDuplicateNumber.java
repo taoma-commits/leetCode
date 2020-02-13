@@ -23,6 +23,8 @@ class Solution {
 
 /**
 * performance: 5 ms < 33%, 48 MB < 5%.
-* notes:
+* notes: time complexity = O(nlogn), space complexity = O(1)
 * companies: Amazon, Microsoft, Google.
 */
+
+// best solution: find the cycle, then find cycle entrance. 
