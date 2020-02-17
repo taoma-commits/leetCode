@@ -19,9 +19,10 @@
 1. ```int x = (char) A```,
 then x is the ASCII code of character A.
 
-2. Get ```int``` value of a decimal digit character by
-```int y = x -'0'```
+2. Get ```int``` value of a decimal digit character by ```int y = x -'0'```
 This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
+
+* character space is ```' '``` NOT ```" "```.
 
 ## ```byte```
 
@@ -36,11 +37,14 @@ This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecu
 
 ## String
 
-1. convert a string to array of char's
-```str.toCharArray()```
+0. get the character at index i: ```str.charAt(i)```
 
-2. compare two strings:
-```(boolean) str1.equals(str2)```
+1. convert a string to array of char's ```str.toCharArray()```
+
+2. compare two strings: ```(boolean) str1.equals(str2)```
+
+3. find prefix: ```(boolean) (str).startsWith(prefix)```
+
 
 ## Array
 
