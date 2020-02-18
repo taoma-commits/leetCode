@@ -16,13 +16,18 @@
 ## ```boolean```
 
 ## ```char```
-1. ```int x = (char) A```,
+* ```int x = (char) A```,
 then x is the ASCII code of character A.
 
-2. Get ```int``` value of a decimal digit character by ```int y = x -'0'```
+* Get ```int``` value of a decimal digit character by ```int y = x -'0'```
 This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
 
+* ```char``` type automatically casted into ```int``` when involved in arithmetic operations and indexing.
+An important trick: hash letters to ```int[] hash = new int[26]```
+by ```char - 'a'```.
+
 * character space is ```' '``` NOT ```" "```.
+
 
 ## ```byte```
 
