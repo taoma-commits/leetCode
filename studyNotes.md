@@ -42,10 +42,10 @@ by ```char - 'a'```.
 
 * double quotes ```" "``` define strings. Single quotes ```''``` define characters!
 * get the character at index i: ```str.charAt(i)```
-* convert a string to array of char's ```str.toCharArray()```
+* convert a string to array of char's             ```str.toCharArray()```
 * compare two strings: ```(boolean) str1.equals(str2)```
 * split string ```str``` into an array of strings: ```String[] arr = str.split(char)```
-Note that two successive splitters doesn't create an empty string. 
+  **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 
 ### String builder
