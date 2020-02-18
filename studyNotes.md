@@ -16,17 +16,15 @@
 ## ```boolean```
 
 ## ```char```
+
 * ```int x = (char) A```,
 then x is the ASCII code of character A.
-
 * Get ```int``` value of a decimal digit character by ```int y = x -'0'```
 This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
-
 * ```char``` type automatically casted into ```int``` when involved in arithmetic operations and indexing.
 An important trick: hash letters to ```int[] hash = new int[26]```
 by ```char - 'a'```.
-
-* character space is ```' '``` NOT ```" "```.
+* single quotes ```' '``` define characters. Double quotes ```" "``` define strings!
 
 
 ## ```byte```
@@ -42,13 +40,21 @@ by ```char - 'a'```.
 
 ## String
 
-0. get the character at index i: ```str.charAt(i)```
+* double quotes ```" "``` define strings. Single quotes ```''``` define characters!
+* get the character at index i: ```str.charAt(i)```
+* convert a string to array of char's ```str.toCharArray()```
+* compare two strings: ```(boolean) str1.equals(str2)```
+* split string ```str``` into an array of strings: ```String[] arr = str.split(char)```
+Note that two successive splitters doesn't create an empty string. 
+* find prefix: ```(boolean) (str).startsWith(prefix)```
 
-1. convert a string to array of char's ```str.toCharArray()```
+### String builder
+data type: ```StringBuilder```
+* initialize ```StringBuilder sb = new StringBuilder();```
+* append ```sb.append(char or string)```
+* length ```sb.length()```
+* to string ```sb.toString()```
 
-2. compare two strings: ```(boolean) str1.equals(str2)```
-
-3. find prefix: ```(boolean) (str).startsWith(prefix)```
 
 
 ## Array
