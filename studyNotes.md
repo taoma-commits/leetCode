@@ -17,6 +17,7 @@
 
 ## ```char```
 
+* test whether two characters are equal: ```==``` because ```char``` is primitive data type! 
 * ```int x = (char) A```,
 then x is the ASCII code of character A.
 * Get ```int``` value of a decimal digit character by ```int y = x -'0'```
@@ -35,7 +36,6 @@ by ```char - 'a'```.
 
 ## Bitwise operations
 
-
 # Part II. Non-primitive Data Type
 
 ## String
@@ -44,6 +44,7 @@ by ```char - 'a'```.
 * get the character at index i: ```str.charAt(i)```
 * convert a string to array of char's             ```str.toCharArray()```
 * compare two strings: ```(boolean) str1.equals(str2)```
+   **Note that ```String``` is non-primitive so ```==``` doesn't work! **
 * split string ```str``` into an array of strings: ```String[] arr = str.split(char)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
