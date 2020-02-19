@@ -17,7 +17,7 @@
 
 ## ```char```
 
-* test whether two characters are equal: ```==``` because ```char``` is primitive data type! 
+* test whether two characters are equal: ```==``` because ```char``` is primitive data type!
 * ```int x = (char) A```,
 then x is the ASCII code of character A.
 * Get ```int``` value of a decimal digit character by ```int y = x -'0'```
@@ -40,21 +40,25 @@ by ```char - 'a'```.
 
 ## String
 
-* double quotes ```" "``` define strings. Single quotes ```''``` define characters!
+* double quotes ```""``` define strings. Single quotes ```''``` define characters!
 * get the character at index i: ```str.charAt(i)```
-* convert a string to array of char's             ```str.toCharArray()```
+* convert a string to array of char's:              ```str.toCharArray()```
+* convert an array of char's to a string: ```String str = new String(arr)```
 * compare two strings: ```(boolean) str1.equals(str2)```
-   **Note that ```String``` is non-primitive so ```==``` doesn't work! **
+  **Note that ```String``` is non-primitive so ```==``` doesn't work!**
 * split string ```str``` into an array of strings: ```String[] arr = str.split(char)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 
-### String builder
+#### String builder
 data type: ```StringBuilder```
 * initialize ```StringBuilder sb = new StringBuilder();```
 * append ```sb.append(char or string)```
 * length ```sb.length()```
 * to string ```sb.toString()```
+
+
+
 
 
 
