@@ -16,7 +16,7 @@
 - [ ] [186]	Reverse Words in a String II		
 - [ ] [345]	Reverse Vowels of a String			
 - [ ] [205]	Isomorphic Strings		
-- [ ] 293	Flip Game		
+- [ ] [293]	Flip Game		
 - [ ] 294	Flip Game II		
 - [ ] 290	Word Pattern		
 - [ ] 242	Valid Anagram		

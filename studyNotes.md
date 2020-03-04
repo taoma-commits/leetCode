@@ -18,6 +18,7 @@
 ## ```char```
 
 * test whether two characters are equal: ```==``` because ```char``` is primitive data type!
+
 * ```int x = (char) A```,
 then x is the ASCII code of character A.
 * Get ```int``` value of a decimal digit character by ```int y = x -'0'```
@@ -40,10 +41,19 @@ by ```char - 'a'```.
 
 ## String
 
+* String is **immutable** in Java.
+
 * double quotes ```""``` define strings. Single quotes ```''``` define characters!
 * get the character at index i: ```str.charAt(i)```
+* get substring: ```str.substring(start_idx, end_idx)```
+* get index of a substring or character:            
+  - ```str.indexOf(substr, int fromIndex)```
+  - ```str.indexOf(char, int fromIndex)```
+  - if such substr or char does not exist, return -1.
+
 * convert a string to array of char's:              ```str.toCharArray()```
 * convert an array of char's to a string: ```String str = new String(arr)```
+
 * compare two strings: ```(boolean) str1.equals(str2)```
   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
 * split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split(char)```
@@ -51,20 +61,23 @@ by ```char - 'a'```.
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 
 #### String builder
-data type: ```StringBuilder```
+
+data type: ```StringBuilder```: because String type is immutable, we need StringBuilder to modify a string.
+
 * initialize ```StringBuilder sb = new StringBuilder();```
+ - initialize string builder from string: ```StringBuilder sb = new StringBuilder(str);```
+
 * append ```sb.append(char or string)```
 * length ```sb.length()```
+* insert ``` ```
+* replace ```sb.replace(int start, int end, String str)```
 * to string ```sb.toString()```
-
-
-
-
 
 
 ## Array
 
 * Array sorting: ```Arrays.sort(arr, start_idx, end_idx + 1)```
+
 * Array slicing:
 ```int[] slice = Arrays.copyOfRange(arr, start_idx, end_idx)```
 * Array filling: ```Arrays.fill(arr, value)```
