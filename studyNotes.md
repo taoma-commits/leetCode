@@ -46,7 +46,7 @@ by ```char - 'a'```.
 * convert an array of char's to a string: ```String str = new String(arr)```
 * compare two strings: ```(boolean) str1.equals(str2)```
   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
-* split string ```str``` into an array of strings: ```String[] arr = str.split(char)```
+* split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split(char)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 

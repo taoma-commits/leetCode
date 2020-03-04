@@ -1,69 +1,110 @@
 # LeetCode Problems
 
-### Easy
+## Array
 
-* 0001 Two sums
-* 0020 Valid parenthesis
-* 0026 Remove duplicates from sorted-array
-* 0053 Maximum sum subarray
-* 0088 Merge sorted array
-* 0104 Maximum depth of binary tree
-* 0121 Best time to buy and sell stock I
-* 0122 Best time to buy and sell stack II
-* 0125 Valid palindrome
-* 0136 Single number
-* 0155 Min stack
-* 0167 Two sums II
-* 0169 Majority element
-* 0172 Factorial trailing zeros
-* 0189 Rotate array
-* 0190 Reverse bits
-* 0191 Number of 1 bit
-* 0198 House robber
-* 0203 Remove linked list elements
-* 0206 Reverse linked list
-* 0217 Contains duplicate
-* 0219 Contains duplicate II
-* 0283 Move zeros
-* 0342 Power of four
-* 0349 Intersection of two arrays
-* 0371 Sum of two integers
-* 0437 Path sum III
-* 0501 Find mode in binary search tree
-* 0575 Distribute candies
-* 1260 Shift 2d grid
 
-### Medium
-* 0002 Add two numbers
-* 0003 Longest substring without repeating characters
-* 0005 Longest palindromic substring
-* 0011 Container with most water
-* 0015 3 sum
-* 0019 Remove nth node from end of list
-* 0024 Swap nodes in pairs
-* 0029 Divide two integers
-* 0031 Next permutation
-* 0033 Search in rotated sorted array
-* 0039 Combination sum
-* 0040 Combination sum II
-* 0046 Permutation
-* 0047 Permutation II
-* 0048 Rotate image
-* 0049 Group anagrams
-* 0055 Jump game
-* 0056 Merge intervals
-* 0073 Set matrix zeros
-* 0075 Sort colors
-* 0078
-* 0079
-* 0080
-* 0086
-* 0090
-* 0091
-* 0092
-* 0094
-* 0095
-* 0096
-* 0098
-* 0102
-* 0103
+## String
+
+### Basic problems
+- [ ] [28] Implement strStr()		
+- [ ] [14] Longest Common Prefix		
+- [ ] [58] Length of Last Word		
+- [ ] [387] First Unique Character in a String		
+- [ ] [383]	Ransom Note		
+- [ ] [344]	Reverse String		
+- [ ] [151]	Reverse Words in a String		
+- [ ] [186]	Reverse Words in a String II		
+- [ ] [345]	Reverse Vowels of a String			
+- [ ] [205]	Isomorphic Strings		
+- [ ] 293	Flip Game		
+- [ ] 294	Flip Game II		
+- [ ] 290	Word Pattern		
+- [ ] 242	Valid Anagram		
+- [ ] 49	Group Anagrams		
+- [ ] 249	Group Shifted Strings		
+- [ ] 87	Scramble String		
+- [ ] 179	Largest Number
+- [ ] 6	Zig-Zag Conversion
+- [ ] 161	One Edit Distance		
+- [ ] 38	Count and Say		
+- [ ] 358	Rearrange String k Distance Apart		
+- [ ] 316	Remove Duplicate Letters		
+- [ ] 271	Encode and Decode Strings		
+- [ ]  168	Excel Sheet Column Title		
+- [ ]  171	Excel Sheet Column Number		
+- [ ]  3	Roman to Integer		
+- [ ]  12	Integer to Roman		
+- [ ]  273 Integer to English Words		
+- [ ] 246	Strobogrammatic Number		
+- [ ] 247	Strobogrammatic Number II		
+- [ ] 248	Strobogrammatic Number III
+
+### Challenging problems 		
+- [ ] 157	Read N Characters Given Read4		
+- [ ] 158	Read N Characters Given Read4 II - Call multiple times		
+- [ ] 68 Text Justification		
+- [ ] 65 Valid Number
+
+#### Substring			
+- [ ] 76 Minimum Window Substring (sliding Window)
+- [ ] 30 Substring with Concatenation of All Words (sliding Window)
+- [ ] 3	Longest Substring Without Repeating Characters		(Sliding Window)
+- [ ] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
+- [ ] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
+- [ ] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)
+
+
+#### Palindrome			
+- [ ] 125	Valid Palindrome		
+- [ ] 266	Palindrome Permutation		
+- [ ] 5	Longest Palindromic Substring		
+- [ ] 9	Palindrome Number		
+- [ ] 214	Shortest Palindrome		
+- [ ] 336	Palindrome Pairs		
+- [ ] 131	Palindrome Partitioning		
+- [ ] 132	Palindrome Partitioning II		
+- [ ] 267	Palindrome Permutation II		
+
+#### Parentheses			
+- [ ] 20	Valid Parentheses		
+- [ ] 22	Generate Parentheses		
+- [ ] 32	Longest Valid Parentheses		
+- [ ] 241	Different Ways to Add Parentheses		
+- [ ] 301	Remove Invalid Parentheses
+
+#### Subsequence			
+- [ ] 392	Is Subsequence		
+- [ ] 115	Distinct Subsequences		
+- [ ] 187	Repeated DNA Sequences
+
+## Math
+
+## Tree
+
+## Backtracking
+
+## Dynamic Programming
+
+## LinkedList
+
+## Binary Search
+
+## Matrix
+
+## DFS & BFS
+
+## Stack & Priority Queue
+
+## Bit Manipulation
+
+## Topological Sort
+
+## Random
+
+## Graph
+
+## Union Find
+
+## Trie
+
+## Design
