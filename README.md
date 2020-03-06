@@ -20,7 +20,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [205]	Isomorphic Strings		
 - [ ] [293]	Flip Game		
 - [ ] [294]	Flip Game II		
-- [ ] 290	Word Pattern		
+- [ ] [290]	Word Pattern		
 - [ ] 242	Valid Anagram		
 - [ ] 49	Group Anagrams		
 - [ ] 249	Group Shifted Strings		

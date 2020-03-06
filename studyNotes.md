@@ -56,7 +56,7 @@ by ```char - 'a'```.
 
 * compare two strings: ```(boolean) str1.equals(str2)```
   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
-* split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split(char)```
+* split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split((String)splitter)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 
@@ -95,6 +95,15 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 #### ArrayList class
 
 1.  
+
+## Map
+
+* ```map.getOrDefault(key, defaultValue)``` returns the value associated with the key or the default value if the key is not stored in the map.
+
+* The difference between put and replace methods
+  - ```map.put(key, value)``` add the pair (key, value) to the map even if key was not stored.
+  - ```map.replace(key, value)``` does nothing if key is not found in map.
+
 
 
 #### Dynamical programming
