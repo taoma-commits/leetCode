@@ -94,9 +94,21 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 #### ArrayList class
 
-1.  
+
+## Collection
+
+### Set
+A Set is a Collection that **cannot contain duplicate elements**.
 
 ## Map
+
+* search key and value
+  - ```map.containsKey(key)```
+  - ```map.containsValue(value)```
+
+* set of keys: ```map.keySet()```
+
+* collection of values: ```map.values()```  
 
 * ```map.getOrDefault(key, defaultValue)``` returns the value associated with the key or the default value if the key is not stored in the map.
 
