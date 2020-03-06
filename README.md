@@ -17,12 +17,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [151]	Reverse Words in a String		
 - [ ] [186]	Reverse Words in a String II		
 - [ ] [345]	Reverse Vowels of a String			
-- [ ] [205]	Isomorphic Strings		
-- [ ] [293]	Flip Game		
-- [ ] [294]	Flip Game II		
-- [ ] [290]	Word Pattern		
-- [ ] 242	Valid Anagram		
-- [ ] 49	Group Anagrams		
+- [ ] [205]	Isomorphic Strings (easy)
+- [ ] [293]	Flip Game	(easy)
+- [ ] [294]	Flip Game II (interesting)
+- [ ] [290]	Word Pattern (easy)
+- [ ] [242]	Valid Anagram (easy)		
+- [ ] [49] Group Anagrams (medium)	
 - [ ] 249	Group Shifted Strings		
 - [ ] 87	Scramble String		
 - [ ] 179	Largest Number
