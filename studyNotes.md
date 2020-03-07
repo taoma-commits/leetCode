@@ -2,8 +2,8 @@
 
 ## ```int```
 * The default value of ```int``` is 0.
-  1. initialize ```int[]```, default elements are 0.
-  2. can NOT initialize ```int ``` without assign value.
+  - initialize ```int[]```, default elements are 0.
+  - can NOT initialize ```int ``` without assign value.
 
 ## ```short```
 
@@ -14,6 +14,8 @@
 ## ```double```
 
 ## ```boolean```
+* The default ```boolean``` is ```false```.
+  - initialize ```boolean[]```, default elements are ```false```.
 
 ## ```char```
 
@@ -32,10 +34,6 @@ by ```char - 'a'```.
 ## ```byte```
 
 ## ```void```
-
-## Arithmetic operators
-
-## Bitwise operations
 
 # Part II. Non-primitive Data Type
 
@@ -93,6 +91,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 *
 
 #### ArrayList class
+* initialize an ArrayList: ```new ArrayList(collection)```
 
 
 ## Collection
@@ -117,28 +116,21 @@ A Set is a Collection that **cannot contain duplicate elements**.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
 
 
+# Part III. Operators
 
-#### Dynamical programming
-Two key attributes
-1. optimal substructure: optimal solution to its sub-problems -> optimal solution
-2. overlapping sub-problems: the space of sub-problems is small, recursive algorithm solves the same sub-problems over and over.
-
-##### Examples
-- Fibonacci numbers
-- Knapsack
-- Dijkstra's algorithm for shortest path.
-
-
-#### Divide and conquer
-1. optimal substructure
-2. non-overlapping sub-problems
-
-##### Examples
-- merge sort
-- quick sort
+## Logic Operations
 
 #### XOR logic operation
 exclusive or = addition modulo 2
+
+## Arithmetic Operations
+
+- modulus: ```a % b == a - (a / b) * b```
+
+  warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
+
+
+## Bitwise Operations
 
 #### Bitwise operators
 - bitwise OR |
@@ -179,3 +171,22 @@ a ^ b = 0010 = 2
 ### Longest Mountain (median)
 
 #### Trick: set two variables. Fix one variable and run a while loop on the other.
+
+#### Dynamical programming
+Two key attributes
+1. optimal substructure: optimal solution to its sub-problems -> optimal solution
+2. overlapping sub-problems: the space of sub-problems is small, recursive algorithm solves the same sub-problems over and over.
+
+##### Examples
+- Fibonacci numbers
+- Knapsack
+- Dijkstra's algorithm for shortest path.
+
+
+#### Divide and conquer
+1. optimal substructure
+2. non-overlapping sub-problems
+
+##### Examples
+- merge sort
+- quick sort

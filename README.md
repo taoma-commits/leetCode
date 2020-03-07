@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 This repository keeps track of the author's progress in LeetCoding.
-The problems are classified into 18 major categories as follows. The problems in each category are grouped by their difficult levels and solving methods.  
+The problems are classified into 18 major categories as follows. The problems in each category are grouped by their tags and difficult levels.  
 
 ## Array
 
@@ -19,12 +19,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [345]	Reverse Vowels of a String			
 - [ ] [205]	Isomorphic Strings (easy)
 - [ ] [293]	Flip Game	(easy)
-- [ ] [294]	Flip Game II (interesting)
+- [ ] [294]	Flip Game II (medium, interesting)
 - [ ] [290]	Word Pattern (easy)
 - [ ] [242]	Valid Anagram (easy)		
-- [ ] [49] Group Anagrams (medium)	
-- [ ] 249	Group Shifted Strings		
-- [ ] 87	Scramble String		
+- [ ] [49] Group Anagrams (medium)
+- [ ] [249] Group Shifted Strings (medium)
+- [ ] [87] Scramble String (hard, interesting)
 - [ ] 179	Largest Number
 - [ ] 6	Zig-Zag Conversion
 - [ ] 161	One Edit Distance		
