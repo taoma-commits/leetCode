@@ -115,8 +115,9 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 ## Array
 
-* Array sorting: ```Arrays.sort(arr, start_idx, end_idx + 1)```
-
+* Array sorting:
+  - ```Arrays.sort(arr, start_idx, end_idx + 1)```
+  - ```Arrays.sort(arr, comparator)```
 * Array slicing:
 ```int[] slice = Arrays.copyOfRange(arr, start_idx, end_idx)```
 * Array filling: ```Arrays.fill(arr, value)```
