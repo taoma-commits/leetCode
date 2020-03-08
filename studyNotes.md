@@ -35,7 +35,45 @@ by ```char - 'a'```.
 
 ## ```void```
 
-# Part II. Non-primitive Data Type
+# Part II. Operators
+
+## Logic Operations
+
+#### XOR logic operation
+exclusive or = addition modulo 2
+
+## Arithmetic Operations
+
+- modulus: ```a % b == a - (a / b) * b```
+
+  warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
+
+
+## Bitwise Operations
+
+#### Bitwise operators
+- bitwise OR |
+- bitwise AND &
+- bitwise XOR ^
+- bitwise Complement ~
+
+##### Examples
+```
+a = 5 = 0101
+b = 7 = 0111
+a | b = 0111 = 7
+a & b = 0101 = 5
+a ^ b = 0010 = 2
+~ a = 1010 = 10
+```
+##### Bitwise XOR properties
+* ```a ^ 0 = 0```
+* ```a ^ a = 0```
+* Commutativity ```a ^ b = b ^ a ```
+* Associativity ```(a ^ b) ^ c = a ^ (b ^ c)```
+
+
+# Part III. Non-primitive Data Type
 
 ## String
 
@@ -51,7 +89,10 @@ by ```char - 'a'```.
 
 * convert a string to array of char's:              ```str.toCharArray()```
 * convert an array of char's to a string: ```String str = new String(arr)```
-
+* convert an instance of primitive data type to a string:      
+```String.valueOf(Object o)```
+where o can be type ```int, long, doulbe, float, char, char[]```
+  - ```String.valueOf(char[], int offset, int count)```
 * compare two strings: ```(boolean) str1.equals(str2)```
   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
 * split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split((String)splitter)```
@@ -116,43 +157,78 @@ A Set is a Collection that **cannot contain duplicate elements**.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
 
 
-# Part III. Operators
+# Part IV. Interfaces
 
-## Logic Operations
+An *interface* is nothing more than **a list of instance methods**.
 
-#### XOR logic operation
-exclusive or = addition modulo 2
+1. Comparable interface
 
-## Arithmetic Operations
+  method: ```compareTo()```
 
-- modulus: ```a % b == a - (a / b) * b```
+  ```v.compareTo(w)``` returns an integer that is negative, zero, or positive
+  (usually -1, 0, or +1) when v<w, v=w,
+  or v>w, respectively.
 
-  warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
+  ```
+  public class Transaction implements Comparable<Transaction>
+    {
+      private final double amount;
+
+      public int compareTo(Transaction that)
+        {
+          if (this.amount > that.amount) return +1;
+          if (this.amount < that.amount) return -1;
+          return 0;
+        }
+    }
+  ```
+
+2. Comparator interface
+
+  method: ```compare()```
+
+  The Java Comparator interface allows us to build multiple orders within a single class. It has a single public method ```compare()``` that compares two objects.
+
+  Comparator implementation for Transaction data type:
+  ```
+  import java.util.Comparator;
+  public class Transaction
+    {
+      private final String who;
+      private final Date when;
+      private final double amount;
+
+      public static class WhoOrder implements Comparator<Transaction>
+        {
+          public int compare(Transaction v, Transaction w)
+            { return v.who.compareTo(w.who); }
+        }
+      public static class WhenOrder implements Comparator<Transaction>
+        {
+          public int compare(Transaction v, Transaction w)
+            { return v.when.compareTo(w.when); }
+        }
+      public static class HowMuchOrder implements Comparator<Transaction>
+        {
+          public int compare(Transaction v, Transaction w)
+            {
+              if (v.amount < w.amount) return -1;
+              if (v.amount > w.amount) return +1;
+              return 0;
+            }
+        }
+    }
+  ```
+  WhoOrder, WhenOrder, and HowMuchOrder are three Comparators the Transaction type data equipped. To sort an array of Transactions by WhenOrder, simply pass WhenOrder instance to the sort method like ```sort(a, new Transaction.WhenOrder())```
 
 
-## Bitwise Operations
+3. Iterable
 
-#### Bitwise operators
-- bitwise OR |
-- bitwise AND &
-- bitwise XOR ^
-- bitwise Complement ~
+  method: ```iterator()```
 
-##### Examples
-```
-a = 5 = 0101
-b = 7 = 0111
-a | b = 0111 = 7
-a & b = 0101 = 5
-a ^ b = 0010 = 2
-~ a = 1010 = 10
-```
-##### Bitwise XOR properties
-* ```a ^ 0 = 0```
-* ```a ^ a = 0```
-* Commutativity ```a ^ b = b ^ a ```
-* Associativity ```(a ^ b) ^ c = a ^ (b ^ c)```
+4. Iterator
 
+  method: ```hasNext(), next(), remove()```
 ### Two Sum (easy)
 
 - python dictionary: distinct keys
