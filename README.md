@@ -19,7 +19,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [169]	Majority Element		
 - [ ] [229]	Majority Element II		
 - [ ] [274]	H-Index		
-- [ ] [275]	H-Index II		Binary Search
+- [ ] [275]	H-Index II (Binary Search)
 - [ ] [243]	Shortest Word Distance		
 - [ ] [244]	Shortest Word Distance II		
 - [ ] [245]	Shortest Word Distance III		
@@ -28,7 +28,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [220]	Contains Duplicate III		
 - [ ] [55]	Jump Game		
 - [ ] [45]	Jump Game II		
-- [ ] [121]	Best Time to Buy and Sell Stock		
+- [ ] [121]	Best Time to Buy and Sell Stock
 - [ ] [122]	Best Time to Buy and Sell Stock II		
 - [ ] [123]	Best Time to Buy and Sell Stock III		
 - [ ] [188]	Best Time to Buy and Sell Stock IV		
@@ -37,9 +37,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [42]	Trapping Rain Water		
 - [ ] [334]	Increasing Triplet Subsequence		
 - [ ] [128]	Longest Consecutive Sequence		
-- [ ] [164]	Maximum Gap		Bucket
+- [ ] [164]	Maximum Gap	(Bucket Sort)
 - [ ] [287]	Find the Duplicate Number		
-- [ ] [135]	Candy		
+- [ ] [135]	Candy
 - [ ] [330]	Patching Array		
 
 ### Challenging problems
@@ -108,7 +108,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [87] Scramble String (hard, interesting)
 - [ ] [179]	Largest Number (medium, comparator)
 - [ ] [6]	Zig-Zag Conversion
-- [ ] 161	One Edit Distance		
+- [ ] [161]	One Edit Distance	(medium, exceptional cases)	
 - [ ] 38	Count and Say		
 - [ ] 358	Rearrange String k Distance Apart		
 - [ ] 316	Remove Duplicate Letters		
