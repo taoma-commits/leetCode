@@ -108,7 +108,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [87] Scramble String (hard, interesting)
 - [ ] [179]	Largest Number (medium, comparator)
 - [ ] [6]	Zig-Zag Conversion
-- [ ] [161]	One Edit Distance	(medium, exceptional cases)	
+- [ ] [161]	One Edit Distance	(medium, exceptional cases)
 - [ ] 38	Count and Say		
 - [ ] 358	Rearrange String k Distance Apart		
 - [ ] 316	Remove Duplicate Letters		
@@ -205,7 +205,85 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 4. Tree
 
+### Basic problems
+- [ ] 144	Binary Tree Preorder Traversal		
+- [ ] 94	Binary Tree Inorder Traversal		
+- [ ] 145	Binary Tree Postorder Traversal		
+- [ ] 102	Binary Tree Level Order Traversal
+
+### Preorder			
+- [ ] 100	Same Tree		
+- [ ] 101	Symmetric Tree		
+- [ ] 226	Invert Binary Tree (pre-order + BFS)
+- [ ] 257	Binary Tree Paths		
+- [ ] 112	Path Sum		
+- [ ] 113	Path Sum II		
+- [ ] 129	Sum Root to Leaf Numbers		
+- [ ] 298	Binary Tree Longest Consecutive Sequence		
+- [ ] 111	Minimum Depth of Binary Tree					
+- [ ] 104	Maximum Depth of Binary Tree		
+- [ ] 110	Balanced Binary Tree		
+- [ ] 124	Binary Tree Maximum Path Sum		
+- [ ] 250	Count Univalue Subtrees		
+- [ ] 366	Find Leaves of Binary Tree		
+- [ ] 337	House Robber III (postorder + preorder)
+
+### BFS 			
+- [ ] 107	Binary Tree Level Order Traversal II		
+- [ ] 103	Binary Tree Zigzag Level Order Traversal		
+- [ ] 199	Binary Tree Right Side View	(BFS + preorder)
+
+### BST			
+- [ ] 98	Validate Binary Search Tree (pre-order)
+- [ ] 235	Lowest Common Ancestor of a Binary Search Tree (pre-order)
+- [ ] 236	Lowest Common Ancestor of a Binary Tree	(post-order)
+- [ ] 108	Convert Sorted Array to Binary Search Tree		(binary search)
+- [ ] 109	Convert Sorted List to Binary Search Tree (binary search)
+- [ ] 173	Binary Search Tree Iterator	(inorder)
+- [ ] 230	Kth Smallest Element in a BST	(inorder)
+- [ ] 297	Serialize and Deserialize Binary Tree (BFS)
+- [ ] 285	Inorder Successor in BST (inorder)
+- [ ] 270	Closest Binary Search Tree Value (preorder)
+- [ ] 272	Closest Binary Search Tree Value II (inorder)
+- [ ] 99	Recover Binary Search Tree (inorder)
+
+### Others
+
+- [ ] 156	Binary Tree Upside Down		
+- [ ] 114	Flatten Binary Tree to Linked List		
+- [ ] 255	Verify Preorder Sequence in Binary Search Tree		
+- [ ] 333	Largest BST Subtree		
+- [ ] 222	Count Complete Tree Nodes		
+- [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal		
+- [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
+- [ ] 116	Populating Next Right Pointers in Each Node (!)
+- [ ] 117	Populating Next Right Pointers in Each Node II (!)
+- [ ] 314	Binary Tree Vertical Order Traversal (!)
+- [ ] 96	Unique Binary Search Trees (!)
+- [ ] 95	Unique Binary Search Trees II		
+- [ ] 331	Verify Preorder Serialization of a Binary Tree		
+
 ## 5. Backtracking
+
+- [ ] 78	Subsets		
+- [ ] 90	Subsets II		
+- [ ] 77	Combinations		
+- [ ] 39	Combination Sum		
+- [ ] 40	Combination Sum II		
+- [ ] 216	Combination Sum III		
+- [ ] 377	Combination Sum IV (dp)
+- [ ] 254	Factor Combinations		
+- [ ] 46	Permutations		
+- [ ] 47	Permutations II		
+- [ ] 31	Next Permutation (String)
+- [ ] 60	Permutation Sequence (String)
+- [ ] 291	Word Pattern II		
+- [ ] 17	Letter Combinations of a Phone Number		
+- [ ] 320	Generalized Abbreviation		
+- [ ] 93	Restore IP Addresses		
+- [ ] 282	Expression Add Operators		
+- [ ] 140	Word Break II		
+- [ ] 351	Android Unlock Patterns	
 
 ## 6. Dynamic Programming
 
