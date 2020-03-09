@@ -5,11 +5,8 @@ class Solution {
         if (sl > tl) {
             return isOneEditDistance(t, s);
         }
-        if (tl - sl > 1 || tl == 0) {
+        if (tl - sl > 1) {
             return false;
-        }
-        if (sl == 0 & tl == 1) {
-            return true;
         }
         for (int i = 0; i < sl; i++) {
             if (s.charAt(i) != t.charAt(i)) {
