@@ -109,7 +109,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [179]	Largest Number (medium, comparator)
 - [ ] [6]	Zig-Zag Conversion
 - [ ] [161]	One Edit Distance	(medium, exceptional cases)
-- [ ] 38	Count and Say		
+- [ ] [38]	Count and Say		
 - [ ] 358	Rearrange String k Distance Apart		
 - [ ] 316	Remove Duplicate Letters		
 - [ ] 271	Encode and Decode Strings		
@@ -283,7 +283,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 93	Restore IP Addresses		
 - [ ] 282	Expression Add Operators		
 - [ ] 140	Word Break II		
-- [ ] 351	Android Unlock Patterns	
+- [ ] 351	Android Unlock Patterns
 
 ## 6. Dynamic Programming
 

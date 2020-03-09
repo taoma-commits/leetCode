@@ -5,6 +5,9 @@
   - initialize ```int[]```, default elements are 0.
   - can NOT initialize ```int ``` without assign value.
 
+* Cast ```int``` to ```char```: ```(char) ('0' + digit)```
+* Cast ```int``` to ```String```: ```String.valueOf(digit)```
+
 ## ```short```
 
 ## ```long```
