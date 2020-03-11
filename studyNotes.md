@@ -78,6 +78,12 @@ a ^ b = 0010 = 2
 
 # Part III. Non-primitive Data Type
 
+## Mutability
+
+* Mutable data types: StringBuilder, Stack, Counter, Java array
+* Immutable data types: String, Integer, Double, Color, Vector, Transaction, Point2D
+* **Keys of priority queues and symbol tables should be immutable**.
+
 ## String
 
 * String is **immutable** in Java.
@@ -159,6 +165,23 @@ A Set is a Collection that **cannot contain duplicate elements**.
 * The difference between put and replace methods
   - ```map.put(key, value)``` add the pair (key, value) to the map even if key was not stored.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
+
+## Priority Queue
+
+The head of this queue is the **least** element with respect to the specified ordering.
+
+### Initialize a priority queue
+* ```PriorityQueue()```
+* ```PriorityQueue(Collection<? extends E> c)```
+* ```PriorityQueue(int initialCapacity, Comparator<? super E> comparator)```
+
+### Priority queue methods
+* Insert a specific element into the priority queue: ```pq.add(E e)``` or ```pq.offer(E e)```
+
+* Retrieves and removes the head of this queue, or returns null if this queue is empty:	```pq.poll()```
+* Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty: ```pq.peek()```
+* Returns an array containing all of the elements in this queue: ```pq.toArray()```
+
 
 
 # Part IV. Interfaces
