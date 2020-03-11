@@ -135,14 +135,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
     - ```Arrays.stream(arr).sum()``` overloaded for ```long``` and ```double``` arrays
 
 
-### List class
-* append element e to the end:
-  ```list.add(E e)```
-* insert e at index i: ```list.add(int i, E e)```   
-*
 
-#### ArrayList class
-* initialize an ArrayList: ```new ArrayList(collection)```
 
 
 ## Collection
@@ -150,7 +143,46 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 ### Set
 A Set is a Collection that **cannot contain duplicate elements**.
 
-## Map
+### List
+* append element e to the end:
+  ```list.add(E e)```
+* insert e at index i: ```list.add(int i, E e)```   
+*
+
+##### ArrayList
+* initialize an ArrayList: ```new ArrayList(collection)```
+
+### Stack
+* initialization:
+  ```Stack<Integer> stack = new Stack<>();```
+  - parameter accepts only **non-primitive type**
+
+* **stack is iterable**: ```for (int i : stack) {}```
+
+* methods:
+  - ```stack.peek()```
+  - ```stack.pop()```
+  - ```stack.push(Element e)```
+  - ```stack.empty()```
+  - ```stack.search(Object o)```
+
+### Priority queue
+
+The head of this queue is the **least** element with respect to the specified ordering.
+
+#### Initialize a priority queue
+* ```PriorityQueue()```
+* ```PriorityQueue(Collection<? extends E> c)```
+* ```PriorityQueue(int initialCapacity, Comparator<? super E> comparator)```
+
+#### Priority queue methods
+* Insert a specific element into the priority queue: ```pq.add(E e)``` or ```pq.offer(E e)```
+
+* Retrieves and removes the head of this queue, or returns null if this queue is empty:	```pq.poll()```
+* Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty: ```pq.peek()```
+* Returns an array containing all of the elements in this queue: ```pq.toArray()```
+
+### Map
 
 * search key and value
   - ```map.containsKey(key)```
@@ -166,21 +198,7 @@ A Set is a Collection that **cannot contain duplicate elements**.
   - ```map.put(key, value)``` add the pair (key, value) to the map even if key was not stored.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
 
-## Priority Queue
 
-The head of this queue is the **least** element with respect to the specified ordering.
-
-### Initialize a priority queue
-* ```PriorityQueue()```
-* ```PriorityQueue(Collection<? extends E> c)```
-* ```PriorityQueue(int initialCapacity, Comparator<? super E> comparator)```
-
-### Priority queue methods
-* Insert a specific element into the priority queue: ```pq.add(E e)``` or ```pq.offer(E e)```
-
-* Retrieves and removes the head of this queue, or returns null if this queue is empty:	```pq.poll()```
-* Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty: ```pq.peek()```
-* Returns an array containing all of the elements in this queue: ```pq.toArray()```
 
 
 

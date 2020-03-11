@@ -110,8 +110,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [6]	Zig-Zag Conversion
 - [ ] [161]	One Edit Distance	(medium, exceptional cases)
 - [ ] [38]	Count and Say		
-- [ ] [358]	Rearrange String k Distance Apart (hard!)		
-- [ ] 316	Remove Duplicate Letters		
+- [ ] [358]	Rearrange String k Distance Apart (hard!, PQ)		
+- [ ] [316]	Remove Duplicate Letters (challenging, Stack)		
 - [ ] 271	Encode and Decode Strings		
 - [ ] 168	Excel Sheet Column Title		
 - [ ] 171	Excel Sheet Column Number		
