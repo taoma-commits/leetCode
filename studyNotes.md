@@ -7,6 +7,7 @@
 
 * Cast ```int``` to ```char```: ```(char) ('0' + digit)```
 * Cast ```int``` to ```String```: ```String.valueOf(digit)```
+* Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
 
 ## ```short```
 
@@ -102,6 +103,9 @@ a ^ b = 0010 = 2
 ```String.valueOf(Object o)```
 where o can be type ```int, long, doulbe, float, char, char[]```
   - ```String.valueOf(char[], int offset, int count)```
+
+* Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
+
 * compare two strings: ```(boolean) str1.equals(str2)```
   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
 * split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split((String)splitter)```

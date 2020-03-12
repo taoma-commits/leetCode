@@ -112,10 +112,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [38]	Count and Say		
 - [ ] [358]	Rearrange String k Distance Apart (hard!, PQ)		
 - [ ] [316]	Remove Duplicate Letters (challenging, Stack)		
-- [ ] 271	Encode and Decode Strings		
-- [ ] 168	Excel Sheet Column Title		
-- [ ] 171	Excel Sheet Column Number		
-- [ ] 3	Roman to Integer		
+- [ ] [271]	Encode and Decode Strings (medium)		
+- [ ] [168]	Excel Sheet Column Title (caution!)
+- [ ] [171]	Excel Sheet Column Number		
+- [ ] [3]	Roman to Integer		
 - [ ] 12	Integer to Roman		
 - [ ] 273 Integer to English Words		
 - [ ] 246	Strobogrammatic Number		
