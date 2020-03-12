@@ -115,7 +115,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [271]	Encode and Decode Strings (medium)		
 - [ ] [168]	Excel Sheet Column Title (caution!)
 - [ ] [171]	Excel Sheet Column Number		
-- [ ] [3]	Roman to Integer		
+- [ ] [13]	Roman to Integer		
 - [ ] 12	Integer to Roman		
 - [ ] 273 Integer to English Words		
 - [ ] 246	Strobogrammatic Number		
@@ -128,8 +128,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 68 Text Justification		
 - [ ] 65 Valid Number
 #### Substring			
-- [ ] 76 Minimum Window Substring (sliding Window)
-- [ ] 30 Substring with Concatenation of All Words (sliding Window)
+- [ ] 76 Minimum Window Substring (Sliding Window)
+- [ ] 30 Substring with Concatenation of All Words (Sliding Window)
 - [ ] 3	Longest Substring Without Repeating Characters		(Sliding Window)
 - [ ] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
 - [ ] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
@@ -287,26 +287,212 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 6. Dynamic Programming
 
+### One dimensional		
+- [ ] 70	Climbing Stairs		
+- [ ] 62	Unique Paths		
+- [ ] 63	Unique Paths II		
+- [ ] 120	Triangle
+- [ ] 279	Perfect Squares		
+- [ ] 139	Word Break		
+- [ ] 375	Guess Number Higher or Lower II		
+- [ ] 312	Burst Balloons		
+- [ ] 322	Coin Change
+
+### Two dimensional
+- [ ] 256	Paint House		
+- [ ] 265	Paint House II		
+- [ ] 64	Minimum Path Sum		
+- [ ] 72	Edit Distance		
+- [ ] 97	Interleaving String		
+- [ ] 174	Dungeon Game		
+- [ ] 221	Maximal Square		
+- [ ] 85	Maximal Rectangle		
+- [ ] 363	Max Sum of Rectangle No Larger Than K (TreeSet)
+
+### Reduction 			
+- [ ] 198	House Robber		
+- [ ] 213	House Robber II		
+- [ ] 276	Paint Fence		
+- [ ] 91	Decode Ways		
+- [ ] 10	Regular Expression Matching		
+- [ ] 44	Wildcard Matching
+
 ## 7. LinkedList
+
+### Basic problems 		
+- [ ] 206	Reverse Linked List		
+- [ ] 141	Linked List Cycle		
+- [ ] 24	Swap Nodes in Pairs		
+- [ ] 328	Odd Even Linked List		
+- [ ] 92	Reverse Linked List II		
+- [ ] 237	Delete Node in a Linked List		
+- [ ] 19	Remove Nth Node From End of List		
+- [ ] 83	Remove Duplicates from Sorted List		
+- [ ] 203	Remove Linked List Elements		
+- [ ] 82	Remove Duplicates from Sorted List II		
+- [ ] 369	Plus One Linked List		
+- [ ] 2	Add Two Numbers		
+- [ ] 160	Intersection of Two Linked Lists		
+- [ ] 21	Merge Two Sorted Lists		
+
+### Challenging problems 		
+- [ ] 234	Palindrome Linked List		
+- [ ] 143	Reorder List		
+- [ ] 142	Linked List Cycle II		
+- [ ] 148	Sort List		
+- [ ] 25	Reverse Nodes in k-Group		
+- [ ] 61	Rotate List		
+- [ ] 86	Partition List		
+- [ ] 23	Merge k Sorted Lists		
+- [ ] 147	Insertion Sort List
 
 ## 8. Binary Search
 
+- [ ] 278	First Bad Version		
+- [ ] 35	Search Insert Position		
+- [ ] 33	Search in Rotated Sorted Array		
+- [ ] 81	Search in Rotated Sorted Array II		
+- [ ] 153	Find Minimum in Rotated Sorted Array		
+- [ ] 154	Find Minimum in Rotated Sorted Array II		
+- [ ] 162	Find Peak Element		
+- [ ] 374	Guess Number Higher or Lower		
+- [ ] 34	Find First and Last Position of Element in Sorted Array		
+- [ ] 349	Intersection of Two Arrays		
+- [ ] 350	Intersection of Two Arrays II		
+- [ ] 315	Count of Smaller Numbers After Self		
+- [ ] 300	Longest Increasing Subsequence		
+- [ ] 354	Russian Doll Envelopes		
+
 ## 9. Matrix
+
+- [ ] 48	Rotate Image		
+- [ ] 54	Spiral Matrix		
+- [ ] 59	Spiral Matrix II		
+- [ ] 73	Set Matrix Zeroes		
+- [ ] 311	Sparse Matrix Multiplication		
+- [ ] 329	Longest Increasing Path in a Matrix		
+- [ ] 378	Kth Smallest Element in a Sorted Matrix		
+- [ ] 74	Search a 2D Matrix		
+- [ ] 240	Search a 2D Matrix II		
+- [ ] 370	Range Addition		
+- [ ] 79	Word Search		
+- [ ] 296	Best Meeting Point		
+- [ ] 361	Bomb Enemy		
+- [ ] 317	Shortest Distance from All Buildings		
+- [ ] 302	Smallest Rectangle Enclosing Black Pixels		
+- [ ] 36	Valid Sudoku		
+- [ ] 37	Sudoku Solver
 
 ## 10. DFS & BFS
 
+200	Number of Islands		
+286	Walls and Gates		
+130	Surrounded Regions		
+339	Nested List Weight Sum		
+364	Nested List Weight Sum II		
+127	Word Ladder		
+51	N-Queens		
+52	N-Queens II		
+126	Word Ladder II
+
 ## 11. Stack & Priority Queue
+
+### Stack			
+155	Min Stack		
+232	Implement Queue using Stacks		
+225	Implement Stack using Queues		
+150	Evaluate Reverse Polish Notation		
+71	Simplify Path		
+388	Longest Absolute File Path		
+394	Decode String		
+224	Basic Calculator		
+227	Basic Calculator II		
+385	Mini Parser		
+84	Largest Rectangle in Histogram
+
+### Priority queue			
+215	Kth Largest Element in an Array		
+347	Top K Frequent Elements		
+313	Super Ugly Number (low frequency)
+373	Find K Pairs with Smallest Sums (low frequency)
+218	The Skyline Problem		
+332	Reconstruct Itinerary		
+341	Flatten Nested List Iterator
 
 ## 12. Bit Manipulation
 
+389	Find the Difference		
+136	Single Number		
+318	Maximum Product of Word Lengths
+
+### Low frequency problems 		
+393	UTF-8 Validation		
+201	Bitwise AND of Numbers Range		
+371	Sum of Two Integers emove Element		
+338	Counting Bits		
+89	Gray Code		
+268	Missing Number		
+191	Number of 1 Bits		
+190	Reverse Bits		
+137	Single Number II		
+260	Single Number III
+
 ## 13. Topological Sort
+
+207	Course Schedule		
+210	Course Schedule II		
+269	Alien Dictionary
 
 ## 14. Random
 
+384	Shuffle an Array		
+398	Random Pick Index		
+382	Linked List Random Node		
+380	Insert Delete GetRandom O(1)		
+381	Insert Delete GetRandom O(1) - Duplicates allowed		
+138	Copy List with Random Pointer		
+
 ## 15. Graph
+
+基础			
+133	Clone Graph		
+399	Evaluate Division		
+310	Minimum Height Trees		
+图形学			
+149	Max Points on a Line		
+335	Self Crossing		(low frequency)
+356	Line Reflection		(low frequency)
+391	Perfect Rectangle		(low frequency)
+223	Rectangle Area		(low frequency)
 
 ## 16. Union Find
 
+261	Graph Valid Tree		
+323	Number of Connected Components in an Undirected Graph		
+305	Number of Islands II
+
 ## 17. Trie
 
+211	Add and Search Word - Data structure design		
+208	Implement Trie (Prefix Tree)		
+212	Word Search II
+
 ## 18. Design
+
+359	Logger Rate Limiter		
+346	Moving Average from Data Stream		Sliding Window
+362	Design Hit Counter		
+281	Zigzag Iterator		
+284	Peeking Iterator		
+251	Flatten 2D Vector		
+288	Unique Word Abbreviation		
+170	Two Sum III - Data structure design		
+348	Design Tic-Tac-Toe		
+379	Design Phone Directory		
+353	Design Snake Game		
+146	LRU Cache		
+355	Design Twitter		
+303	Range Sum Query - Immutable		
+304	Range Sum Query 2D - Immutable		
+307	Range Sum Query - Mutable		BIT & ST
+308	Range Sum Query 2D - Mutable		BIT & ST
