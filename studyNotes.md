@@ -52,6 +52,8 @@ exclusive or = addition modulo 2
 
   warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
 
+- power: ```double Math.power(b, e)``` returns ```double``` to prevent overflow
+
 
 ## Bitwise Operations
 
