@@ -6,53 +6,55 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 1. Array
 
 ### Basic problems
-- [ ] [27]	Remove Element		
-- [ ] [26]	Remove Duplicates from Sorted Array		
-- [ ] [80]	Remove Duplicates from Sorted Array II		
-- [ ] [277]	Find the Celebrity		
-- [ ] [189]	Rotate Array		
-- [ ] [41]	First Missing Positive		
-- [ ] [299]	Bulls and Cows		
-- [ ] [134]	Gas Station		
-- [ ] [118]	Pascal's Triangle		
-- [ ] [119]	Pascal's Triangle II		
-- [ ] [169]	Majority Element		
-- [ ] [229]	Majority Element II		
-- [ ] [274]	H-Index		
-- [ ] [275]	H-Index II (Binary Search)
-- [ ] [243]	Shortest Word Distance		
-- [ ] [244]	Shortest Word Distance II		
-- [ ] [245]	Shortest Word Distance III		
-- [ ] [217]	Contains Duplicate		
-- [ ] [219]	Contains Duplicate II		
-- [ ] [220]	Contains Duplicate III		
-- [ ] [55]	Jump Game		
-- [ ] [45]	Jump Game II		
-- [ ] [121]	Best Time to Buy and Sell Stock
-- [ ] [122]	Best Time to Buy and Sell Stock II		
-- [ ] [123]	Best Time to Buy and Sell Stock III		
-- [ ] [188]	Best Time to Buy and Sell Stock IV		
-- [ ] [309]	Best Time to Buy and Sell Stock with Cooldown		
-- [ ] [11]	Container With Most Water		
-- [ ] [42]	Trapping Rain Water		
-- [ ] [334]	Increasing Triplet Subsequence		
-- [ ] [128]	Longest Consecutive Sequence		
-- [ ] [164]	Maximum Gap	(Bucket Sort)
-- [ ] [287]	Find the Duplicate Number		
-- [ ] [135]	Candy
-- [ ] [330]	Patching Array		
+- [x] [27]	Remove Element		
+- [x] [26]	Remove Duplicates from Sorted Array		
+- [x] [80]	Remove Duplicates from Sorted Array II		
+- [x] [277]	Find the Celebrity		
+- [x] [189]	Rotate Array		
+- [x] [41]	First Missing Positive		
+- [x] [299]	Bulls and Cows		
+- [x] [134]	Gas Station		
+- [x] [118]	Pascal's Triangle		
+- [x] [119]	Pascal's Triangle II		
+- [x] [169]	Majority Element		
+- [x] [229]	Majority Element II		
+- [x] [274]	H-Index		
+- [x] [275]	H-Index II (Binary Search)
+- [x] [243]	Shortest Word Distance		
+- [x] [244]	Shortest Word Distance II		
+- [x] [245]	Shortest Word Distance III		
+- [x] [217]	Contains Duplicate		
+- [x] [219]	Contains Duplicate II		
+- [x] [220]	Contains Duplicate III		
+- [x] [55]	Jump Game		
+- [x] [45]	Jump Game II		
+- [x] [121]	Best Time to Buy and Sell Stock
+- [x] [122]	Best Time to Buy and Sell Stock II		
+- [x] [123]	Best Time to Buy and Sell Stock III		
+- [x] [188]	Best Time to Buy and Sell Stock IV		
+- [x] [309]	Best Time to Buy and Sell Stock with Cooldown		
+- [x] [11]	Container With Most Water		
+- [x] [42]	Trapping Rain Water		
+- [x] [334]	Increasing Triplet Subsequence		
+- [x] [128]	Longest Consecutive Sequence		
+- [x] [164]	Maximum Gap	(Bucket Sort)
+- [x] [287]	Find the Duplicate Number		
+- [x] [135]	Candy
+- [x] [330]	Patching Array		
 
 ### Challenging problems
-- [ ] [4]	Median of Two Sorted Arrays		
+- [x] [4]	Median of Two Sorted Arrays		
 - [ ] 321	Create Maximum Number		
 - [ ] 327	Count of Range Sum		
-- [ ] 289	Game of Life		
+- [ ] 289	Game of Life
+
 #### Interval			
 - [ ] 57	Insert Interval		
 - [ ] 56	Merge Intervals		
 - [ ] 252	Meeting Rooms		
 - [ ] 253	Meeting Rooms II		
 - [ ] 352	Data Stream as Disjoint Intervals (TreeMap)
+
 #### Counter			
 - [ ] 239	Sliding Window Maximum		
 - [ ] 295	Find Median from Data Stream		
@@ -63,6 +65,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 152	Maximum Product Subarray		
 - [ ] 228	Summary Ranges		
 - [ ] 163	Missing Ranges
+
 #### Counter			
 - [ ] 88	Merge Sorted Array		
 - [ ] 75	Sort Colors		
@@ -89,44 +92,45 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 2. String
 
 ### Basic problems
-- [ ] [28] Implement strStr()		
-- [ ] [14] Longest Common Prefix		
-- [ ] [58] Length of Last Word		
-- [ ] [387] First Unique Character in a String		
-- [ ] [383]	Ransom Note		
-- [ ] [344]	Reverse String		
-- [ ] [151]	Reverse Words in a String		
-- [ ] [186]	Reverse Words in a String II		
-- [ ] [345]	Reverse Vowels of a String			
-- [ ] [205]	Isomorphic Strings (easy)
-- [ ] [293]	Flip Game	(easy)
-- [ ] [294]	Flip Game II (medium, interesting)
-- [ ] [290]	Word Pattern (easy)
-- [ ] [242]	Valid Anagram (easy)		
-- [ ] [49] Group Anagrams (medium)
-- [ ] [249] Group Shifted Strings (medium)
-- [ ] [87] Scramble String (hard, interesting)
-- [ ] [179]	Largest Number (medium, comparator)
-- [ ] [6]	Zig-Zag Conversion
-- [ ] [161]	One Edit Distance	(medium, exceptional cases)
-- [ ] [38]	Count and Say		
-- [ ] [358]	Rearrange String k Distance Apart (hard!, PQ)		
-- [ ] [316]	Remove Duplicate Letters (challenging, Stack)		
-- [ ] [271]	Encode and Decode Strings (medium)		
-- [ ] [168]	Excel Sheet Column Title (caution!)
-- [ ] [171]	Excel Sheet Column Number		
-- [ ] [13]	Roman to Integer		
-- [ ] [12]	Integer to Roman		
-- [ ] 273 Integer to English Words		
-- [ ] 246	Strobogrammatic Number		
+- [x] [28] Implement strStr()		
+- [x] [14] Longest Common Prefix		
+- [x] [58] Length of Last Word		
+- [x] [387] First Unique Character in a String		
+- [x] [383]	Ransom Note		
+- [x] [344]	Reverse String		
+- [x] [151]	Reverse Words in a String		
+- [x] [186]	Reverse Words in a String II		
+- [x] [345]	Reverse Vowels of a String			
+- [x] [205]	Isomorphic Strings (easy)
+- [x] [293]	Flip Game	(easy)
+- [x] [294]	Flip Game II (medium, interesting)
+- [x] [290]	Word Pattern (easy)
+- [x] [242]	Valid Anagram (easy)		
+- [x] [49] Group Anagrams (medium)
+- [x] [249] Group Shifted Strings (medium)
+- [x] [87] Scramble String (hard, interesting)
+- [x] [179]	Largest Number (medium, comparator)
+- [x] [6]	Zig-Zag Conversion
+- [x] [161]	One Edit Distance	(medium, exceptional cases)
+- [x] [38]	Count and Say		
+- [x] [358]	Rearrange String k Distance Apart (hard!, PQ)		
+- [x] [316]	Remove Duplicate Letters (challenging, Stack)		
+- [x] [271]	Encode and Decode Strings (medium)		
+- [x] [168]	Excel Sheet Column Title (caution!)
+- [x] [171]	Excel Sheet Column Number		
+- [x] [13]	Roman to Integer		
+- [x] [12]	Integer to Roman		
+- [x] [273] Integer to English Words		
+- [x] 246	Strobogrammatic Number		
 - [ ] 247	Strobogrammatic Number II		
 - [ ] 248	Strobogrammatic Number III
 
-### Challenging problems	
+### Challenging problems
 - [ ] 157	Read N Characters Given Read4		
 - [ ] 158	Read N Characters Given Read4 II - Call multiple times		
 - [ ] 68 Text Justification		
 - [ ] 65 Valid Number
+
 #### Substring			
 - [ ] 76 Minimum Window Substring (Sliding Window)
 - [ ] 30 Substring with Concatenation of All Words (Sliding Window)
@@ -134,6 +138,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
 - [ ] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
 - [ ] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)
+
 #### Palindrome			
 - [ ] 125	Valid Palindrome		
 - [ ] 266	Palindrome Permutation		
@@ -143,13 +148,15 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 336	Palindrome Pairs		
 - [ ] 131	Palindrome Partitioning		
 - [ ] 132	Palindrome Partitioning II		
-- [ ] 267	Palindrome Permutation II		
+- [ ] 267	Palindrome Permutation II
+
 #### Parentheses			
 - [ ] 20	Valid Parentheses		
 - [ ] 22	Generate Parentheses		
 - [ ] 32	Longest Valid Parentheses		
 - [ ] 241	Different Ways to Add Parentheses		
 - [ ] 301	Remove Invalid Parentheses
+
 #### Subsequence			
 - [ ] 392	Is Subsequence		
 - [ ] 115	Distinct Subsequences		
@@ -487,13 +494,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 284	Peeking Iterator		
 - [ ] 251	Flatten 2D Vector		
 - [ ] 288	Unique Word Abbreviation		
-- [ ] 170	Two Sum III - Data structure design		
+- [ ] 170	Two Sum III (Data structure design)		
 - [ ] 348	Design Tic-Tac-Toe		
 - [ ] 379	Design Phone Directory		
 - [ ] 353	Design Snake Game		
 - [ ] 146	LRU Cache		
 - [ ] 355	Design Twitter		
-- [ ] 303	Range Sum Query - Immutable		
-- [ ] 304	Range Sum Query 2D - Immutable		
-- [ ] 307	Range Sum Query - Mutable		BIT & ST
-- [ ] 308	Range Sum Query 2D - Mutable		BIT & ST
+- [ ] 303	Range Sum Query (Immutable)		
+- [ ] 304	Range Sum Query 2D (Immutable)		
+- [ ] 307	Range Sum Query (Mutable) BIT & ST
+- [ ] 308	Range Sum Query 2D (Mutable)		BIT & ST
