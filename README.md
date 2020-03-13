@@ -116,13 +116,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] [168]	Excel Sheet Column Title (caution!)
 - [ ] [171]	Excel Sheet Column Number		
 - [ ] [13]	Roman to Integer		
-- [ ] 12	Integer to Roman		
+- [ ] [12]	Integer to Roman		
 - [ ] 273 Integer to English Words		
 - [ ] 246	Strobogrammatic Number		
 - [ ] 247	Strobogrammatic Number II		
 - [ ] 248	Strobogrammatic Number III
 
-### Challenging problems 		
+### Challenging problems	
 - [ ] 157	Read N Characters Given Read4		
 - [ ] 158	Read N Characters Given Read4 II - Call multiple times		
 - [ ] 68 Text Justification		
@@ -385,114 +385,115 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 10. DFS & BFS
 
-200	Number of Islands		
-286	Walls and Gates		
-130	Surrounded Regions		
-339	Nested List Weight Sum		
-364	Nested List Weight Sum II		
-127	Word Ladder		
-51	N-Queens		
-52	N-Queens II		
-126	Word Ladder II
+- [ ] 200	Number of Islands		
+- [ ] 286	Walls and Gates		
+- [ ] 130	Surrounded Regions		
+- [ ] 339	Nested List Weight Sum		
+- [ ] 364	Nested List Weight Sum II		
+- [ ] 127	Word Ladder		
+- [ ] 51	N-Queens		
+- [ ] 52	N-Queens II		
+- [ ] 126	Word Ladder II
 
 ## 11. Stack & Priority Queue
 
 ### Stack			
-155	Min Stack		
-232	Implement Queue using Stacks		
-225	Implement Stack using Queues		
-150	Evaluate Reverse Polish Notation		
-71	Simplify Path		
-388	Longest Absolute File Path		
-394	Decode String		
-224	Basic Calculator		
-227	Basic Calculator II		
-385	Mini Parser		
-84	Largest Rectangle in Histogram
+- [ ] 155	Min Stack		
+- [ ] 232	Implement Queue using Stacks		
+- [ ] 225	Implement Stack using Queues		
+- [ ] 150	Evaluate Reverse Polish Notation		
+- [ ] 71	Simplify Path		
+- [ ] 388	Longest Absolute File Path		
+- [ ] 394	Decode String		
+- [ ] 224	Basic Calculator		
+- [ ] 227	Basic Calculator II		
+- [ ] 385	Mini Parser		
+- [ ] 84	Largest Rectangle in Histogram
 
 ### Priority queue			
-215	Kth Largest Element in an Array		
-347	Top K Frequent Elements		
-313	Super Ugly Number (low frequency)
-373	Find K Pairs with Smallest Sums (low frequency)
-218	The Skyline Problem		
-332	Reconstruct Itinerary		
-341	Flatten Nested List Iterator
+- [ ] 215	Kth Largest Element in an Array		
+- [ ] 347	Top K Frequent Elements		
+- [ ] 313	Super Ugly Number (low frequency)
+- [ ] 373	Find K Pairs with Smallest Sums (low frequency)
+- [ ] 218	The Skyline Problem		
+- [ ] 332	Reconstruct Itinerary		
+- [ ] 341	Flatten Nested List Iterator
 
 ## 12. Bit Manipulation
 
-389	Find the Difference		
-136	Single Number		
-318	Maximum Product of Word Lengths
+- [ ] 389	Find the Difference		
+- [ ] 136	Single Number		
+- [ ] 318	Maximum Product of Word Lengths
 
 ### Low frequency problems 		
-393	UTF-8 Validation		
-201	Bitwise AND of Numbers Range		
-371	Sum of Two Integers emove Element		
-338	Counting Bits		
-89	Gray Code		
-268	Missing Number		
-191	Number of 1 Bits		
-190	Reverse Bits		
-137	Single Number II		
-260	Single Number III
+- [ ] 393	UTF-8 Validation		
+- [ ] 201	Bitwise AND of Numbers Range		
+- [ ] 371	Sum of Two Integers emove Element		
+- [ ] 338	Counting Bits		
+- [ ] 89	Gray Code		
+- [ ] 268	Missing Number		
+- [ ] 191	Number of 1 Bits		
+- [ ] 190	Reverse Bits		
+- [ ] 137	Single Number II		
+- [ ] 260	Single Number III
 
 ## 13. Topological Sort
 
-207	Course Schedule		
-210	Course Schedule II		
-269	Alien Dictionary
+- [ ] 207	Course Schedule		
+- [ ] 210	Course Schedule II		
+- [ ] 269	Alien Dictionary
 
 ## 14. Random
 
-384	Shuffle an Array		
-398	Random Pick Index		
-382	Linked List Random Node		
-380	Insert Delete GetRandom O(1)		
-381	Insert Delete GetRandom O(1) - Duplicates allowed		
-138	Copy List with Random Pointer		
+- [ ] 384	Shuffle an Array		
+- [ ] 398	Random Pick Index		
+- [ ] 382	Linked List Random Node		
+- [ ] 380	Insert Delete GetRandom O(1)		
+- [ ] 381	Insert Delete GetRandom O(1) - Duplicates allowed		
+- [ ] 138	Copy List with Random Pointer		
 
 ## 15. Graph
 
-基础			
-133	Clone Graph		
-399	Evaluate Division		
-310	Minimum Height Trees		
-图形学			
-149	Max Points on a Line		
-335	Self Crossing		(low frequency)
-356	Line Reflection		(low frequency)
-391	Perfect Rectangle		(low frequency)
-223	Rectangle Area		(low frequency)
+### Basic problems 			
+- [ ] 133	Clone Graph		
+- [ ] 399	Evaluate Division		
+- [ ] 310	Minimum Height Trees
+
+### 			
+- [ ] 149	Max Points on a Line		
+- [ ] 335	Self Crossing		(low frequency)
+- [ ] 356	Line Reflection		(low frequency)
+- [ ] 391	Perfect Rectangle		(low frequency)
+- [ ] 223	Rectangle Area		(low frequency)
 
 ## 16. Union Find
 
-261	Graph Valid Tree		
-323	Number of Connected Components in an Undirected Graph		
-305	Number of Islands II
+- [ ] 261	Graph Valid Tree		
+- [ ] 323	Number of Connected Components in an Undirected Graph		
+- [ ] 305	Number of Islands II
 
 ## 17. Trie
 
-211	Add and Search Word - Data structure design		
-208	Implement Trie (Prefix Tree)		
-212	Word Search II
+- [ ] 211	Add and Search Word - Data structure design		
+- [ ] 208	Implement Trie (Prefix Tree)		
+- [ ] 212	Word Search II
 
 ## 18. Design
 
-359	Logger Rate Limiter		
-346	Moving Average from Data Stream		Sliding Window
-362	Design Hit Counter		
-281	Zigzag Iterator		
-284	Peeking Iterator		
-251	Flatten 2D Vector		
-288	Unique Word Abbreviation		
-170	Two Sum III - Data structure design		
-348	Design Tic-Tac-Toe		
-379	Design Phone Directory		
-353	Design Snake Game		
-146	LRU Cache		
-355	Design Twitter		
-303	Range Sum Query - Immutable		
-304	Range Sum Query 2D - Immutable		
-307	Range Sum Query - Mutable		BIT & ST
-308	Range Sum Query 2D - Mutable		BIT & ST
+- [ ] 359	Logger Rate Limiter		
+- [ ] 346	Moving Average from Data Stream		Sliding Window
+- [ ] 362	Design Hit Counter		
+- [ ] 281	Zigzag Iterator		
+- [ ] 284	Peeking Iterator		
+- [ ] 251	Flatten 2D Vector		
+- [ ] 288	Unique Word Abbreviation		
+- [ ] 170	Two Sum III - Data structure design		
+- [ ] 348	Design Tic-Tac-Toe		
+- [ ] 379	Design Phone Directory		
+- [ ] 353	Design Snake Game		
+- [ ] 146	LRU Cache		
+- [ ] 355	Design Twitter		
+- [ ] 303	Range Sum Query - Immutable		
+- [ ] 304	Range Sum Query 2D - Immutable		
+- [ ] 307	Range Sum Query - Mutable		BIT & ST
+- [ ] 308	Range Sum Query 2D - Mutable		BIT & ST
