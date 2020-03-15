@@ -139,7 +139,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * Array sum:
     - ```IntStream.of(arr).sum()```
     - ```Arrays.stream(arr).sum()``` overloaded for ```long``` and ```double``` arrays
-
+* Convert array to list: ```Arrays.asList(arr)```
 
 
 

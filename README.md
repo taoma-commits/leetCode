@@ -117,12 +117,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [316]	Remove Duplicate Letters (challenging, Stack)		
 - [x] [271]	Encode and Decode Strings (medium)		
 - [x] [168]	Excel Sheet Column Title (caution!)
-- [x] [171]	Excel Sheet Column Number		
-- [x] [13]	Roman to Integer		
-- [x] [12]	Integer to Roman		
-- [x] [273] Integer to English Words		
+- [x] 171	Excel Sheet Column Number		
+- [x] 13	Roman to Integer		
+- [x] 12	Integer to Roman		
+- [x] 273 Integer to English Words		
 - [x] 246	Strobogrammatic Number		
-- [ ] 247	Strobogrammatic Number II		
+- [x] 247	Strobogrammatic Number II		
 - [ ] 248	Strobogrammatic Number III
 
 ### Challenging problems
