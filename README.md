@@ -48,14 +48,14 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 327	Count of Range Sum		
 - [ ] 289	Game of Life
 
-#### Interval			
+### Interval			
 - [ ] 57	Insert Interval		
 - [ ] 56	Merge Intervals		
 - [ ] 252	Meeting Rooms		
 - [ ] 253	Meeting Rooms II		
 - [ ] 352	Data Stream as Disjoint Intervals (TreeMap)
 
-#### Counter			
+### Counter			
 - [ ] 239	Sliding Window Maximum		
 - [ ] 295	Find Median from Data Stream		
 - [ ] 53	Maximum Subarray		
@@ -66,7 +66,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 228	Summary Ranges		
 - [ ] 163	Missing Ranges
 
-#### Counter			
+### Counter			
 - [ ] 88	Merge Sorted Array		
 - [ ] 75	Sort Colors		
 - [ ] 283	Move Zeroes		
@@ -123,7 +123,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 273 Integer to English Words		
 - [x] 246	Strobogrammatic Number		
 - [x] 247	Strobogrammatic Number II		
-- [ ] 248	Strobogrammatic Number III
+- [x] 248	Strobogrammatic Number III
 
 ### Challenging problems
 - [ ] 157	Read N Characters Given Read4		
@@ -131,7 +131,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 68 Text Justification		
 - [ ] 65 Valid Number
 
-#### Substring			
+### Substring			
 - [ ] 76 Minimum Window Substring (Sliding Window)
 - [ ] 30 Substring with Concatenation of All Words (Sliding Window)
 - [ ] 3	Longest Substring Without Repeating Characters		(Sliding Window)
@@ -139,7 +139,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
 - [ ] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)
 
-#### Palindrome			
+### Palindrome			
 - [ ] 125	Valid Palindrome		
 - [ ] 266	Palindrome Permutation		
 - [ ] 5	Longest Palindromic Substring		
@@ -150,14 +150,14 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 132	Palindrome Partitioning II		
 - [ ] 267	Palindrome Permutation II
 
-#### Parentheses			
+### Parentheses			
 - [ ] 20	Valid Parentheses		
 - [ ] 22	Generate Parentheses		
 - [ ] 32	Longest Valid Parentheses		
 - [ ] 241	Different Ways to Add Parentheses		
 - [ ] 301	Remove Invalid Parentheses
 
-#### Subsequence			
+### Subsequence			
 - [ ] 392	Is Subsequence		
 - [ ] 115	Distinct Subsequences		
 - [ ] 187	Repeated DNA Sequences

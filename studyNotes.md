@@ -108,8 +108,11 @@ where o can be type ```int, long, doulbe, float, char, char[]```
 
 * Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
 
-* compare two strings: ```(boolean) str1.equals(str2)```
-  **Note that ```String``` is non-primitive so ```==``` doesn't work!**
+* compare two strings:
+  - ```(boolean) str1.equals(str2)```
+   **Note that ```String``` is non-primitive so ```==``` doesn't work!**
+  - String implements comparable interface:
+    ```int str1.compareTo(str2)``` compares strings by   lexicographical order. The shorter one of the two strings is padded with zeros at the end. 
 * split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split((String)splitter)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
