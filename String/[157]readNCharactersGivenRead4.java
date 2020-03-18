@@ -23,3 +23,7 @@ public class Solution extends Reader4 {
         }
     }
 }
+
+/**
+ * performance: 0 ms < 100%, 38 MB < 8%
+ */
