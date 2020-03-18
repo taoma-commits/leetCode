@@ -126,7 +126,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 248	Strobogrammatic Number III
 
 ### Challenging problems
-- [ ] 157	Read N Characters Given Read4		
+- [x] 157	Read N Characters Given Read4		
 - [ ] 158	Read N Characters Given Read4 II - Call multiple times		
 - [ ] 68 Text Justification		
 - [ ] 65 Valid Number
