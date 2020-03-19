@@ -127,8 +127,8 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
-- [ ] 158	Read N Characters Given Read4 II - Call multiple times		
-- [ ] 68 Text Justification		
+- [x] 158	Read N Characters Given Read4 II - Call multiple times (buffer design)
+- [x] 68 Text Justification	(hard, redo)
 - [ ] 65 Valid Number
 
 ### Substring			
