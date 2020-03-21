@@ -112,7 +112,7 @@ where o can be type ```int, long, doulbe, float, char, char[]```
   - ```(boolean) str1.equals(str2)```
    **Note that ```String``` is non-primitive so ```==``` doesn't work!**
   - String implements comparable interface:
-    ```int str1.compareTo(str2)``` compares strings by   lexicographical order. The shorter one of the two strings is padded with zeros at the end. 
+    ```int str1.compareTo(str2)``` compares strings by   lexicographical order. The shorter one of the two strings is padded with zeros at the end.
 * split string ```str``` into an array of **strings** (not characters): ```String[] arr = str.split((String)splitter)```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
@@ -283,40 +283,3 @@ An *interface* is nothing more than **a list of instance methods**.
 4. Iterator
 
   method: ```hasNext(), next(), remove()```
-### Two Sum (easy)
-
-- python dictionary: distinct keys
-- hash-based search: trade off space for speed
-  * time complexity: near O(1) unless collision
-  * space complexity: O(n)
-  * warning:
-  ```
-  key in dictionary.keys()
-  ```
-  has time complexity O(n) because ```dictionary.keys()``` is a list.
-- one-pass hash table   
-
-### Add Two Numbers (median)
-
-### Longest Mountain (median)
-
-#### Trick: set two variables. Fix one variable and run a while loop on the other.
-
-#### Dynamical programming
-Two key attributes
-1. optimal substructure: optimal solution to its sub-problems -> optimal solution
-2. overlapping sub-problems: the space of sub-problems is small, recursive algorithm solves the same sub-problems over and over.
-
-##### Examples
-- Fibonacci numbers
-- Knapsack
-- Dijkstra's algorithm for shortest path.
-
-
-#### Divide and conquer
-1. optimal substructure
-2. non-overlapping sub-problems
-
-##### Examples
-- merge sort
-- quick sort
