@@ -129,12 +129,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 157	Read N Characters Given Read4		
 - [x] 158	Read N Characters Given Read4 II - Call multiple times (buffer design)
 - [x] 68 Text Justification	(hard, redo)
-- [x] 65 Valid Number (DFA, regular expression, table-driven approach) 
+- [x] 65 Valid Number (DFA, regular expression, table-driven approach)
 
 ### Substring			
-- [ ] 76 Minimum Window Substring (Sliding Window)
+- [x] 76 Minimum Window Substring (Sliding Window)
 - [ ] 30 Substring with Concatenation of All Words (Sliding Window)
-- [ ] 3	Longest Substring Without Repeating Characters		(Sliding Window)
+- [x] 3	Longest Substring Without Repeating Characters		(Sliding Window)
 - [ ] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
 - [ ] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
 - [ ] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)

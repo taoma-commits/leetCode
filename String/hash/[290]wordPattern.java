@@ -18,10 +18,10 @@ class Solution {
 }
 
 /**
-* performance: 1 ms < 98%, 37.5 < 5%
-* notes: 1. map.getOrDefault(key, default) does NOT put(key, default)
+ * performance: 1 ms < 98%, 37.5 < 5%
+ * notes: 1. map.getOrDefault(key, default) does NOT put(key, default)
           if key was not stored in hash map.
           2. difference between map.put(key, value) and map.replace(key, value)
-* time complexity:
-* space complexity:
-*/
+ * time complexity:
+ * space complexity:
+ */

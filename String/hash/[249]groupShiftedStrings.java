@@ -18,11 +18,11 @@ class Solution {
 }
 
 /**
-* performance: 3 ms < 79%, 39 MB < 5%
-* notes: 1. a % b remainder is negative if a < 0 and b > 0: use
+ * performance: 3 ms < 79%, 39 MB < 5%
+ * notes: 1. a % b remainder is negative if a < 0 and b > 0: use
             (a % b + b) % b instead to always get positive remainder.
-        2. initialize ArrayList by new ArrayList()
-        3. initialize ArrayList by new ArrayList(set)
-* time complexity: O(n*k), n = strings.length, k = max(str.length)
-* space complexity: O(n*k)
-*/
+          2. initialize ArrayList by new ArrayList()
+          3. initialize ArrayList by new ArrayList(set)
+ * time complexity: O(n*k), n = strings.length, k = max(str.length)
+ * space complexity: O(n*k)
+ */
