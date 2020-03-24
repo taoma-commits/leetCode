@@ -141,8 +141,8 @@ The problems are classified into 18 major categories as follows. The problems in
 
 
 ### Palindrome			
-- [ ] 125	Valid Palindrome		
-- [ ] 266	Palindrome Permutation		
+- [x] 125	Valid Palindrome		
+- [x] 266	Palindrome Permutation		
 - [ ] 5	Longest Palindromic Substring		
 - [ ] 9	Palindrome Number		
 - [ ] 214	Shortest Palindrome		

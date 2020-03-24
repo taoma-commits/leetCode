@@ -34,6 +34,16 @@ An important trick: hash letters to ```int[] hash = new int[26]```
 by ```char - 'a'```.
 * single quotes ```' '``` define characters. Double quotes ```" "``` define strings!
 
+#### wrapper class ```Character```
+
+* ```isLetter(char ch)``` determines if the specified character is a letter.
+* ```isLetterOrDigit(char ch)``` determines if the specified character is a letter or digit.
+* ```isLowerCase(char ch)```
+* ```isUpperCase(char ch)```
+* ```toLowerCase(char c)``` returns ```char```
+* ```toUpperCase(char c)``` returns ```char```
+* ```toString(char ch)```
+* ```isWhitespace(char ch)```
 
 ## ```byte```
 
@@ -107,7 +117,7 @@ a ^ b = 0010 = 2
 where o can be type ```int, long, doulbe, float, char, char[]```
   - ```String.valueOf(char[], int offset, int count)```
 
-* Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
+* convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
 
 * compare two strings:
   - ```(boolean) str1.equals(str2)```
@@ -130,7 +140,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * insert ``` ```
 * replace ```sb.replace(int start, int end, String str)```
 * to string ```sb.toString()```
-
+* reverse ```sb.reverse()```
 
 ## Array
 
