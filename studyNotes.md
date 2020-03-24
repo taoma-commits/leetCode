@@ -94,6 +94,7 @@ a ^ b = 0010 = 2
 * double quotes ```""``` define strings. Single quotes ```''``` define characters!
 * get the character at index i: ```str.charAt(i)```
 * get substring: ```str.substring(start_idx, end_idx)```
+  - if start_idx == end_idx and both less than or equal to the length of string s, the method returns "".  
 * get index of a substring or character:            
   - ```str.indexOf(substr, int fromIndex)```
   - ```str.indexOf(char, int fromIndex)```
@@ -207,6 +208,7 @@ The head of this queue is the **least** element with respect to the specified or
   - ```map.put(key, value)``` add the pair (key, value) to the map even if key was not stored.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
 
+* Removes all of the mappings from this map: ```map.clear()```
 
 
 

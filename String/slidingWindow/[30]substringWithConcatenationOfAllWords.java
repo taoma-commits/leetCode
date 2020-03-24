@@ -48,4 +48,5 @@ class Solution {
  * performance: 9 ms < 95%, 41 MB < 18%
  * time complexity: l = single word length, L = total length,
  *                  n = length of string s. O(l * n / l) = O(n).
+ * space complexity: O(L + l * L)
  */
