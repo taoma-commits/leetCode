@@ -143,7 +143,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Palindrome			
 - [x] 125	Valid Palindrome		
 - [x] 266	Palindrome Permutation		
-- [ ] 5	Longest Palindromic Substring		
+- [ ] 5	Longest Palindromic Substring	(deep!)
 - [ ] 9	Palindrome Number		
 - [ ] 214	Shortest Palindrome		
 - [ ] 336	Palindrome Pairs		
@@ -483,8 +483,15 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 17. Trie
 
 - [ ] 211	Add and Search Word - Data structure design		
-- [ ] 208	Implement Trie (Prefix Tree)		
+- [x] 208	Implement Trie (Prefix Tree)		
 - [ ] 212	Word Search II
+- [ ] 677 Map Sum Pairs
+- [ ] 648 Replace Words
+- [ ] 642	Design Search Autocomplete System
+- [ ] 211	Add and Search Word - Data structure design
+- [ ] 421 Maximum XOR of Two Numbers in an Array
+- [ ] 212 Word Search II
+- [ ] 425 Word Squares
 
 ## 18. Design
 
