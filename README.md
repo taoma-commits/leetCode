@@ -6,44 +6,44 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 1. Array
 
 ### Basic problems
-- [x] [27]	Remove Element		
-- [x] [26]	Remove Duplicates from Sorted Array		
-- [x] [80]	Remove Duplicates from Sorted Array II		
-- [x] [277]	Find the Celebrity		
-- [x] [189]	Rotate Array		
-- [x] [41]	First Missing Positive		
-- [x] [299]	Bulls and Cows		
-- [x] [134]	Gas Station		
-- [x] [118]	Pascal's Triangle		
-- [x] [119]	Pascal's Triangle II		
-- [x] [169]	Majority Element		
-- [x] [229]	Majority Element II		
-- [x] [274]	H-Index		
-- [x] [275]	H-Index II (Binary Search)
-- [x] [243]	Shortest Word Distance		
-- [x] [244]	Shortest Word Distance II		
-- [x] [245]	Shortest Word Distance III		
-- [x] [217]	Contains Duplicate		
-- [x] [219]	Contains Duplicate II		
-- [x] [220]	Contains Duplicate III		
-- [x] [55]	Jump Game		
-- [x] [45]	Jump Game II		
-- [x] [121]	Best Time to Buy and Sell Stock
-- [x] [122]	Best Time to Buy and Sell Stock II		
-- [x] [123]	Best Time to Buy and Sell Stock III		
-- [x] [188]	Best Time to Buy and Sell Stock IV		
-- [x] [309]	Best Time to Buy and Sell Stock with Cooldown		
-- [x] [11]	Container With Most Water		
-- [x] [42]	Trapping Rain Water		
-- [x] [334]	Increasing Triplet Subsequence		
-- [x] [128]	Longest Consecutive Sequence		
-- [x] [164]	Maximum Gap	(Bucket Sort)
-- [x] [287]	Find the Duplicate Number		
-- [x] [135]	Candy
-- [x] [330]	Patching Array		
+- [x] 27	Remove Element		
+- [x] 26	Remove Duplicates from Sorted Array		
+- [x] 80	Remove Duplicates from Sorted Array II		
+- [x] 277	Find the Celebrity		
+- [x] 189	Rotate Array		
+- [x] 41	First Missing Positive		
+- [x] 299	Bulls and Cows		
+- [x] 134	Gas Station		
+- [x] 118	Pascal's Triangle		
+- [x] 119	Pascal's Triangle II		
+- [x] 169	Majority Element		
+- [x] 229	Majority Element II		
+- [x] 274	H-Index		
+- [x] 275	H-Index II (Binary Search)
+- [x] 243	Shortest Word Distance		
+- [x] 244	Shortest Word Distance II		
+- [x] 245	Shortest Word Distance III		
+- [x] 217	Contains Duplicate		
+- [x] 219	Contains Duplicate II		
+- [x] 220	Contains Duplicate III		
+- [x] 55	Jump Game		
+- [x] 45	Jump Game II		
+- [x] 121	Best Time to Buy and Sell Stock
+- [x] 122	Best Time to Buy and Sell Stock II		
+- [x] 123	Best Time to Buy and Sell Stock III		
+- [x] 188	Best Time to Buy and Sell Stock IV		
+- [x] 309	Best Time to Buy and Sell Stock with Cooldown		
+- [x] 11	Container With Most Water		
+- [x] 42	Trapping Rain Water		
+- [x] 334	Increasing Triplet Subsequence		
+- [x] 128	Longest Consecutive Sequence		
+- [x] 164	Maximum Gap	(Bucket Sort)
+- [x] 287	Find the Duplicate Number		
+- [x] 135	Candy
+- [x] 330	Patching Array		
 
 ### Challenging problems
-- [x] [4]	Median of Two Sorted Arrays		
+- [x] 4	  Median of Two Sorted Arrays		
 - [ ] 321	Create Maximum Number		
 - [ ] 327	Count of Range Sum		
 - [ ] 289	Game of Life
@@ -92,31 +92,31 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 2. String
 
 ### Basic problems
-- [x] [28] Implement strStr()		
-- [x] [14] Longest Common Prefix		
-- [x] [58] Length of Last Word		
-- [x] [387] First Unique Character in a String		
-- [x] [383]	Ransom Note		
-- [x] [344]	Reverse String		
-- [x] [151]	Reverse Words in a String		
-- [x] [186]	Reverse Words in a String II		
-- [x] [345]	Reverse Vowels of a String			
-- [x] [205]	Isomorphic Strings (easy)
-- [x] [293]	Flip Game	(easy)
-- [x] [294]	Flip Game II (medium, interesting)
-- [x] [290]	Word Pattern (easy)
-- [x] [242]	Valid Anagram (easy)		
-- [x] [49] Group Anagrams (medium)
-- [x] [249] Group Shifted Strings (medium)
-- [x] [87] Scramble String (hard, interesting)
-- [x] [179]	Largest Number (medium, comparator)
-- [x] [6]	Zig-Zag Conversion
-- [x] [161]	One Edit Distance	(medium, exceptional cases)
-- [x] [38]	Count and Say		
-- [x] [358]	Rearrange String k Distance Apart (hard!, PQ)		
-- [x] [316]	Remove Duplicate Letters (challenging, Stack)		
-- [x] [271]	Encode and Decode Strings (medium)		
-- [x] [168]	Excel Sheet Column Title (caution!)
+- [x] 28  Implement strStr()		
+- [x] 14  Longest Common Prefix		
+- [x] 58  Length of Last Word		
+- [x] 387 First Unique Character in a String		
+- [x] 383	Ransom Note		
+- [x] 344	Reverse String		
+- [x] 151	Reverse Words in a String		
+- [x] 186	Reverse Words in a String II		
+- [x] 345	Reverse Vowels of a String			
+- [x] 205	Isomorphic Strings (easy)
+- [x] 293	Flip Game	(easy)
+- [x] 294	Flip Game II (medium, interesting)
+- [x] 290	Word Pattern (easy)
+- [x] 242	Valid Anagram (easy)		
+- [x] 49  Group Anagrams (medium)
+- [x] 249 Group Shifted Strings (medium)
+- [x] 87  Scramble String (hard, interesting)
+- [x] 179	Largest Number (medium, comparator)
+- [x] 6	  Zig-Zag Conversion
+- [x] 161	One Edit Distance	(medium, exceptional cases)
+- [x] 38	Count and Say		
+- [x] 358	Rearrange String k Distance Apart (hard!, PQ)		
+- [x] 316	Remove Duplicate Letters (challenging, Stack)		
+- [x] 271	Encode and Decode Strings (medium)		
+- [x] 168	Excel Sheet Column Title (caution!)
 - [x] 171	Excel Sheet Column Number	(math)
 - [x] 13	Roman to Integer (math)		
 - [x] 12	Integer to Roman (math)
@@ -128,13 +128,13 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
 - [x] 158	Read N Characters Given Read4 II - Call multiple times (buffer design)
-- [x] 68 Text Justification	(hard, redo)
-- [x] 65 Valid Number (DFA, regular expression, table-driven approach)
+- [x] 68  Text Justification	(hard, redo)
+- [x] 65  Valid Number (DFA, regular expression, table-driven approach)
 
 ### Substring			
-- [x] 76 Minimum Window Substring (Sliding Window)
-- [x] 30 Substring with Concatenation of All Words (Sliding Window)
-- [x] 3	Longest Substring Without Repeating Characters		(Sliding Window)
+- [x] 76  Minimum Window Substring (Sliding Window)
+- [x] 30  Substring with Concatenation of All Words (Sliding Window)
+- [x] 3	  Longest Substring Without Repeating Characters		(Sliding Window)
 - [x] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
 - [x] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
 - [x] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)
@@ -143,8 +143,8 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Palindrome			
 - [x] 125	Valid Palindrome		
 - [x] 266	Palindrome Permutation		
-- [ ] 5	Longest Palindromic Substring	(deep!)
-- [ ] 9	Palindrome Number		
+- [ ] 5   Longest Palindromic Substring	(deep!)
+- [ ] 9	  Palindrome Number		
 - [ ] 214	Shortest Palindrome		
 - [ ] 336	Palindrome Pairs		
 - [ ] 131	Palindrome Partitioning		
@@ -166,10 +166,10 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 3. Math
 
 ### Basic problems
-- [ ] 7	Reverse Integer		
+- [ ] 7	  Reverse Integer		
 - [ ] 165	Compare Version Numbers		
 - [ ] 66	Plus One		
-- [ ] 8	String to Integer (atoi)		
+- [ ] 8	  String to Integer (atoi)		
 - [ ] 258	Add Digits		
 - [ ] 67	Add Binary		
 - [ ] 43	Multiply Strings		
@@ -339,7 +339,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 203	Remove Linked List Elements		
 - [ ] 82	Remove Duplicates from Sorted List II		
 - [ ] 369	Plus One Linked List		
-- [ ] 2	Add Two Numbers		
+- [ ] 2	  Add Two Numbers		
 - [ ] 160	Intersection of Two Linked Lists		
 - [ ] 21	Merge Two Sorted Lists		
 
@@ -482,15 +482,13 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 17. Trie
 
-- [ ] 211	Add and Search Word - Data structure design		
+- [ ] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie (Prefix Tree)		
 - [ ] 212	Word Search II
 - [ ] 677 Map Sum Pairs
 - [ ] 648 Replace Words
 - [ ] 642	Design Search Autocomplete System
-- [ ] 211	Add and Search Word - Data structure design
 - [ ] 421 Maximum XOR of Two Numbers in an Array
-- [ ] 212 Word Search II
 - [ ] 425 Word Squares
 
 ## 18. Design
