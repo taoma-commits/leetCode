@@ -482,7 +482,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 17. Trie
 
-- [ ] 211	Add and Search Word - Data structure design
+- [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie (Prefix Tree)		
 - [ ] 212	Word Search II
 - [ ] 677 Map Sum Pairs
