@@ -19,29 +19,25 @@ class Solution {
         String[] arr = sentence.split(" ");
         StringBuilder sb = new StringBuilder();
         for (String word : arr) {
+            if (sb.length() > 0) {
+                sb.append(" ");
+            }
             TrieNode node = root;
-            char[] charArr = word.toCharArray();
-            for (int i = 0; i < charArr.length; i++) {
-                char c = charArr[i];
+            for (char c : word.toCharArray()) {
                 TrieNode child = node.children[c - 'a'];
-                if (child == null || i == charArr.length - 1) {
-                    sb.append(word + " ");
-                    break;
-                }
-                if (child.word != null) {
-                    sb.append(child.word + " ");
+                if (child == null || node.word != null) {
                     break;
                 }
                 node = child;
             }
+            sb.append(node.word == null ? word : node.word);
         }
-        sb.setLength(sb.length() - 1);
         return sb.toString();
     }
 }
 
 /**
- * performance: 12 ms < 90%, 50 MB < 42%
+ * performance: 10 ms < 96%, 50 MB < 42%
  * notes: 1. take the Trie of roots not words in the sentence
  *        2. a word could be shorter than all roots.
  */
