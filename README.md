@@ -467,7 +467,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 399	Evaluate Division		
 - [ ] 310	Minimum Height Trees
 
-### 			
+### 		
 - [ ] 149	Max Points on a Line		
 - [ ] 335	Self Crossing		(low frequency)
 - [ ] 356	Line Reflection		(low frequency)
@@ -485,8 +485,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie (Prefix Tree)		
 - [x] 212	Word Search II (Challenging, DFS)
-- [ ] 677 Map Sum Pairs
-- [ ] 648 Replace Words
+- [x] 677 Map Sum Pairs
+- [x] 648 Replace Words
 - [ ] 642	Design Search Autocomplete System
 - [ ] 421 Maximum XOR of Two Numbers in an Array
 - [ ] 425 Word Squares
