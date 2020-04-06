@@ -484,7 +484,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 - [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie (Prefix Tree)		
-- [ ] 212	Word Search II
+- [x] 212	Word Search II (Challenging, DFS)
 - [ ] 677 Map Sum Pairs
 - [ ] 648 Replace Words
 - [ ] 642	Design Search Autocomplete System

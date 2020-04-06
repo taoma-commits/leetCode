@@ -171,6 +171,14 @@ A Set is a Collection that **cannot contain duplicate elements**.
 
 ##### ArrayList
 * initialize an ArrayList: ```new ArrayList(collection)```
+* merge two ArrayLists:
+  - ```list1.addAll(list2)```
+  - merge without duplicates:
+    ```
+    Set<T> set = new LinkedHashSet<>(list1);
+    set.addAll(list2);
+    List<String> combinedList = new ArrayList<>(set);
+    ```
 
 ### Stack
 * initialization:
