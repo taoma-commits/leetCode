@@ -487,7 +487,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 212	Word Search II (Challenging, DFS)
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
-- [ ] 642	Design Search Autocomplete System
+- [x] 642	Design Search Autocomplete System (Design, hard!)
 - [ ] 421 Maximum XOR of Two Numbers in an Array
 - [ ] 425 Word Squares
 

@@ -235,7 +235,7 @@ The head of this queue is the **least** element with respect to the specified or
 
 An *interface* is nothing more than **a list of instance methods**.
 
-1. Comparable interface
+### Comparable interface
 
   method: ```compareTo()```
 
@@ -257,7 +257,7 @@ An *interface* is nothing more than **a list of instance methods**.
     }
   ```
 
-2. Comparator interface
+### Comparator interface
 
   method: ```compare()```
 
@@ -293,13 +293,13 @@ An *interface* is nothing more than **a list of instance methods**.
         }
     }
   ```
-  WhoOrder, WhenOrder, and HowMuchOrder are three Comparators the Transaction type data equipped. To sort an array of Transactions by WhenOrder, simply pass WhenOrder instance to the sort method like ```sort(a, new Transaction.WhenOrder())```
+  WhoOrder, WhenOrder, and HowMuchOrder are three Comparators the Transaction type data equipped. To sort an array of Transactions by WhenOrder, simply pass WhenOrder instance to the sort method like ```Collections.sort(a, new Transaction.WhenOrder())```
 
 
-3. Iterable
+### Iterable interface
 
   method: ```iterator()```
 
-4. Iterator
+### Iterator interface
 
   method: ```hasNext(), next(), remove()```
