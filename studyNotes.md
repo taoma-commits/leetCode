@@ -9,6 +9,11 @@
 * Cast ```int``` to ```String```: ```String.valueOf(digit)```
 * Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
 
+#### wrapper class ```Integer```
+
+* ```Integer.toBinaryString(int n)```
+  * ```Integer.toBinaryString(9) = 1001```
+
 ## ```short```
 
 ## ```long```
@@ -83,11 +88,19 @@ a ^ b = 0010 = 2
 ~ a = 1010 = 10
 ```
 ##### Bitwise XOR properties
-* ```a ^ 0 = 0```
+* ```a ^ 0 = a```
 * ```a ^ a = 0```
 * Commutativity ```a ^ b = b ^ a ```
 * Associativity ```(a ^ b) ^ c = a ^ (b ^ c)```
 
+#### Applications
+
+##### Bitmask
+A *mask* or *bitmask* is data that is used for bitwise operations, particularly in a bit field.
+* masking bits to 1: OR
+* masking bits to 0: OR
+* querying the status of a bit: AND
+* toggling bitwise value: XOR
 
 # Part III. Non-primitive Data Type
 
