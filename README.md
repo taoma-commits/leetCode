@@ -145,7 +145,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 266	Palindrome Permutation		
 - [x] 5   Longest Palindromic Substring	(3 methods)
 - [x] 9	  Palindrome Number (!)
-- [x] 214	Shortest Palindrome	(hard; to-do: KMP)
+- [x] 214	Shortest Palindrome	(hard; KMP)
 - [ ] 336	Palindrome Pairs		
 - [ ] 131	Palindrome Partitioning		
 - [ ] 132	Palindrome Partitioning II		
