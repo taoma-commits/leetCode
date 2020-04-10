@@ -11,6 +11,7 @@
 
 #### wrapper class ```Integer```
 
+* ```Integer.toString(int n)```
 * ```Integer.toBinaryString(int n)```
   * ```Integer.toBinaryString(9) = 1001```
 
