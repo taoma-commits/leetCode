@@ -35,22 +35,17 @@ class Solution {
      public String longestPalindrome(String s) {
          if (s.length() == 0) return s;
          int n = s.length();
-         int max = 0;
-         int l = 0, r = 1;
+         String res = "";
          boolean[] dp = new boolean[n];
          for (int i = n - 1; i >= 0; i--) {
              for (int j = n - 1; j >= i; j--) {
                  dp[j] = (j - i < 2 || dp[j - 1]) && s.charAt(i) == s.charAt(j);
-                 if (dp[j]) {
-                     if (j - i > max) {
-                         max = j - i;
-                         l = i;
-                         r = j + 1;
-                     }
+                 if (dp[j] && j - i + 1 > res.length()) {
+                     res = s.substring(i, j + 1);
                  }
              }
          }
-         return s.substring(l, r);
+         return res;
      }
  }
 

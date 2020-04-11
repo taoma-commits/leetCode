@@ -117,19 +117,19 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 316	Remove Duplicate Letters (challenging, Stack)		
 - [x] 271	Encode and Decode Strings (medium)		
 - [x] 168	Excel Sheet Column Title (caution!)
-- [x] 171	Excel Sheet Column Number	(math)
-- [x] 13	Roman to Integer (math)		
-- [x] 12	Integer to Roman (math)
-- [x] 273 Integer to English Words (math)		
+- [x] 171	Excel Sheet Column Number	(Math)
+- [x] 13	Roman to Integer (Math)		
+- [x] 12	Integer to Roman (Math)
+- [x] 273 Integer to English Words (Math)		
 - [x] 246	Strobogrammatic Number (easy)
-- [x] 247	Strobogrammatic Number II (recursion)
-- [x] 248	Strobogrammatic Number III (recursion)
+- [x] 247	Strobogrammatic Number II (Recursion)
+- [x] 248	Strobogrammatic Number III (Recursion)
 
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
-- [x] 158	Read N Characters Given Read4 II - Call multiple times (buffer design)
+- [x] 158	Read N Characters Given Read4 II - Call multiple times (Buffer design)
 - [x] 68  Text Justification	(hard, redo)
-- [x] 65  Valid Number (DFA, regular expression, table-driven approach)
+- [x] 65  Valid Number (DFA, Regular expression, Table-driven)
 
 ### Substring			
 - [x] 76  Minimum Window Substring (Sliding Window)
@@ -147,9 +147,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 9	  Palindrome Number (!)
 - [x] 214	Shortest Palindrome	(hard; KMP)
 - [ ] 336	Palindrome Pairs		
-- [ ] 131	Palindrome Partitioning		
+- [x] 131	Palindrome Partitioning (Backtracking)		
 - [ ] 132	Palindrome Partitioning II		
-- [ ] 267	Palindrome Permutation II
+- [x] 267	Palindrome Permutation II (hard; Backtracking)
 
 ### Parentheses			
 - [ ] 20	Valid Parentheses		
@@ -245,7 +245,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 98	Validate Binary Search Tree (pre-order)
 - [ ] 235	Lowest Common Ancestor of a Binary Search Tree (pre-order)
 - [ ] 236	Lowest Common Ancestor of a Binary Tree	(post-order)
-- [ ] 108	Convert Sorted Array to Binary Search Tree		(binary search)
+- [ ] 108	Convert Sorted Array to Binary Search Tree (binary search)
 - [ ] 109	Convert Sorted List to Binary Search Tree (binary search)
 - [ ] 173	Binary Search Tree Iterator	(inorder)
 - [ ] 230	Kth Smallest Element in a BST	(inorder)

@@ -208,6 +208,21 @@ A Set is a Collection that **cannot contain duplicate elements**.
   - ```stack.empty()```
   - ```stack.search(Object o)```
 
+### Deque
+* initialization:
+  - ```new ArrayDeque<E>()```
+  - ```new LinkedList<E>()```
+* insert:
+  - ```addFirst(e)``` or ```offerFirst(e)```
+  - ```addLast(e)``` or ```offerLast(e)```
+
+* remove:
+  - ```removeFirst(e)``` or ```pollFirst(e)```
+  - ```removeLast(e)``` or ```pollLast(e)```
+* examine:
+  - ```getFirst(e)``` or ```peekFirst(e)```
+  -   ```getLast(e)``` or ```peekLast(e)```
+
 ### Priority queue
 
 The head of this queue is the **least** element with respect to the specified ordering.
