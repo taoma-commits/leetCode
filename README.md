@@ -148,12 +148,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 214	Shortest Palindrome	(hard; KMP)
 - [ ] 336	Palindrome Pairs (hard; Trie)
 - [x] 131	Palindrome Partitioning (Backtracking)		
-- [ ] 132	Palindrome Partitioning II		
+- [x] 132	Palindrome Partitioning II (DP)
 - [x] 267	Palindrome Permutation II (hard; Backtracking)
 
 ### Parentheses			
-- [ ] 20	Valid Parentheses		
-- [ ] 22	Generate Parentheses		
+- [x] 20	Valid Parentheses (Stack)
+- [x] 22	Generate Parentheses (Backtracking)		
 - [ ] 32	Longest Valid Parentheses		
 - [ ] 241	Different Ways to Add Parentheses		
 - [ ] 301	Remove Invalid Parentheses
