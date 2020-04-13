@@ -103,12 +103,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 345	Reverse Vowels of a String			
 - [x] 205	Isomorphic Strings (easy)
 - [x] 293	Flip Game	(easy)
-- [x] 294	Flip Game II (medium, interesting)
+- [x] 294	Flip Game II (medium, clever)
 - [x] 290	Word Pattern (easy)
 - [x] 242	Valid Anagram (easy)		
 - [x] 49  Group Anagrams (medium)
 - [x] 249 Group Shifted Strings (medium)
-- [x] 87  Scramble String (hard, interesting)
+- [x] 87  Scramble String (hard, clever)
 - [x] 179	Largest Number (medium, comparator)
 - [x] 6	  Zig-Zag Conversion
 - [x] 161	One Edit Distance	(medium, exceptional cases)
@@ -154,9 +154,9 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Parentheses			
 - [x] 20	Valid Parentheses (Stack)
 - [x] 22	Generate Parentheses (Backtracking)		
-- [ ] 32	Longest Valid Parentheses		
-- [ ] 241	Different Ways to Add Parentheses		
-- [ ] 301	Remove Invalid Parentheses
+- [x] 32	Longest Valid Parentheses (Two-way scan, clever)
+- [x] 241	Different Ways to Add Parentheses (Recursion)		
+- [x] 301	Remove Invalid Parentheses (DFS + two-way scan; clever)
 
 ### Subsequence			
 - [ ] 392	Is Subsequence		
