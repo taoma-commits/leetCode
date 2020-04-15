@@ -1,4 +1,4 @@
-# Part I. Primitive Data Type
+ # Part I. Primitive Data Type
 
 ## ```int```
 * The default value of ```int``` is 0.
@@ -172,10 +172,14 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 
 
-## Collection
+## Collections Framework
 
 ### Set
-A Set is a Collection that **cannot contain duplicate elements**.
+A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
+```Set``` is an interface, can not be instantiated.
+* ```HashSet<T>```
+* ```LinkedHashSet<T>``` ?
+* ```TreeSet<T>``` ?
 
 ### List
 * append element e to the end:
@@ -325,10 +329,37 @@ An *interface* is nothing more than **a list of instance methods**.
   WhoOrder, WhenOrder, and HowMuchOrder are three Comparators the Transaction type data equipped. To sort an array of Transactions by WhenOrder, simply pass WhenOrder instance to the sort method like ```Collections.sort(a, new Transaction.WhenOrder())```
 
 
-### Iterable interface
+### Iterable Interface
 
-  method: ```iterator()```
+* ```Iterable```: an interface with a method that returns an instance of an ```Iterator``` over elements of type T.
 
-### Iterator interface
+* ```Iterator```: an ```Iterator``` is an object from a class implements the methods ```hasNext()```, ```next()```, and ```remove()```.
 
-  method: ```hasNext(), next(), remove()```
+API of ```Iterable``` interface:
+```
+public interface Iterable<T> {
+  Iterator<T> iterator();
+}
+```
+Implementation of ```Iterable``` interface in a class.
+```
+public class CLASS<T> implements Iterable<T> {
+  ...
+  public Iterator<T> iterator() {
+    return new customIterator<>;
+  }
+
+  private class customIterator(){
+    public boolean hasNext() {
+      ...
+    }
+    public T next() {
+      ...
+    }
+    public void remove() {
+      ...
+    }
+  }
+}
+
+```

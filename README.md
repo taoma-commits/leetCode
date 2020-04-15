@@ -447,9 +447,9 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 13. Topological Sort
 
-- [ ] 207	Course Schedule		
-- [ ] 210	Course Schedule II		
-- [ ] 269	Alien Dictionary
+- [x] 207	Course Schedule	(to-do: BFS + indegree)
+- [x] 210	Course Schedule II (to-do: BFS + indegree)		
+- [x] 269	Alien Dictionary (to-do: time & space complexity)
 
 ## 14. Random
 

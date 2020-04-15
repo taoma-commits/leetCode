@@ -131,8 +131,19 @@ Pf. 1-1 correspondence with quicksort partitioning
 ***
 ## Graphs
 
-### DFS and BFS
+### Digraphs
 
+Implementation: adjacency-lists representation.
+
+| representation | space | insertion | edge query | iterate edges pointing from v | iterate edges pointing to v |
+|:-----:|:-:|:-:|:-:|:-:|:-:|
+|list of edges|E|1|E|E|E|E|
+|adjacency matrix|$V^2$|1|1|V|V|
+|adjacency-lists|V+E|E|outdeg(v)|outdeg(v)|V+E|
+***
+
+### DFS and BFS
+DFS and BFS are both digraph algorithms.
 Both DFS and BFS have methods
 * method ```hasPathTo(int v)```: whether v is connected to source vertex.
 * method ```pathTo(int v)```: return a path from v to source vertex.
@@ -150,10 +161,32 @@ Both DFS and BFS have methods
 
 #### Connected components
 Use DFS instead of BFS for simpler code.
+Compare DFS implementation with the Union and Find.
 
-##### Distinct DFS implementation of connected components from Union and Find.
+#### Application: program control-flow analysis
+* Digraph representation of program:
+  - vertex: straight-line program;
+  - edge: if statement or loop;
+* Dead code elimination: reachability.
+* Infinite loop detection: is exit reachable.
 
-***
+#### Application: garbage collection
+* Mark-sweep algorithm: ??
+
+#### Topological sort
+* DAG: directed acyclic graph.
+* Topological sort: can you redraw a DAG so that every arrow points upwards?
+* Solution: DFS + postorder stack.
+  - push a vertex into stack if it is done.
+* Proof of correctness: for an edge $v \rightarrow w$ if we are currently at v
+  there are 3 cases as follows.
+    - w is done before v.
+    - w is not visited therefore will be done before v.
+    - w is visited but not returned to. (impossible in DAG)
+
+  So every vertex pointed by an edge from v is done before v is done. Proved.
+---
+
 ## Strings
 
 #### Manacher's algorithm
@@ -168,7 +201,7 @@ Define ```P[i]``` as the radius of the largest odd-length palindromic substring 
             - Set P[i] to the smaller one of the P[i_mirror] and R - i if i < R.
             - Otherwise, P[i] = 0.
             - Central expand P[i].
-            - If P[i] + i > R, set center = i and R = P[i] + i. 
+            - If P[i] + i > R, set center = i and R = P[i] + i.
 ##### An example
 ```
 S = "abba"
