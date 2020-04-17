@@ -1,18 +1,3 @@
-/*
-Runtime: 1 ms, faster than 49.34% of Java online submissions for Rotate Array.
-Memory Usage: 46.7 MB, less than 5.77% of Java online submissions for Rotate Array.
-*/
-
-// this solution: rotate array by three reverses
-
-/* alternate solution 1: in-place, for each array element compute its position after rotation
-* and before replacing the old element by the current one, keep the old element in a single int
-* variable. Iterate over orbits.
-*/
-
-// alternate solution 2: not in-place. Simply create an empty new array to return.
-
-
 class Solution {
     private void reverse(int[] nums, int front, int end) {
         int temp = 0;
@@ -30,3 +15,51 @@ class Solution {
         reverse(nums, k, len - 1);
     }
 }
+
+/**
+ * performance: 1 ms < 49%, 46 MB < 6%
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * notes: trick triple reverse
+ */
+
+
+
+class Solution {
+  private int gcd(int n, int k) {
+    int remainder = n;
+    int divisor = k;
+    int cache;
+    while (divisor != 0) {
+      cache = divisor;
+      divisor = remainder % divisor;
+      remainder = cache;
+    }
+    return remainder;
+  }
+
+  public void rotate(int[] nums, int k) {
+    int n = nums.length;
+    k = k % n;
+    int numOrbits = gcd(n, k);
+    int cache;
+    for (int i = 0; i < numOrbits; i++) {
+      int img = (i + k) % n;
+      cache = nums[i];
+      while (img != i) {
+        int temp = nums[img];
+        nums[img] = cache;
+        cache = temp;
+        img = (img + k) % n;
+      }
+      nums[i] = cache;
+    }
+  }
+}
+
+/**
+ * performance: 0 ms < 100%, 40 MB < 7%
+ * time complexity: O(n) + time complexity of Euclidean algorithm
+ * space complexity: O(1)
+ * notes: finite group isomorphism orbits
+ */

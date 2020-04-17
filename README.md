@@ -7,10 +7,10 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Basic problems
 - [x] 27	Remove Element		
-- [x] 26	Remove Duplicates from Sorted Array		
-- [x] 80	Remove Duplicates from Sorted Array II		
+- [x] [26]  Remove Duplicates from Sorted Array		
+- [x] 80	Remove Duplicates from Sorted Array II :star:
 - [x] 277	Find the Celebrity		
-- [x] 189	Rotate Array		
+- [x] [189]	Rotate Array (2 methods) :star:		
 - [x] 41	First Missing Positive		
 - [x] 299	Bulls and Cows		
 - [x] 134	Gas Station		

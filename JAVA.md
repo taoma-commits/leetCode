@@ -284,7 +284,7 @@ An *interface* is nothing more than **a list of instance methods**.
   (usually -1, 0, or +1) when v<w, v=w,
   or v>w, respectively.
 
-  ```
+  ```Java
   public class Transaction implements Comparable<Transaction>
     {
       private final double amount;
@@ -305,7 +305,7 @@ An *interface* is nothing more than **a list of instance methods**.
   The Java Comparator interface allows us to build multiple orders within a single class. It has a single public method ```compare()``` that compares two objects.
 
   Comparator implementation for Transaction data type:
-  ```
+  ```java
   import java.util.Comparator;
   public class Transaction
     {
@@ -344,13 +344,16 @@ An *interface* is nothing more than **a list of instance methods**.
 * ```Iterator```: an ```Iterator``` is an object from a class implements the methods ```hasNext()```, ```next()```, and ```remove()```.
 
 API of ```Iterable``` interface:
-```
+
+```java
 public interface Iterable<T> {
   Iterator<T> iterator();
 }
 ```
+
 Implementation of ```Iterable``` interface in a class.
-```
+
+```java
 public class CLASS<T> implements Iterable<T> {
   ...
   public Iterator<T> iterator() {
@@ -369,7 +372,6 @@ public class CLASS<T> implements Iterable<T> {
     }
   }
 }
-
 ```
 
 ### Collection interface
