@@ -161,19 +161,19 @@ Both DFS and BFS have methods
 
 #### Connected components
 Use DFS instead of BFS for simpler code.
-Compare DFS implementation with the Union and Find.
+* Compare DFS implementation with the Union and Find.
 
-#### Application: program control-flow analysis
+##### Application I: program control-flow analysis
 * Digraph representation of program:
   - vertex: straight-line program;
   - edge: if statement or loop;
 * Dead code elimination: reachability.
 * Infinite loop detection: is exit reachable.
 
-#### Application: garbage collection
+##### Application II: garbage collection
 * Mark-sweep algorithm: ??
 
-#### Topological sort
+#### Topological sort 
 * DAG: directed acyclic graph.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
 * Solution: DFS + postorder stack.
@@ -185,6 +185,33 @@ Compare DFS implementation with the Union and Find.
     - w is visited but not returned to. (impossible in DAG)
 
   So every vertex pointed by an edge from v is done before v is done. Proved.
+
+> Alternate solution to Topological sort: BFS + in-degree
+    - Scan all vertices and record their in-degree's in an array.
+    - Add all vertices of zero in-degree to a queue.
+    - Dequeue vertex v from the queue, decrement the in-degree of all neighbors by 1. Enqueue neighbors whose in-degree became zero after decrement.
+    - Repeat last step until queue is empty.
+
+
+#### Kosaraju-Sharir alogrithm for strong connected-components
+Two-pass algorithm:
+
+  - reverse the graph to $G^R$;
+  - compute topological order in $G^R$ by DFS;
+  - run DFS in $G$ follow the topological order obtained in the last step. Each DFS finds a strong component.
+##### Proof of correctness
+**Lemma.** Let $C$ be a strong component of a digraph $G$, and $v$ be a vertex not in $C$. If there is an edge $e$ from $v$ to a vertex in $C$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G$.
+
+**Proof of Lemma**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$.
+
+**Proof of correctness** A strong component $C$ of a digraph $G$ is also a strong component of the reverse digraph $G^R$. By the Lemma if there is an edge $e$ from a vertex in $C$ to $v$ in $G$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G^R$.
+
+Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). Correctness proved.
+
+##### Analysis of the K-S algorithm
+* time complexity: $O(V + E)$
+* space complexity: save the reverse graph $G^R$; $O(V + E)$.
+
 ---
 
 ## Strings

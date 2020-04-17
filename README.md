@@ -159,9 +159,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 301	Remove Invalid Parentheses (DFS + two-way scan; clever)
 
 ### Subsequence			
-- [ ] 392	Is Subsequence		
-- [ ] 115	Distinct Subsequences		
-- [ ] 187	Repeated DNA Sequences
+- [x] 392	 Is Subsequence (follow-up)
+- [x] 115	 Distinct Subsequences (DP)		
+- [ ] 187	 Repeated DNA Sequences (Robin-Karp; )
+- [ ] 1044 Longest duplicate substring (Robin-Karp; Binary search)
 
 ## 3. Math
 
@@ -467,7 +468,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 399	Evaluate Division		
 - [ ] 310	Minimum Height Trees
 
-### 		
+### Computer graphics		
 - [ ] 149	Max Points on a Line		
 - [ ] 335	Self Crossing		(low frequency)
 - [ ] 356	Line Reflection		(low frequency)

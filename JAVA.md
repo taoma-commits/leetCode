@@ -174,6 +174,14 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 ## Collections Framework
 
+### Collections
+* ```binarySearch(List<? extends Comparable<? super T>> list, T key)```
+  - The list must be sorted into ascending order according to the natural ordering of its elements (as by the sort(List) method) prior to making this call.
+  - *insertion point* is defined as the point at which the key would be inserted into the list:
+     1. the index of the first element greater than the key,
+     2. or list.size() if all elements in the list are less than the key.
+  - ```binarySearch(list, key)``` returns - insertion point - 1
+     if the key is not in the list.
 ### Set
 A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 ```Set``` is an interface, can not be instantiated.
@@ -363,3 +371,5 @@ public class CLASS<T> implements Iterable<T> {
 }
 
 ```
+
+### Collection interface
