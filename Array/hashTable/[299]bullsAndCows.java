@@ -13,7 +13,7 @@ class Solution {
         int[] A = new int[10];
         int[] B = new int[10];
         for (int i = 0; i < len; i++) {
-            int x = secret.charAt(i) - '0'; // a trick converting char to single digit int.
+            int x = secret.charAt(i) - '0';
             int y = guess.charAt(i) - '0';
             if (x == y) a++;
             A[x]++;

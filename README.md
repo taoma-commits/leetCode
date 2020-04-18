@@ -11,7 +11,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 80	Remove Duplicates from Sorted Array II :star:
 - [x] 277	Find the Celebrity		
 - [x] [189]	Rotate Array (2 methods) :star:		
-- [x] 41	First Missing Positive		
+- [x] [41]	First Missing Positive (Bucket-sort) :star:
 - [x] 299	Bulls and Cows		
 - [x] 134	Gas Station		
 - [x] 118	Pascal's Triangle		
