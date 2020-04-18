@@ -1,5 +1,48 @@
  # Part I. Primitive Data Type
 
+## Java primitive data types
+
+* ```byte```: 8-bit signed two's complement integer.
+
+* ```short```: 16-bit signed two's complement integer.
+
+* ```int```: 32-bit signed two's complement integer.
+
+* ```long```: 64-bit signed two's complement integer.
+
+* ```float```: single-precision 32-bit IEEE 754 floating point.
+
+* ```double```: double-precision 64-bit IEEE 754 floating point.
+
+* ```boolean```: 1-bit information
+
+* ```char```: a single 16-bit Unicode character.
+
+### Signed binary numbers
+
+#### One's complement
+* negate a number: invert all bits.
+* $0$ has tow representations: $0\cdots 0$ and $1\cdots 1$.
+
+>Example. Consider 4-bit numbers for simplicity.
+$4 = 0100$, $-4 = 1011$.
+The most significant bit represents sign:
+$1$ for negative and $0$ for positive.
+Max value $= 2^3 - 1$ represented as $0111$.
+Min value $= -2^3 + 1$ represented as $1000$.
+
+#### Two's complement
+* negative a number: invert all bits and add $1$.
+* $0$ has a unique representation: $0\cdots 0$.
+
+>Example. Consider 4-bit numbers for simplicity.
+$3 = 0011$, $-3 = 1101$.
+Max value $= 2^3 - 1$ represented as $0111$.
+Min value $= - 2^3$ represented as $1000$.   
+
+
+
+
 ## ```int```
 * The default value of ```int``` is 0.
   - initialize ```int[]```, default elements are 0.

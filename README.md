@@ -167,7 +167,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 3. Math
 
 ### Basic problems
-- [ ] 7	  Reverse Integer		
+- [x] 7	  Reverse Integer :star:
 - [ ] 165	Compare Version Numbers		
 - [ ] 66	Plus One		
 - [ ] 8	  String to Integer (atoi)		
