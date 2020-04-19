@@ -248,6 +248,8 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
     set.addAll(list2);
     List<String> combinedList = new ArrayList<>(set);
     ```
+* 
+* remove object: ```list.remove()```
 
 ### Stack
 * initialization:

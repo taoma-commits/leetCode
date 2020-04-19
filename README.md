@@ -12,12 +12,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 277	Find the Celebrity		
 - [x] [189]	Rotate Array (2 methods) :star:		
 - [x] [41]	First Missing Positive (Bucket-sort) :star:
-- [x] 299	Bulls and Cows		
-- [x] 134	Gas Station		
-- [x] 118	Pascal's Triangle		
+- [x] [299]	Bulls and Cows		
+- [x] [134]	Gas Station	:star:
+- [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II		
-- [x] 169	Majority Element		
-- [x] 229	Majority Element II		
+- [x] [169]	Majority Element (6 methods! Boyer-Moore voting algorithm) :star:		
+- [x] [229]	Majority Element II 
 - [x] 274	H-Index		
 - [x] 275	H-Index II (Binary Search)
 - [x] 243	Shortest Word Distance		

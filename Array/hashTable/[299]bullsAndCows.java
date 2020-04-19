@@ -1,25 +1,26 @@
-/*
-Runtime: 9 ms, faster than 22.15% of Java online submissions for Bulls and Cows.
-Memory Usage: 39.4 MB, less than 5.26% of Java online submissions for Bulls and Cows.
-*/
-
-// tag: array, hash table
-// notes: use array as a hash table; trick convert char to a single digit int.
-
-
 class Solution {
-    public String getHint(String secret, String guess) {
-        int a = 0, b = 0, len = secret.length();
-        int[] A = new int[10];
-        int[] B = new int[10];
-        for (int i = 0; i < len; i++) {
-            int x = secret.charAt(i) - '0';
-            int y = guess.charAt(i) - '0';
-            if (x == y) a++;
-            A[x]++;
-            B[y]++;
-        }
-        for (int i = 0; i < 10; i++) b += Math.min(A[i], B[i]);
-        return a + "A" + (b - a) + "B";
+  public String getHint(String secret, String guess) {
+    int a = 0;
+    int b = 0;
+    int[] mapS = new int[10];
+    int[] mapG = new int[10];
+    for (int i = 0; i < secret.length(); i++) {
+      if (secret.charAt(i) == guess.charAt(i)) {
+        a++;
+      } else {
+        mapS[secret.charAt(i) - '0']++;
+        mapG[guess.charAt(i) - '0']++;
+      }
     }
+    for (int i = 0; i < 10; i++) {
+      b += Math.min(mapS[i], mapG[i]);
+    }
+    return a + "A" + b + "B";
+  }
 }
+
+/**
+ * performance: 6 ms < 74%, 39 MB < 5.55%
+ * time complexity: O(n)
+ * space complexity: O(n)
+ */

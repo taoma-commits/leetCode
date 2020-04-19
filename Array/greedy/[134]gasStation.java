@@ -1,6 +1,4 @@
-/**
-* performance: 0 ms < 100.00%, 38.7 MB < 21.57%.
-*/
+
 
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
@@ -13,10 +11,16 @@ class Solution {
                 start = i + 1;
             }
         }
-        if (total < 0) return -1;
-        else return start;
+        if (total < 0) {
+            return -1;
+        } else {
+            return start;
+        }
     }
 }
 
-// tag: greedy
-// idea: realize that total sum >= 0 guarantees existence of a solution.
+/**
+ * performance: 0 ms < 100.00%, 38.7 MB < 21.57%.
+ * time complexity: O(n)
+ * space complexity: O(1)
+ */
