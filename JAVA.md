@@ -50,13 +50,13 @@ Min value $= - 2^3$ represented as $1000$.
 
 * Cast ```int``` to ```char```: ```(char) ('0' + digit)```
 * Cast ```int``` to ```String```: ```String.valueOf(digit)```
-* Convert ```String``` representation of an integer to the ```int``` value of the integer: ```Integer.valueOf(str)```
 
 #### wrapper class ```Integer```
-
+* ```Integer.valueOf(str)```: convert a string representaion of an integer to ``int```.
 * ```Integer.toString(int n)```
 * ```Integer.toBinaryString(int n)```
   * ```Integer.toBinaryString(9) = 1001```
+* ```Integer.parseInt(String s)```: parses the string argument as a signed decimal integer.
 
 ## ```short```
 
@@ -248,7 +248,7 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
     set.addAll(list2);
     List<String> combinedList = new ArrayList<>(set);
     ```
-* 
+*
 * remove object: ```list.remove()```
 
 ### Stack

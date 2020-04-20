@@ -10,16 +10,16 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [26]  Remove Duplicates from Sorted Array		
 - [x] 80	Remove Duplicates from Sorted Array II :star:
 - [x] 277	Find the Celebrity		
-- [x] [189]	Rotate Array (2 methods) :star:		
-- [x] [41]	First Missing Positive (Bucket-sort) :star:
-- [x] [299]	Bulls and Cows		
+- [x] [189]	Rotate Array <!--2 methods--> :star:		
+- [x] [41]	First Missing Positive <!--Bucket-sort--> :star:
+- [x] [299]	Bulls and Cows
 - [x] [134]	Gas Station	:star:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II		
-- [x] [169]	Majority Element (6 methods! Boyer-Moore voting algorithm) :star:		
-- [x] [229]	Majority Element II 
+- [x] [169]	Majority Element <!-- 6 methods! --> :star:		
+- [x] 229	Majority Element II <!-- BM majority vote --> :star:
 - [x] 274	H-Index		
-- [x] 275	H-Index II (Binary Search)
+- [x] 275	H-Index II <!-- Binary Search -->
 - [x] 243	Shortest Word Distance		
 - [x] 244	Shortest Word Distance II		
 - [x] 245	Shortest Word Distance III		
@@ -37,10 +37,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 42	Trapping Rain Water		
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
-- [x] 164	Maximum Gap	(Bucket Sort)
+- [x] 164	Maximum Gap	<!-- Bucket Sort -->
 - [x] 287	Find the Duplicate Number		
 - [x] 135	Candy
-- [x] 330	Patching Array		
+- [x] [330]	Patching Array <!--Greedy; overflow-->		
 
 ### Challenging problems
 - [x] 4	  Median of Two Sorted Arrays		
@@ -53,7 +53,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 56	Merge Intervals		
 - [ ] 252	Meeting Rooms		
 - [ ] 253	Meeting Rooms II		
-- [ ] 352	Data Stream as Disjoint Intervals (TreeMap)
+- [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
 
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
@@ -92,7 +92,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 2. String
 
 ### Basic problems
-- [x] 28  Implement strStr()		
+- [x] 28  Implement strStr<!-- -->		
 - [x] 14  Longest Common Prefix		
 - [x] 58  Length of Last Word		
 - [x] 387 First Unique Character in a String		
@@ -101,77 +101,78 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 151	Reverse Words in a String		
 - [x] 186	Reverse Words in a String II		
 - [x] 345	Reverse Vowels of a String			
-- [x] 205	Isomorphic Strings (easy)
-- [x] 293	Flip Game	(easy)
-- [x] 294	Flip Game II (medium, clever)
-- [x] 290	Word Pattern (easy)
-- [x] 242	Valid Anagram (easy)		
-- [x] 49  Group Anagrams (medium)
-- [x] 249 Group Shifted Strings (medium)
-- [x] 87  Scramble String (hard, clever)
-- [x] 179	Largest Number (medium, comparator)
+- [x] 205	Isomorphic Strings <!--easy-->
+- [x] 293	Flip Game	<!--easy-->
+- [x] 294	Flip Game II :star:
+- [x] 290	Word Pattern <!--easy-->
+- [x] 242	Valid Anagram <!--easy-->		
+- [x] 49  Group Anagrams <!--medium-->
+- [x] 249 Group Shifted Strings <!--medium-->
+- [x] 87  Scramble String :star:
+- [x] 179	Largest Number :star:
 - [x] 6	  Zig-Zag Conversion
-- [x] 161	One Edit Distance	(medium, exceptional cases)
+- [x] 161	One Edit Distance	:star:
 - [x] 38	Count and Say		
-- [x] 358	Rearrange String k Distance Apart (hard!, PQ)		
-- [x] 316	Remove Duplicate Letters (challenging, Stack)		
-- [x] 271	Encode and Decode Strings (medium)		
-- [x] 168	Excel Sheet Column Title (caution!)
-- [x] 171	Excel Sheet Column Number	(Math)
-- [x] 13	Roman to Integer (Math)		
-- [x] 12	Integer to Roman (Math)
-- [x] 273 Integer to English Words (Math)		
-- [x] 246	Strobogrammatic Number (easy)
-- [x] 247	Strobogrammatic Number II (Recursion)
-- [x] 248	Strobogrammatic Number III (Recursion)
+- [x] 358	Rearrange String k Distance Apart <!-- PQ --> :star::star:		
+- [x] 316	Remove Duplicate Letters <!-- Stack --> :star:		
+- [x] 271	Encode and Decode Strings 		
+- [x] 168	Excel Sheet Column Title
+- [x] 171	Excel Sheet Column Number <!-- Math -->
+- [x] 13	Roman to Integer <!-- Math -->		
+- [x] 12	Integer to Roman <!-- Math -->
+- [x] 273 Integer to English Words <!-- Math -->		
+- [x] 246	Strobogrammatic Number
+- [x] 247	Strobogrammatic Number II <!-- Recursion -->
+- [x] 248	Strobogrammatic Number III <!-- Recursion -->
 
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
-- [x] 158	Read N Characters Given Read4 II - Call multiple times (Buffer design)
-- [x] 68  Text Justification	(hard, redo)
-- [x] 65  Valid Number (DFA, Regular expression, Table-driven)
+- [x] 158	Read N Characters Given Read4 II - Call multiple times <!-- Buffer design -->
+- [x] 68  Text Justification :star::star:
+- [x] 8	  String to Integer (atoi) <!--DFA-->
+- [x] 65  Valid Number <!--DFA-->
+
 
 ### Substring			
-- [x] 76  Minimum Window Substring (Sliding Window)
-- [x] 30  Substring with Concatenation of All Words (Sliding Window)
-- [x] 3	  Longest Substring Without Repeating Characters		(Sliding Window)
-- [x] 340	Longest Substring with At Most K Distinct Characters (Sliding Window)
-- [x] 395	Longest Substring with At Least K Repeating Characters (Sliding Window)
-- [x] 159	Longest Substring with At Most Two Distinct Characters (Sliding Window)
+- [x] 76  Minimum Window Substring <!--Sliding Window-->
+- [x] 30  Substring with Concatenation of All Words <!--Sliding Window-->
+- [x] 3	  Longest Substring Without Repeating Characters		<!--Sliding Window-->
+- [x] 340	Longest Substring with At Most K Distinct Characters <!--Sliding Window-->
+- [x] 395	Longest Substring with At Least K Repeating Characters <!--Sliding Window-->
+- [x] 159	Longest Substring with At Most Two Distinct Characters <!--Sliding Window-->
 
 
 ### Palindrome			
 - [x] 125	Valid Palindrome		
 - [x] 266	Palindrome Permutation		
-- [x] 5   Longest Palindromic Substring	(3 methods)
-- [x] 9	  Palindrome Number (!)
-- [x] 214	Shortest Palindrome	(hard; KMP)
-- [ ] 336	Palindrome Pairs (hard; Trie)
-- [x] 131	Palindrome Partitioning (Backtracking)		
-- [x] 132	Palindrome Partitioning II (DP)
-- [x] 267	Palindrome Permutation II (hard; Backtracking)
+- [x] 5   Longest Palindromic Substring	<!--3 methods-->
+- [x] 9	  Palindrome Number :star:
+- [x] 214	Shortest Palindrome	<!--KMP-->:star:
+- [ ] 336	Palindrome Pairs <!-- Trie -->:star::star:
+- [x] 131	Palindrome Partitioning <!-- Backtracking-->		
+- [x] 132	Palindrome Partitioning II <!--DP-->
+- [x] 267	Palindrome Permutation II <!--Backtracking-->
 
 ### Parentheses			
-- [x] 20	Valid Parentheses (Stack)
-- [x] 22	Generate Parentheses (Backtracking)		
-- [x] 32	Longest Valid Parentheses (Two-way scan, clever)
-- [x] 241	Different Ways to Add Parentheses (Recursion)		
-- [x] 301	Remove Invalid Parentheses (DFS + two-way scan; clever)
+- [x] 20	Valid Parentheses <!--Stack-->
+- [x] 22	Generate Parentheses <!--Backtracking-->		
+- [x] 32	Longest Valid Parentheses <!--Two-way scan, clever-->
+- [x] 241	Different Ways to Add Parentheses <!--Recursion-->		
+- [x] 301	Remove Invalid Parentheses <!--DFS + two-way scan; clever-->
 
 ### Subsequence			
-- [x] 392	 Is Subsequence (follow-up)
-- [x] 115	 Distinct Subsequences (DP)		
-- [ ] 187	 Repeated DNA Sequences (Robin-Karp; )
-- [ ] 1044 Longest duplicate substring (Robin-Karp; Binary search)
+- [x] 392	 Is Subsequence <!--follow-up-->
+- [x] 115	 Distinct Subsequences <!--DP-->		
+- [ ] 187	 Repeated DNA Sequences <!--Robin-Karp; -->
+- [ ] 1044 Longest duplicate substring <!--Robin-Karp; Binary search-->
 
 ## 3. Math
 
 ### Basic problems
 - [x] 7	  Reverse Integer :star:
-- [ ] 165	Compare Version Numbers		
-- [ ] 66	Plus One		
-- [ ] 8	  String to Integer (atoi)		
-- [ ] 258	Add Digits		
+- [x] 165	Compare Version Numbers
+- [x] 66	Plus One
+- [x] 258	Add Digits
 - [ ] 67	Add Binary		
 - [ ] 43	Multiply Strings		
 - [ ] 29	Divide Two Integers		
@@ -215,15 +216,15 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 4. Tree
 
 ### Basic problems
-- [ ] 144	Binary Tree Preorder Traversal		
-- [ ] 94	Binary Tree Inorder Traversal		
-- [ ] 145	Binary Tree Postorder Traversal		
+- [ ] 144	Binary Tree Preorder Traversal
+- [ ] 94	Binary Tree Inorder Traversal
+- [ ] 145	Binary Tree Postorder Traversal
 - [ ] 102	Binary Tree Level Order Traversal
 
 ### Preorder			
 - [ ] 100	Same Tree		
 - [ ] 101	Symmetric Tree		
-- [ ] 226	Invert Binary Tree (pre-order + BFS)
+- [ ] 226	Invert Binary Tree <!--pre-order + BFS-->
 - [ ] 257	Binary Tree Paths		
 - [ ] 112	Path Sum		
 - [ ] 113	Path Sum II		
@@ -235,26 +236,26 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 124	Binary Tree Maximum Path Sum		
 - [ ] 250	Count Univalue Subtrees		
 - [ ] 366	Find Leaves of Binary Tree		
-- [ ] 337	House Robber III (postorder + preorder)
+- [ ] 337	House Robber III <!--postorder + preorder-->
 
 ### BFS 			
 - [ ] 107	Binary Tree Level Order Traversal II		
 - [ ] 103	Binary Tree Zigzag Level Order Traversal		
-- [ ] 199	Binary Tree Right Side View	(BFS + preorder)
+- [ ] 199	Binary Tree Right Side View	<!--BFS + preorder-->
 
 ### BST			
-- [ ] 98	Validate Binary Search Tree (pre-order)
-- [ ] 235	Lowest Common Ancestor of a Binary Search Tree (pre-order)
-- [ ] 236	Lowest Common Ancestor of a Binary Tree	(post-order)
-- [ ] 108	Convert Sorted Array to Binary Search Tree (binary search)
-- [ ] 109	Convert Sorted List to Binary Search Tree (binary search)
-- [ ] 173	Binary Search Tree Iterator	(inorder)
-- [ ] 230	Kth Smallest Element in a BST	(inorder)
-- [ ] 297	Serialize and Deserialize Binary Tree (BFS)
-- [ ] 285	Inorder Successor in BST (inorder)
-- [ ] 270	Closest Binary Search Tree Value (preorder)
-- [ ] 272	Closest Binary Search Tree Value II (inorder)
-- [ ] 99	Recover Binary Search Tree (inorder)
+- [ ] 98	Validate Binary Search Tree <!--pre-order-->
+- [ ] 235	Lowest Common Ancestor of a Binary Search Tree <!--pre-order-->
+- [ ] 236	Lowest Common Ancestor of a Binary Tree	<!--post-order-->
+- [ ] 108	Convert Sorted Array to Binary Search Tree <!--binary search-->
+- [ ] 109	Convert Sorted List to Binary Search Tree <!--binary search-->
+- [ ] 173	Binary Search Tree Iterator	<!--inorder-->
+- [ ] 230	Kth Smallest Element in a BST	<!--inorder-->
+- [ ] 297	Serialize and Deserialize Binary Tree <!--BFS-->
+- [ ] 285	Inorder Successor in BST <!--inorder-->
+- [ ] 270	Closest Binary Search Tree Value <!--preorder-->
+- [ ] 272	Closest Binary Search Tree Value II <!--inorder-->
+- [ ] 99	Recover Binary Search Tree <!--inorder-->
 
 ### Others
 
@@ -265,10 +266,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 222	Count Complete Tree Nodes		
 - [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal		
 - [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
-- [ ] 116	Populating Next Right Pointers in Each Node (!)
-- [ ] 117	Populating Next Right Pointers in Each Node II (!)
-- [ ] 314	Binary Tree Vertical Order Traversal (!)
-- [ ] 96	Unique Binary Search Trees (!)
+- [ ] 116	Populating Next Right Pointers in Each Node <!--!-->
+- [ ] 117	Populating Next Right Pointers in Each Node II <!--!-->
+- [ ] 314	Binary Tree Vertical Order Traversal <!--!-->
+- [ ] 96	Unique Binary Search Trees <!--!-->
 - [ ] 95	Unique Binary Search Trees II		
 - [ ] 331	Verify Preorder Serialization of a Binary Tree		
 
@@ -280,12 +281,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 39	Combination Sum		
 - [ ] 40	Combination Sum II		
 - [ ] 216	Combination Sum III		
-- [ ] 377	Combination Sum IV (dp)
+- [ ] 377	Combination Sum IV <!--DP-->
 - [ ] 254	Factor Combinations		
 - [ ] 46	Permutations		
 - [ ] 47	Permutations II		
-- [ ] 31	Next Permutation (String)
-- [ ] 60	Permutation Sequence (String)
+- [ ] 31	Next Permutation <!--String-->
+- [ ] 60	Permutation Sequence <!--String-->
 - [ ] 291	Word Pattern II		
 - [ ] 17	Letter Combinations of a Phone Number		
 - [ ] 320	Generalized Abbreviation		
@@ -316,7 +317,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 174	Dungeon Game		
 - [ ] 221	Maximal Square		
 - [ ] 85	Maximal Rectangle		
-- [ ] 363	Max Sum of Rectangle No Larger Than K (TreeSet)
+- [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
 
 ### Reduction 			
 - [ ] 198	House Robber		
@@ -422,8 +423,8 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Priority queue			
 - [ ] 215	Kth Largest Element in an Array		
 - [ ] 347	Top K Frequent Elements		
-- [ ] 313	Super Ugly Number (low frequency)
-- [ ] 373	Find K Pairs with Smallest Sums (low frequency)
+- [ ] 313	Super Ugly Number <!--low frequency-->
+- [ ] 373	Find K Pairs with Smallest Sums <!--low frequency-->
 - [ ] 218	The Skyline Problem		
 - [ ] 332	Reconstruct Itinerary		
 - [ ] 341	Flatten Nested List Iterator
@@ -448,9 +449,9 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 13. Topological Sort
 
-- [x] 207	Course Schedule	(to-do: BFS + indegree)
-- [x] 210	Course Schedule II (to-do: BFS + indegree)		
-- [x] 269	Alien Dictionary (to-do: time & space complexity)
+- [x] 207	Course Schedule	<!--to-do: BFS + indegree-->
+- [x] 210	Course Schedule II <!--to-do: BFS + indegree-->		
+- [x] 269	Alien Dictionary <!--to-do: time & space complexity-->
 
 ## 14. Random
 
@@ -470,10 +471,10 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Computer graphics		
 - [ ] 149	Max Points on a Line		
-- [ ] 335	Self Crossing		(low frequency)
-- [ ] 356	Line Reflection		(low frequency)
-- [ ] 391	Perfect Rectangle		(low frequency)
-- [ ] 223	Rectangle Area		(low frequency)
+- [ ] 335	Self Crossing		<!--low frequency-->
+- [ ] 356	Line Reflection		<!--low frequency-->
+- [ ] 391	Perfect Rectangle		<!--low frequency-->
+- [ ] 223	Rectangle Area		<!--low frequency-->
 
 ## 16. Union Find
 
@@ -484,30 +485,30 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 17. Trie
 
 - [x] 211	Add and Search Word - Data structure design
-- [x] 208	Implement Trie (Prefix Tree)		
-- [x] 212	Word Search II (Challenging, DFS)
+- [x] 208	Implement Trie <!--Prefix Tree-->		
+- [x] 212	Word Search II <!--DFS--> :star:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
-- [x] 642	Design Search Autocomplete System (Hard!)
-- [x] 421 Maximum XOR of Two Numbers in an Array (bit manipulation, challenging)
+- [x] 642	Design Search Autocomplete System :star::star:
+- [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:star:
 - [ ] 425 Word Squares
 
 ## 18. Design
 
 - [ ] 359	Logger Rate Limiter		
-- [ ] 346	Moving Average from Data Stream		Sliding Window
+- [ ] 346	Moving Average from Data Stream <!--Sliding Window-->
 - [ ] 362	Design Hit Counter		
 - [ ] 281	Zigzag Iterator		
 - [ ] 284	Peeking Iterator		
 - [ ] 251	Flatten 2D Vector		
 - [ ] 288	Unique Word Abbreviation		
-- [ ] 170	Two Sum III (Data structure design)		
+- [ ] 170	Two Sum III <!--Data structure design-->		
 - [ ] 348	Design Tic-Tac-Toe		
 - [ ] 379	Design Phone Directory		
 - [ ] 353	Design Snake Game		
 - [ ] 146	LRU Cache		
 - [ ] 355	Design Twitter		
-- [ ] 303	Range Sum Query (Immutable)		
+- [ ] 303	Range Sum Query (Immutable)
 - [ ] 304	Range Sum Query 2D (Immutable)		
 - [ ] 307	Range Sum Query (Mutable) BIT & ST
-- [ ] 308	Range Sum Query 2D (Mutable)		BIT & ST
+- [ ] 308	Range Sum Query 2D (Mutable) BIT & ST

@@ -1,7 +1,7 @@
 class Solution {
     public int minPatches(int[] nums, int n) {
         int count = 0;
-        long missing = 1; // note 2
+        long missing = 1;
         int i = 0;
         while (missing <= n) {
             if (i < nums.length && nums[i] <= missing) {
@@ -17,8 +17,8 @@ class Solution {
 }
 
 /**
-* performance: 1ms < 40%, 48 MB <6%.
-* tag: greedy
-* notes: 1. 
-        2. use long type for missing to avoid overflow
-*/
+ * performance: 0 ms < 100%, 39 MB < 50%.
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * notes: greedy; overflow!
+ */

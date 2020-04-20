@@ -2,12 +2,13 @@
 
 ***
 ## Sorting Algorithms
-
+***
 ### Elementary sorting algorithms
 
 * selection sort:
 * bubble sort: $O(n^2)$, best-case $O(n)$
 * insertion sort: stable, best-case $O(n)$
+***
 
 ### Merge-sort
 
@@ -24,6 +25,7 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 
 #### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
+***
 
 ### Quicksort
 
@@ -68,11 +70,13 @@ Proof. Rough count of number of compares is
 
 #### 3-way quicksort (duplicate keys)
 
-
+***
+### Bucket sort
 
 
 ***
 ## Priority Queue
+***
 
 ### Priority queue API
 
@@ -106,7 +110,7 @@ Proof. Rough count of number of compares is
 
 ***
 ## Symbol Table
-
+***
 ### Binary search tree (BST)
 > A *binary search tree* is a binary  tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
@@ -130,6 +134,7 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ***
 ## Graphs
+***
 
 ### Digraphs
 
@@ -140,7 +145,7 @@ Implementation: adjacency-lists representation.
 |list of edges|E|1|E|E|E|E|
 |adjacency matrix|$V^2$|1|1|V|V|
 |adjacency-lists|V+E|E|outdeg(v)|outdeg(v)|V+E|
-***
+
 
 ### DFS and BFS
 DFS and BFS are both digraph algorithms.
@@ -159,6 +164,7 @@ Both DFS and BFS have methods
 * the path to source is always shortest.  
 * the preprocessing uses ```Queue```.
 
+***
 #### Connected components
 Use DFS instead of BFS for simpler code.
 * Compare DFS implementation with the Union and Find.
@@ -172,8 +178,8 @@ Use DFS instead of BFS for simpler code.
 
 ##### Application II: garbage collection
 * Mark-sweep algorithm: ??
-
-#### Topological sort 
+***
+#### Topological sort
 * DAG: directed acyclic graph.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
 * Solution: DFS + postorder stack.
@@ -192,7 +198,7 @@ Use DFS instead of BFS for simpler code.
     - Dequeue vertex v from the queue, decrement the in-degree of all neighbors by 1. Enqueue neighbors whose in-degree became zero after decrement.
     - Repeat last step until queue is empty.
 
-
+***
 #### Kosaraju-Sharir alogrithm for strong connected-components
 Two-pass algorithm:
 
@@ -212,10 +218,10 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 * time complexity: $O(V + E)$
 * space complexity: save the reverse graph $G^R$; $O(V + E)$.
 
----
 
+***
 ## Strings
-
+***
 #### Manacher's algorithm
 ##### Main problems
 Find the number of palindromic substrings or the longest palindromic substring of a given string.
@@ -241,8 +247,7 @@ The right bound ```R = i + P[i]```. Before
 |   P   | 0 | 0 | 1 | 0 | 1 | 4 | 1 | 0 | 0 | 0 | 0  |
 
 
-
-
+***
 #### KMP algorithm
 ##### Main problem
 Searches for occurrences of a "word" ```W``` within a main text string ```S```.
@@ -259,6 +264,7 @@ a mismatch ```W[i] != S[m + i]```, then restart the matching process by setting 
 |   W   | A | B | C | D | A | B | D |   |
 |   T   | -1| 0 | 0 | 0 | -1| 0 | 2 | 0 |
 
+***
 ### Trie
 A *trie* is used to store strings. Each Trie node represents a string (a prefix). Each node might have several children nodes while the paths to different children nodes represent different characters. And the strings the child nodes represent will be the origin string represented by the node itself plus the character on the path.
 
@@ -279,3 +285,8 @@ The size of the array is 26.
   - Search prefix
 
   - Search word: a TrieNode contains a boolean isWord. In insertion process, set the isWord of the last TrieNode to true.
+
+***
+## Miscellany
+***
+### Boyer–Moore majority vote algorithm
