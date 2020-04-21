@@ -7,17 +7,17 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Basic problems
 - [x] 27	Remove Element		
-- [x] [26]  Remove Duplicates from Sorted Array		
-- [x] 80	Remove Duplicates from Sorted Array II :star:
+- [x] [26]  Remove Duplicates from Sorted Array :ok:
+- [x] 80	Remove Duplicates from Sorted Array II :zap:
 - [x] 277	Find the Celebrity		
-- [x] [189]	Rotate Array <!--2 methods--> :star:		
-- [x] [41]	First Missing Positive <!--Bucket-sort--> :star:
-- [x] [299]	Bulls and Cows
-- [x] [134]	Gas Station	:star:
+- [x] [189]	Rotate Array <!--2 methods--> :zap:		
+- [x] [41]	First Missing Positive <!--Bucket-sort--> :zap:
+- [x] [299]	Bulls and Cows :ok:
+- [x] [134]	Gas Station	:zap:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II		
-- [x] [169]	Majority Element <!-- 6 methods! --> :star:		
-- [x] 229	Majority Element II <!-- BM majority vote --> :star:
+- [x] [169]	Majority Element <!-- 6 methods! --> :zap:		
+- [x] 229	Majority Element II <!-- BM majority vote --> :zap:
 - [x] 274	H-Index		
 - [x] 275	H-Index II <!-- Binary Search -->
 - [x] 243	Shortest Word Distance		
@@ -40,7 +40,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
 - [x] 287	Find the Duplicate Number		
 - [x] 135	Candy
-- [x] [330]	Patching Array <!--Greedy; overflow-->		
+- [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
 
 ### Challenging problems
 - [x] 4	  Median of Two Sorted Arrays		
@@ -103,18 +103,18 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 345	Reverse Vowels of a String			
 - [x] 205	Isomorphic Strings <!--easy-->
 - [x] 293	Flip Game	<!--easy-->
-- [x] 294	Flip Game II :star:
+- [x] 294	Flip Game II :zap:
 - [x] 290	Word Pattern <!--easy-->
 - [x] 242	Valid Anagram <!--easy-->		
 - [x] 49  Group Anagrams <!--medium-->
 - [x] 249 Group Shifted Strings <!--medium-->
-- [x] 87  Scramble String :star:
-- [x] 179	Largest Number :star:
+- [x] 87  Scramble String :zap:
+- [x] 179	Largest Number :zap:
 - [x] 6	  Zig-Zag Conversion
-- [x] 161	One Edit Distance	:star:
+- [x] 161	One Edit Distance	:zap:
 - [x] 38	Count and Say		
-- [x] 358	Rearrange String k Distance Apart <!-- PQ --> :star::star:		
-- [x] 316	Remove Duplicate Letters <!-- Stack --> :star:		
+- [x] 358	Rearrange String k Distance Apart <!-- PQ --> :zap::zap:		
+- [x] 316	Remove Duplicate Letters <!-- Stack --> :zap:		
 - [x] 271	Encode and Decode Strings 		
 - [x] 168	Excel Sheet Column Title
 - [x] 171	Excel Sheet Column Number <!-- Math -->
@@ -128,7 +128,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
 - [x] 158	Read N Characters Given Read4 II - Call multiple times <!-- Buffer design -->
-- [x] 68  Text Justification :star::star:
+- [x] 68  Text Justification :zap::zap:
 - [x] 8	  String to Integer (atoi) <!--DFA-->
 - [x] 65  Valid Number <!--DFA-->
 
@@ -146,9 +146,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 125	Valid Palindrome		
 - [x] 266	Palindrome Permutation		
 - [x] 5   Longest Palindromic Substring	<!--3 methods-->
-- [x] 9	  Palindrome Number :star:
-- [x] 214	Shortest Palindrome	<!--KMP-->:star:
-- [ ] 336	Palindrome Pairs <!-- Trie -->:star::star:
+- [x] 9	  Palindrome Number :zap:
+- [x] 214	Shortest Palindrome	<!--KMP-->:zap:
+- [ ] 336	Palindrome Pairs <!-- Trie -->:zap::zap:
 - [x] 131	Palindrome Partitioning <!-- Backtracking-->		
 - [x] 132	Palindrome Partitioning II <!--DP-->
 - [x] 267	Palindrome Permutation II <!--Backtracking-->
@@ -169,16 +169,16 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 3. Math
 
 ### Basic problems
-- [x] 7	  Reverse Integer :star:
+- [x] 7	  Reverse Integer :zap:
 - [x] 165	Compare Version Numbers
 - [x] 66	Plus One
-- [x] 258	Add Digits
-- [ ] 67	Add Binary		
-- [ ] 43	Multiply Strings		
+- [x] 258	Add Digits <!--Digital root formula-->
+- [x] 67	Add Binary <!-- XOR -->
+- [x] 43	Multiply Strings (TO-DO)		
 - [ ] 29	Divide Two Integers		
-- [ ] 69	Sqrt(x)		
-- [ ] 50	Pow(x, n)		
-- [ ] 367	Valid Perfect Square		
+- [ ] 69	Sqrt(x)
+- [ ] 50	Pow(x, n)
+- [ ] 367	Valid Perfect Square
 - [ ] 365	Water and Jug Problem		
 - [ ] 204	Count Primes
 
@@ -486,11 +486,11 @@ The problems are classified into 18 major categories as follows. The problems in
 
 - [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie <!--Prefix Tree-->		
-- [x] 212	Word Search II <!--DFS--> :star:
+- [x] 212	Word Search II <!--DFS--> :zap:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
-- [x] 642	Design Search Autocomplete System :star::star:
-- [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:star:
+- [x] 642	Design Search Autocomplete System :zap::zap:
+- [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:zap:
 - [ ] 425 Word Squares
 
 ## 18. Design

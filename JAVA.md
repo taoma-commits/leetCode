@@ -1,6 +1,7 @@
- # Part I. Primitive Data Type
-
-## Java primitive data types
+***
+## Data types
+***
+### Primitive data types
 
 * ```byte```: 8-bit signed two's complement integer.
 
@@ -18,105 +19,27 @@
 
 * ```char```: a single 16-bit Unicode character.
 
-### Signed binary numbers
+### Non-primitive data type
 
-#### One's complement
-* negate a number: invert all bits.
-* $0$ has tow representations: $0\cdots 0$ and $1\cdots 1$.
+#### Mutability
 
->Example. Consider 4-bit numbers for simplicity.
-$4 = 0100$, $-4 = 1011$.
-The most significant bit represents sign:
-$1$ for negative and $0$ for positive.
-Max value $= 2^3 - 1$ represented as $0111$.
-Min value $= -2^3 + 1$ represented as $1000$.
+* Mutable data types: StringBuilder, Stack, Counter, Java array
+* Immutable data types: String, Integer, Double, Color, Vector, Transaction, Point2D
+* **Keys of priority queues and symbol tables should be immutable**.
 
-#### Two's complement
-* negative a number: invert all bits and add $1$.
-* $0$ has a unique representation: $0\cdots 0$.
-
->Example. Consider 4-bit numbers for simplicity.
-$3 = 0011$, $-3 = 1101$.
-Max value $= 2^3 - 1$ represented as $0111$.
-Min value $= - 2^3$ represented as $1000$.   
-
-
-
-
-## ```int```
-* The default value of ```int``` is 0.
-  - initialize ```int[]```, default elements are 0.
-  - can NOT initialize ```int ``` without assign value.
-
-* Cast ```int``` to ```char```: ```(char) ('0' + digit)```
-* Cast ```int``` to ```String```: ```String.valueOf(digit)```
-
-#### wrapper class ```Integer```
-* ```Integer.valueOf(str)```: convert a string representaion of an integer to ``int```.
-* ```Integer.toString(int n)```
-* ```Integer.toBinaryString(int n)```
-  * ```Integer.toBinaryString(9) = 1001```
-* ```Integer.parseInt(String s)```: parses the string argument as a signed decimal integer.
-
-## ```short```
-
-## ```long```
-
-## ```float```
-
-## ```double```
-
-## ```boolean```
+***
+## Logic
+***
+### ```boolean```
 * The default ```boolean``` is ```false```.
   - initialize ```boolean[]```, default elements are ```false```.
 
-## ```char```
-
-* test whether two characters are equal: ```==``` because ```char``` is primitive data type!
-
-* ```int x = (char) A```,
-then x is the ASCII code of character A.
-* Get ```int``` value of a decimal digit character by ```int y = x -'0'```
-This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
-* ```char``` type automatically casted into ```int``` when involved in arithmetic operations and indexing.
-An important trick: hash letters to ```int[] hash = new int[26]```
-by ```char - 'a'```.
-* single quotes ```' '``` define characters. Double quotes ```" "``` define strings!
-
-#### wrapper class ```Character```
-
-* ```isLetter(char ch)``` determines if the specified character is a letter.
-* ```isLetterOrDigit(char ch)``` determines if the specified character is a letter or digit.
-* ```isLowerCase(char ch)```
-* ```isUpperCase(char ch)```
-* ```toLowerCase(char c)``` returns ```char```
-* ```toUpperCase(char c)``` returns ```char```
-* ```toString(char ch)```
-* ```isWhitespace(char ch)```
-
-## ```byte```
-
-## ```void```
-
-# Part II. Operators
-
-## Logic Operations
+### Logic operations
 
 #### XOR logic operation
 exclusive or = addition modulo 2
 
-## Arithmetic Operations
-
-- modulus: ```a % b == a - (a / b) * b```
-
-  warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
-
-- power: ```double Math.power(b, e)``` returns ```double``` to prevent overflow
-
-
-## Bitwise Operations
-
-#### Bitwise operators
+### Bitwise logic operations
 - bitwise OR |
 - bitwise AND &
 - bitwise XOR ^
@@ -146,15 +69,100 @@ A *mask* or *bitmask* is data that is used for bitwise operations, particularly 
 * querying the status of a bit: AND
 * toggling bitwise value: XOR
 
-# Part III. Non-primitive Data Type
+***
+## Numbers
+***
+### Signed binary numbers
 
-## Mutability
+#### One's complement
+* negate a number: invert all bits.
+* $0$ has tow representations: $0\cdots 0$ and $1\cdots 1$.
 
-* Mutable data types: StringBuilder, Stack, Counter, Java array
-* Immutable data types: String, Integer, Double, Color, Vector, Transaction, Point2D
-* **Keys of priority queues and symbol tables should be immutable**.
+>Example. Consider 4-bit numbers for simplicity.
+$4 = 0100$, $-4 = 1011$.
+The most significant bit represents sign:
+$1$ for negative and $0$ for positive.
+Max value $= 2^3 - 1$ represented as $0111$.
+Min value $= -2^3 + 1$ represented as $1000$.
 
-## String
+#### Two's complement
+* negative a number: invert all bits and add $1$.
+* $0$ has a unique representation: $0\cdots 0$.
+
+>Example. Consider 4-bit numbers for simplicity.
+$3 = 0011$, $-3 = 1101$.
+Max value $= 2^3 - 1$ represented as $0111$.
+Min value $= - 2^3$ represented as $1000$.   
+
+### ```int```
+32-bit signed two's complement integer.
+* The default value of ```int``` is 0.
+  - initialize ```int[]```, default elements are 0.
+  - can NOT initialize ```int ``` without assign value.
+
+* Cast ```int``` to ```char```: ```(char) ('0' + digit)``` ??
+* Cast ```int``` to ```String```: ```String.valueOf(digit)```
+
+### ```Integer```
+The wrapper class of ```int```.
+* ```Integer.valueOf(str)```: convert a string representaion of an integer to ``int```.
+* ```Integer.toString(int n)```
+* ```Integer.toBinaryString(int n)```
+  * ```Integer.toBinaryString(9) = 1001```
+* ```Integer.parseInt(String s, int radix)```: parses the string argument as a signed integer in the radix specified in the second argument.
+  * ```Integer.parseInt(String s)```: parses the string as a signed decimal integer.
+
+### ```BigInteger```
+
+### ```short```
+16-bit signed two's complement integer.
+
+### ```long```
+64-bit signed two's complement integer.
+***
+### ```float```
+single-precision 32-bit IEEE 754 floating point.
+
+### ```double```
+double-precision 64-bit IEEE 754 floating point.
+
+### Arithmetic operations
+
+- modulus: ```a % b == a - (a / b) * b```
+
+  warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
+
+- power: ```double Math.power(b, e)``` returns ```double``` to prevent overflow
+
+***
+## Characters and Strings
+***
+
+### ```char```
+
+* test whether two characters are equal: ```==``` because ```char``` is primitive data type!
+
+* ```int x = (char) A```,
+then x is the ASCII code of character A.
+* Get ```int``` value of a decimal digit character by ```int y = x -'0'```
+This is because the ASCII codes of characters '0', '1', ..., '9' are ten consecutive numbers in ascending order.
+* ```char``` type automatically casted into ```int``` when involved in arithmetic operations and indexing.
+An important trick: hash letters to ```int[] hash = new int[26]```
+by ```char - 'a'```.
+* single quotes ```' '``` define characters. Double quotes ```" "``` define strings!
+
+#### wrapper class ```Character```
+
+* ```isLetter(char ch)``` determines if the specified character is a letter.
+* ```isLetterOrDigit(char ch)``` determines if the specified character is a letter or digit.
+* ```isLowerCase(char ch)```
+* ```isUpperCase(char ch)```
+* ```toLowerCase(char c)``` returns ```char```
+* ```toUpperCase(char c)``` returns ```char```
+* ```toString(char ch)```
+* ```isWhitespace(char ch)```
+
+### Strings
 
 * String is **immutable** in Java.
 
@@ -194,12 +202,15 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 * append ```sb.append(char or string)```
 * length ```sb.length()```
-* insert ``` ```
+* insert ```sb.insert(int offset, T t)``` where ```T``` can be any class or primitive type. The string representation of ```t``` is inserted at position ```offset```.
 * replace ```sb.replace(int start, int end, String str)```
 * to string ```sb.toString()```
 * reverse ```sb.reverse()```
 
-## Array
+***
+## Collections
+***
+### Array
 
 * Array sorting:
   - ```Arrays.sort(arr, start_idx, end_idx + 1)```
@@ -215,9 +226,9 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 
 
-## Collections Framework
+### Collections Framework
 
-### Collections
+#### Collections
 * ```binarySearch(List<? extends Comparable<? super T>> list, T key)```
   - The list must be sorted into ascending order according to the natural ordering of its elements (as by the sort(List) method) prior to making this call.
   - *insertion point* is defined as the point at which the key would be inserted into the list:
@@ -225,14 +236,14 @@ data type: ```StringBuilder```: because String type is immutable, we need String
      2. or list.size() if all elements in the list are less than the key.
   - ```binarySearch(list, key)``` returns - insertion point - 1
      if the key is not in the list.
-### Set
+#### Set
 A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 ```Set``` is an interface, can not be instantiated.
 * ```HashSet<T>```
 * ```LinkedHashSet<T>``` ?
 * ```TreeSet<T>``` ?
 
-### List
+#### List
 * append element e to the end:
   ```list.add(E e)```
 * insert e at index i: ```list.add(int i, E e)```   
@@ -251,7 +262,7 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 *
 * remove object: ```list.remove()```
 
-### Stack
+#### Stack
 * initialization:
   ```Stack<Integer> stack = new Stack<>();```
   - parameter accepts only **non-primitive type**
@@ -265,7 +276,7 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
   - ```stack.empty()```
   - ```stack.search(Object o)```
 
-### Deque
+#### Deque
 * initialization:
   - ```new ArrayDeque<E>()```
   - ```new LinkedList<E>()```
@@ -280,23 +291,23 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
   - ```getFirst(e)``` or ```peekFirst(e)```
   -   ```getLast(e)``` or ```peekLast(e)```
 
-### Priority queue
+#### Priority queue
 
 The head of this queue is the **least** element with respect to the specified ordering.
 
-#### Initialize a priority queue
+##### Initialize a priority queue
 * ```PriorityQueue()```
 * ```PriorityQueue(Collection<? extends E> c)```
 * ```PriorityQueue(int initialCapacity, Comparator<? super E> comparator)```
 
-#### Priority queue methods
+##### Priority queue methods
 * Insert a specific element into the priority queue: ```pq.add(E e)``` or ```pq.offer(E e)```
 
 * Retrieves and removes the head of this queue, or returns null if this queue is empty:	```pq.poll()```
 * Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty: ```pq.peek()```
 * Returns an array containing all of the elements in this queue: ```pq.toArray()```
 
-### Map
+#### Map
 
 * search key and value
   - ```map.containsKey(key)```
@@ -316,9 +327,9 @@ The head of this queue is the **least** element with respect to the specified or
 
 
 
-
-# Part IV. Interfaces
-
+***
+## Interfaces
+***
 An *interface* is nothing more than **a list of instance methods**.
 
 ### Comparable interface
