@@ -130,7 +130,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 158	Read N Characters Given Read4 II - Call multiple times <!-- Buffer design -->
 - [x] 68  Text Justification :zap::zap:
 - [x] 8	  String to Integer (atoi) <!--DFA-->
-- [x] 65  Valid Number <!--DFA-->
+- [x] [65]  Valid Number <!--DFA--> :zap:
 
 
 ### Substring			
@@ -175,7 +175,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 258	Add Digits <!--Digital root formula-->
 - [x] 67	Add Binary <!-- XOR -->
 - [x] 43	Multiply Strings (TO-DO)		
-- [ ] 29	Divide Two Integers		
+- [x] 29	Divide Two Integers		
 - [ ] 69	Sqrt(x)
 - [ ] 50	Pow(x, n)
 - [ ] 367	Valid Perfect Square

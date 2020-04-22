@@ -43,8 +43,8 @@ class Solution {
 
 
 /**
- * performance: 3 ms < 67%, 39 MB < 5%
- * tag: regular expression
- * notes: 1. table-driven approach 
- *        2. switch statement
+ * performance: 3 ms < 71%, 39 MB < 50%
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * notes: table-driven approach; switch statement
  */

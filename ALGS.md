@@ -287,6 +287,11 @@ The size of the array is 26.
   - Search word: a TrieNode contains a boolean isWord. In insertion process, set the isWord of the last TrieNode to true.
 
 ***
+### Deterministic finite automaton (DFA)
+
+
+
+***
 ## Miscellany
 ***
 ### Boyer–Moore majority vote algorithm

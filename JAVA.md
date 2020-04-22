@@ -212,6 +212,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 ***
 ### Array
 
+* Initialize array: ```int[] arr = new int[n]{1,2,3,...,n}```
 * Array sorting:
   - ```Arrays.sort(arr, start_idx, end_idx + 1)```
   - ```Arrays.sort(arr, comparator)```
