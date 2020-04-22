@@ -92,7 +92,28 @@ Min value $= -2^3 + 1$ represented as $1000$.
 >Example. Consider 4-bit numbers for simplicity.
 $3 = 0011$, $-3 = 1101$.
 Max value $= 2^3 - 1$ represented as $0111$.
-Min value $= - 2^3$ represented as $1000$.   
+Min value $= - 2^3$ represented as $1000$.
+
+### Bitwise operators
+
+#### Bitwise logic operators
+Let ```a = 5 = 0101(in binary)``` and ```b = 7 = 0111(in binary)```
+* Bitwise OR ```|```: ```a | b``` returns ```0111 = 7```.
+* Bitwise AND ```&```: ```a & b``` returns ```0101 = 5```.
+* Bitwise XOR ```^```: ```a ^ b``` returns ```0010 = 2``` (interpret as the sum without carry).
+* Bitwise complement ```~```: ```~a``` returns ```1010 = -6```!!! (two's complement):
+  - ```5 = 0...0101``` so the bitwise complement in binary representation is ```1...1010```. 
+    This is representation of the negative of ```0...0110``` which is ```6```.
+
+#### Shift operators
+* Signed right shift ```a >> #```: shifts every bit of a to the right by # and fills the voids with the original most significant bit.
+  - ```-10 >> 1 = -5```: ```-10 = 1...10110``` and after shift we get
+    ```111...1011 = - (0...0101) = -5```.
+* Unsigned right shift ```a >>> #```: shifts every bit of a to the right by # and fills 0 on voids left. 
+  - ```10 >>> 1 = 5  = 10 >> 1```  
+  - ```-10 >>> 1 = 2147483643```: ```-10 = 1...10110``` and after shift
+    ```01...1011 = 2^31 - 1 - 4 = 2147483643```.
+* Left shift ```a << #```: shifts every bit of a 
 
 ### ```int```
 32-bit signed two's complement integer.
