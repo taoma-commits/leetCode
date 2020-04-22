@@ -102,18 +102,22 @@ Let ```a = 5 = 0101(in binary)``` and ```b = 7 = 0111(in binary)```
 * Bitwise AND ```&```: ```a & b``` returns ```0101 = 5```.
 * Bitwise XOR ```^```: ```a ^ b``` returns ```0010 = 2``` (interpret as the sum without carry).
 * Bitwise complement ```~```: ```~a``` returns ```1010 = -6```!!! (two's complement):
-  - ```5 = 0...0101``` so the bitwise complement in binary representation is ```1...1010```. 
+  - ```5 = 0...0101``` so the bitwise complement in binary representation is ```1...1010```.
     This is representation of the negative of ```0...0110``` which is ```6```.
 
 #### Shift operators
-* Signed right shift ```a >> #```: shifts every bit of a to the right by # and fills the voids with the original most significant bit.
-  - ```-10 >> 1 = -5```: ```-10 = 1...10110``` and after shift we get
-    ```111...1011 = - (0...0101) = -5```.
-* Unsigned right shift ```a >>> #```: shifts every bit of a to the right by # and fills 0 on voids left. 
+* Signed right shift ```a >> _```: shifts every bit of a to the right by _ and fills the voids with the previous content of the top bit.
+  - ```-10 >> 1 = -5```: ```-10 = 1...10110``` and after shift we get ```1...1011 = - (0...0101) = -5```.
+* ```a >> 1 == a / 2```
+* Unsigned right shift ```a >>> _```: shifts every bit of a to the right by _ and fills 0 on voids left.
   - ```10 >>> 1 = 5  = 10 >> 1```  
   - ```-10 >>> 1 = 2147483643```: ```-10 = 1...10110``` and after shift
     ```01...1011 = 2^31 - 1 - 4 = 2147483643```.
-* Left shift ```a << #```: shifts every bit of a 
+* Left shift ```a << _```: shifts every bit of a by _ and fills 0 on voids left.
+  - ```Integer.MAX_VALUE << 1 = -2```
+* ```a << 1 == 2 * a```
+
+#####  
 
 ### ```int```
 32-bit signed two's complement integer.

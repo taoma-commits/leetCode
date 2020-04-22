@@ -175,7 +175,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 258	Add Digits <!--Digital root formula-->
 - [x] 67	Add Binary <!-- XOR -->
 - [x] 43	Multiply Strings (TO-DO)		
-- [x] 29	Divide Two Integers		
+- [x] 29	Divide Two Integers <!-- Bit-manipulation + binary search -->
 - [ ] 69	Sqrt(x)
 - [ ] 50	Pow(x, n)
 - [ ] 367	Valid Perfect Square
