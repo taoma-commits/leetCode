@@ -176,11 +176,11 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 67	Add Binary <!-- XOR -->
 - [x] 43	Multiply Strings (TO-DO)		
 - [x] 29	Divide Two Integers <!-- Bit-manipulation + binary search -->
-- [ ] 69	Sqrt(x)
-- [ ] 50	Pow(x, n)
-- [ ] 367	Valid Perfect Square
-- [ ] 365	Water and Jug Problem		
-- [ ] 204	Count Primes
+- [x] 69	Sqrt(x) <!-- Newton's method, binary search, recusion + bit manipulation --> :zap:
+- [x] 50	Pow(x, n) :zap:
+- [x] 367	Valid Perfect Square <!-- Newton's method -->
+- [x] 365	Water and Jug Problem		
+- [x] 204	Count Primes
 
 ### Sum			
 - [ ] 1	  Two Sum		
