@@ -26,3 +26,8 @@ Scale with technology: the increase of computational power and memory of compute
 
 ##### 4/10/20
 * Backtracking and stack  
+
+##### 4/23/20
+* The Sieve of Eratosthenes
+
+Time complexity of counting primes less than n by the sieve of Eratosthenes: n * log(log(n))

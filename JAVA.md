@@ -94,6 +94,7 @@ $3 = 0011$, $-3 = 1101$.
 Max value $= 2^3 - 1$ represented as $0111$.
 Min value $= - 2^3$ represented as $1000$.
 
+***
 ### Bitwise operators
 
 #### Bitwise logic operators
@@ -117,8 +118,7 @@ Let ```a = 5 = 0101(in binary)``` and ```b = 7 = 0111(in binary)```
   - ```Integer.MAX_VALUE << 1 = -2```
 * ```a << 1 == 2 * a```
 
-#####  
-
+***
 ### ```int```
 32-bit signed two's complement integer.
 * The default value of ```int``` is 0.
@@ -137,27 +137,30 @@ The wrapper class of ```int```.
 * ```Integer.parseInt(String s, int radix)```: parses the string argument as a signed integer in the radix specified in the second argument.
   * ```Integer.parseInt(String s)```: parses the string as a signed decimal integer.
 
-### ```BigInteger```
+### Class BigInteger
 
 ### ```short```
 16-bit signed two's complement integer.
 
 ### ```long```
 64-bit signed two's complement integer.
-***
+
 ### ```float```
 single-precision 32-bit IEEE 754 floating point.
 
 ### ```double```
 double-precision 64-bit IEEE 754 floating point.
+***
 
 ### Arithmetic operations
 
-- modulus: ```a % b == a - (a / b) * b```
+* modulus: ```a % b == a - (a / b) * b```
 
   warning: ```-1 % b = -1```. To always get positive remainder, use ```(a % b + b) % b``` instead of ```a % b```.
 
-- power: ```double Math.power(b, e)``` returns ```double``` to prevent overflow
+#### Class Math
+* power: ```double Math.power(b, e)``` returns ```double``` to prevent overflow
+* square root: ```double Math.sqrt(double a)``` returns the correctly rounded positive square root  of a double value.
 
 ***
 ## Characters and Strings
@@ -254,7 +257,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 
 ### Collections Framework
 
-#### Collections
+#### Class Collections
 * ```binarySearch(List<? extends Comparable<? super T>> list, T key)```
   - The list must be sorted into ascending order according to the natural ordering of its elements (as by the sort(List) method) prior to making this call.
   - *insertion point* is defined as the point at which the key would be inserted into the list:
@@ -262,14 +265,14 @@ data type: ```StringBuilder```: because String type is immutable, we need String
      2. or list.size() if all elements in the list are less than the key.
   - ```binarySearch(list, key)``` returns - insertion point - 1
      if the key is not in the list.
-#### Set
+#### Class Set
 A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 ```Set``` is an interface, can not be instantiated.
 * ```HashSet<T>```
 * ```LinkedHashSet<T>``` ?
 * ```TreeSet<T>``` ?
 
-#### List
+#### Class List
 * append element e to the end:
   ```list.add(E e)```
 * insert e at index i: ```list.add(int i, E e)```   

@@ -180,13 +180,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 50	Pow(x, n) :zap:
 - [x] 367	Valid Perfect Square <!-- Newton's method -->
 - [x] 365	Water and Jug Problem		
-- [x] 204	Count Primes
+- [x] 204	Count Primes <!--sieve of Eratosthenes-->
 
 ### Sum			
-- [ ] 1	  Two Sum		
-- [ ] 167	Two Sum II - Input array is sorted		
-- [ ] 15	3Sum		
-- [ ] 16	3Sum Closest		
+- [x] [1]	Two Sum :zap:		
+- [x] [167]	Two Sum II - Input array is sorted :ok:		
+- [x] 15	3Sum		
+- [x] 16	3Sum Closest		
 - [ ] 259	3Sum Smaller		
 - [ ] 18	4Sum		
 
