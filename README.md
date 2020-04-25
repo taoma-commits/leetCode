@@ -187,8 +187,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [167]	Two Sum II - Input array is sorted :ok:		
 - [x] 15	3Sum		
 - [x] 16	3Sum Closest		
-- [ ] 259	3Sum Smaller		
-- [ ] 18	4Sum		
+- [x] 259	3Sum Smaller		
+- [x] 18	4Sum		
 
 ### Low frequency problems
 - [ ] 231	Power of Two		
