@@ -176,7 +176,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 67	Add Binary <!-- XOR -->
 - [x] 43	Multiply Strings (TO-DO)		
 - [x] 29	Divide Two Integers <!-- Bit-manipulation + binary search -->
-- [x] 69	Sqrt(x) <!-- Newton's method, binary search, recusion + bit manipulation --> :zap:
+- [x] 69	Sqrt(x) <!-- Newton's method, binary search, recursion + bit manipulation --> :zap:
 - [x] 50	Pow(x, n) <!-- fast exponentiation -->:zap:
 - [x] 367	Valid Perfect Square <!-- Newton's method -->
 - [x] 365	Water and Jug Problem		
@@ -194,7 +194,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 231	Power of Two <!--bit manipulation--> :zap:
 - [x] 326	Power of Three <!-- -->
 - [x] 342	Power of Four
-- [ ] 372	Super Pow <!-fast exponentiation-->:zap:
+- [ ] 372	Super Pow <!--fast exponentiation; number theory-->:zap:
 - [ ] 233	Number of Digit One		
 - [ ] 319	Bulb Switcher		
 - [ ] 292	Nim Game		

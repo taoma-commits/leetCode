@@ -229,7 +229,7 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 * Crossing edge: an edge connects a vertex from one set to a vertex in the other.
 * Cut property: given any cut, the minimum crossing edge is in MST.
 
-##### Greedy algorithm computing MST
+##### Greedy algorithm
 > Step 1: all edges grey at the beginning
   Step 2: find a cut contains no black edge; color minimum crossing edge black
   Step 3: repeat step 2 until V - 1 edges are black
@@ -310,3 +310,16 @@ The size of the array is 26.
 ## Miscellany
 ***
 ### Boyer–Moore majority vote algorithm
+
+***
+### Math
+
+#### Fast exponentiation
+
+#### Bit manipulation
+* ```x & (x - 1)```
+* ```x & -x```
+
+***
+
+###
