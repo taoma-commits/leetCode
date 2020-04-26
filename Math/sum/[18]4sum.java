@@ -7,11 +7,14 @@ class Solution {
     int max = Math.max(target, 0);
     Arrays.sort(nums);
     if (nums[0] > max || nums[n - 1] < min) return res;
+    if (nums[0] + nums[1] + nums[2] + nums[3] > target || nums[n - 1] + nums[n - 2] + nums[n - 3] + nums[n - 4] < target) return res;
     for (int i = 3; i < n; i++) {
       if (i < n - 1 && nums[i] == nums[i + 1]) continue;
+      if (nums[i] + nums[i - 1] + nums[i - 2] + nums[i - 3] < target) continue;
       for (int j = i - 1; j > 1; j--) {
         if (j < i - 1 && nums[j] == nums[j + 1]) continue;
         int twoSum = target - nums[i] - nums[j];
+        if (nums[0] + nums[1] + twoSum > target) continue;
         int l = 0, r = j - 1;
         int L = 0, R = 0;
         while (l < r) {
@@ -39,7 +42,7 @@ class Solution {
 }
 
 /**
- * performance:
- * time complexity:
- * space complexity: 
+ * performance: 9 ms < 65%, 40 MB < 11%
+ * time complexity: O(n^3)
+ * space complexity: O(1)
  */

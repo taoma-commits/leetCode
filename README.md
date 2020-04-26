@@ -177,7 +177,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 43	Multiply Strings (TO-DO)		
 - [x] 29	Divide Two Integers <!-- Bit-manipulation + binary search -->
 - [x] 69	Sqrt(x) <!-- Newton's method, binary search, recusion + bit manipulation --> :zap:
-- [x] 50	Pow(x, n) :zap:
+- [x] 50	Pow(x, n) <!-- fast exponentiation -->:zap:
 - [x] 367	Valid Perfect Square <!-- Newton's method -->
 - [x] 365	Water and Jug Problem		
 - [x] 204	Count Primes <!--sieve of Eratosthenes-->
@@ -185,16 +185,16 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Sum			
 - [x] [1]	Two Sum :zap:		
 - [x] [167]	Two Sum II - Input array is sorted :ok:		
-- [x] 15	3Sum		
-- [x] 16	3Sum Closest		
-- [x] 259	3Sum Smaller		
-- [x] 18	4Sum		
+- [x] 15	3Sum <!-- two-pointer -->
+- [x] 16	3Sum Closest <!-- two-pointer -->
+- [x] 259	3Sum Smaller <!-- two-pointer -->
+- [x] 18	4Sum <!-- two-pointer -->		
 
 ### Low frequency problems
-- [ ] 231	Power of Two		
-- [ ] 326	Power of Three		
-- [ ] 342	Power of Four		
-- [ ] 372	Super Pow		
+- [x] 231	Power of Two <!--bit manipulation--> :zap:
+- [x] 326	Power of Three <!-- -->
+- [x] 342	Power of Four
+- [ ] 372	Super Pow <!-fast exponentiation-->:zap:
 - [ ] 233	Number of Digit One		
 - [ ] 319	Bulb Switcher		
 - [ ] 292	Nim Game		

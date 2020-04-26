@@ -214,10 +214,25 @@ Two-pass algorithm:
 
 Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). Correctness proved.
 
-##### Analysis of the K-S algorithm
+##### Computational analysis
 * time complexity: $O(V + E)$
 * space complexity: save the reverse graph $G^R$; $O(V + E)$.
 
+***
+### Minimum spanning trees
+* Tree: connected and acyclic graph
+* Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
+  - the number of edges in $S$ is $V - 1$.
+* MST: given a connected, weighted graph $G$, the minimum spanning tree $S$ of $G$ is the spanning tree whose weight sum is minimum. $S$ is unique if edge weights are distinct.
+
+* Cut: a partition of vertices into two nonempty sets.
+* Crossing edge: an edge connects a vertex from one set to a vertex in the other.
+* Cut property: given any cut, the minimum crossing edge is in MST.
+
+##### Greedy algorithm computing MST
+> Step 1: all edges grey at the beginning
+  Step 2: find a cut contains no black edge; color minimum crossing edge black
+  Step 3: repeat step 2 until V - 1 edges are black
 
 ***
 ## Strings
