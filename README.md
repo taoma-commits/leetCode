@@ -130,7 +130,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 158	Read N Characters Given Read4 II - Call multiple times <!-- Buffer design -->
 - [x] 68  Text Justification :zap::zap:
 - [x] 8	  String to Integer (atoi) <!--DFA-->
-- [x] [65]  Valid Number <!--DFA--> :zap:
+- [x] [65] Valid Number <!--DFA--> :zap:
 
 
 ### Substring			
@@ -194,8 +194,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 231	Power of Two <!--bit manipulation--> :zap:
 - [x] 326	Power of Three <!-- -->
 - [x] 342	Power of Four
+<<<<<<< HEAD
 - [ ] 372	Super Pow <!--fast exponentiation; number theory-->:zap:
 - [ ] 233	Number of Digit One		
+=======
+- [x] 372	Super Pow <!-fast exponentiation-->:zap:
+- [x] 233	Number of Digit One		
+>>>>>>> b764acd4ecd7c102ff28c4b45fdf9c4afde4b5a0
 - [ ] 319	Bulb Switcher		
 - [ ] 292	Nim Game		
 - [ ] 202	Happy Number		
