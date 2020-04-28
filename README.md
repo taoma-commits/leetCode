@@ -202,7 +202,7 @@ The problems are classified into 18 major categories as follows. The problems in
 -->:zap:		
 - [x] 400	Nth Digit
 - [x] [263]	Ugly Number :ok:
-- [x] 264	Ugly Number II <!--priority queue; 3-pointer-->:zap:
+- [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:zap::zap:
 - [ ] 306	Additive Number
 - [ ] 172	Factorial Trailing Zeroes		
 - [ ] 343	Integer Break		

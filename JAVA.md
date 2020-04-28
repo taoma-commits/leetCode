@@ -464,5 +464,9 @@ public class CLASS<T> implements Iterable<T> {
   }
 }
 ```
-
 ### Collection interface
+***
+
+## Static and dynamic binding in java
+
+Association of method call to the method body is known as binding. There are two types of binding: Static Binding that happens at compile time and Dynamic Binding that happens at runtime. [See this thread](https://beginnersbook.com/2013/04/java-static-dynamic-binding/).

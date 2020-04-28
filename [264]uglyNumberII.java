@@ -23,7 +23,7 @@ class Solution {
  * performance: 1 ms < 100%, 37 MB < 8%
  * time complexity: O(1)
  * space complexity: O(1)
- * notes: static variable or method!
+ * notes: static variable or method! Static binding happens in compile time.
  */
 
  class UglyNums {
