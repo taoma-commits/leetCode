@@ -198,11 +198,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 233	Number of Digit One	<!--smart-->:zap:
 - [x] 319	Bulb Switcher		
 - [x] 292	Nim Game		
-- [ ] 202	Happy Number <!--fast-slow pointers-->:zap:		
-- [ ] 400	Nth Digit		
-- [ ] 263	Ugly Number		
-- [ ] 264	Ugly Number II		
-- [ ] 306	Additive Number		
+- [x] 202	Happy Number <!--fast-slow pointers
+-->:zap:		
+- [x] 400	Nth Digit
+- [x] [263]	Ugly Number :ok:
+- [x] 264	Ugly Number II <!--priority queue; 3-pointer-->:zap:
+- [ ] 306	Additive Number
 - [ ] 172	Factorial Trailing Zeroes		
 - [ ] 343	Integer Break		
 - [ ] 396	Rotate Function		
@@ -275,9 +276,9 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 5. Backtracking
 
-- [ ] 78	Subsets		
-- [ ] 90	Subsets II		
-- [ ] 77	Combinations		
+- [ ] 78	Subsets
+- [ ] 90	Subsets II
+- [ ] 77	Combinations
 - [ ] 39	Combination Sum		
 - [ ] 40	Combination Sum II		
 - [ ] 216	Combination Sum III		

@@ -31,3 +31,12 @@ Scale with technology: the increase of computational power and memory of compute
 * The Sieve of Eratosthenes
 
 Time complexity of counting primes less than n by the sieve of Eratosthenes: n * log(log(n))
+
+##### 4/27/20
+[In stackoverflow thread:](https://stackoverflow.com/questions/769963/javas-l-number-long-specification)
+
+>There are specific suffixes for long (e.g. 39832L), float (e.g. 2.4f) and double (e.g. -7.832d).
+If there is no suffix, and it is an integral type (e.g. 5623), it is assumed to be an int. If it is not an integral type (e.g. 3.14159), it is assumed to be a double.
+In all other cases (byte, short, char), you need the cast as there is no specific suffix.
+
+* Floyd's algorithm 

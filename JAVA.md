@@ -144,12 +144,16 @@ The wrapper class of ```int```.
 
 ### ```long```
 64-bit signed two's complement integer.
+* suffix for ```long``` type: ```39832L```
 
 ### ```float```
 single-precision 32-bit IEEE 754 floating point.
+* suffix for ```float``` type: ```2.4f```
 
 ### ```double```
 double-precision 64-bit IEEE 754 floating point.
+* suffix for ```double``` type: ```-7.832d```
+
 ***
 
 ### Arithmetic operations
@@ -322,7 +326,9 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 
 #### Priority queue
 
-The head of this queue is the **least** element with respect to the specified ordering.
+* The head of this queue is the **least** element with respect to the specified ordering.
+
+* A ```PriorityQueue``` allows **duplicate elements**. If you want to ensure that two identical items are never present in the priority queue at the same time the simplest way would be to maintain a separate ```Set``` in parallel with the priority queue.
 
 ##### Initialize a priority queue
 * ```PriorityQueue()```

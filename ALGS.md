@@ -321,5 +321,7 @@ The size of the array is 26.
 * ```x & -x```
 
 ***
-
+### Floyd's algorithm
+Use fast and slow pointers to detect cycle. 
+***
 ###
