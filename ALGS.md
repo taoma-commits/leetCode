@@ -81,11 +81,12 @@ Proof. Rough count of number of compares is
 ### Priority queue API
 
 ### Heap
-> Heap-ordered binary tree: parent's key no smaller than children's keys
+> Heap-ordered binary tree: parent's key **no smaller than** children's keys.
+* Heap allows duplicates.
 * Height of $N$ nodes heap is $\lfloor \lg N\rfloor$: let $n$ be the height of the tree,
     $$\sum_{i = 0}^{n-1} 2^i = 2^n - 1.$$  
 * Array representation
-    * the root is ```arr[1]```, not ```arr[1]```.
+    * the root is ```arr[1]```, not ```arr[0]```.
     * the index of the parent of ```arr[k]``` is ```k / 2```:
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
@@ -165,7 +166,22 @@ Both DFS and BFS have methods
 * the preprocessing uses ```Queue```.
 
 ***
-#### Connected components
+### Connectivity
+
+#### Dynamic connectivity: Union and Find
+* Quick-find:
+* Quick-union:
+* Weighted QU:
+* Weighted QU with path compression:
+
+|algs\cost|init|union|find|
+|:-------:|:--:|:---:|:--:|
+|Quick-find| N | N | 1|
+|Quick-union| N| (worst) N | (worst) N|
+|Weighted QU| N | lg(N) | lg(N) |
+
+
+#### Static connectivity
 Use DFS instead of BFS for simpler code.
 * Compare DFS implementation with the Union and Find.
 
@@ -322,6 +338,6 @@ The size of the array is 26.
 
 ***
 ### Floyd's algorithm
-Use fast and slow pointers to detect cycle. 
+Use fast and slow pointers to detect cycle.
 ***
 ###

@@ -479,9 +479,9 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 16. Union Find
 
-- [ ] 261	Graph Valid Tree		
-- [ ] 323	Number of Connected Components in an Undirected Graph		
-- [ ] 305	Number of Islands II
+- [x] 261	Graph Valid Tree		
+- [x] 323	Number of Connected Components in an Undirected Graph	<!--static connectivity to do DFS-->
+- [ ] 305	Number of Islands II <!--dynamic connectivity-->
 
 ## 17. Trie
 
