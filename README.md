@@ -276,8 +276,8 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## 5. Backtracking
 
-- [ ] 78	Subsets
-- [ ] 90	Subsets II
+- [x] 78	Subsets
+- [x] 90	Subsets II
 - [ ] 77	Combinations
 - [ ] 39	Combination Sum		
 - [ ] 40	Combination Sum II		
@@ -481,7 +481,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 - [x] 261	Graph Valid Tree		
 - [x] 323	Number of Connected Components in an Undirected Graph	<!--static connectivity to do DFS-->
-- [ ] 305	Number of Islands II <!--dynamic connectivity-->
+- [x] 305	Number of Islands II <!--dynamic connectivity-->
 
 ## 17. Trie
 
