@@ -280,8 +280,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 90	Subsets II
 - [x] 77	Combinations
 - [x] 39	Combination Sum		
-- [ ] 40	Combination Sum II		
-- [ ] 216	Combination Sum III		
+- [x] 40	Combination Sum II <!--how to prune-->		
+- [x] 216	Combination Sum III		
 - [ ] 377	Combination Sum IV <!--DP-->
 - [ ] 254	Factor Combinations		
 - [ ] 46	Permutations		
