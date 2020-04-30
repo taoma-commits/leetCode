@@ -282,8 +282,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 39	Combination Sum		
 - [x] 40	Combination Sum II <!--how to prune-->		
 - [x] 216	Combination Sum III		
-- [ ] 377	Combination Sum IV <!--DP-->
-- [ ] 254	Factor Combinations		
+- [x] 377	Combination Sum IV <!--DP; follow-up--> :zap:
+- [x] 254	Factor Combinations		
 - [ ] 46	Permutations		
 - [ ] 47	Permutations II		
 - [ ] 31	Next Permutation <!--String-->
