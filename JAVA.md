@@ -269,6 +269,8 @@ data type: ```StringBuilder```: because String type is immutable, we need String
      2. or list.size() if all elements in the list are less than the key.
   - ```binarySearch(list, key)``` returns - insertion point - 1
      if the key is not in the list.
+
+* ```Collections.swap(list, i, j)```
 #### Class Set
 A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 ```Set``` is an interface, can not be instantiated.

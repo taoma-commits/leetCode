@@ -6,6 +6,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 1. Array
 
 ### Basic problems
+
 - [x] 27	Remove Element		
 - [x] [26]  Remove Duplicates from Sorted Array :ok:
 - [x] 80	Remove Duplicates from Sorted Array II :zap:
@@ -284,7 +285,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 216	Combination Sum III		
 - [x] 377	Combination Sum IV <!--DP; follow-up--> :zap:
 - [x] 254	Factor Combinations		
-- [ ] 46	Permutations		
+- [x] 46	Permutations		
 - [ ] 47	Permutations II		
 - [ ] 31	Next Permutation <!--String-->
 - [ ] 60	Permutation Sequence <!--String-->
