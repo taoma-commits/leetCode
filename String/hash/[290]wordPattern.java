@@ -22,6 +22,6 @@ class Solution {
  * notes: 1. map.getOrDefault(key, default) does NOT put(key, default)
           if key was not stored in hash map.
           2. difference between map.put(key, value) and map.replace(key, value)
- * time complexity:
- * space complexity:
+ * time complexity: O(n)
+ * space complexity: O(n)
  */
