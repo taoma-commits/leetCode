@@ -105,7 +105,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 205	Isomorphic Strings <!--easy-->
 - [x] 293	Flip Game	<!--easy-->
 - [x] 294	Flip Game II :zap:
-- [x] 290	Word Pattern <!--easy-->
+- [x] [290]	Word Pattern <!--easy--> :ok:
 - [x] 242	Valid Anagram <!--easy-->		
 - [x] 49  Group Anagrams <!--medium-->
 - [x] 249 Group Shifted Strings <!--medium-->
@@ -286,10 +286,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 377	Combination Sum IV <!--DP; follow-up--> :zap:
 - [x] 254	Factor Combinations		
 - [x] 46	Permutations		
-- [ ] 47	Permutations II		
-- [ ] 31	Next Permutation <!--String-->
-- [ ] 60	Permutation Sequence <!--String-->
-- [ ] 291	Word Pattern II		
+- [x] 47	Permutations II		
+- [x] 31	Next Permutation <!--String-->
+- [x] 60	Permutation Sequence <!--String-->
+- [x] 291	Word Pattern II		
 - [ ] 17	Letter Combinations of a Phone Number		
 - [ ] 320	Generalized Abbreviation		
 - [ ] 93	Restore IP Addresses		
