@@ -364,6 +364,14 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 
 * Removes all of the mappings from this map: ```map.clear()```
 
+* Initialize a map and add elements by hand
+```
+Map<String, String> map = new HashMap<>() {{
+        put("a", "b");
+        put("c", "d");
+    }};
+```
+
 
 
 ***
