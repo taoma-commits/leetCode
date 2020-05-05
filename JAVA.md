@@ -239,7 +239,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * to string ```sb.toString()```
 * reverse ```sb.reverse()```
 * delete a substring ```sb.delete(int start, int end)```
-* delete a character ```sb.delete(int index)```
+* delete a character ```sb.deleteCharAt(int index)```
 
 ***
 ## Collections
