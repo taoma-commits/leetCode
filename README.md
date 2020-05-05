@@ -289,13 +289,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 47	Permutations II		
 - [x] 31	Next Permutation <!--String-->
 - [x] 60	Permutation Sequence <!--String-->
-<<<<<<< HEAD
-- [ ] 291	Word Pattern II		
-=======
 - [x] 291	Word Pattern II		
->>>>>>> 7b94385fbadce868a5a0079d1e8ce74bb2d89fe6
-- [ ] 17	Letter Combinations of a Phone Number		
-- [ ] 320	Generalized Abbreviation		
+- [x] 17	Letter Combinations of a Phone Number		
+- [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
 - [ ] 93	Restore IP Addresses		
 - [ ] 282	Expression Add Operators		
 - [ ] 140	Word Break II		
