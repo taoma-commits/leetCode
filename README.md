@@ -292,33 +292,33 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
-- [ ] 93	Restore IP Addresses		
-- [ ] 282	Expression Add Operators		
-- [ ] 140	Word Break II		
+- [x] 93	Restore IP Addresses 
+- [ ] 282	Expression Add Operators	
+- [ ] 140	Word Break II
 - [ ] 351	Android Unlock Patterns
 
 ## 6. Dynamic Programming
 
-### One dimensional		
+### One dimensional
 - [ ] 70	Climbing Stairs		
-- [ ] 62	Unique Paths		
-- [ ] 63	Unique Paths II		
+- [ ] 62	Unique Paths
+- [ ] 63	Unique Paths II
 - [ ] 120	Triangle
-- [ ] 279	Perfect Squares		
-- [ ] 139	Word Break		
+- [ ] 279	Perfect Squares
+- [ ] 139	Word Break
 - [ ] 375	Guess Number Higher or Lower II		
-- [ ] 312	Burst Balloons		
+- [ ] 312	Burst Balloons
 - [ ] 322	Coin Change
 
 ### Two dimensional
-- [ ] 256	Paint House		
-- [ ] 265	Paint House II		
-- [ ] 64	Minimum Path Sum		
-- [ ] 72	Edit Distance		
-- [ ] 97	Interleaving String		
-- [ ] 174	Dungeon Game		
-- [ ] 221	Maximal Square		
-- [ ] 85	Maximal Rectangle		
+- [ ] 256	Paint House
+- [ ] 265	Paint House II
+- [ ] 64	Minimum Path Sum
+- [ ] 72	Edit Distance
+- [ ] 97	Interleaving String
+- [ ] 174	Dungeon Game
+- [ ] 221	Maximal Square
+- [ ] 85	Maximal Rectangle
 - [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
 
 ### Reduction 			
