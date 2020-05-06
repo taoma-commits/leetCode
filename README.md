@@ -289,7 +289,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 47	Permutations II		
 - [x] 31	Next Permutation <!--String-->
 - [x] 60	Permutation Sequence <!--String-->
-- [x] 291	Word Pattern II		
+- [x] 291	Word Pattern II
 - [ ] 17	Letter Combinations of a Phone Number		
 - [ ] 320	Generalized Abbreviation		
 - [ ] 93	Restore IP Addresses		
