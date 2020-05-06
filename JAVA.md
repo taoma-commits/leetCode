@@ -225,7 +225,7 @@ where o can be type ```int, long, doulbe, float, char, char[]```
   **Note that two successive splitters create an empty string!**
 * find prefix: ```(boolean) (str).startsWith(prefix)```
 
-#### String builder
+### String builder
 
 data type: ```StringBuilder```: because String type is immutable, we need StringBuilder to modify a string.
 
@@ -238,6 +238,8 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * replace ```sb.replace(int start, int end, String str)```
 * to string ```sb.toString()```
 * reverse ```sb.reverse()```
+* delete a substring ```sb.delete(int start, int end)```
+* delete a character ```sb.deleteCharAt(int index)```
 
 ***
 ## Collections
@@ -361,6 +363,14 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
   - ```map.replace(key, value)``` does nothing if key is not found in map.
 
 * Removes all of the mappings from this map: ```map.clear()```
+
+* Initialize a map and add elements by hand
+```
+Map<String, String> map = new HashMap<>() {{
+        put("a", "b");
+        put("c", "d");
+    }};
+```
 
 
 
