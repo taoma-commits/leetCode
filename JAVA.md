@@ -240,6 +240,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * reverse ```sb.reverse()```
 * delete a substring ```sb.delete(int start, int end)```
 * delete a character ```sb.deleteCharAt(int index)```
+* trancate a StringBuilder ```sb.setLength(int len)```
 
 ***
 ## Collections
