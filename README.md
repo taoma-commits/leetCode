@@ -295,7 +295,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 93	Restore IP Addresses 
 - [ ] 282	Expression Add Operators	
 - [ ] 140	Word Break II
-- [ ] 351	Android Unlock Patterns
+- [x] 351	Android Unlock Patterns
 
 ## 6. Dynamic Programming
 
