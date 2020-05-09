@@ -27,8 +27,8 @@ class Solution {
 
 /**
  * performance: 45 ms < 56%, 36.5 MB < 50% 
- * time complexity:
- * space complexity:
+ * time complexity: O(n!), n < 10
+ * space complexity: O(n), the depth of recursion. 
  */
 
 class Solution {
@@ -94,7 +94,6 @@ class Solution {
 
 /**
  * performance: 8 ms < 97%, 36.5 MB < 50%
- * time complexity:
- * space complexity: 
- * notes: 
+ * time complexity: O(n!), n < 10
+ * space complexity: O(n), the depth of recursion. 
  */
