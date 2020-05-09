@@ -293,7 +293,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 17	Letter Combinations of a Phone Number		
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
 - [x] 93	Restore IP Addresses 
-- [ ] 282	Expression Add Operators	
+- [x] 282	Expression Add Operators :zap::zap:	
 - [ ] 140	Word Break II
 - [x] 351	Android Unlock Patterns
 
