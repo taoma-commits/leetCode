@@ -44,16 +44,16 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
 
 ### Challenging problems
-- [x] 4	  Median of Two Sorted Arrays		
-- [ ] 321	Create Maximum Number		
-- [ ] 327	Count of Range Sum		
+- [x] 4	  Median of Two Sorted Arrays
+- [ ] 321	Create Maximum Number
+- [ ] 327	Count of Range Sum
 - [ ] 289	Game of Life
 
 ### Interval			
-- [ ] 57	Insert Interval		
-- [ ] 56	Merge Intervals		
-- [ ] 252	Meeting Rooms		
-- [ ] 253	Meeting Rooms II		
+- [ ] 57	Insert Interval
+- [ ] 56	Merge Intervals
+- [ ] 252	Meeting Rooms
+- [ ] 253	Meeting Rooms II
 - [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
 
 ### Counter			
@@ -300,9 +300,9 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 6. Dynamic Programming
 
 ### One dimensional
-- [ ] 70	Climbing Stairs		
-- [ ] 62	Unique Paths
-- [ ] 63	Unique Paths II
+- [x] 70	Climbing Stairs		
+- [x] 62	Unique Paths
+- [x] 63	Unique Paths II
 - [ ] 120	Triangle
 - [ ] 279	Perfect Squares
 - [ ] 139	Word Break
