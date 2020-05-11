@@ -304,9 +304,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 62	Unique Paths
 - [x] 63	Unique Paths II
 - [x] 120	Triangle
-- [ ] 279	Perfect Squares
-- [ ] 139	Word Break
-- [ ] 375	Guess Number Higher or Lower II		
+- [x] 279	Perfect Squares <!--static dp-->
+- [x] 139	Word Break
+- [ ] 375	Guess Number Higher or Lower II
 - [ ] 312	Burst Balloons
 - [ ] 322	Coin Change
 
@@ -487,7 +487,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 17. Trie
 
 - [x] 211	Add and Search Word - Data structure design
-- [x] 208	Implement Trie <!--Prefix Tree-->		
+- [x] 208	Implement Trie		
 - [x] 212	Word Search II <!--DFS--> :zap:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
