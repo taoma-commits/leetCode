@@ -294,8 +294,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
 - [x] 93	Restore IP Addresses 
 - [x] 282	Expression Add Operators :zap::zap:	
-- [ ] 140	Word Break II
-- [x] 351	Android Unlock Patterns
+- [x] 140	Word Break II :zap:
+- [x] 351	Android Unlock Patterns :zap:
 
 ## 6. Dynamic Programming
 
@@ -303,7 +303,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 70	Climbing Stairs		
 - [x] 62	Unique Paths
 - [x] 63	Unique Paths II
-- [ ] 120	Triangle
+- [x] 120	Triangle
 - [ ] 279	Perfect Squares
 - [ ] 139	Word Break
 - [ ] 375	Guess Number Higher or Lower II		
