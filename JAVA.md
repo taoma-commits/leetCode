@@ -286,9 +286,26 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
   ```list.add(E e)```
 * insert e at index i: ```list.add(int i, E e)```   
 *
+##### Compare LinkedList and ArrayList
+|   | ArrayList | LinkedList |
+|:-:|:----------:|:---------:|
+|implementation| resize array| doubly linked list|
+|manipulation| slow | fast |
+|interface| List | List & Deque|
+| pro | better for storing | better for manipulation|
 
 ##### ArrayList
 * initialize an ArrayList: ```new ArrayList(collection)```
+* initialize an ArrayList with values: 
+  - ```new ArrayList<T>(Arrays.aslist(obj 1, obj 2, ...))```
+  - ```
+    new ArrayList<T>{
+      {
+        add(obj 1); 
+        add(obj 2);
+      }
+    }
+    ```
 * merge two ArrayLists:
   - ```list1.addAll(list2)```
   - merge without duplicates:
