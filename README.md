@@ -52,8 +52,8 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Interval			
 - [ ] 57	Insert Interval
 - [ ] 56	Merge Intervals
-- [ ] 252	Meeting Rooms
-- [ ] 253	Meeting Rooms II
+- [x] 252	Meeting Rooms <!--TreeMap-->
+- [ ] 253	Meeting Rooms II 
 - [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
 
 ### Counter			
