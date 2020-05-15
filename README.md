@@ -306,7 +306,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 120	Triangle
 - [x] 279	Perfect Squares <!--static dp-->
 - [x] 139	Word Break
-- [ ] 375	Guess Number Higher or Lower II
+- [x] 375	Guess Number Higher or Lower II :zap::zap:
 - [ ] 312	Burst Balloons
 - [ ] 322	Coin Change
 
