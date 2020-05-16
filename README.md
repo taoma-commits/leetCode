@@ -311,8 +311,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 322	Coin Change
 
 ### Two dimensional
-- [ ] 256	Paint House
-- [ ] 265	Paint House II
+- [x] 256	Paint House :zap:
+- [x] 265	Paint House II
 - [ ] 64	Minimum Path Sum
 - [ ] 72	Edit Distance
 - [ ] 97	Interleaving String
