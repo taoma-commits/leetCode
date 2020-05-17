@@ -44,16 +44,16 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
 
 ### Challenging problems
-- [x] 4	  Median of Two Sorted Arrays		
-- [ ] 321	Create Maximum Number		
-- [ ] 327	Count of Range Sum		
+- [x] 4	  Median of Two Sorted Arrays
+- [ ] 321	Create Maximum Number
+- [ ] 327	Count of Range Sum
 - [ ] 289	Game of Life
 
 ### Interval			
-- [ ] 57	Insert Interval		
-- [ ] 56	Merge Intervals		
-- [ ] 252	Meeting Rooms		
-- [ ] 253	Meeting Rooms II		
+- [ ] 57	Insert Interval
+- [ ] 56	Merge Intervals
+- [x] 252	Meeting Rooms <!--TreeMap-->
+- [ ] 253	Meeting Rooms II 
 - [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
 
 ### Counter			
@@ -292,27 +292,34 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
+<<<<<<< HEAD
 - [x] 93	Restore IP Addresses
 - [x] 282	Expression Add Operators :zap::zap:
 - [x] 140	Word Break II <!--dp--> :zap: time complexity?
 - [x] 351	Android Unlock Patterns <!--symmetry--> :zap:
+=======
+- [x] 93	Restore IP Addresses 
+- [x] 282	Expression Add Operators :zap::zap:	
+- [x] 140	Word Break II :zap:
+- [x] 351	Android Unlock Patterns :zap:
+>>>>>>> 679cad4360daddcd866449a3c1714c227bd84618
 
 ## 6. Dynamic Programming
 
 ### One dimensional
-- [ ] 70	Climbing Stairs		
-- [ ] 62	Unique Paths
-- [ ] 63	Unique Paths II
-- [ ] 120	Triangle
-- [ ] 279	Perfect Squares
-- [ ] 139	Word Break
-- [ ] 375	Guess Number Higher or Lower II		
-- [ ] 312	Burst Balloons
-- [ ] 322	Coin Change
+- [x] 70	Climbing Stairs		
+- [x] 62	Unique Paths
+- [x] 63	Unique Paths II
+- [x] 120	Triangle
+- [x] 279	Perfect Squares <!--static dp-->
+- [x] 139	Word Break
+- [x] 375	Guess Number Higher or Lower II :zap::zap:
+- [x] 312	Burst Balloons :zap::zap:
+- [x] 322	Coin Change
 
 ### Two dimensional
-- [ ] 256	Paint House
-- [ ] 265	Paint House II
+- [x] 256	Paint House :zap:
+- [x] 265	Paint House II
 - [ ] 64	Minimum Path Sum
 - [ ] 72	Edit Distance
 - [ ] 97	Interleaving String
@@ -487,7 +494,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 17. Trie
 
 - [x] 211	Add and Search Word - Data structure design
-- [x] 208	Implement Trie <!--Prefix Tree-->		
+- [x] 208	Implement Trie		
 - [x] 212	Word Search II <!--DFS--> :zap:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
