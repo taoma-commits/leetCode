@@ -313,7 +313,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Two dimensional
 - [x] 256	Paint House :zap:
 - [x] 265	Paint House II
-- [ ] 64	Minimum Path Sum
+- [x] 64	Minimum Path Sum
 - [ ] 72	Edit Distance
 - [ ] 97	Interleaving String
 - [ ] 174	Dungeon Game
