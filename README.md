@@ -292,10 +292,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
-- [x] 93	Restore IP Addresses 
-- [x] 282	Expression Add Operators :zap::zap:	
-- [ ] 140	Word Break II
-- [x] 351	Android Unlock Patterns
+- [x] 93	Restore IP Addresses
+- [x] 282	Expression Add Operators :zap::zap:
+- [x] 140	Word Break II <!--dp--> :zap: time complexity?
+- [x] 351	Android Unlock Patterns <!--symmetry--> :zap:
 
 ## 6. Dynamic Programming
 
