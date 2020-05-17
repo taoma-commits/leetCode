@@ -314,7 +314,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 256	Paint House :zap:
 - [x] 265	Paint House II
 - [x] 64	Minimum Path Sum
-- [ ] 72	Edit Distance
+- [x] 72	Edit Distance :zap::zap:
 - [ ] 97	Interleaving String
 - [ ] 174	Dungeon Game
 - [ ] 221	Maximal Square
