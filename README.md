@@ -53,7 +53,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 57	Insert Interval
 - [ ] 56	Merge Intervals
 - [x] 252	Meeting Rooms <!--TreeMap-->
-- [ ] 253	Meeting Rooms II 
+- [ ] 253	Meeting Rooms II
 - [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
 
 ### Counter			
@@ -292,17 +292,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
 - [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
-<<<<<<< HEAD
 - [x] 93	Restore IP Addresses
 - [x] 282	Expression Add Operators :zap::zap:
-- [x] 140	Word Break II <!--dp--> :zap: time complexity?
-- [x] 351	Android Unlock Patterns <!--symmetry--> :zap:
-=======
-- [x] 93	Restore IP Addresses 
-- [x] 282	Expression Add Operators :zap::zap:	
 - [x] 140	Word Break II :zap:
 - [x] 351	Android Unlock Patterns :zap:
->>>>>>> 679cad4360daddcd866449a3c1714c227bd84618
 
 ## 6. Dynamic Programming
 
