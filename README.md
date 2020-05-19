@@ -35,7 +35,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 188	Best Time to Buy and Sell Stock IV		
 - [x] 309	Best Time to Buy and Sell Stock with Cooldown		
 - [x] 11	Container With Most Water	
-- [x] 42	Trapping Rain Water <--! monotonic stack -->
+- [x] [42]	Trapping Rain Water :zap: <!-- monotonic stack; dp; two-pointer;-->
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
