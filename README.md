@@ -315,9 +315,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 265	Paint House II
 - [x] 64	Minimum Path Sum
 - [x] 72	Edit Distance :zap::zap:
-- [ ] 97	Interleaving String
-- [ ] 174	Dungeon Game
-- [ ] 221	Maximal Square
+- [x] 97	Interleaving String
+- [x] 174	Dungeon Game :zap:
+- [x] 221	Maximal Square
 - [ ] 85	Maximal Rectangle
 - [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
 
