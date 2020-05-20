@@ -318,7 +318,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 97	Interleaving String
 - [x] 174	Dungeon Game :zap:
 - [x] 221	Maximal Square
-- [ ] 85	Maximal Rectangle
+- [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
 - [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
 
 ### Reduction 			
