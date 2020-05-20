@@ -5,11 +5,32 @@
 ***
 ### I.1 Compare-based Sorting Algorithms
 
+In a *compare-based sorting algorithm*, one can access information only through compares. 
+
+* Model of computation: decision tree
+* Cost modle: the number of compares
+
+> **Proposition.** Any compare-based sorting algorithm must use at least $\lg (N!) \sim N\lg(N)$ compares in the worst-case.
+
+Proof. The height of decision tree is the worst-case number of compares. 
+
 #### Elementary sorting algorithms
 
-* selection sort:
-* bubble sort: $O(n^2)$, best-case $O(n)$
-* insertion sort: stable, best-case $O(n)$
+* bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run. 
+    * stable 
+    * worst-case $O(n^2)$ 
+    * best-case $O(n)$
+* selection sort: iterate through array. At each index find the min in the rest items and swap. 
+    * not stable
+    * $O(n^2)$
+* insertion sort: in iteration i, swap a[i] with each larger entry to its left (sink down).
+    * stable 
+    * best-case $O(n)$
+    * worst-case $O(n^2)$
+* shell sort: h-sort the array (insertion sort with stride h). 
+    * not stable
+    * complexity: unknown 
+    
 ***
 
 #### Merge-sort
