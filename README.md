@@ -34,8 +34,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 123	Best Time to Buy and Sell Stock III		
 - [x] 188	Best Time to Buy and Sell Stock IV		
 - [x] 309	Best Time to Buy and Sell Stock with Cooldown		
-- [x] 11	Container With Most Water	
-- [x] [42]	Trapping Rain Water :zap: <!-- monotonic stack; dp; two-pointer;-->
+- [x] 11	Container With Most Water		
+- [x] 42	Trapping Rain Water		
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
@@ -315,10 +315,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 265	Paint House II
 - [x] 64	Minimum Path Sum
 - [x] 72	Edit Distance :zap::zap:
-- [x] 97	Interleaving String
+- [X] 97	Interleaving String
 - [x] 174	Dungeon Game :zap:
 - [x] 221	Maximal Square
-- [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
+- [x] 85	Maximal Rectangle <!-- Monotonic Stack --> 
 - [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
 
 ### Reduction 			
@@ -419,14 +419,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 394	Decode String		
 - [ ] 224	Basic Calculator		
 - [ ] 227	Basic Calculator II		
-- [ ] 385	Mini Parser
-
-### Monotonic stack
-- [x] 84  Largest Rectangle in Histogram 
-- [ ] 739 Daily Temperatures
-- [ ] 496 Next Greater Element I
-- [ ] 503 Next Greater Element II
-- [ ] 901 Online Stock Span
+- [ ] 385	Mini Parser		
+- [ ] 84	Largest Rectangle in Histogram
 
 ### Priority queue			
 - [ ] 215	Kth Largest Element in an Array		
@@ -497,7 +491,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 212	Word Search II <!--DFS--> :zap:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
-- [x] 6 Design Search Autocomplete System :zap::zap:
+- [x] 642	Design Search Autocomplete System :zap::zap:
 - [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:zap:
 - [ ] 425 Word Squares
 
