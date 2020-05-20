@@ -1,16 +1,18 @@
 # Algorithms and Data Structures
 
 ***
-## Sorting Algorithms
+## I. Sorting Algorithms
 ***
-### Elementary sorting algorithms
+### I.1 Compare-based Sorting Algorithms
+
+#### Elementary sorting algorithms
 
 * selection sort:
 * bubble sort: $O(n^2)$, best-case $O(n)$
 * insertion sort: stable, best-case $O(n)$
 ***
 
-### Merge-sort
+#### Merge-sort
 
 > **Proposition.** Merge-sort uses at most $N \lg N$ compares and $6N\lg N$ array
 accesses to sort any array of size $N$.
@@ -27,7 +29,7 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
 ***
 
-### Quicksort
+#### Quicksort
 
 Pseudo-code
 
@@ -54,7 +56,7 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 #### Quick-select
 > **Selection algorithm:** given an array of $N$ items, find the $k$-th largest item.
 
-##### Quick-select pseudo code:
+**Quick-select pseudo code**
 
     - random shuffle array;
     - Set lo = 0, hi = N - 1;
@@ -71,16 +73,20 @@ Proof. Rough count of number of compares is
 #### 3-way quicksort (duplicate keys)
 
 ***
-### Bucket sort
+### I.2 Non-comparision Sorting Algorithms
+*** 
 
+#### Bucket sort
+
+#### Counting sort
 
 ***
-## Priority Queue
+## II. Priority Queue
 ***
 
-### Priority queue API
+### II.1 Priority queue API
 
-### Heap
+### II.2 Heap
 > Heap-ordered binary tree: parent's key **no smaller than** children's keys.
 * Heap allows duplicates.
 * Height of $N$ nodes heap is $\lfloor \lg N\rfloor$: let $n$ be the height of the tree,
@@ -91,7 +97,7 @@ Proof. Rough count of number of compares is
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
 
-### Heapsort
+### II.3 Heapsort
     - start with an array in arbitrary order;
     - make each sub-tree in heap order bottom-up;
     - switch the max with the last key in array representation of the heap;
@@ -110,9 +116,9 @@ Proof. Rough count of number of compares is
     - longer inner loop than quick sort: 2 compares.  
 
 ***
-## Symbol Table
+## III. Symbol Table
 ***
-### Binary search tree (BST)
+### III.2 Binary search tree (BST)
 > A *binary search tree* is a binary  tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
 > * smaller than all keys in its right subtree  
@@ -134,10 +140,10 @@ the expected number of compares for a search/insert is $\sim 2\ln N$.
 Pf. 1-1 correspondence with quicksort partitioning
 
 ***
-## Graphs
+## IV. Graphs
 ***
 
-### Digraphs
+### IV.1 Digraphs
 
 Implementation: adjacency-lists representation.
 
@@ -148,7 +154,7 @@ Implementation: adjacency-lists representation.
 |adjacency-lists|V+E|E|outdeg(v)|outdeg(v)|V+E|
 
 
-### DFS and BFS
+### IV.2 DFS and BFS
 DFS and BFS are both digraph algorithms.
 Both DFS and BFS have methods
 * method ```hasPathTo(int v)```: whether v is connected to source vertex.
@@ -166,7 +172,7 @@ Both DFS and BFS have methods
 * the preprocessing uses ```Queue```.
 
 ***
-### Connectivity
+### IV.3 Connectivity
 
 #### Dynamic connectivity: Union and Find
 * Quick-find:
@@ -235,7 +241,7 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 * space complexity: save the reverse graph $G^R$; $O(V + E)$.
 
 ***
-### Minimum spanning trees
+### IV.4 Minimum spanning trees
 * Tree: connected and acyclic graph
 * Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
   - the number of edges in $S$ is $V - 1$.
@@ -251,7 +257,7 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
   Step 3: repeat step 2 until V - 1 edges are black
 
 ***
-## Strings
+## V. Strings
 ***
 #### Manacher's algorithm
 ##### Main problems
