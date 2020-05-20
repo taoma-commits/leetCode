@@ -59,7 +59,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
 - [ ] 295	Find Median from Data Stream		
-- [x] [53]	Maximum Subarray <!-- dp --> 
+- [x] [53]	Maximum Subarray <!-- DP; Prefix Sum --> 
 - [ ] 325	Maximum Size Subarray Sum Equals k
 - [ ] 209	Minimum Size Subarray Sum
 - [ ] 238	Product of Array Except Self
