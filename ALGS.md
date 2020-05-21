@@ -127,6 +127,7 @@ Proof. Rough count of number of compares is
 
 ## II.1 Priority queue API
 
+***
 ## II.2 Heap
 > Heap-ordered binary tree: parent's key **no smaller than** children's keys.
 * Heap allows duplicates.
@@ -137,53 +138,91 @@ Proof. Rough count of number of compares is
     * the index of the parent of ```arr[k]``` is ```k / 2```:
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
-
+    
+***
 ## II.3 Heapsort
     - start with an array in arbitrary order;
     - make each sub-tree in heap order bottom-up;
     - switch the max with the last key in array representation of the heap;
     - delete the last key from the heap, sink max to retain heap order;
     - repeat until the heap is empty;
-* Time complexity of heap sort
-    - heap construction: $< 2N$ compares and switches:
-      the bottom-up process iterates through keys once.
-    - heap sort: $< 2N\lg(N)$ compares and switches.
-* Pros: the **only in-place** sorting algorithm with $2N\lg(N)$ worst-case.
-        Merge sort is not in-place; quick sort has $N^2$ worst-case.
-* Cons:
-    - not stable: does not preserve the starting order of equal keys.
-                  long-distance exchanges break the stability.
-    - long-distance exchanges: poor use of cache while sorting super long array.
-    - longer inner loop than quick sort: 2 compares.  
+    
+**Computational analysis** 
+
+* sink-base heap construction uses less than $2N$ compares and less than $N$ exchanges.
+   - idea of proof: for each node at height k, charge k links for sinking down. Arrange the charge of links so that
+      each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
+      Refer to [proof](https://algs4.cs.princeton.edu/24pq/).
+* heap sort uses less than $2N\lg(N)$ compares and exchanges.
+    
+**Pros**
+
+Heapsort is the **only in-place** sorting algorithm with $2N\lg(N)$ worst-case. 
+Merge sort is not in-place; quick sort has $N^2$ worst-case.
+
+**Cons**
+- not stable: does not preserve the starting order of equal keys.
+               long-distance exchanges break the stability.
+- long-distance exchanges: poor use of cache while sorting super long array.
+- longer inner loop than quick sort: 2 compares.  
 
 ***
 # III. Symbol Table
 ***
+## III.1 Symbol table API 
+
+* search: get and contains
+* insert: put 
+* delete: delete
+
+If keys are comparable, can do binary search and other orderd operations.
+
+**Odered operations**
+
+* min/max
+* floor/ceiling
+* rank
+* select
+* ordered iteration 
+* size
+
+**Binary search implementation**
+
+Maintain an ordered array of key-value pairs. 
+The problem with binary search implementation is that the insertion cost is $O(n)$. 
+To insert, need to shift all greater keys over.
+
+***
 ## III.2 Binary search tree (BST)
-> A *binary search tree* is a binary  tree in symmetric order i.e. every node's key is
+> A *binary search tree* is a binary tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
-> * smaller than all keys in its right subtree  
+> * smaller than all keys in its right subtree 
 
 A node consists of four fields: key, value, pointers to the left and right subtrees.
-
-### Symbol table implementation
-* Search: less go left; greater go right; equal search hit.
-* Insert: less go left; greater go right; null insert.
-* Get:
-* Put:
-
-### Depth of BST
-* Many BSTs correspond to the same set of keys.
 
 > **Proposition**. If $N$ distinct keys are inserted into a BST in random order,
 the expected number of compares for a search/insert is $\sim 2\ln N$.
 
 Pf. 1-1 correspondence with quicksort partitioning
 
+### Symbol table implementation
+
+* Search: less go left; greater go right; equal search hit.
+   -  
+* Insert: less go left; greater go right; null insert.
+   -
+
+### Ordered operations
+
+
+### Hibbard deletion
+
+***
+## III.3 Balanced search trees 
+
 ***
 # IV. Graphs
 ***
-
 ## IV.1 Digraphs
 
 Implementation: adjacency-lists representation.
@@ -194,7 +233,7 @@ Implementation: adjacency-lists representation.
 |adjacency matrix|$V^2$|1|1|V|V|
 |adjacency-lists|V+E|E|outdeg(v)|outdeg(v)|V+E|
 
-
+***
 ## IV.2 DFS and BFS
 DFS and BFS are both digraph algorithms.
 Both DFS and BFS have methods
