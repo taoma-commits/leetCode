@@ -220,6 +220,10 @@ Pf. 1-1 correspondence with quicksort partitioning
 ***
 ## III.3 Balanced search trees 
 
+### 2-3 search trees
+
+### red-black BSTs
+
 ***
 # IV. Graphs
 ***
