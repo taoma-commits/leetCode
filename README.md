@@ -10,18 +10,18 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 27	Remove Element		
 - [x] [26]  Remove Duplicates from Sorted Array :ok:
 - [x] 80	Remove Duplicates from Sorted Array II :zap:
-- [x] 277	Find the Celebrity		
+- [x] 277	Find the Celebrity
 - [x] [189]	Rotate Array <!--2 methods--> :zap:		
 - [x] [41]	First Missing Positive <!--Bucket-sort--> :zap:
 - [x] [299]	Bulls and Cows :ok:
 - [x] [134]	Gas Station	:zap:
 - [x] 118	Pascal's Triangle
-- [x] 119	Pascal's Triangle II		
-- [x] [169]	Majority Element <!-- 6 methods! --> :zap:		
+- [x] 119	Pascal's Triangle II
+- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:	
 - [x] 229	Majority Element II <!-- BM majority vote --> :zap:
-- [x] 274	H-Index		
+- [x] 274	H-Index
 - [x] 275	H-Index II <!-- Binary Search -->
-- [x] 243	Shortest Word Distance		
+- [x] 243	Shortest Word Distance
 - [x] 244	Shortest Word Distance II		
 - [x] 245	Shortest Word Distance III		
 - [x] 217	Contains Duplicate		
@@ -35,7 +35,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 188	Best Time to Buy and Sell Stock IV		
 - [x] 309	Best Time to Buy and Sell Stock with Cooldown		
 - [x] 11	Container With Most Water		
-- [x] 42	Trapping Rain Water		
+- [x] [42] Trapping Rain Water	
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
@@ -322,11 +322,11 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 363	Max Sum of Rectangle No Larger Than K :zap::zap: <!-- TreeSet; Prefix Sum -->
 
 ### Reduction 			
-- [ ] 198	House Robber		
-- [ ] 213	House Robber II		
+- [x] 198	House Robber
+- [x] 213	House Robber II		
 - [ ] 276	Paint Fence		
-- [ ] 91	Decode Ways		
-- [ ] 10	Regular Expression Matching		
+- [ ] 91	Decode Ways
+- [ ] 10	Regular Expression Matching
 - [ ] 44	Wildcard Matching
 
 ## 7. LinkedList
