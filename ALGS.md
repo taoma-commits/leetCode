@@ -1,9 +1,9 @@
 # Algorithms and Data Structures
 
 ***
-## I. Sorting Algorithms
+# I. Sorting Algorithms
 ***
-### I.1 Compare-based Sorting Algorithms
+## I.1 Compare-based Sorting Algorithms
 
 In a *compare-based sorting algorithm*, one can access information only through compares. 
 
@@ -14,7 +14,7 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 Proof. The height of decision tree is the worst-case number of compares. 
 
-#### Elementary sorting algorithms
+### Elementary sorting algorithms
 
 * bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run. 
     * stable 
@@ -33,7 +33,7 @@ Proof. The height of decision tree is the worst-case number of compares.
     
 ***
 
-#### Merge-sort
+### Merge-sort
 
 > **Proposition.** Merge-sort uses at most $N \lg N$ compares and $6N\lg N$ array
 accesses to sort any array of size $N$.
@@ -46,11 +46,11 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 &=\lg N.
 \end{aligned}\]
 
-#### Bottom-up merge-sort
+### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
 ***
 
-#### Quicksort
+### Quicksort
 
 **Pseudo-code**
 
@@ -68,6 +68,9 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
    * If the pointers do not stop at keys equal to partitioning item, then in the worst case in which all keys are equal, the first     pointer would run through the entire array and the partition is out-of-balance. 
    * Instead, the partition is in the middle if the algorithm stop at equal keys in the worst case. 
 
+* Worst-case: array in ascending or descending order. Every partition is out-of-balance. Time complexity $\sim \frac{1}{2}N^2$.
+* Quicksort NOT stable.
+
 > **Porposition.** The average number of compares $C_N$ to quicksort an array of $N$ **distinct** keys is $\sim 2N\ln N$.
 
 Proof. $C_0 = C_1 = 0$. For $N < 2$,
@@ -75,44 +78,56 @@ Proof. $C_0 = C_1 = 0$. For $N < 2$,
 The partition keys are at $0$ to $N - 1$. Solve the general term
 \[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\]
 
-* Worst-case: array in ascending or descending order $\sim \frac{1}{2}N^2$.
-* Quicksort NOT stable:
 
-#### Quick-select
 
-> **Selection algorithm:** given an array of $N$ items, find the $k$-th largest item.
+### Quick-select
 
-**Quick-select pseudo code**
+> **Selection algorithm** given an array of $N$ items, find the $k$-th largest item. 
 
-    - random shuffle array;
+**Pseudo-code**
+
+    - Random shuffle array;
     - Set lo = 0, hi = N - 1;
     - Partition array: partition index j;
     -   if k > j, lo = j + 1;
         if k < j, hi = j - 1;
         if k == j, return item at j;
+    - Repeat in one subarray depending on j.
+    
 
 > **Proposition.** Quick-select takes linear time on average.
 
 Proof. Rough count of number of compares is
 \[N + N/2 + \cdots + 1 \sim 2N. \]
 
-#### 3-way quicksort (duplicate keys)
+### Dijkstra 3-way quicksort 
 
+**Pseudo-code**
+
+    - Random  shuffle array;
+    - Set lo = lt = 0, hi = N;
+    - Scan i from left to right
+         if a[i] < a[lo], swap a[lt] with a[i]; increment both lt and i;
+         if a[i] > a[lo], swap a[gt] with a[i]; decrement gt;
+         if a[i] == a[lo], increment i;
+    - Stop if i > gt;
+    
+    
 ***
-### I.2 Non-comparision Sorting Algorithms
+## I.2 Non-comparision Sorting Algorithms
 *** 
 
-#### Bucket sort
+### Bucket sort
 
-#### Counting sort
+### Counting sort
 
 ***
-## II. Priority Queue
+# II. Priority Queue
 ***
 
-### II.1 Priority queue API
+## II.1 Priority queue API
 
-### II.2 Heap
+## II.2 Heap
 > Heap-ordered binary tree: parent's key **no smaller than** children's keys.
 * Heap allows duplicates.
 * Height of $N$ nodes heap is $\lfloor \lg N\rfloor$: let $n$ be the height of the tree,
@@ -123,7 +138,7 @@ Proof. Rough count of number of compares is
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
 
-### II.3 Heapsort
+## II.3 Heapsort
     - start with an array in arbitrary order;
     - make each sub-tree in heap order bottom-up;
     - switch the max with the last key in array representation of the heap;
@@ -142,22 +157,22 @@ Proof. Rough count of number of compares is
     - longer inner loop than quick sort: 2 compares.  
 
 ***
-## III. Symbol Table
+# III. Symbol Table
 ***
-### III.2 Binary search tree (BST)
+## III.2 Binary search tree (BST)
 > A *binary search tree* is a binary  tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
 > * smaller than all keys in its right subtree  
 
 A node consists of four fields: key, value, pointers to the left and right subtrees.
 
-#### Symbol table implementation
+### Symbol table implementation
 * Search: less go left; greater go right; equal search hit.
 * Insert: less go left; greater go right; null insert.
 * Get:
 * Put:
 
-#### Depth of BST
+### Depth of BST
 * Many BSTs correspond to the same set of keys.
 
 > **Proposition**. If $N$ distinct keys are inserted into a BST in random order,
@@ -166,10 +181,10 @@ the expected number of compares for a search/insert is $\sim 2\ln N$.
 Pf. 1-1 correspondence with quicksort partitioning
 
 ***
-## IV. Graphs
+# IV. Graphs
 ***
 
-### IV.1 Digraphs
+## IV.1 Digraphs
 
 Implementation: adjacency-lists representation.
 
@@ -180,27 +195,27 @@ Implementation: adjacency-lists representation.
 |adjacency-lists|V+E|E|outdeg(v)|outdeg(v)|V+E|
 
 
-### IV.2 DFS and BFS
+## IV.2 DFS and BFS
 DFS and BFS are both digraph algorithms.
 Both DFS and BFS have methods
 * method ```hasPathTo(int v)```: whether v is connected to source vertex.
 * method ```pathTo(int v)```: return a path from v to source vertex.
 
-#### DFS
+### DFS
 
 * simple preprocessing code than BFS.
 * the path is NOT necessarily a geodesic.
 * implementation of ```pathTo(int v)``` replies on ```Stack```.
 
-#### BFS
+### BFS
 
 * the path to source is always shortest.  
 * the preprocessing uses ```Queue```.
 
 ***
-### IV.3 Connectivity
+## IV.3 Connectivity
 
-#### Dynamic connectivity: Union and Find
+### Dynamic connectivity: Union and Find
 * Quick-find:
 * Quick-union:
 * Weighted QU:
@@ -213,21 +228,21 @@ Both DFS and BFS have methods
 |Weighted QU| N | lg(N) | lg(N) |
 
 
-#### Static connectivity
+### Static connectivity
 Use DFS instead of BFS for simpler code.
 * Compare DFS implementation with the Union and Find.
 
-##### Application I: program control-flow analysis
+#### Application I: program control-flow analysis
 * Digraph representation of program:
   - vertex: straight-line program;
   - edge: if statement or loop;
 * Dead code elimination: reachability.
 * Infinite loop detection: is exit reachable.
 
-##### Application II: garbage collection
+#### Application II: garbage collection
 * Mark-sweep algorithm: ??
 ***
-#### Topological sort
+### Topological sort
 * DAG: directed acyclic graph.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
 * Solution: DFS + postorder stack.
@@ -247,13 +262,15 @@ Use DFS instead of BFS for simpler code.
     - Repeat last step until queue is empty.
 
 ***
-#### Kosaraju-Sharir alogrithm for strong connected-components
+### Kosaraju-Sharir alogrithm for strong connected-components
 Two-pass algorithm:
 
   - reverse the graph to $G^R$;
   - compute topological order in $G^R$ by DFS;
   - run DFS in $G$ follow the topological order obtained in the last step. Each DFS finds a strong component.
-##### Proof of correctness
+  
+**Proof of correctness**
+
 **Lemma.** Let $C$ be a strong component of a digraph $G$, and $v$ be a vertex not in $C$. If there is an edge $e$ from $v$ to a vertex in $C$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G$.
 
 **Proof of Lemma**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$.
@@ -262,12 +279,12 @@ Two-pass algorithm:
 
 Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). Correctness proved.
 
-##### Computational analysis
+#### Computational analysis
 * time complexity: $O(V + E)$
 * space complexity: save the reverse graph $G^R$; $O(V + E)$.
 
 ***
-### IV.4 Minimum spanning trees
+## IV.4 Minimum spanning trees
 * Tree: connected and acyclic graph
 * Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
   - the number of edges in $S$ is $V - 1$.
@@ -277,16 +294,16 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 * Crossing edge: an edge connects a vertex from one set to a vertex in the other.
 * Cut property: given any cut, the minimum crossing edge is in MST.
 
-##### Greedy algorithm
+#### Greedy algorithm
 > Step 1: all edges grey at the beginning
   Step 2: find a cut contains no black edge; color minimum crossing edge black
   Step 3: repeat step 2 until V - 1 edges are black
 
 ***
-## V. Strings
+# V. Strings
 ***
-#### Manacher's algorithm
-##### Main problems
+### Manacher's algorithm
+#### Main problems
 Find the number of palindromic substrings or the longest palindromic substring of a given string.
 Given string ```S``` of length ```n```, transform ```S``` to string ```T``` of length ```2n + 3``` by separating two consecutive characters by a single ```'#'```
 and padding front and end of the result by a ```'^'``` and a ```'$'```.
@@ -298,7 +315,7 @@ Define ```P[i]``` as the radius of the largest odd-length palindromic substring 
             - Otherwise, P[i] = 0.
             - Central expand P[i].
             - If P[i] + i > R, set center = i and R = P[i] + i.
-##### An example
+#### An example
 ```
 S = "abba"
 T = "^#a#b#b#a#$"
@@ -311,16 +328,16 @@ The right bound ```R = i + P[i]```. Before
 
 
 ***
-#### KMP algorithm
-##### Main problem
+### KMP algorithm
+#### Main problem
 Searches for occurrences of a "word" ```W``` within a main text string ```S```.
-##### Partial-match table
+#### Partial-match table
 For a string ```W``` of length ```n``` define ```T(i)``` to be the length of the longest possible proper prefix of W which is also a proper suffix of the substring ending at ```W[i - 1]```.
 
 Let ```m``` be the position within ```S``` where the prospective match for ```W``` begins. Let ```i``` be the index of word ```W```.
 If the algorithm reaches index ```i``` and finds
 a mismatch ```W[i] != S[m + i]```, then restart the matching process by setting  ```m = m + i - T(i)``` and ```i = 0```.
-##### An example
+#### An example
 
 | index | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -328,20 +345,20 @@ a mismatch ```W[i] != S[m + i]```, then restart the matching process by setting 
 |   T   | -1| 0 | 0 | 0 | -1| 0 | 2 | 0 |
 
 ***
-### Trie
+## Trie
 A *trie* is used to store strings. Each Trie node represents a string (a prefix). Each node might have several children nodes while the paths to different children nodes represent different characters. And the strings the child nodes represent will be the origin string represented by the node itself plus the character on the path.
 
 The root node is associated with the empty string.
 
 All the descendants of a node have a common prefix of the string associated with that node.
-#### Trie representations
+### Trie representations
 * ```array```: the children of a Trie node is an array of Trie nodes.
 The size of the array is 26.  
   - fast access but waste space.
 
 * ```HashMap```: the children of a Trie node is a ```HashMap<character, TrieNode>```.
   - slower but space-saving and more flexible.
-#### Trie operations
+### Trie operations
 * Insertion
 
 * Search
@@ -350,26 +367,26 @@ The size of the array is 26.
   - Search word: a TrieNode contains a boolean isWord. In insertion process, set the isWord of the last TrieNode to true.
 
 ***
-### Deterministic finite automaton (DFA)
+## Deterministic finite automaton (DFA)
 
 
 
 ***
-## Miscellany
+# Miscellany
 ***
-### Boyer–Moore majority vote algorithm
+## Boyer–Moore majority vote algorithm
 
 ***
-### Math
+## Math
 
-#### Fast exponentiation
+### Fast exponentiation
 
-#### Bit manipulation
+### Bit manipulation
 * ```x & (x - 1)```
 * ```x & -x```
 
 ***
-### Floyd's algorithm
+## Floyd's algorithm
 Use fast and slow pointers to detect cycle.
 ***
-###
+
