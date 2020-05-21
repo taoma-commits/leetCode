@@ -324,7 +324,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Reduction 			
 - [x] 198	House Robber
 - [x] 213	House Robber II		
-- [ ] 276	Paint Fence		
+- [x] 276	Paint Fence		
 - [ ] 91	Decode Ways
 - [ ] 10	Regular Expression Matching
 - [ ] 44	Wildcard Matching
