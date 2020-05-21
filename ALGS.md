@@ -52,17 +52,21 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 
 #### Quicksort
 
-Pseudo-code
+**Pseudo-code**
 
     - randomly shuffle array;
     - set lo = 0; hi = N;
-    - Partition(lo, hi)
-        compare arr[lo] with arr[i]
-        compare arr[lo] with ar[j]
+    - scan i from left to right so long as a[i] < a[lo];
+    - scan j from right to left so long as a[j] > a[lo];
+    - exchange a[i] with a[j];
+    - repeat until i and j cross. Swap a[lo] and a[j];
     - recursion: quicksort(lo, j), quicksort(j, hi)
 
 
-* Equal keys: stop at keys that are equal to partition key. Avoid worst-case quicksort.
+* Equal keys: both pointers stop at keys that are equal to partition key.
+   * Costs more exchanges.
+   * If the pointers do not stop at keys equal to partitioning item, then in the worst case in which all keys are equal, the first     pointer would run through the entire array and the partition is out-of-balance. 
+   * Instead, the partition is in the middle if the algorithm stop at equal keys in the worst case. 
 
 > **Porposition.** The average number of compares $C_N$ to quicksort an array of $N$ **distinct** keys is $\sim 2N\ln N$.
 
@@ -75,6 +79,7 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 * Quicksort NOT stable:
 
 #### Quick-select
+
 > **Selection algorithm:** given an array of $N$ items, find the $k$-th largest item.
 
 **Quick-select pseudo code**
