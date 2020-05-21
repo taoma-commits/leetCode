@@ -208,9 +208,8 @@ Pf. 1-1 correspondence with quicksort partitioning
 ### Symbol table implementation
 
 * Search: less go left; greater go right; equal search hit.
-   -  
-* Insert: less go left; greater go right; null insert.
-   -
+ * Insert: less go left; greater go right; null insert.
+
 
 ### Ordered operations
 
