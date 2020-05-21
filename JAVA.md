@@ -397,8 +397,20 @@ Map<String, String> map = new HashMap<>() {{
         put("c", "d");
     }};
 ```
+**Two implementations**
+
+| | key interface | ordering | inherited interface |
+|:-:|:-:|:-:|:-:|
+|`HashMap`| `equals()`, `hashCode()` | not sorted | `Map` |
+|`TreeMap`| `compareTo()` | keys sorted | `Map`, `NagivableMap`, `SortedMap` |
 
 
+**Odered operations**
+
+* `floorKey(K key)`: Returns the greatest key less than or equal to the given key, or null if there is no such key.
+* `ceilingKey(K key)`: Returns the least key greater than or equal to the given key, or null if there is no such key.
+* `lastKey()`: Returns the last (highest) key currently in this map.
+* `firstKey()`: Returns the first (lowest) key currently in this map.
 
 ***
 ## Interfaces
