@@ -291,7 +291,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 60	Permutation Sequence <!--String-->
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
-- [x] 320	Generalized Abbreviation <!--all-in-one backtracking--> :zap::zap:		
+- [x] 320	Generalized Abbreviation :zap::zap: <!--all-in-one backtracking--> 		
 - [x] 93	Restore IP Addresses
 - [x] 282	Expression Add Operators :zap::zap:
 - [x] 140	Word Break II :zap:
@@ -319,7 +319,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 174	Dungeon Game :zap:
 - [x] 221	Maximal Square
 - [x] 85	Maximal Rectangle <!-- Monotonic Stack --> 
-- [ ] 363	Max Sum of Rectangle No Larger Than K <!--TreeSet-->
+- [x] 363	Max Sum of Rectangle No Larger Than K :zap::zap: <!-- TreeSet; Prefix Sum -->
 
 ### Reduction 			
 - [ ] 198	House Robber		
