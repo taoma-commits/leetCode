@@ -12,7 +12,7 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 > **Proposition.** Any compare-based sorting algorithm must use at least $\lg (N!) \sim N\lg(N)$ compares in the worst-case.
 
-Proof. The height of decision tree is the worst-case number of compares. 
+Proof. The height of decision tree is the worst-case number of compares. :coffee:
 
 ### Elementary sorting algorithms
 
@@ -45,6 +45,7 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 &=\cdots = C(N/2^{\lg N})/ (N/2^{\lg N}) + \lg N \\
 &=\lg N.
 \end{aligned}\]
+:coffee: 
 
 ### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
@@ -76,7 +77,7 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 Proof. $C_0 = C_1 = 0$. For $N < 2$,
 \[C_N = (N + 1) + \frac{1}{N}\left((C_0 + C_{N-1}) + (C_1 + C_{N - 2}) + \cdots + (C_{N-1} +C_0)\right).\]
 The partition keys are at $0$ to $N - 1$. Solve the general term
-\[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\]
+\[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\] :coffee:
 
 
 
@@ -152,7 +153,7 @@ Proof. Rough count of number of compares is
 * sink-base heap construction uses less than $2N$ compares and less than $N$ exchanges.
    - idea of proof: for each node at height k, charge k links for sinking down. Arrange the charge of links so that
       each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
-      Refer to [proof](https://algs4.cs.princeton.edu/24pq/).
+      Refer to [proof](https://algs4.cs.princeton.edu/24pq/). :coffee:
 * heap sort uses less than $2N\lg(N)$ compares and exchanges.
     
 **Pros**
@@ -295,7 +296,7 @@ Use DFS instead of BFS for simpler code.
     - w is not visited therefore will be done before v.
     - w is visited but not returned to. (impossible in DAG)
 
-  So every vertex pointed by an edge from v is done before v is done. Proved.
+  So every vertex pointed by an edge from v is done before v is done. :coffee:
 
 > Alternate solution to Topological sort: BFS + in-degree
     - Scan all vertices and record their in-degree's in an array.
@@ -315,11 +316,11 @@ Two-pass algorithm:
 
 **Lemma.** Let $C$ be a strong component of a digraph $G$, and $v$ be a vertex not in $C$. If there is an edge $e$ from $v$ to a vertex in $C$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G$.
 
-**Proof of Lemma**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$.
+**Proof of Lemma**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$. :coffee:
 
 **Proof of correctness** A strong component $C$ of a digraph $G$ is also a strong component of the reverse digraph $G^R$. By the Lemma if there is an edge $e$ from a vertex in $C$ to $v$ in $G$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G^R$.
 
-Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). Correctness proved.
+Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). :coffee:
 
 #### Computational analysis
 * time complexity: $O(V + E)$
@@ -332,6 +333,12 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
   - the number of edges in $S$ is $V - 1$: suppose the tree has more than $V - 1$ edges. Choose a vertex that is the end point of exactly one edge. Cut the vertex with the edge. Repeat until no such vertex to cut. The graph left by prune can not be a point by assumption. It must contains a cycle. 
   
 * MST: given a connected, weighted graph $G$, the minimum spanning tree $S$ of $G$ is the spanning tree whose weight sum is minimum. $S$ is unique if edge weights are distinct.
+
+> **Proposition.** In a tree, $E = V - 1$.
+
+Proof. $E > V - 2$. Starting from a vertex walk through all edges. A edge not visited is incident to at most one vertex not visited. If $E < V - 1$, can not get to all vertices.
+
+$E < V$. Prune the tree until every vertex is incident to more than one edge. The pruned tree is a single vertex. Otherwise, it contains a cycle. :coffee:
 
 * Cut: a partition of vertices into two nonempty sets.
 * Crossing edge: an edge connects a vertex from one set to a vertex in the other.
