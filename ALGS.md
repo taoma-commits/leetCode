@@ -329,7 +329,8 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 ## IV.4 Minimum spanning trees
 * Tree: connected and acyclic graph
 * Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
-  - the number of edges in $S$ is $V - 1$: 
+  - the number of edges in $S$ is $V - 1$: suppose the tree has more than $V - 1$ edges. Choose a vertex that is the end point of exactly one edge. Cut the vertex with the edge. Repeat until no such vertex to cut. The graph left by prune can not be a point by assumption. It must contains a cycle. 
+  
 * MST: given a connected, weighted graph $G$, the minimum spanning tree $S$ of $G$ is the spanning tree whose weight sum is minimum. $S$ is unique if edge weights are distinct.
 
 * Cut: a partition of vertices into two nonempty sets.
