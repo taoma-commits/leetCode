@@ -142,19 +142,23 @@ Proof. Rough count of number of compares is
     
 ***
 ## II.3 Heapsort
-    - start with an array in arbitrary order;
-    - make each sub-tree in heap order bottom-up;
-    - switch the max with the last key in array representation of the heap;
-    - delete the last key from the heap, sink max to retain heap order;
-    - repeat until the heap is empty;
+
+1. start with an array in arbitrary order;
+2. sink-based heap construction: make each sub-tree in heap order bottom-up;
+3. switch the max with the last key in array representation of the heap; 
+4. delete the last key from the heap, sink max to retain heap order; 
+5. repeat until the heap is empty.
     
 **Computational analysis** 
 
-* sink-base heap construction uses less than $2N$ compares and less than $N$ exchanges.
-   - idea of proof: for each node at height k, charge k links for sinking down. Arrange the charge of links so that
-      each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
-      Refer to [proof](https://algs4.cs.princeton.edu/24pq/). :coffee:
-* heap sort uses less than $2N\lg(N)$ compares and exchanges.
+> **Proposition.** Sink-based heap construction uses less than $2N$ compares and less than $N$ exchanges.
+
+Proof. Ror each node at height k, charge k links for sinking down. Arrange the charge of links so that
+each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
+Refer to [proof](https://algs4.cs.princeton.edu/24pq/). :coffee:
+
+1. first pass: sink-based heap construction. $O(n)$.
+2. second pass: heap sort $O(2N\lg(N))$.
     
 **Pros**
 
@@ -258,7 +262,8 @@ Both DFS and BFS have methods
 ***
 ## IV.3 Connectivity
 
-### Dynamic connectivity: Union and Find
+### Dynamic connectivity: Union-Find data structure
+
 * Quick-find:
 * Quick-union:
 * Weighted QU:
@@ -334,6 +339,8 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
   
 * MST: given a connected, weighted graph $G$, the minimum spanning tree $S$ of $G$ is the spanning tree whose weight sum is minimum. $S$ is unique if edge weights are distinct.
 
+* Note: MST only depends on the **relative order of edge weights**, not on the exact values of weights. 
+
 > **Proposition.** In a tree, $E = V - 1$.
 
 Proof. $E > V - 2$. Starting from a vertex walk through all edges. A edge not visited is incident to at most one vertex not visited. If $E < V - 1$, can not get to all vertices.
@@ -344,11 +351,59 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * Crossing edge: an edge connects a vertex from one set to a vertex in the other.
 * Cut property: given any cut, the minimum crossing edge is in MST.
 
-#### Greedy algorithm
-> Step 1: all edges grey at the beginning
-  Step 2: find a cut contains no black edge; color minimum crossing edge black
-  Step 3: repeat step 2 until V - 1 edges are black
+### Greedy MST algorithm
 
+1. all edges grey at the beginning;
+2. find a cut contains no black edge; color minimum crossing edge black;
+3. repeat step 2 until V - 1 edges are black.
+
+### Kruskal's algorithm
+
+1. sort edges in ascending order of weight;
+2. add edge to tree unless create a cycle;
+3. stop when V - 1 edges are added.
+
+**Visualization.** Take small edges and they coallesce together in little clusters and eventually the edges get longer and longer and they connect together the clusters. 
+
+**Implementation.**
+* cycle detection: Union-find data structure.
+* sort edges (dynamic): Priority queue. 
+
+**Computational analysis.**
+
+* Worst-case: $O(E\log(E))$:
+   * heapsort: $E\log(E)$;
+   * union: amortized $V\log(V)$;
+   * check connectedness: amortized $E\log(V)$.
+
+### Prim's algorithm
+
+1. start with vertex 0 and add the smallest edge incident to 0;
+2. add to T the smallest edge with **exactly one endpoint** in MST;
+3. repeat until V - 1 edges. 
+
+**Visualization.** Usually, the new edge is close to the last edge added. But every once in a while, it gets stuck and jumps to a new place to add edges to the MST.
+
+**Lazy implementation of Prim's algorithm.**
+
+1. Maintain a PQ of edges with at least one endpoint in T. The priority is the weight. 
+2. Pop min:
+   - continue pop if both endpoints are marked;
+   - if w is unmarked, add to PQ any edge incident to w and the other vertex not in T; 
+   - Add edge e to T and mark w. 
+3. Repeat until PQ is empty.
+   
+**Eager implementation of Prim's algorithm.** 
+
+1. Maintain a PQ of vertices connected by an edge to T. The priority of vertex is the weight of shortest edge connecting the vertex to T. 
+2. Pop min v. Add the associated edge e = v-w to T;
+3. Update PQ by considering all edges e = v-x incident to v:
+   - continue if x in T;
+   - add x to PQ if not in T;
+   - decrease priority of x if v-x shorter than previous priority of x.
+
+**Computational analysis.**
+* Lazy implementation: $O(E\log(E))$
 ***
 # V. Strings
 ***
