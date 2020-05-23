@@ -386,24 +386,37 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 
 **Lazy implementation of Prim's algorithm.**
 
-1. Maintain a PQ of edges with at least one endpoint in T. The priority is the weight. 
-2. Pop min:
-   - continue pop if both endpoints are marked;
-   - if w is unmarked, add to PQ any edge incident to w and the other vertex not in T; 
-   - Add edge e to T and mark w. 
+1. Maintain a PQ of edges with at least one endpoint in T. The priority keys are weights of edges. 
+2. Pop min edge e = v-w:
+   - continue pop if both v and w are marked;
+   - if w is unmarked:
+      * add to PQ any edge incident to w and the other vertex not in T; 
+      * add edge e to T and mark w. 
 3. Repeat until PQ is empty.
    
 **Eager implementation of Prim's algorithm.** 
 
-1. Maintain a PQ of vertices connected by an edge to T. The priority of vertex is the weight of shortest edge connecting the vertex to T. 
+1. Maintain a PQ of vertices connected by an edge to T. The priority key of a vertex is **the weight of shortest edge** connecting the vertex to T. 
 2. Pop min v. Add the associated edge e = v-w to T;
 3. Update PQ by considering all edges e = v-x incident to v:
    - continue if x in T;
    - add x to PQ if not in T;
    - decrease priority of x if v-x shorter than previous priority of x.
+4. Repeat until PQ is empty.
+
+* Indexed PQ implementation... 
 
 **Computational analysis.**
-* Lazy implementation: $O(E\log(E))$
+|implementation|time complexity|space complexity|good for|
+|:--:|:-------------:|:---:|:---:|
+|Lazy| $O(E\log(E))$ | $O(E)$ | sparse graph |
+|Eager(binary heap PQ)| $O(E\log(V))$ | $O(V)$ |sparse graph $E\sim V$ | 
+|Eager(array PQ)| $O(V^2)$ | $O(v)$ |dense graph $E >> V$|
+
+### Context
+* Euclidean MST: Delaunay triangulation.
+* Single-link clustering: Kruskal's algorithm.
+
 ***
 # V. Strings
 ***
