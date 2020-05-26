@@ -39,7 +39,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
-- [x] 287	Find the Duplicate Number		
+- [x] 287	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers-->
 - [x] 135	Candy
 - [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
 
@@ -199,8 +199,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 233	Number of Digit One	<!--smart-->:zap:
 - [x] 319	Bulb Switcher		
 - [x] 292	Nim Game		
-- [x] 202	Happy Number <!--fast-slow pointers
--->:zap:		
+- [x] 202	Happy Number <!--Floyd's slow and faster pointers-->:zap:
 - [x] 400	Nth Digit
 - [x] [263]	Ugly Number :ok:
 - [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:zap::zap:
@@ -333,7 +332,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Basic problems 		
 - [ ] 206	Reverse Linked List		
-- [ ] 141	Linked List Cycle		
+- [ ] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
 - [ ] 24	Swap Nodes in Pairs		
 - [ ] 328	Odd Even Linked List		
 - [ ] 92	Reverse Linked List II		
@@ -350,7 +349,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Challenging problems 		
 - [ ] 234	Palindrome Linked List		
 - [ ] 143	Reorder List		
-- [ ] 142	Linked List Cycle II		
+- [ ] 142	Linked List Cycle II <!--Floyd's slow and fast pointers-->
 - [ ] 148	Sort List		
 - [ ] 25	Reverse Nodes in k-Group		
 - [ ] 61	Rotate List		
