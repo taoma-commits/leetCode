@@ -39,7 +39,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
-- [x] 287	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers-->
+- [x] [287]	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers--> :zap:
 - [x] 135	Candy
 - [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
 
@@ -324,8 +324,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 198	House Robber
 - [x] 213	House Robber II		
 - [x] 276	Paint Fence		
-- [ ] 91	Decode Ways
-- [ ] 10	Regular Expression Matching
+- [x] 91	Decode Ways
+- [x] 10	Regular Expression Matching <!--DP;DFA-->
 - [ ] 44	Wildcard Matching
 
 ## 7. LinkedList
