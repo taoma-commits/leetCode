@@ -1,4 +1,4 @@
- # Notes on LeetCode [65] Valide Number
+ # Notes on LeetCode [65] Valid Number
 
 ## State diagram of the deterministic finite automata (DFA)
 
