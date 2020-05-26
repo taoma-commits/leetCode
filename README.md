@@ -325,8 +325,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 213	House Robber II		
 - [x] 276	Paint Fence		
 - [x] 91	Decode Ways
-- [x] 10	Regular Expression Matching <!--DP;DFA-->
-- [ ] 44	Wildcard Matching
+- [x] 10	Regular Expression Matching <!--DFA?-->
+- [x] 44	Wildcard Matching <!--Backtracking-->
 
 ## 7. LinkedList
 
