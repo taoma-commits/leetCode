@@ -293,7 +293,8 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 * append element e to the end:
   ```list.add(E e)```
 * insert e at index i: ```list.add(int i, E e)```   
-*
+* the number of items: ```list.size()```
+
 ##### Compare LinkedList and ArrayList
 |   | ArrayList | LinkedList |
 |:-:|:----------:|:---------:|
@@ -322,7 +323,6 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
     set.addAll(list2);
     List<String> combinedList = new ArrayList<>(set);
     ```
-*
 * remove object: ```list.remove()```
 
 #### Stack
