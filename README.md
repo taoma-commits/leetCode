@@ -21,9 +21,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 229	Majority Element II <!-- BM majority vote --> :zap:
 - [x] 274	H-Index
 - [x] 275	H-Index II <!-- Binary Search -->
-- [x] 243	Shortest Word Distance
-- [x] 244	Shortest Word Distance II		
-- [x] 245	Shortest Word Distance III		
+- [x] [243]	Shortest Word Distance
+- [x] [244]	Shortest Word Distance II		
+- [x] [245]	Shortest Word Distance III		
 - [x] 217	Contains Duplicate		
 - [x] 219	Contains Duplicate II		
 - [x] 220	Contains Duplicate III		
@@ -325,13 +325,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 213	House Robber II		
 - [x] 276	Paint Fence		
 - [x] 91	Decode Ways
-<<<<<<< HEAD
-- [x] 10	Regular Expression Matching :zap: <!--DFA -->
-- [ ] 44	Wildcard Matching
-=======
 - [x] 10	Regular Expression Matching <!--DFA?-->
 - [x] 44	Wildcard Matching <!--Backtracking-->
->>>>>>> 23d97a9655e657826702d073ffb51daa2590a8cf
 
 ## 7. LinkedList
 
