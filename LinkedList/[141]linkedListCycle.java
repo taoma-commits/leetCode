@@ -14,5 +14,5 @@ public class Solution {
  * performance: 0 ms < 100% 
  * time complexity: O(n)
  * space complexity: O(1)
- * ntoes: do not need comparator. Compare references. 
+ * notes: reference comparison (address comparison).
  */
