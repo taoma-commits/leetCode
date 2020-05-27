@@ -331,9 +331,9 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 7. LinkedList
 
 ### Basic problems 		
-- [ ] 206	Reverse Linked List		
-- [ ] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
-- [ ] 24	Swap Nodes in Pairs		
+- [x] 206	Reverse Linked List		
+- [x] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
+- [ ] 24	Swap Nodes in Pairs
 - [ ] 328	Odd Even Linked List		
 - [ ] 92	Reverse Linked List II		
 - [ ] 237	Delete Node in a Linked List		
@@ -349,12 +349,12 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Challenging problems 		
 - [ ] 234	Palindrome Linked List		
 - [ ] 143	Reorder List		
-- [ ] 142	Linked List Cycle II <!--Floyd's slow and fast pointers-->
+- [x] 142	Linked List Cycle II <!--Floyd's slow and fast pointers-->
 - [ ] 148	Sort List		
-- [ ] 25	Reverse Nodes in k-Group		
-- [ ] 61	Rotate List		
-- [ ] 86	Partition List		
-- [ ] 23	Merge k Sorted Lists		
+- [ ] 25	Reverse Nodes in k-Group
+- [ ] 61	Rotate List
+- [ ] 86	Partition List
+- [ ] 23	Merge k Sorted Lists
 - [ ] 147	Insertion Sort List
 
 ## 8. Binary Search
