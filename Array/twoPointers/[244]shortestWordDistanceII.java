@@ -23,11 +23,7 @@ class WordDistance {
 }
 
 /*
-* Performance: 30 ms < 91%; 43 MB < 99%.
-* Notes:
-      1. the return type of ArrayList.add(e) is boolean, not an ArrayList.
-      2. since multiple pairs of words are processed, the extra space and time
-        taken building hash table is amortized.
-* tags: hash table, two pointers.
-* Companies: LinkedIn 20.
+* performance: 30 ms < 91%; 43 MB < 99%.
+* time complexity: O(n), O(max(l1, l2))
+* space complexity: O(n)
 */
