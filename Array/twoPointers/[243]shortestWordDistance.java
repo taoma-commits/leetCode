@@ -35,5 +35,5 @@ class Solution {
 }
 
 /*
-* same 
+* performance: 3 ms < 57%
 */
