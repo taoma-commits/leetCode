@@ -17,7 +17,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [134]	Gas Station	:zap:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II
-- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:
+- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:	
 - [x] 229	Majority Element II <!-- BM majority vote --> :zap:
 - [x] 274	H-Index
 - [x] 275	H-Index II <!-- Binary Search -->
@@ -35,7 +35,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 188	Best Time to Buy and Sell Stock IV		
 - [x] 309	Best Time to Buy and Sell Stock with Cooldown		
 - [x] 11	Container With Most Water		
-- [x] [42] Trapping Rain Water
+- [x] [42] Trapping Rain Water	
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
@@ -59,7 +59,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
 - [ ] 295	Find Median from Data Stream		
-- [x] [53]	Maximum Subarray <!-- DP; Prefix Sum -->
+- [x] [53]	Maximum Subarray <!-- DP; Prefix Sum --> 
 - [ ] 325	Maximum Size Subarray Sum Equals k
 - [ ] 209	Minimum Size Subarray Sum
 - [ ] 238	Product of Array Except Self
@@ -317,7 +317,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [X] 97	Interleaving String
 - [x] 174	Dungeon Game :zap:
 - [x] 221	Maximal Square
-- [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
+- [x] 85	Maximal Rectangle <!-- Monotonic Stack --> 
 - [x] 363	Max Sum of Rectangle No Larger Than K :zap::zap: <!-- TreeSet; Prefix Sum -->
 
 ### Reduction 			
