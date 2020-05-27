@@ -1,29 +1,35 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
-Memory Usage: 37.3 MB, less than 98.56% of Java online submissions for Reverse Linked List.
-@linkedList
-*/
-
+class Solution {
+  public ListNode reverseList(ListNode head) {
+    ListNode P = null;
+    ListNode C = head;
+    while (C != null) {
+      ListNode N = C.next;
+      C.next = P;
+      P = C;
+      C = N;
+    }
+    return P;
+  }
+}
 
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+ * performance: 0 ms < 100%
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * notes: iterative. 
  */
+
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        ListNode curr = head;
-        ListNode pre = null;
-        ListNode node = null;
-        while (curr != null) {
-            node = curr.next;
-            curr.next = pre;
-            pre = curr;
-            curr = node;
-        }
-        return pre;
-    }
+  public ListNode reverseList(ListNode head) {
+    if (head == null || head.next == null) return head;
+    ListNode p = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return p;
+  }
 }
+
+/**
+ * same
+ * notes: recusive. 
+ */
