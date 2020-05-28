@@ -282,14 +282,14 @@ Both DFS and BFS have methods
 Use DFS instead of BFS for simpler code.
 * Compare DFS implementation with the Union and Find.
 
-#### Application I: program control-flow analysis
+### Application I: program control-flow analysis
 * Digraph representation of program:
   - vertex: straight-line program;
   - edge: if statement or loop;
 * Dead code elimination: reachability.
 * Infinite loop detection: is exit reachable.
 
-#### Application II: garbage collection
+### Application II: garbage collection
 * Mark-sweep algorithm: ??
 
 ### Topological sort
@@ -333,7 +333,6 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 * time complexity: $O(V + E)$
 * space complexity: save the reverse graph $G^R$; $O(V + E)$.
 
-***
 ## IV.4 Minimum spanning trees
 * Tree: connected and acyclic graph
 * Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
@@ -498,7 +497,6 @@ The size of the array is 26.
 
 ## Boyer–Moore majority vote algorithm
 
-***
 ## Math
 
 ### Fast exponentiation
