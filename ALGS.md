@@ -1,5 +1,3 @@
-# Algorithms and Data Structures
-
 ***
 # I. Sorting Algorithms
 ***
@@ -416,6 +414,24 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 ### Context
 * Euclidean MST: Delaunay triangulation.
 * Single-link clustering: Kruskal's algorithm.
+
+***
+## IV 5. Tree traversal
+
+### DFS of binary tree
+
+* Pre-order (NLR): topological sorted.
+* In-order (LNR): ascending order.
+* Reverse in-order (RNL): descending order.
+* post-order (LRN)
+
+### BFS of binary tree
+* level order 
+
+***
+## IV 6. Shortest path 
+
+
 
 ***
 # V. Strings
