@@ -1,6 +1,6 @@
 ***
 # I. Sorting Algorithms
-***
+
 ## I.1 Compare-based Sorting Algorithms
 
 In a *compare-based sorting algorithm*, one can access information only through compares. 
@@ -12,7 +12,6 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 Proof. The height of decision tree is the worst-case number of compares. :coffee:
 
-***
 ### Elementary sorting algorithms
 
 * bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run. 
@@ -30,7 +29,7 @@ Proof. The height of decision tree is the worst-case number of compares. :coffee
     * not stable
     * complexity: unknown 
     
-***
+
 ### Merge-sort
 
 > **Proposition.** Merge-sort uses at most $N \lg N$ compares and $6N\lg N$ array
@@ -48,7 +47,6 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 ### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
 
-***
 ### Quicksort
 
 **Pseudo-code**
@@ -112,19 +110,17 @@ Proof. Rough count of number of compares is
     
 ***
 ## I.2 Non-comparision Sorting Algorithms
-*** 
+
 ### Bucket sort
 
-***
+
 ### Counting sort
 
 ***
 # II. Priority Queue
-***
 
 ## II.1 Priority queue API
 
-***
 ## II.2 Heap
 > Heap-ordered binary tree: parent's key **no smaller than** children's keys.
 * Heap allows duplicates.
@@ -136,7 +132,6 @@ Proof. Rough count of number of compares is
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
     
-***
 ## II.3 Heapsort
 
 1. start with an array in arbitrary order;
@@ -169,7 +164,7 @@ Merge sort is not in-place; quick sort has $N^2$ worst-case.
 
 ***
 # III. Symbol Table
-***
+
 ## III.1 Symbol table API 
 
 * search: get and contains
@@ -193,7 +188,6 @@ Maintain an ordered array of key-value pairs.
 The problem with binary search implementation is that the insertion cost is $O(n)$. 
 To insert, need to shift all greater keys over.
 
-***
 ## III.2 Binary search tree (BST)
 > A *binary search tree* is a binary tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
@@ -217,14 +211,13 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ### Hibbard deletion
 
-***
+
 ## III.3 Balanced search trees 
 
 ### 2-3 search trees
 
 ### red-black BSTs
 
-***
 ## III 4. Tree traversal
 
 ### DFS of binary tree
@@ -236,10 +229,10 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ### BFS of binary tree
 * level order 
-***
 
-# IV. Graphs
 ***
+# IV. Graphs
+
 ## IV.1 Digraphs
 
 Implementation: adjacency-lists representation.
@@ -268,7 +261,7 @@ Both DFS and BFS have methods
 * the path to source is always shortest.  
 * the preprocessing uses ```Queue```.
 
-***
+
 ## IV.3 Connectivity
 
 ### Dynamic connectivity: Union-Find data structure
@@ -298,7 +291,7 @@ Use DFS instead of BFS for simpler code.
 
 #### Application II: garbage collection
 * Mark-sweep algorithm: ??
-***
+
 ### Topological sort
 * DAG: directed acyclic graph.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
@@ -318,7 +311,7 @@ Use DFS instead of BFS for simpler code.
     - Dequeue vertex v from the queue, decrement the in-degree of all neighbors by 1. Enqueue neighbors whose in-degree became zero after decrement.
     - Repeat last step until queue is empty.
 
-***
+
 ### Kosaraju-Sharir alogrithm for strong connected-components
 Two-pass algorithm:
 
@@ -426,16 +419,14 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * Euclidean MST: Delaunay triangulation.
 * Single-link clustering: Kruskal's algorithm.
 
-***
 ## IV 5. Shortest path 
-
 
 
 ***
 # V. Strings
-***
-### Manacher's algorithm
-#### Main problems
+
+## Manacher's algorithm
+### Main problems
 Find the number of palindromic substrings or the longest palindromic substring of a given string.
 Given string ```S``` of length ```n```, transform ```S``` to string ```T``` of length ```2n + 3``` by separating two consecutive characters by a single ```'#'```
 and padding front and end of the result by a ```'^'``` and a ```'$'```.
@@ -447,7 +438,7 @@ Define ```P[i]``` as the radius of the largest odd-length palindromic substring 
             - Otherwise, P[i] = 0.
             - Central expand P[i].
             - If P[i] + i > R, set center = i and R = P[i] + i.
-#### An example
+**An example**
 ```
 S = "abba"
 T = "^#a#b#b#a#$"
@@ -459,24 +450,23 @@ The right bound ```R = i + P[i]```. Before
 |   P   | 0 | 0 | 1 | 0 | 1 | 4 | 1 | 0 | 0 | 0 | 0  |
 
 
-***
-### KMP algorithm
-#### Main problem
+## KMP algorithm
+### Main problem
 Searches for occurrences of a "word" ```W``` within a main text string ```S```.
-#### Partial-match table
+### Partial-match table
 For a string ```W``` of length ```n``` define ```T(i)``` to be the length of the longest possible proper prefix of W which is also a proper suffix of the substring ending at ```W[i - 1]```.
 
 Let ```m``` be the position within ```S``` where the prospective match for ```W``` begins. Let ```i``` be the index of word ```W```.
 If the algorithm reaches index ```i``` and finds
 a mismatch ```W[i] != S[m + i]```, then restart the matching process by setting  ```m = m + i - T(i)``` and ```i = 0```.
-#### An example
+
+**An example**
 
 | index | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |   W   | A | B | C | D | A | B | D |   |
 |   T   | -1| 0 | 0 | 0 | -1| 0 | 2 | 0 |
 
-***
 ## Trie
 A *trie* is used to store strings. Each Trie node represents a string (a prefix). Each node might have several children nodes while the paths to different children nodes represent different characters. And the strings the child nodes represent will be the origin string represented by the node itself plus the character on the path.
 
@@ -498,14 +488,14 @@ The size of the array is 26.
 
   - Search word: a TrieNode contains a boolean isWord. In insertion process, set the isWord of the last TrieNode to true.
 
-***
+
 ## Deterministic finite automaton (DFA)
 
 
 
 ***
 # Miscellany
-***
+
 ## Boyer–Moore majority vote algorithm
 
 ***
@@ -517,8 +507,6 @@ The size of the array is 26.
 * ```x & (x - 1)```
 * ```x & -x```
 
-***
 ## Floyd's algorithm
 Use fast and slow pointers to detect cycle.
-***
 
