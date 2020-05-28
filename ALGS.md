@@ -252,14 +252,18 @@ Both DFS and BFS have methods
 
 ### DFS
 
+> **Proposition.** DFS marks all vertices connected to $s$ in time proportional to the sum of their degrees.
+
+Proof. Each vertex connected to $s$ is visited once. At each vertex, we check all the adjacent vertices thus all the edges incident to $s$. :coffee:
+
 * simple preprocessing code than BFS.
 * the path is NOT necessarily a geodesic.
-* implementation of ```pathTo(int v)``` replies on ```Stack```.
+* implementation of ```pathTo(int v)```: **stack**.
 
 ### BFS
 
 * the path to source is always shortest.  
-* the preprocessing uses ```Queue```.
+* the preprocessing: **queue**.
 
 
 ## IV.3 Connectivity
@@ -420,6 +424,19 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 
 ## IV 5. Shortest path 
 
+* Consider edge weighted digraphs;
+* Single-source shortest paths: the solutio is a **SPT** (shortest path tree);
+* Edge relaxation: relax $e = v\rightarrow w$ so that `distTo[w] <= distTo[v] + e`;
+* Optimality conditions: The `distTo[]` are the shortest path distances from $s$ iff
+   - `distTo[s] = 0`;
+   - `distTo[v]` is realized by a path from $s$ to $v$;
+   - for each edge $e = v\rightarrow w$, `distTo[v] <= distTo[v] + e.weight()`.
+   
+### Dijkstra's algorithm (no negative edges)
+
+### Topological sort (on DAGs)
+
+### Bellmann-Ford algorithm (no negative cycles) 
 
 ***
 # V. Strings
