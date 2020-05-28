@@ -162,6 +162,9 @@ Merge sort is not in-place; quick sort has $N^2$ worst-case.
 - long-distance exchanges: poor use of cache while sorting super long array.
 - longer inner loop than quick sort: 2 compares.  
 
+## II.4 Indexed priority queue
+
+
 ***
 # III. Symbol Table
 
