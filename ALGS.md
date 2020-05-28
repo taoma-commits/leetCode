@@ -227,6 +227,20 @@ Pf. 1-1 correspondence with quicksort partitioning
 ### red-black BSTs
 
 ***
+***
+## III 4. Tree traversal
+
+### DFS of binary tree
+
+* Pre-order (NLR): topological sorted.
+* In-order (LNR): ascending order.
+* Reverse in-order (RNL): descending order.
+* post-order (LRN)
+
+### BFS of binary tree
+* level order 
+
+***
 # IV. Graphs
 ***
 ## IV.1 Digraphs
@@ -416,20 +430,7 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * Single-link clustering: Kruskal's algorithm.
 
 ***
-## IV 5. Tree traversal
-
-### DFS of binary tree
-
-* Pre-order (NLR): topological sorted.
-* In-order (LNR): ascending order.
-* Reverse in-order (RNL): descending order.
-* post-order (LRN)
-
-### BFS of binary tree
-* level order 
-
-***
-## IV 6. Shortest path 
+## IV 5. Shortest path 
 
 
 
