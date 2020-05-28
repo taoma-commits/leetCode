@@ -331,10 +331,10 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 7. LinkedList
 
 ### Basic problems 		
-- [x] 206	Reverse Linked List		
+- [x] 206	Reverse Linked List	<!--dummy head-->	
 - [x] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
-- [x] 24	Swap Nodes in Pairs
-- [x] 328	Odd Even Linked List		
+- [x] 24	Swap Nodes in Pairs 
+- [x] 328	Odd Even Linked List <!--dummy head-->	
 - [ ] 92	Reverse Linked List II		
 - [ ] 237	Delete Node in a Linked List		
 - [ ] 19	Remove Nth Node From End of List		
