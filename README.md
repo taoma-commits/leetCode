@@ -17,7 +17,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [134]	Gas Station	:zap:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II
-- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:	
+- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:
 - [x] 229	Majority Element II <!-- BM majority vote --> :zap:
 - [x] 274	H-Index
 - [x] 275	H-Index II <!-- Binary Search -->
@@ -35,7 +35,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 188	Best Time to Buy and Sell Stock IV		
 - [x] 309	Best Time to Buy and Sell Stock with Cooldown		
 - [x] 11	Container With Most Water		
-- [x] [42] Trapping Rain Water	
+- [x] [42] Trapping Rain Water
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
@@ -59,7 +59,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
 - [ ] 295	Find Median from Data Stream		
-- [x] [53]	Maximum Subarray <!-- DP; Prefix Sum --> 
+- [x] [53]	Maximum Subarray <!-- DP; Prefix Sum -->
 - [ ] 325	Maximum Size Subarray Sum Equals k
 - [ ] 209	Minimum Size Subarray Sum
 - [ ] 238	Product of Array Except Self
@@ -68,9 +68,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 163	Missing Ranges
 
 ### Counter			
-- [ ] 88	Merge Sorted Array		
+- [x] 88	Merge Sorted Array		
 - [ ] 75	Sort Colors		
-- [ ] 283	Move Zeroes		
+- [x] 283	Move Zeroes		
 - [ ] 376	Wiggle Subsequence		
 - [ ] 280	Wiggle Sort		
 - [ ] 324	Wiggle Sort II		
@@ -83,7 +83,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 162	Find Peak Element		
 - [ ] 374	Guess Number Higher or Lower		
 - [ ] 34	Find First and Last Position of Element in Sorted Array		
-- [ ] 349	Intersection of Two Arrays		
+- [x] 349	Intersection of Two Arrays		
 - [ ] 350	Intersection of Two Arrays II		
 - [ ] 315	Count of Smaller Numbers After Self		
 - [ ] 300	Longest Increasing Subsequence		
@@ -204,7 +204,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [263]	Ugly Number :ok:
 - [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:zap::zap:
 - [ ] 306	Additive Number
-- [ ] 172	Factorial Trailing Zeroes		
+- [x] 172	Factorial Trailing Zeroes		
 - [ ] 343	Integer Break		
 - [ ] 396	Rotate Function		
 - [ ] 390	Elimination Game		
@@ -225,14 +225,14 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Preorder			
 - [ ] 100	Same Tree		
 - [ ] 101	Symmetric Tree		
-- [ ] 226	Invert Binary Tree <!--pre-order + BFS-->
+- [x] 226	Invert Binary Tree <!--pre-order + BFS-->
 - [ ] 257	Binary Tree Paths		
-- [ ] 112	Path Sum		
+- [x] 112	Path Sum		
 - [ ] 113	Path Sum II		
 - [ ] 129	Sum Root to Leaf Numbers		
 - [ ] 298	Binary Tree Longest Consecutive Sequence		
 - [ ] 111	Minimum Depth of Binary Tree					
-- [ ] 104	Maximum Depth of Binary Tree		
+- [x] 104	Maximum Depth of Binary Tree		
 - [ ] 110	Balanced Binary Tree		
 - [ ] 124	Binary Tree Maximum Path Sum		
 - [ ] 250	Count Univalue Subtrees		
@@ -317,7 +317,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [X] 97	Interleaving String
 - [x] 174	Dungeon Game :zap:
 - [x] 221	Maximal Square
-- [x] 85	Maximal Rectangle <!-- Monotonic Stack --> 
+- [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
 - [x] 363	Max Sum of Rectangle No Larger Than K :zap::zap: <!-- TreeSet; Prefix Sum -->
 
 ### Reduction 			
@@ -339,7 +339,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 237	Delete Node in a Linked List		
 - [ ] 19	Remove Nth Node From End of List		
 - [ ] 83	Remove Duplicates from Sorted List		
-- [ ] 203	Remove Linked List Elements		
+- [x] 203	Remove Linked List Elements		
 - [ ] 82	Remove Duplicates from Sorted List II		
 - [ ] 369	Plus One Linked List		
 - [ ] 2	  Add Two Numbers		
@@ -361,7 +361,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 - [ ] 278	First Bad Version		
 - [ ] 35	Search Insert Position		
-- [ ] 33	Search in Rotated Sorted Array		
+- [x] 33	Search in Rotated Sorted Array		
 - [ ] 81	Search in Rotated Sorted Array II		
 - [ ] 153	Find Minimum in Rotated Sorted Array		
 - [ ] 154	Find Minimum in Rotated Sorted Array II		
@@ -409,8 +409,8 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 11. Stack & Priority Queue
 
 ### Stack			
-- [ ] 155	Min Stack		
-- [ ] 232	Implement Queue using Stacks		
+- [x] 155	Min Stack		
+- [x] 232	Implement Queue using Stacks		
 - [ ] 225	Implement Stack using Queues		
 - [ ] 150	Evaluate Reverse Polish Notation		
 - [ ] 71	Simplify Path		
@@ -433,7 +433,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 12. Bit Manipulation
 
 - [ ] 389	Find the Difference		
-- [ ] 136	Single Number		
+- [x] 136	Single Number		
 - [ ] 318	Maximum Product of Word Lengths
 
 ### Low frequency problems 		
@@ -443,8 +443,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 338	Counting Bits		
 - [ ] 89	Gray Code		
 - [ ] 268	Missing Number		
-- [ ] 191	Number of 1 Bits		
-- [ ] 190	Reverse Bits		
+- [x] 191	Number of 1 Bits		
+- [x] 190	Reverse Bits		
 - [ ] 137	Single Number II		
 - [ ] 260	Single Number III
 
