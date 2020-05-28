@@ -12,6 +12,7 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 Proof. The height of decision tree is the worst-case number of compares. :coffee:
 
+***
 ### Elementary sorting algorithms
 
 * bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run. 
@@ -30,7 +31,6 @@ Proof. The height of decision tree is the worst-case number of compares. :coffee
     * complexity: unknown 
     
 ***
-
 ### Merge-sort
 
 > **Proposition.** Merge-sort uses at most $N \lg N$ compares and $6N\lg N$ array
@@ -47,8 +47,8 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 
 ### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
-***
 
+***
 ### Quicksort
 
 **Pseudo-code**
@@ -76,8 +76,6 @@ Proof. $C_0 = C_1 = 0$. For $N < 2$,
 \[C_N = (N + 1) + \frac{1}{N}\left((C_0 + C_{N-1}) + (C_1 + C_{N - 2}) + \cdots + (C_{N-1} +C_0)\right).\]
 The partition keys are at $0$ to $N - 1$. Solve the general term
 \[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\] :coffee:
-
-
 
 ### Quick-select
 
@@ -115,9 +113,9 @@ Proof. Rough count of number of compares is
 ***
 ## I.2 Non-comparision Sorting Algorithms
 *** 
-
 ### Bucket sort
 
+***
 ### Counting sort
 
 ***
@@ -227,7 +225,6 @@ Pf. 1-1 correspondence with quicksort partitioning
 ### red-black BSTs
 
 ***
-***
 ## III 4. Tree traversal
 
 ### DFS of binary tree
@@ -239,8 +236,8 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ### BFS of binary tree
 * level order 
-
 ***
+
 # IV. Graphs
 ***
 ## IV.1 Digraphs
