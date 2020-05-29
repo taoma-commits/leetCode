@@ -27,13 +27,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 217	Contains Duplicate		
 - [x] 219	Contains Duplicate II		
 - [x] 220	Contains Duplicate III		
-- [x] 55	Jump Game		
-- [x] 45	Jump Game II		
+- [x] [55]	Jump Game		
+- [x] [45]	Jump Game II		
 - [x] 121	Best Time to Buy and Sell Stock
 - [x] 122	Best Time to Buy and Sell Stock II		
-- [x] 123	Best Time to Buy and Sell Stock III		
-- [x] 188	Best Time to Buy and Sell Stock IV		
-- [x] 309	Best Time to Buy and Sell Stock with Cooldown		
+- [x] 123	Best Time to Buy and Sell Stock III	
+- [x] 188	Best Time to Buy and Sell Stock IV	
+- [x] 309	Best Time to Buy and Sell Stock with Cooldown	
 - [x] 11	Container With Most Water		
 - [x] [42] Trapping Rain Water
 - [x] 334	Increasing Triplet Subsequence		
