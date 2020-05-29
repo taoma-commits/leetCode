@@ -229,7 +229,7 @@ Pf. 1-1 correspondence with quicksort partitioning
    - **Warning:** pre-order traversal is equivalent to topological sort **only** on trees. 
       On a general DAG (directed acyclic graph), the pre-order does not necessarily equivalent to (any) topological sort. 
       The following graph is a DAG (no cycle) but pre-order visit D before visiting C;
-* Post-order (LRN): reverse post-order to obtain topological sort.
+* Post-order (LRN): reverse post-order is always equivalent to topological sort even on a general DAG. Refer to [proof](#topological-sort).
 * In-order (LNR): ascending order.
 * Reverse in-order (RNL): descending order.
 
@@ -311,15 +311,18 @@ Use DFS instead of BFS for simpler code.
 ### Topological sort
 * DAG: directed acyclic graph.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
-* Solution: DFS + postorder stack.
+* Solution: DFS + post-order stack.
   - push a vertex into stack if it is done.
-* Proof of correctness: for an edge $v \rightarrow w$ if we are currently at v
-  there are 3 cases as follows.
-    - w is done before v.
-    - w is not visited therefore will be done before v.
-    - w is visited but not returned to. (impossible in DAG)
+  
+> **Proposition.** Reverse DFS post-order of a DAG is a topological sort.
 
-  So every vertex pointed by an edge from v is done before v is done. :coffee:
+Proof of correctness: for an edge $v \rightarrow w$ if we are currently at v
+there are 3 cases as follows.
+ - w is done before v.
+ - w is not visited therefore will be done before v.
+ - w is visited but not returned to. (impossible in DAG)
+
+So every vertex pointed by an edge from v is done before v is done. :coffee:
 
 > Alternate solution to Topological sort: BFS + in-degree
     - Scan all vertices and record their in-degree's in an array.
