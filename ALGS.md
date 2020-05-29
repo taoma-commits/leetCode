@@ -455,15 +455,29 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 > **Proposition.** Dijkstra's algorithm computes a SPT in any DAG with non-negative weights.
 
 **Proof.** 
-* Every edge $e = v\rightarrow w$ is visited exactly once. 
+* Every edge $e = v\rightarrow w$ is relaxed exactly once. 
 * Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds. 
    - `distTo[w]` can not increase;
    - `distTo[v]` will not change.
-   
+The optimality conditions are satisfied. 
 A subtle point. Since we need to visit every edge, it is possible that an edge 
 $e = u \rightarrow v$ is relaxed after $v$ is added to the tree. Because `distTo[v]` was the min when `v` was taken and all edge weights are **non-negative**, such relaxation does not change `distTo[v]`. :coffee:
 
-### Topological sort (on DAGs)
+### Edge-weighted DAGs 
+1. Take a vertex in topological order;
+2. Relax all edges pointing from the vertex.
+
+> **Proposition.** Topological sort algorithm computes SPT in any edge-weighted DAG in time proportional to $E + V$.
+
+**Proof.** 
+* Every edge $e = v\rightarrow w$ is relaxed exactly once. 
+* Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds.
+   - `distTo[w]` can not increase;
+   - `distTo[v]` will not change because of topological order. This is true even for negative edges. 
+
+:coffee:
+
+
 
 ### Bellmann-Ford algorithm (no negative cycles) 
 
