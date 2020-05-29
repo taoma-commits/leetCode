@@ -192,7 +192,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 18	4Sum <!-- two-pointer -->		
 
 ### Low frequency problems
-- [x] 231	Power of Two <!--bit manipulation--> :zap:
+- [x] 231	Power of Two <!--Bit manipulation--> :zap:
 - [x] 326	Power of Three <!-- -->
 - [x] 342	Power of Four
 - [x] 372	Super Pow <!--fast exponentiation; Chinese remainder theorem -->:zap:
@@ -217,46 +217,46 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 4. Tree
 
 ### Basic problems
-- [ ] 144	Binary Tree Preorder Traversal
-- [ ] 94	Binary Tree Inorder Traversal
-- [ ] 145	Binary Tree Postorder Traversal
-- [ ] 102	Binary Tree Level Order Traversal
+- [x] 144	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; Morris traversal-->
+- [x] 94	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; Morris traversal-->
+- [ ] 145	Binary Tree Postorder Traversal <!--Replacing recursion with a stack; Morris traversal-->
+- [ ] 102	Binary Tree Level Order Traversal <!--Replacing recursion with a stack; Morris traversal-->
 
 ### Preorder			
-- [ ] 100	Same Tree		
-- [ ] 101	Symmetric Tree		
-- [x] 226	Invert Binary Tree <!--pre-order + BFS-->
-- [ ] 257	Binary Tree Paths		
-- [x] 112	Path Sum		
-- [ ] 113	Path Sum II		
-- [ ] 129	Sum Root to Leaf Numbers		
-- [ ] 298	Binary Tree Longest Consecutive Sequence		
+- [ ] 100	Same Tree
+- [ ] 101	Symmetric Tree
+- [x] 226	Invert Binary Tree <!--Pre-order + BFS-->
+- [ ] 257	Binary Tree Paths
+- [x] 112	Path Sum
+- [ ] 113	Path Sum II
+- [ ] 129	Sum Root to Leaf Numbers
+- [ ] 298	Binary Tree Longest Consecutive Sequence
 - [ ] 111	Minimum Depth of Binary Tree					
 - [x] 104	Maximum Depth of Binary Tree		
 - [ ] 110	Balanced Binary Tree		
 - [ ] 124	Binary Tree Maximum Path Sum		
 - [ ] 250	Count Univalue Subtrees		
 - [ ] 366	Find Leaves of Binary Tree		
-- [ ] 337	House Robber III <!--postorder + preorder-->
+- [ ] 337	House Robber III <!--Post-order + Pre-order-->
 
 ### BFS 			
 - [ ] 107	Binary Tree Level Order Traversal II		
 - [ ] 103	Binary Tree Zigzag Level Order Traversal		
-- [ ] 199	Binary Tree Right Side View	<!--BFS + preorder-->
+- [ ] 199	Binary Tree Right Side View	<!--BFS + Pre-order-->
 
 ### BST			
-- [ ] 98	Validate Binary Search Tree <!--pre-order-->
-- [ ] 235	Lowest Common Ancestor of a Binary Search Tree <!--pre-order-->
-- [ ] 236	Lowest Common Ancestor of a Binary Tree	<!--post-order-->
-- [ ] 108	Convert Sorted Array to Binary Search Tree <!--binary search-->
-- [ ] 109	Convert Sorted List to Binary Search Tree <!--binary search-->
-- [ ] 173	Binary Search Tree Iterator	<!--inorder-->
-- [ ] 230	Kth Smallest Element in a BST	<!--inorder-->
+- [ ] 98	Validate Binary Search Tree <!--Pre-order-->
+- [ ] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order-->
+- [ ] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
+- [ ] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
+- [ ] 109	Convert Sorted List to Binary Search Tree <!--Binary search-->
+- [ ] 173	Binary Search Tree Iterator	<!--In-order-->
+- [ ] 230	Kth Smallest Element in a BST	<!--In-order-->
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS-->
-- [ ] 285	Inorder Successor in BST <!--inorder-->
-- [ ] 270	Closest Binary Search Tree Value <!--preorder-->
-- [ ] 272	Closest Binary Search Tree Value II <!--inorder-->
-- [ ] 99	Recover Binary Search Tree <!--inorder-->
+- [ ] 285	Inorder Successor in BST <!--In-order-->
+- [ ] 270	Closest Binary Search Tree Value <!--Pre-order-->
+- [ ] 272	Closest Binary Search Tree Value II <!--In-order-->
+- [ ] 99	Recover Binary Search Tree <!--In-order-->
 
 ### Others
 
