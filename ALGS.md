@@ -223,12 +223,21 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ## III 4. Tree traversal
 
-### DFS of binary tree
+### DFS of binary tree 
 
-* Pre-order (NLR): topological sorted.
+* Pre-order (NLR): topological sort. 
+   - **Warning:** pre-order traversal is equivalent to topological sort **only** on trees. 
+      On a general DAG (directed acyclic graph), the pre-order does not necessarily equivalent to (any) topological sort. 
+      The following graph is a DAG (no cycle) but pre-order visit D before visiting C;
+* Post-order (LRN): reverse post-order to obtain topological sort.
 * In-order (LNR): ascending order.
 * Reverse in-order (RNL): descending order.
-* post-order (LRN)
+
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 
 ### BFS of binary tree
 * level order 
