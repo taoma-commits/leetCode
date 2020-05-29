@@ -459,8 +459,9 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds. 
    - `distTo[w]` can not increase;
    - `distTo[v]` will not change.
-A subtle point. Since we need to visit every edge, it is possible that after $v$ is added to the tree an edge 
-$e = u \rightarrow v$ is relaxed. However, because `distTo[v]` was the min when `v` is taken and all edge weights are non-negative, such relaxation does not change `distTo[v]`. :coffee:
+   
+A subtle point. Since we need to visit every edge, it is possible that an edge 
+$e = u \rightarrow v$ is relaxed after $v$ is added to the tree. Because `distTo[v]` was the min when `v` was taken and all edge weights are **non-negative**, such relaxation does not change `distTo[v]`. :coffee:
 
 ### Topological sort (on DAGs)
 
