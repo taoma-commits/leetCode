@@ -13,10 +13,31 @@ class Solution {
 /**
  * performance: 0 ms < 100%
  * time complexity: O(n)
- * space complexity: O(depth) 
+ * space complexity: O(n) 
  * notes: recursion. 
  */
 
+class Solution {
+  public List<Integer> preorderTraversal(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    if (root != null) stack.addLast(root);
+    while (!stack.isEmpty()) {
+      TreeNode node = stack.pollLast();
+      res.add(node.val);
+      if (node.right != null) stack.addLast(node.right);
+      if (node.left != null) stack.addLast(node.left);
+    }
+    return res;
+  }
+}
+
+/**
+ * performance: 0 ms 
+ * time complexity: O(n)
+ * space complexity: O(n)
+ * notes: use stack to convert recursion to interation. 
+ */
 
 
 class Solution {
@@ -50,6 +71,6 @@ class Solution {
 /**
  * performance: 0 ms 
  * time complexity: O(n)
- * space complexity: O(1)
+ * space complexity: O(n) 
  * notes: Morris traversal 
  */
