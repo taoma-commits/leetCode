@@ -10,35 +10,24 @@ class Solution {
 }
 
 /*
-* performance: 2 ms < 62%, 41 MB < 23%.
-* notes: greedy, update furthest position can be reached.
-* companies: Amazon, Google, Microsoft.
+* performance: 2 ms < 73%, 41 MB < 23%.
+* time complexity: O(n)
+* space complexity: O(1)
+* notes: greedy
 */
 
 class Solution {
-    public boolean canJump(int[] nums) {
-        int len = nums.length;
-        int[] memo = new int[len];
-        for (int i = 0; i < len - 1; i++) {
-            memo[i] = 0;
-        }
-        memo[len - 1] = 1;
-        for (int i = len - 2; i >= 0; i--) {
-            int reach = Math.min(nums[i] + i, len - 1);
-            for (int j = i + 1; j <= reach; j++) {
-                if (memo[j] == 1) {
-                    memo[i] = 1;
-                    break;
-                }
-            }
-        }
-        return memo[0] == 1;
+  public boolean canJump(int[] nums) {
+    int n = nums.length;
+    int dp = 0;
+    for (int i = 0; i < n - 1; i++) {
+      dp = Math.max(nums[i] + i, dp);
+      if (dp < i + 1) return false;
     }
+    return true;
+  }
 }
 
 /*
-* performance: 223 ms < 20%, 41 MB < 9%.
-* notes:
-      1. DP solution. Bottom-up dp avoids recursion.
-      2. use int[] to memorize previous results.
+* same
 */
