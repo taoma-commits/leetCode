@@ -27,8 +27,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 217	Contains Duplicate		
 - [x] 219	Contains Duplicate II		
 - [x] 220	Contains Duplicate III		
-- [x] [55]	Jump Game		
-- [x] [45]	Jump Game II		
+- [x] [55]	Jump Game
+- [x] [45]	Jump Game II	<!--greedy; shortest paths on DAGs-->	
 - [x] 121	Best Time to Buy and Sell Stock
 - [x] 122	Best Time to Buy and Sell Stock II		
 - [x] 123	Best Time to Buy and Sell Stock III	
