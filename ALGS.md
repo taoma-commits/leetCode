@@ -164,7 +164,6 @@ Merge sort is not in-place; quick sort has $N^2$ worst-case.
 
 ## II.4 Indexed priority queue
 
-
 ***
 # III. Symbol Table
 
@@ -241,6 +240,11 @@ graph TD;
 
 ### BFS of binary tree
 * level order 
+
+### Morris traversal 
+* In-order: 
+* Pre-order: 
+* Post-order:
 
 ***
 # IV. Graphs
