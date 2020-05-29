@@ -10,7 +10,7 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 > **Proposition.** Any compare-based sorting algorithm must use at least $\lg (N!) \sim N\lg(N)$ compares in the worst-case.
 
-Proof. The height of decision tree is the worst-case number of compares. :coffee:
+**Proof.** The height of decision tree is the worst-case number of compares. :coffee:
 
 ### Elementary sorting algorithms
 
@@ -35,7 +35,7 @@ Proof. The height of decision tree is the worst-case number of compares. :coffee
 > **Proposition.** Merge-sort uses at most $N \lg N$ compares and $6N\lg N$ array
 accesses to sort any array of size $N$.
 
-Proof. \[C(N) \leq C(\lfloor N/2\rfloor) + C(\lceil N/2\rceil) + N, C(1) = 0.\]
+**Proof.** \[C(N) \leq C(\lfloor N/2\rfloor) + C(\lceil N/2\rceil) + N, C(1) = 0.\]
 Roughly $C(N) = 2C(N/2) + N$, $C(1) = 0$. Recursion formula can be written as
 \[\begin{aligned}
 C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
@@ -70,7 +70,7 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 
 > **Porposition.** The average number of compares $C_N$ to quicksort an array of $N$ **distinct** keys is $\sim 2N\ln N$.
 
-Proof. $C_0 = C_1 = 0$. For $N < 2$,
+**Proof.** $C_0 = C_1 = 0$. For $N < 2$,
 \[C_N = (N + 1) + \frac{1}{N}\left((C_0 + C_{N-1}) + (C_1 + C_{N - 2}) + \cdots + (C_{N-1} +C_0)\right).\]
 The partition keys are at $0$ to $N - 1$. Solve the general term
 \[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\] :coffee:
@@ -92,7 +92,7 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 
 > **Proposition.** Quick-select takes linear time on average.
 
-Proof. Rough count of number of compares is
+**Proof.** Rough count of number of compares is
 \[N + N/2 + \cdots + 1 \sim 2N. \]
 
 ### Dijkstra 3-way quicksort 
@@ -144,7 +144,7 @@ Proof. Rough count of number of compares is
 
 > **Proposition.** Sink-based heap construction uses less than $2N$ compares and less than $N$ exchanges.
 
-Proof. Ror each node at height k, charge k links for sinking down. Arrange the charge of links so that
+**Proof.** Ror each node at height k, charge k links for sinking down. Arrange the charge of links so that
 each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
 Refer to [proof](https://algs4.cs.princeton.edu/24pq/). :coffee:
 
@@ -266,7 +266,7 @@ Both DFS and BFS have methods
 
 > **Proposition.** DFS marks all vertices connected to $s$ in time proportional to the sum of their degrees.
 
-Proof. Each vertex connected to $s$ is visited once. At each vertex, we check all the adjacent vertices thus all the edges incident to $s$. :coffee:
+**Proof.** Each vertex connected to $s$ is visited once. At each vertex, we check all the adjacent vertices thus all the edges incident to $s$. :coffee:
 
 * simple preprocessing code than BFS.
 * the path is NOT necessarily a geodesic.
@@ -316,7 +316,7 @@ Use DFS instead of BFS for simpler code.
   
 > **Proposition.** Reverse DFS post-order of a DAG is a topological sort.
 
-Proof of correctness: for an edge $v \rightarrow w$ if we are currently at v
+**Proof of correctness.** for an edge $v \rightarrow w$ if we are currently at v
 there are 3 cases as follows.
  - w is done before v.
  - w is not visited therefore will be done before v.
@@ -342,9 +342,9 @@ Two-pass algorithm:
 
 **Lemma.** Let $C$ be a strong component of a digraph $G$, and $v$ be a vertex not in $C$. If there is an edge $e$ from $v$ to a vertex in $C$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G$.
 
-**Proof of Lemma**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$. :coffee:
+**Proof of Lemma.**  Suppose $w\in C$ appears before $v$ in the reverse post-order, then $v$ is done before $w$ in DFS. Because $v$ is not reachable from $w$ (otherwise $v\in C$), $v$ is done before the DFS **visits** $w$. The existence of $e$ implies every vertex in $C$ should be done before $v$ is done which contradicts the assumption that $v$ is done before $w \in C$. :coffee:
 
-**Proof of correctness** A strong component $C$ of a digraph $G$ is also a strong component of the reverse digraph $G^R$. By the Lemma if there is an edge $e$ from a vertex in $C$ to $v$ in $G$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G^R$.
+**Proof of correctness.** A strong component $C$ of a digraph $G$ is also a strong component of the reverse digraph $G^R$. By the Lemma if there is an edge $e$ from a vertex in $C$ to $v$ in $G$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G^R$.
 
 Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits every vertex in the strong component $C$ containing $v$ and no other vertices. (Because any reachable vertex from $v$ that is not in $C$ should appear before $v$). :coffee:
 
@@ -363,7 +363,7 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 
 > **Proposition.** In a tree, $E = V - 1$.
 
-Proof. $E > V - 2$. Starting from a vertex walk through all edges. A edge not visited is incident to at most one vertex not visited. If $E < V - 1$, can not get to all vertices.
+**Proof.** $E > V - 2$. Starting from a vertex walk through all edges. A edge not visited is incident to at most one vertex not visited. If $E < V - 1$, can not get to all vertices.
 
 $E < V$. Prune the tree until every vertex is incident to more than one edge. The pruned tree is a single vertex. Otherwise, it contains a cycle. :coffee:
 
@@ -442,12 +442,25 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * Consider edge weighted digraphs;
 * Single-source shortest paths: the solutio is a **SPT** (shortest path tree);
 * Edge relaxation: relax $e = v\rightarrow w$ so that `distTo[w] <= distTo[v] + e`;
-* Optimality conditions: The `distTo[]` are the shortest path distances from $s$ iff
-   - `distTo[s] = 0`;
-   - `distTo[v]` is realized by a path from $s$ to $v$;
-   - for each edge $e = v\rightarrow w$, `distTo[v] <= distTo[v] + e.weight()`.
+
+**Optimality conditions.** The `distTo[]` are the shortest path distances from $s$ iff
+* `distTo[s] = 0`;
+* `distTo[v]` is realized by a path from $s$ to $v$;
+* for each edge $e = v\rightarrow w$, `distTo[v] <= distTo[v] + e.weight()`.
    
 ### Dijkstra's algorithm (no negative edges)
+1. Take the non-tree vertex with lowest `distTo[]` value.
+2. Add vertex to tree and relax all edges pointing from the vertex. 
+
+> **Proposition.** Dijkstra's algorithm computes a SPT in any DAG with non-negative weights.
+
+**Proof.** 
+* Every edge $e = v\rightarrow w$ is visited exactly once. 
+* Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds. 
+   - `distTo[w]` can not increase;
+   - `distTo[v]` will not change.
+A subtle point. Since we need to visit every edge, it is possible that after $v$ is added to the tree an edge 
+$e = u \rightarrow v$ is relaxed. However, because `distTo[v]` was the min when `v` is taken and all edge weights are non-negative, such relaxation does not change `distTo[v]`. :coffee:
 
 ### Topological sort (on DAGs)
 
