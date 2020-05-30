@@ -75,5 +75,31 @@ class Solution {
  * notes: two stacks. 
  */
 
+class Solution {
+  public List<Integer> postorderTraversal(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
+    if (root == null) return res;
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    stack.addLast(root);
+    TreeNode N = new TreeNode(0);
+    while (!stack.isEmpty()) {
+      TreeNode node = stack.removeLast();
+      if (node != N) {
+        stack.addLast(node);
+        stack.addLast(N);
+        if (node.right != null) stack.addLast(node.right);
+        if (node.left != null) stack.addLast(node.left);
+      } else {
+        res.add(stack.removeLast().val);
+      }
+    }
+    return res;
+  }
+}
+
+/**
+ * performance: 1 ms 
+ * notes: template for all traversal problems.
+ */
 
  
