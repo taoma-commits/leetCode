@@ -46,6 +46,33 @@ class Solution {
 class Solution {
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> res = new ArrayList<>();
+    if (root == null) return res;
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    stack.addLast(root);
+    TreeNode N = new TreeNode(0);
+    while (!stack.isEmpty()) {
+      TreeNode node = stack.removeLast();
+      if (node != N) {
+        if (node.right != null) stack.addLast(node.right);
+        stack.addLast(node);
+        stack.addLast(N);
+        if (node.left != null) stack.addLast(node.left);
+      } else {
+        res.add(stack.removeLast().val);
+      }
+    }
+    return res;
+  }
+}
+
+/**
+ * performance: 1 ms < 50%
+ * notes: template for all traversal problems.
+ */
+
+class Solution {
+  public List<Integer> inorderTraversal(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
     TreeNode node = root;
     while (node != null) {
       if (node.left == null) {
