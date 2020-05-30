@@ -219,7 +219,7 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Basic problems
 - [x] 144	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; Morris traversal-->
 - [x] 94	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; Morris traversal-->
-- [ ] 145	Binary Tree Postorder Traversal <!--Replacing recursion with a stack; Morris traversal-->
+- [x] 145	Binary Tree Postorder Traversal <!--Replacing recursion with a stack; Morris traversal-->
 - [ ] 102	Binary Tree Level Order Traversal <!--Replacing recursion with a stack; Morris traversal-->
 
 ### Preorder			
