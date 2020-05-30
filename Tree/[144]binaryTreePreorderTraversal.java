@@ -39,6 +39,32 @@ class Solution {
  * notes: use stack to convert recursion to interation. 
  */
 
+class Solution {
+  public List<Integer> preorderTraversal(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
+    if (root == null) return res;
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    stack.addLast(root);
+    TreeNode N = new TreeNode(0);
+    while (!stack.isEmpty()) {
+      TreeNode node = stack.removeLast();
+      if (node != N) {
+        if (node.right != null) stack.addLast(node.right);
+        if (node.left != null) stack.addLast(node.left);
+        stack.addLast(node);
+        stack.addLast(N);
+      } else {
+        res.add(stack.removeLast().val);
+      }
+    }
+    return res;
+  }
+}
+
+/**
+ * performance: 1ms
+ * notes: template for all traversal problems
+ */
 
 class Solution {
   public List<Integer> preorderTraversal(TreeNode root) {
