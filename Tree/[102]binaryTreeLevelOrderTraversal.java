@@ -1,4 +1,29 @@
 class Solution {
+  List<List<Integer>> res = new ArrayList<>();
+  public List<List<Integer>> levelOrder(TreeNode root) {
+    if (root != null) helper(root, 0);
+    return res;
+  }
+
+  private void helper(TreeNode node, int level) {
+    if (res.size() == level) {
+      res.add(new ArrayList<Integer>());
+    }
+    res.get(level).add(node.val);
+    if (node.left != null) helper(node.left, level + 1);
+    if (node.right != null) helper(node.right, level + 1);
+  }
+}
+
+/**
+ * performance: 0 ms < 100%
+ * time complexity: O(n)
+ * space complexity: O(n)
+ * notes: trick size of list grows by level.
+ */
+
+
+class Solution {
   public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> res = new ArrayList<>();
     if (root == null) return res;
