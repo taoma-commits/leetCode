@@ -1,9 +1,3 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Invert Binary Tree.
-Memory Usage: 39.8 MB, less than 5.10% of Java online submissions for Invert Binary Tree.
-*/
-
-
 // Definition for a binary tree node.
 public class TreeNode {
    int val;
@@ -12,27 +6,26 @@ public class TreeNode {
    TreeNode(int x) { val = x;}
 }
 
-// recursive solution
+// recursion
 class Solution {
-    public TreeNode invertTree(TreeNode root) {
-        if (root == null) return null;
-
-        TreeNode left = root.left;
-        TreeNode right = root.right;
-
-        root.left = invertTree(right);
-        root.right = invertTree(left);
-        return root;
+  public TreeNode invertTree(TreeNode root) {
+    if (root != null) {
+      TreeNode cache = invertTree(root.left);
+      root.left = invertTree(root.right);
+      root.right = cache;
     }
+    return root;
+  }
 }
 
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Invert Binary Tree.
-Memory Usage: 40.2 MB, less than 5.10% of Java online submissions for Invert Binary Tree.
-@stack
-*/
+/**
+ * performance: 0 ms < 100%
+ * time complexity: O(n)
+ * space complexity: O(height of tree)
+ */
 
-// iterative solution
+
+// iteration
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
@@ -49,3 +42,7 @@ class Solution {
         return root;
     }
 }
+
+/**
+ * same
+ */
