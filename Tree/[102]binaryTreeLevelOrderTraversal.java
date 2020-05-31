@@ -19,9 +19,8 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(n)
  * space complexity: O(n)
- * notes: trick size of list grows by level.
+ * notes: recursion; trick size of list grows by level.
  */
-
 
 class Solution {
   public List<List<Integer>> levelOrder(TreeNode root) {
@@ -52,4 +51,36 @@ class Solution {
  * performance: 1 ms < 90%
  * time complexity: O(n)
  * space complexity: O(n)
+ * notes: double stacks.
+ */
+
+class Solution {
+  public List<List<Integer>> levelOrder(TreeNode root) {
+    List<List<Integer>> res = new ArrayList<>();
+    if (root == null) return res;
+    List<Integer> level = new ArrayList<>();
+    TreeNode delimiter = new TreeNode(0);
+    Deque<TreeNode> dq = new ArrayDeque<>();
+    dq.addLast(root);
+    dq.addLast(delimiter);
+    while (!dq.isEmpty()) {
+      TreeNode node = dq.removeFirst();
+      if (node == delimiter) {
+        res.add(new ArrayList<Integer>(level));
+        level.clear();
+        if (!dq.isEmpty()) dq.addLast(delimiter);
+      } else {
+        level.add(node.val);
+        if (node.left != null) dq.addLast(node.left);
+        if (node.right != null) dq.addLast(node.right);
+      }
+    }
+    return res;
+  }
+}
+
+/**
+ * performance: 1 ms < 90%
+ * same
+ * notes: ArrayList clear and copy; delimiter.
  */
