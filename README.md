@@ -224,7 +224,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Preorder			
 - [x] 100	Same Tree
-- [x] 101	Symmetric Tree
+- [x] 101	Symmetric Tree <!--Replacing recusrion with a deque-->
 - [x] 226	Invert Binary Tree <!--Pre-order + BFS-->
 - [ ] 257	Binary Tree Paths
 - [x] 112	Path Sum
