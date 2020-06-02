@@ -28,12 +28,12 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 219	Contains Duplicate II		
 - [x] 220	Contains Duplicate III		
 - [x] [55]	Jump Game
-- [x] [45]	Jump Game II	<!--greedy; shortest paths on DAGs-->	
+- [x] [45]	Jump Game II	<!--greedy; shortest paths on DAGs-->
 - [x] 121	Best Time to Buy and Sell Stock
 - [x] 122	Best Time to Buy and Sell Stock II		
-- [x] 123	Best Time to Buy and Sell Stock III	
-- [x] 188	Best Time to Buy and Sell Stock IV	
-- [x] 309	Best Time to Buy and Sell Stock with Cooldown	
+- [x] 123	Best Time to Buy and Sell Stock III
+- [x] 188	Best Time to Buy and Sell Stock IV
+- [x] 309	Best Time to Buy and Sell Stock with Cooldown
 - [x] 11	Container With Most Water		
 - [x] [42] Trapping Rain Water
 - [x] 334	Increasing Triplet Subsequence		
@@ -227,8 +227,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 101	Symmetric Tree <!--Replacing recusrion with a deque-->
 - [x] [226]	Invert Binary Tree <!--Pre-order + BFS-->
 - [x] 257	Binary Tree Paths <!--BFS-->
-- [x] 112	Path Sum
-- [ ] 113	Path Sum II
+- [x] [112]	Path Sum
+- [x] 113	Path Sum II
 - [ ] 129	Sum Root to Leaf Numbers
 - [ ] 298	Binary Tree Longest Consecutive Sequence
 - [ ] 111	Minimum Depth of Binary Tree					
@@ -331,10 +331,10 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 7. LinkedList
 
 ### Basic problems 		
-- [x] 206	Reverse Linked List	
+- [x] 206	Reverse Linked List
 - [x] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
-- [x] 24	Swap Nodes in Pairs 
-- [x] 328	Odd Even Linked List 
+- [x] 24	Swap Nodes in Pairs
+- [x] 328	Odd Even Linked List
 - [ ] 92	Reverse Linked List II		
 - [ ] 237	Delete Node in a Linked List		
 - [ ] 19	Remove Nth Node From End of List		
