@@ -229,9 +229,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 257	Binary Tree Paths <!--BFS-->
 - [x] [112]	Path Sum
 - [x] 113	Path Sum II
-- [ ] 129	Sum Root to Leaf Numbers
-- [ ] 298	Binary Tree Longest Consecutive Sequence
-- [ ] 111	Minimum Depth of Binary Tree					
+- [x] 129	Sum Root to Leaf Numbers
+- [x] 298	Binary Tree Longest Consecutive Sequence
+- [x] 111	Minimum Depth of Binary Tree					
 - [x] 104	Maximum Depth of Binary Tree		
 - [ ] 110	Balanced Binary Tree		
 - [ ] 124	Binary Tree Maximum Path Sum		
