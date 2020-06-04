@@ -233,8 +233,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 298	Binary Tree Longest Consecutive Sequence
 - [x] 111	Minimum Depth of Binary Tree					
 - [x] 104	Maximum Depth of Binary Tree		
-- [ ] 110	Balanced Binary Tree		
-- [ ] 124	Binary Tree Maximum Path Sum		
+- [x] 110	Balanced Binary Tree
+- [x] 124	Binary Tree Maximum Path Sum		
 - [ ] 250	Count Univalue Subtrees		
 - [ ] 366	Find Leaves of Binary Tree		
 - [ ] 337	House Robber III <!--Post-order + Pre-order-->
