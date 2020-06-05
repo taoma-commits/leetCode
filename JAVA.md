@@ -47,7 +47,7 @@
 * XOR logic operation
 exclusive or = addition modulo 2
 
-* Using the bitwise operator can circumvent short-circuiting behavior. 
+* Using the bitwise operator can circumvent short-circuiting behavior.
 
 ### Bitwise logic operations
 - bitwise OR |
@@ -303,7 +303,8 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 #### Class List
 * append element e to the end:
   ```list.add(E e)```
-* insert e at index i: ```list.add(int i, E e)```   
+* insert e at index i: ```list.add(int i, E e)```
+  - Shifts the element currently at that position (if any) and any subsequent elements to the right.
 * the number of items: ```list.size()```
 
 ##### Compare LinkedList and ArrayList

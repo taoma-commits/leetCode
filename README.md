@@ -217,12 +217,12 @@ The problems are classified into 18 major categories as follows. The problems in
 ## 4. Tree
 
 ### Basic problems
-- [x] 144	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] 94	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] 145	Binary Tree Postorder Traversal :zap::zap:<!--Replacing recursion with a stack; delimiter template; double stacks-->
-- [x] 102	Binary Tree Level Order Traversal <!--double stacks; delimiter-->
+- [x] [144]	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
+- [x] [94]	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
+- [x] [145]	Binary Tree Postorder Traversal :zap::zap:<!--Replacing recursion with a stack; delimiter template; double stacks-->
+- [x] [102]	Binary Tree Level Order Traversal <!--double stacks; delimiter-->
 
-### Preorder			
+### Pre-order			
 - [x] 100	Same Tree
 - [x] 101	Symmetric Tree <!--Replacing recusrion with a deque-->
 - [x] [226]	Invert Binary Tree <!--Pre-order + BFS-->
@@ -236,11 +236,11 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 110	Balanced Binary Tree
 - [x] 124	Binary Tree Maximum Path Sum :zap:
 - [x] 250	Count Univalue Subtrees :zap::zap:
-- [ ] 366	Find Leaves of Binary Tree		
-- [ ] 337	House Robber III <!--Post-order + Pre-order-->
+- [x] 366	Find Leaves of Binary Tree :zap:
+- [x] 337	House Robber III <!--Post-order + Pre-order-->
 
 ### BFS 			
-- [ ] 107	Binary Tree Level Order Traversal II		
+- [x] 107	Binary Tree Level Order Traversal II		
 - [ ] 103	Binary Tree Zigzag Level Order Traversal		
 - [ ] 199	Binary Tree Right Side View	<!--BFS + Pre-order-->
 
@@ -267,10 +267,10 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 222	Count Complete Tree Nodes		
 - [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal		
 - [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
-- [ ] 116	Populating Next Right Pointers in Each Node <!--!-->
-- [ ] 117	Populating Next Right Pointers in Each Node II <!--!-->
-- [ ] 314	Binary Tree Vertical Order Traversal <!--!-->
-- [ ] 96	Unique Binary Search Trees <!--!-->
+- [ ] 116	Populating Next Right Pointers in Each Node :zap:
+- [ ] 117	Populating Next Right Pointers in Each Node II :zap:
+- [ ] 314	Binary Tree Vertical Order Traversal :zap:
+- [ ] 96	Unique Binary Search Trees :zap:
 - [ ] 95	Unique Binary Search Trees II		
 - [ ] 331	Verify Preorder Serialization of a Binary Tree		
 
@@ -303,7 +303,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 62	Unique Paths
 - [x] 63	Unique Paths II
 - [x] 120	Triangle
-- [x] 279	Perfect Squares <!--static dp-->
+- [x] 279	Perfect Squares <!--static DP--> :zap:
 - [x] 139	Word Break
 - [x] 375	Guess Number Higher or Lower II :zap::zap:
 - [x] 312	Burst Balloons :zap::zap:
