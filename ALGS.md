@@ -3,7 +3,7 @@
 
 ## I.1 Compare-based Sorting Algorithms
 
-In a *compare-based sorting algorithm*, one can access information only through compares. 
+In a *compare-based sorting algorithm*, one can access information only through compares.
 
 * Model of computation: decision tree
 * Cost modle: the number of compares
@@ -14,21 +14,21 @@ In a *compare-based sorting algorithm*, one can access information only through 
 
 ### Elementary sorting algorithms
 
-* bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run. 
-    * stable 
-    * worst-case $O(n^2)$ 
+* bubble sort: iterate through array. Compare two successive items and swap if not in order. Repeat until no swap in the last run.
+    * stable
+    * worst-case $O(n^2)$
     * best-case $O(n)$
-* selection sort: iterate through array. At each index find the min in the rest items and swap. 
+* selection sort: iterate through array. At each index find the min in the rest items and swap.
     * not stable
     * $O(n^2)$
 * insertion sort: in iteration i, swap a[i] with each larger entry to its left (sink down).
-    * stable 
+    * stable
     * best-case $O(n)$
     * worst-case $O(n^2)$
-* shell sort: h-sort the array (insertion sort with stride h). 
+* shell sort: h-sort the array (insertion sort with stride h).
     * not stable
-    * complexity: unknown 
-    
+    * complexity: unknown
+
 
 ### Merge-sort
 
@@ -42,7 +42,7 @@ C(N)/N &= C(N/2)/(N/2) + 1 = C(N/4)/(N/4) + 2 \\
 &=\cdots = C(N/2^{\lg N})/ (N/2^{\lg N}) + \lg N \\
 &=\lg N.
 \end{aligned}\]
-:coffee: 
+:coffee:
 
 ### Bottom-up merge-sort
 Non-recursive implementation of merge-sort: pass through array, merging subarrays of size 1. Repeat for subarrays of size 2, 4, 8, 16, ....
@@ -62,8 +62,8 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 
 * Equal keys: both pointers stop at keys that are equal to partition key.
    * Costs more exchanges.
-   * If the pointers do not stop at keys equal to partitioning item, then in the worst case in which all keys are equal, the first     pointer would run through the entire array and the partition is out-of-balance. 
-   * Instead, the partition is in the middle if the algorithm stop at equal keys in the worst case. 
+   * If the pointers do not stop at keys equal to partitioning item, then in the worst case in which all keys are equal, the first     pointer would run through the entire array and the partition is out-of-balance.
+   * Instead, the partition is in the middle if the algorithm stop at equal keys in the worst case.
 
 * Worst-case: array in ascending or descending order. Every partition is out-of-balance. Time complexity $\sim \frac{1}{2}N^2$.
 * Quicksort NOT stable.
@@ -77,7 +77,7 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 
 ### Quick-select
 
-> **Selection algorithm** given an array of $N$ items, find the $k$-th largest item. 
+> **Selection algorithm** given an array of $N$ items, find the $k$-th largest item.
 
 **Pseudo-code**
 
@@ -88,14 +88,14 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
         if k < j, hi = j - 1;
         if k == j, return item at j;
     - Repeat in one subarray depending on j.
-    
+
 
 > **Proposition.** Quick-select takes linear time on average.
 
 **Proof.** Rough count of number of compares is
 \[N + N/2 + \cdots + 1 \sim 2N. \]
 
-### Dijkstra 3-way quicksort 
+### Dijkstra 3-way quicksort
 
 **Pseudo-code**
 
@@ -106,8 +106,8 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
          if a[i] > a[lo], swap a[gt] with a[i]; decrement gt;
          if a[i] == a[lo], increment i;
     - Stop if i > gt;
-    
-    
+
+
 ***
 ## I.2 Non-comparision Sorting Algorithms
 
@@ -131,29 +131,29 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
     * the index of the parent of ```arr[k]``` is ```k / 2```:
       the most-left node of the i-th row has index $2^i$.
     * the indices of the two children of ```arr[k]``` are ```2*k``` and ```2*k + 1```.
-    
+
 ## II.3 Heapsort
 
 1. start with an array in arbitrary order;
 2. sink-based heap construction: make each sub-tree in heap order bottom-up;
-3. switch the max with the last key in array representation of the heap; 
-4. delete the last key from the heap, sink max to retain heap order; 
+3. switch the max with the last key in array representation of the heap;
+4. delete the last key from the heap, sink max to retain heap order;
 5. repeat until the heap is empty.
-    
-**Computational analysis** 
+
+**Computational analysis**
 
 > **Proposition.** Sink-based heap construction uses less than $2N$ compares and less than $N$ exchanges.
 
 **Proof.** Ror each node at height k, charge k links for sinking down. Arrange the charge of links so that
-each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$. 
+each link is charged at most once. There are $N - 1$ links therefore the number of exchanges is less than $N$.
 Refer to [proof](https://algs4.cs.princeton.edu/24pq/). :coffee:
 
 1. first pass: sink-based heap construction. $O(n)$.
 2. second pass: heap sort $O(2N\lg(N))$.
-    
+
 **Pros**
 
-Heapsort is the **only in-place** sorting algorithm with $2N\lg(N)$ worst-case. 
+Heapsort is the **only in-place** sorting algorithm with $2N\lg(N)$ worst-case.
 Merge sort is not in-place; quick sort has $N^2$ worst-case.
 
 **Cons**
@@ -167,10 +167,10 @@ Merge sort is not in-place; quick sort has $N^2$ worst-case.
 ***
 # III. Symbol Table
 
-## III.1 Symbol table API 
+## III.1 Symbol table API
 
 * search: get and contains
-* insert: put 
+* insert: put
 * delete: delete
 
 If keys are comparable, can do binary search and other orderd operations.
@@ -181,19 +181,19 @@ If keys are comparable, can do binary search and other orderd operations.
 * floor/ceiling
 * rank
 * select
-* ordered iteration 
+* ordered iteration
 * size
 
 **Binary search implementation**
 
-Maintain an ordered array of key-value pairs. 
-The problem with binary search implementation is that the insertion cost is $O(n)$. 
+Maintain an ordered array of key-value pairs.
+The problem with binary search implementation is that the insertion cost is $O(n)$.
 To insert, need to shift all greater keys over.
 
 ## III.2 Binary search tree (BST)
 > A *binary search tree* is a binary tree in symmetric order i.e. every node's key is
 > * larger than all keys in its left subtree
-> * smaller than all keys in its right subtree 
+> * smaller than all keys in its right subtree
 
 A node consists of four fields: key, value, pointers to the left and right subtrees.
 
@@ -214,7 +214,7 @@ Pf. 1-1 correspondence with quicksort partitioning
 ### Hibbard deletion
 
 
-## III.3 Balanced search trees 
+## III.3 Balanced search trees
 
 ### 2-3 search trees
 
@@ -222,28 +222,29 @@ Pf. 1-1 correspondence with quicksort partitioning
 
 ## III 4. Tree traversal
 
-### DFS of binary tree 
+### DFS of binary tree
 
-* Pre-order (NLR): topological sort. 
-   - **Warning:** pre-order traversal is equivalent to topological sort **only** on trees. 
-      On a general DAG (directed acyclic graph), the pre-order does not necessarily equivalent to (any) topological sort. 
+* Pre-order (NLR): topological sort.
+   - **Warning:** pre-order traversal is equivalent to topological sort **only** on trees.
+      On a general DAG (directed acyclic graph), the pre-order does not necessarily equivalent to (any) topological sort.
       The following graph is a DAG (no cycle) but pre-order visit D before visiting C;
 * Post-order (LRN): reverse post-order is always equivalent to topological sort even on a general DAG. Refer to [proof](#topological-sort).
 * In-order (LNR): ascending order.
 * Reverse in-order (RNL): descending order.
-
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
 
 ### BFS of binary tree
-* level order 
+* level order
 
-### Morris traversal 
-* In-order: 
-* Pre-order: 
+### Morris traversal
+* In-order:
+* Pre-order:
 * Post-order:
 
 ***
@@ -317,7 +318,7 @@ Use DFS instead of BFS for simpler code.
 * Topological sort: can you redraw a DAG so that every arrow points upwards?
 * Solution: DFS + post-order stack.
   - push a vertex into stack if it is done.
-  
+
 > **Proposition.** Reverse DFS post-order of a DAG is a topological sort.
 
 **Proof of correctness.** for an edge $v \rightarrow w$ if we are currently at v
@@ -341,7 +342,7 @@ Two-pass algorithm:
   - reverse the graph to $G^R$;
   - compute topological order in $G^R$ by DFS;
   - run DFS in $G$ follow the topological order obtained in the last step. Each DFS finds a strong component.
-  
+
 **Proof of correctness**
 
 **Lemma.** Let $C$ be a strong component of a digraph $G$, and $v$ be a vertex not in $C$. If there is an edge $e$ from $v$ to a vertex in $C$, then $v$ appears before every vertex in $C$ in the reverse post-order of $G$.
@@ -359,11 +360,11 @@ Let $v$ be the first element in the reverse post-order of $G^R$, then DFS visits
 ## IV.4 Minimum spanning trees
 * Tree: connected and acyclic graph
 * Spanning tree: given a connected graph $G$, a spanning tree is a subgraph $S$ of $G$ so that $S$ is a tree and includes all vertices of $G$.
-  - the number of edges in $S$ is $V - 1$: suppose the tree has more than $V - 1$ edges. Choose a vertex that is the end point of exactly one edge. Cut the vertex with the edge. Repeat until no such vertex to cut. The graph left by prune can not be a point by assumption. It must contains a cycle. 
-  
+  - the number of edges in $S$ is $V - 1$: suppose the tree has more than $V - 1$ edges. Choose a vertex that is the end point of exactly one edge. Cut the vertex with the edge. Repeat until no such vertex to cut. The graph left by prune can not be a point by assumption. It must contains a cycle.
+
 * MST: given a connected, weighted graph $G$, the minimum spanning tree $S$ of $G$ is the spanning tree whose weight sum is minimum. $S$ is unique if edge weights are distinct.
 
-* Note: MST only depends on the **relative order of edge weights**, not on the exact values of weights. 
+* Note: MST only depends on the **relative order of edge weights**, not on the exact values of weights.
 
 > **Proposition.** In a tree, $E = V - 1$.
 
@@ -387,11 +388,11 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 2. add edge to tree unless create a cycle;
 3. stop when V - 1 edges are added.
 
-**Visualization.** Take small edges and they coallesce together in little clusters and eventually the edges get longer and longer and they connect together the clusters. 
+**Visualization.** Take small edges and they coallesce together in little clusters and eventually the edges get longer and longer and they connect together the clusters.
 
 **Implementation.**
 * cycle detection: Union-find data structure.
-* sort edges (dynamic): Priority queue. 
+* sort edges (dynamic): Priority queue.
 
 **Computational analysis.**
 
@@ -404,23 +405,23 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 
 1. start with vertex 0 and add the smallest edge incident to 0;
 2. add to T the smallest edge with **exactly one endpoint** in MST;
-3. repeat until V - 1 edges. 
+3. repeat until V - 1 edges.
 
 **Visualization.** Usually, the new edge is close to the last edge added. But every once in a while, it gets stuck and jumps to a new place to add edges to the MST.
 
 **Lazy implementation of Prim's algorithm.**
 
-1. Maintain a PQ of edges with at least one endpoint in T. The priority keys are weights of edges. 
+1. Maintain a PQ of edges with at least one endpoint in T. The priority keys are weights of edges.
 2. Pop min edge e = v-w:
    - continue pop if both v and w are marked;
    - if w is unmarked:
-      * add to PQ any edge incident to w and the other vertex not in T; 
-      * add edge e to T and mark w. 
+      * add to PQ any edge incident to w and the other vertex not in T;
+      * add edge e to T and mark w.
 3. Repeat until PQ is empty.
-   
-**Eager implementation of Prim's algorithm.** 
 
-1. Maintain a PQ of vertices connected by an edge to T. The priority key of a vertex is **the weight of shortest edge** connecting the vertex to T. 
+**Eager implementation of Prim's algorithm.**
+
+1. Maintain a PQ of vertices connected by an edge to T. The priority key of a vertex is **the weight of shortest edge** connecting the vertex to T.
 2. Pop min v. Add the associated edge e = v-w to T;
 3. Update PQ by considering all edges e = v-x incident to v:
    - continue if x in T;
@@ -428,20 +429,20 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
    - decrease priority of x if v-x shorter than previous priority of x.
 4. Repeat until PQ is empty.
 
-* Indexed PQ implementation... 
+* Indexed PQ implementation...
 
 **Computational analysis.**
 |implementation|time complexity|space complexity|good for|
 |:--:|:-------------:|:---:|:---:|
 |Lazy| $O(E\log(E))$ | $O(E)$ | sparse graph |
-|Eager(binary heap PQ)| $O(E\log(V))$ | $O(V)$ |sparse graph $E\sim V$ | 
+|Eager(binary heap PQ)| $O(E\log(V))$ | $O(V)$ |sparse graph $E\sim V$ |
 |Eager(array PQ)| $O(V^2)$ | $O(v)$ |dense graph $E >> V$|
 
 ### Context
 * Euclidean MST: Delaunay triangulation.
 * Single-link clustering: Kruskal's algorithm.
 
-## IV 5. Shortest path 
+## IV 5. Shortest path
 
 * Consider edge weighted digraphs;
 * Single-source shortest paths: the solutio is a **SPT** (shortest path tree);
@@ -451,39 +452,39 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 * `distTo[s] = 0`;
 * `distTo[v]` is realized by a path from $s$ to $v$;
 * for each edge $e = v\rightarrow w$, `distTo[v] <= distTo[v] + e.weight()`.
-   
+
 ### Dijkstra's algorithm (no negative edges)
 1. Take the non-tree vertex with lowest `distTo[]` value.
-2. Add vertex to tree and relax all edges pointing from the vertex. 
+2. Add vertex to tree and relax all edges pointing from the vertex.
 
 > **Proposition.** Dijkstra's algorithm computes a SPT in any DAG with non-negative weights.
 
-**Proof.** 
-* Every edge $e = v\rightarrow w$ is relaxed exactly once. 
-* Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds. 
+**Proof.**
+* Every edge $e = v\rightarrow w$ is relaxed exactly once.
+* Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds.
    - `distTo[w]` can not increase;
    - `distTo[v]` will not change.
-The optimality conditions are satisfied. 
-A subtle point. Since we need to visit every edge, it is possible that an edge 
+The optimality conditions are satisfied.
+A subtle point. Since we need to visit every edge, it is possible that an edge
 $e = u \rightarrow v$ is relaxed after $v$ is added to the tree. Because `distTo[v]` was the min when `v` was taken and all edge weights are **non-negative**, such relaxation does not change `distTo[v]`. :coffee:
 
-### Edge-weighted DAGs 
+### Edge-weighted DAGs
 1. Take a vertex in topological order;
 2. Relax all edges pointing from the vertex.
 
 > **Proposition.** Topological sort algorithm computes SPT in any edge-weighted DAG in time proportional to $E + V$.
 
-**Proof.** 
-* Every edge $e = v\rightarrow w$ is relaxed exactly once. 
+**Proof.**
+* Every edge $e = v\rightarrow w$ is relaxed exactly once.
 * Right after the relaxation of $e$, the inequality `distTo[w] <= distTo[v] + e.weight()` holds.
    - `distTo[w]` can not increase;
-   - `distTo[v]` will not change because of topological order. This is true even for negative edges. 
+   - `distTo[v]` will not change because of topological order. This is true even for negative edges.
 
 :coffee:
 
 
 
-### Bellmann-Ford algorithm (no negative cycles) 
+### Bellmann-Ford algorithm (no negative cycles)
 
 ***
 # V. Strings
@@ -571,4 +572,3 @@ The size of the array is 26.
 
 ## Floyd's algorithm
 Use fast and slow pointers to detect cycle.
-

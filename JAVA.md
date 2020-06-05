@@ -19,6 +19,13 @@
 
 * ```char```: a single 16-bit Unicode character.
 
+### Primitive types and wrappers objects
+
+* Primitive types can never be null. If primitive types are not assigned a value, the language will assign them a default value.
+* Wrapper objects are reference types, their default value will be null.
+* When a wrapper object get its value modified, the compiler must create a new object and then reassign that object to the original.
+
+* Refer to this [article](https://medium.com/@bpnorlander/java-understanding-primitive-types-and-wrapper-objects-a6798fb2afe9#:~:text=Since%20wrapper%20objects%20are%20reference,assign%20them%20a%20default%20value.).
 ### Non-primitive data type
 
 #### Mutability
@@ -26,7 +33,8 @@
 * Mutable data types: StringBuilder, Stack, Counter, Java array
 * Immutable data types: String, Integer, Double, Color, Vector, Transaction, Point2D
 * **Keys of priority queues and symbol tables should be immutable**.
-
+* The default value of wrapper objects are null.
+* Wrapper objects are immutable.
 ***
 ## Logic
 ***
@@ -36,8 +44,10 @@
 
 ### Logic operations
 
-#### XOR logic operation
+* XOR logic operation
 exclusive or = addition modulo 2
+
+* Using the bitwise operator can circumvent short-circuiting behavior. 
 
 ### Bitwise logic operations
 - bitwise OR |
@@ -45,7 +55,7 @@ exclusive or = addition modulo 2
 - bitwise XOR ^
 - bitwise Complement ~
 
-##### Examples
+**Examples**
 ```
 a = 5 = 0101
 b = 7 = 0111
@@ -54,7 +64,8 @@ a & b = 0101 = 5
 a ^ b = 0010 = 2
 ~ a = 1010 = 10
 ```
-##### Bitwise XOR properties
+
+**Bitwise XOR properties**
 * ```a ^ 0 = a```
 * ```a ^ a = 0```
 * Commutativity ```a ^ b = b ^ a ```
@@ -62,7 +73,7 @@ a ^ b = 0010 = 2
 
 #### Applications
 
-##### Bitmask
+**Bitmask**
 A *mask* or *bitmask* is data that is used for bitwise operations, particularly in a bit field.
 * masking bits to 1: OR
 * masking bits to 0: OR
@@ -251,7 +262,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * Array sorting:
   - ```Arrays.sort(arr, start_idx, end_idx + 1)```
   - ```Arrays.sort(arr, comparator)```
-  - One could initialize a Comparator object in the second field of ```Arrays.srot()``` 
+  - One could initialize a Comparator object in the second field of ```Arrays.srot()```
   ```
     Arrays.sort(arr, new Comparator<T>() {
       public int compare(obj_1, obj_2) {
@@ -305,12 +316,12 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
 
 ##### ArrayList
 * initialize an ArrayList: ```new ArrayList(collection)```
-* initialize an ArrayList with values: 
+* initialize an ArrayList with values:
   - ```new ArrayList<T>(Arrays.aslist(obj 1, obj 2, ...))```
   - ```
     new ArrayList<T>{
       {
-        add(obj 1); 
+        add(obj 1);
         add(obj 2);
       }
     }
