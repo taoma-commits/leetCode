@@ -19,7 +19,7 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(n)
  * space complexity: O(n)
- * notes: recursion; trick size of list grows by level.
+ * notes: DFS; trick size of list grows by level.
  */
 
 class Solution {
@@ -51,7 +51,7 @@ class Solution {
  * performance: 1 ms < 90%
  * time complexity: O(n)
  * space complexity: O(n)
- * notes: double stacks.
+ * notes: double queues BFS.
  */
 
 class Solution {
@@ -82,5 +82,5 @@ class Solution {
 /**
  * performance: 1 ms < 90%
  * same
- * notes: ArrayList clear and copy; delimiter.
+ * notes: ArrayList clear and copy; delimiter BFS.
  */

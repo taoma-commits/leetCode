@@ -220,7 +220,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] [144]	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
 - [x] [94]	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
 - [x] [145]	Binary Tree Postorder Traversal :zap::zap:<!--Replacing recursion with a stack; delimiter template; double stacks-->
-- [x] [102]	Binary Tree Level Order Traversal <!--double stacks; delimiter-->
+- [x] [102]	Binary Tree Level Order Traversal <!--DFS; double queues BFS; delimiter BFS-->
 
 ### Pre-order			
 - [x] 100	Same Tree
@@ -231,8 +231,8 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 113	Path Sum II
 - [x] 129	Sum Root to Leaf Numbers
 - [x] 298	Binary Tree Longest Consecutive Sequence
-- [x] 111	Minimum Depth of Binary Tree					
-- [x] 104	Maximum Depth of Binary Tree		
+- [x] 111	Minimum Depth of Binary Tree			
+- [x] 104	Maximum Depth of Binary Tree
 - [x] 110	Balanced Binary Tree
 - [x] 124	Binary Tree Maximum Path Sum :zap:
 - [x] 250	Count Univalue Subtrees :zap::zap:
@@ -240,9 +240,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 337	House Robber III <!--Post-order + Pre-order-->
 
 ### BFS 			
-- [x] 107	Binary Tree Level Order Traversal II		
-- [ ] 103	Binary Tree Zigzag Level Order Traversal		
-- [ ] 199	Binary Tree Right Side View	<!--BFS + Pre-order-->
+- [x] 107	Binary Tree Level Order Traversal II
+- [x] 103	Binary Tree Zigzag Level Order Traversal <!--DFS; double queues BFS; delimiter BFS -->
+- [x] 199	Binary Tree Right Side View	<!--BFS; DFS-->
 
 ### BST			
 - [ ] 98	Validate Binary Search Tree <!--Pre-order-->

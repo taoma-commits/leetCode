@@ -337,21 +337,14 @@ A ```Set``` is a ```Collection``` that **cannot contain duplicate elements**.
     ```
 * remove object: ```list.remove()```
 
-#### Stack
-* initialization:
-  ```Stack<Integer> stack = new Stack<>();```
-  - parameter accepts only **non-primitive type**
-
-* **stack is iterable**: ```for (int i : stack) {}```
-
-* methods:
-  - ```stack.peek()```
-  - ```stack.pop()```
-  - ```stack.push(Element e)```
-  - ```stack.empty()```
-  - ```stack.search(Object o)```
-
 #### Deque
+**Two implementations**
+- `ArrayDeque`
+  - `null` value not allowed.
+- `LinkedList`
+  - `null` value is allowed.
+
+**Deque methods**
 * initialization:
   - ```new ArrayDeque<E>()```
   - ```new LinkedList<E>()```
