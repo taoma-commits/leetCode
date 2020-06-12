@@ -19,5 +19,22 @@ class Solution {
  * space complexity: O(depth)
  * notes: pre-order traversal; trick use Integer type and null control overflow and underflow.
  */
- 
- 
+
+ class Solution {
+  Integer preVal = null;
+  public boolean isValidBST(TreeNode root) {
+    if (root == null) return true;
+    if (!isValidBST(root.left)) return false;
+    if (preVal != null && root.val <= preVal) return false;
+    preVal = root.val;
+    if (!isValidBST(root.right)) return false;
+    return true;
+  }
+}
+
+/**
+ * performance: 0 ms < 100%
+ * time complexity: O(n)
+ * space complexity: O(depth)
+ * notes: in-order traversal; use Integer type and null.
+ */
