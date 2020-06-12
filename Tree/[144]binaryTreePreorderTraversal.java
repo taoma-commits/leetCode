@@ -13,8 +13,8 @@ class Solution {
 /**
  * performance: 0 ms < 100%
  * time complexity: O(n)
- * space complexity: O(n) 
- * notes: recursion. 
+ * space complexity: O(n)
+ * notes: recursion.
  */
 
 class Solution {
@@ -33,10 +33,10 @@ class Solution {
 }
 
 /**
- * performance: 0 ms 
+ * performance: 0 ms
  * time complexity: O(n)
  * space complexity: O(n)
- * notes: use stack to convert recursion to interation. 
+ * notes: use stack to convert recursion to iteration. 
  */
 
 class Solution {
@@ -95,8 +95,8 @@ class Solution {
 }
 
 /**
- * performance: 0 ms 
+ * performance: 0 ms
  * time complexity: O(n)
- * space complexity: O(n) 
- * notes: Morris traversal 
+ * space complexity: O(n)
+ * notes: Morris traversal
  */

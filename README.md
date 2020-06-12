@@ -1,5 +1,6 @@
 This repository keeps track of the author's progress in LeetCoding.
-The problems are classified into 18 major categories as follows. The problems in each category are grouped by their tags and difficult levels.
+The list of selected LeetCode problems are grouped into 18 major categories. The problems in each category are further grouped by their tags and levels of difficulty.
+
 ## Table of Contents
 * [Array](#array)
   * [Basic problems](#basic-problems)
@@ -54,12 +55,12 @@ The problems are classified into 18 major categories as follows. The problems in
 ### Basic problems
 
 - [x] 27	Remove Element		
-- [x] [26]  Remove Duplicates from Sorted Array :ok:
+- [x] [26]  Remove Duplicates from Sorted Array :coffee:
 - [x] 80	Remove Duplicates from Sorted Array II :zap:
 - [x] 277	Find the Celebrity
 - [x] [189]	Rotate Array <!--2 methods--> :zap:		
 - [x] [41]	First Missing Positive <!--Bucket-sort--> :zap:
-- [x] [299]	Bulls and Cows :ok:
+- [x] [299]	Bulls and Cows :coffee:
 - [x] [134]	Gas Station	:zap:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II
@@ -87,7 +88,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
 - [x] [287]	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers--> :zap:
 - [x] 135	Candy
-- [x] [330]	Patching Array <!--Greedy; overflow--> :ok:		
+- [x] [330]	Patching Array <!--Greedy; overflow--> :coffee:		
 
 ### Challenging problems
 - [x] 4	  Median of Two Sorted Arrays
@@ -151,7 +152,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 205	Isomorphic Strings <!--easy-->
 - [x] 293	Flip Game	<!--easy-->
 - [x] 294	Flip Game II :zap:
-- [x] [290]	Word Pattern <!--easy--> :ok:
+- [x] [290]	Word Pattern <!--easy--> :coffee:
 - [x] 242	Valid Anagram <!--easy-->		
 - [x] 49  Group Anagrams <!--medium-->
 - [x] 249 Group Shifted Strings <!--medium-->
@@ -231,7 +232,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ### Sum			
 - [x] [1]	Two Sum :zap:		
-- [x] [167]	Two Sum II - Input array is sorted :ok:		
+- [x] [167]	Two Sum II - Input array is sorted :coffee:		
 - [x] 15	3Sum <!-- two-pointer -->
 - [x] 16	3Sum Closest <!-- two-pointer -->
 - [x] 259	3Sum Smaller <!-- two-pointer -->
@@ -247,7 +248,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 292	Nim Game		
 - [x] 202	Happy Number <!--Floyd's slow and faster pointers-->:zap:
 - [x] 400	Nth Digit
-- [x] [263]	Ugly Number :ok:
+- [x] [263]	Ugly Number :coffee:
 - [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:zap::zap:
 - [ ] 306	Additive Number
 - [x] 172	Factorial Trailing Zeroes		
@@ -291,9 +292,9 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 199	Binary Tree Right Side View	<!--BFS; DFS-->
 
 ### BST			
-- [x] 98	Validate Binary Search Tree <!--Pre-order; In-order-->
-- [ ] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order-->
-- [ ] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
+- [x] 98	Validate Binary Search Tree <!--Pre-order; In-order--> :zap:
+- [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :zap:
+- [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
 - [ ] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
 - [ ] 109	Convert Sorted List to Binary Search Tree <!--Binary search-->
 - [ ] 173	Binary Search Tree Iterator	<!--In-order-->
