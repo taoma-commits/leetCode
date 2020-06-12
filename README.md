@@ -3,7 +3,7 @@ The problems are classified into 18 major categories as follows. The problems in
 
 ## Table of Contents
 * [Array](#1.-array)
-* [String](#2.-string)
+* [String](#string)
 
 
 ## 1. Array
@@ -93,7 +93,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 354	Russian Doll Envelopes
 
 
-## 2. String
+## String
 
 ### Basic problems
 - [x] 28  Implement strStr<!-- -->		
