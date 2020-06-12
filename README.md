@@ -245,7 +245,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 199	Binary Tree Right Side View	<!--BFS; DFS-->
 
 ### BST			
-- [ ] 98	Validate Binary Search Tree <!--Pre-order-->
+- [x] 98	Validate Binary Search Tree <!--Pre-order; In-order-->
 - [ ] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order-->
 - [ ] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
 - [ ] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
