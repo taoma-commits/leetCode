@@ -1,7 +1,24 @@
 This repository keeps track of the author's progress in LeetCoding.
 The problems are classified into 18 major categories as follows. The problems in each category are grouped by their tags and difficult levels.
-
-[TOC]
+## Table of Contents
+1. [Array](#array)
+2. [String](#string)
+3. [Math](#math)
+4. [Tree](#tree)
+5. [Backtracking](#backtracking)
+* [Dynamic Programming](#dynamic-programming)
+* [LinkedList](#linkedlist)
+* [Binary Search](#binary-search)
+* [Matrix](#matrix)
+* [DFS & BFS](#dfs-&-bfs)
+* [Stack & Priority Queue](#stack-&-priority-queue)
+* [Bit Manipulation](#bit-manipulation)
+* [Topological Sort](#topological-sort)
+* [Random](#random)
+* [Graph](#graph)
+* [Union Find](#union-find)
+* [Trie](#trie)
+* [Design](#design)
 
 ## Array
 
