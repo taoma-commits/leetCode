@@ -6,19 +6,19 @@ The problems are classified into 18 major categories as follows. The problems in
 3. [Math](#math)
 4. [Tree](#tree)
 5. [Backtracking](#backtracking)
-* [Dynamic Programming](#dynamic-programming)
-* [LinkedList](#linkedlist)
-* [Binary Search](#binary-search)
-* [Matrix](#matrix)
-* [DFS & BFS](#dfs-&-bfs)
-* [Stack & Priority Queue](#stack-&-priority-queue)
-* [Bit Manipulation](#bit-manipulation)
-* [Topological Sort](#topological-sort)
-* [Random](#random)
-* [Graph](#graph)
-* [Union Find](#union-find)
-* [Trie](#trie)
-* [Design](#design)
+6. [Dynamic Programming](#dynamic-programming)
+7. [LinkedList](#linkedlist)
+8. [Binary Search](#binary-search)
+9. [Matrix](#matrix)
+10. [DFS & BFS](#dfs-&-bfs)
+11. [Stack & Priority Queue](#stack-&-priority-queue)
+12. [Bit Manipulation](#bit-manipulation)
+13. [Topological Sort](#topological-sort)
+14. [Random](#random)
+15. [Graph](#graph)
+16. [Union Find](#union-find)
+17. [Trie](#trie)
+18. [Design](#design)
 
 ## Array
 
@@ -184,7 +184,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 187	 Repeated DNA Sequences <!--Robin-Karp; -->
 - [ ] 1044 Longest duplicate substring <!--Robin-Karp; Binary search-->
 
-## 3. Math
+## Math
 
 ### Basic problems
 - [x] 7	  Reverse Integer :zap:
@@ -231,7 +231,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 397	Integer Replacement		
 - [ ] 368	Largest Divisible Subset
 
-## 4. Tree
+## Tree
 
 ### Basic problems
 - [x] [144]	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
@@ -291,7 +291,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 95	Unique Binary Search Trees II		
 - [ ] 331	Verify Preorder Serialization of a Binary Tree		
 
-## 5. Backtracking
+## Backtracking
 
 - [x] 78	Subsets
 - [x] 90	Subsets II
@@ -313,7 +313,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 140	Word Break II :zap:
 - [x] 351	Android Unlock Patterns :zap:
 
-## 6. Dynamic Programming
+## Dynamic Programming
 
 ### One dimensional
 - [x] 70	Climbing Stairs		
@@ -345,7 +345,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 10	Regular Expression Matching <!--DFA?-->
 - [x] 44	Wildcard Matching <!--Backtracking-->
 
-## 7. LinkedList
+## LinkedList
 
 ### Basic problems 		
 - [x] 206	Reverse Linked List
@@ -374,7 +374,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 23	Merge k Sorted Lists
 - [ ] 147	Insertion Sort List
 
-## 8. Binary Search
+## Binary Search
 
 - [ ] 278	First Bad Version		
 - [ ] 35	Search Insert Position		
@@ -391,7 +391,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 300	Longest Increasing Subsequence		
 - [ ] 354	Russian Doll Envelopes		
 
-## 9. Matrix
+## Matrix
 
 - [ ] 48	Rotate Image		
 - [ ] 54	Spiral Matrix		
@@ -411,7 +411,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 36	Valid Sudoku		
 - [ ] 37	Sudoku Solver
 
-## 10. DFS & BFS
+## DFS & BFS
 
 - [ ] 200	Number of Islands		
 - [ ] 286	Walls and Gates		
@@ -423,7 +423,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 52	N-Queens II		
 - [ ] 126	Word Ladder II
 
-## 11. Stack & Priority Queue
+## Stack & Priority Queue
 
 ### Stack			
 - [x] 155	Min Stack		
@@ -447,7 +447,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 332	Reconstruct Itinerary		
 - [ ] 341	Flatten Nested List Iterator
 
-## 12. Bit Manipulation
+## Bit Manipulation
 
 - [ ] 389	Find the Difference		
 - [x] 136	Single Number		
@@ -465,13 +465,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 137	Single Number II		
 - [ ] 260	Single Number III
 
-## 13. Topological Sort
+## Topological Sort
 
 - [x] 207	Course Schedule	<!--to-do: BFS + indegree-->
 - [x] 210	Course Schedule II <!--to-do: BFS + indegree-->		
 - [x] 269	Alien Dictionary <!--to-do: time & space complexity-->
 
-## 14. Random
+## Random
 
 - [ ] 384	Shuffle an Array		
 - [ ] 398	Random Pick Index		
@@ -480,7 +480,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 381	Insert Delete GetRandom O(1) - Duplicates allowed		
 - [ ] 138	Copy List with Random Pointer		
 
-## 15. Graph
+## Graph
 
 ### Basic problems 			
 - [ ] 133	Clone Graph		
@@ -494,13 +494,13 @@ The problems are classified into 18 major categories as follows. The problems in
 - [ ] 391	Perfect Rectangle		<!--low frequency-->
 - [ ] 223	Rectangle Area		<!--low frequency-->
 
-## 16. Union Find
+## Union Find
 
 - [x] 261	Graph Valid Tree		
 - [x] 323	Number of Connected Components in an Undirected Graph	<!--static connectivity to do DFS-->
 - [x] 305	Number of Islands II <!--dynamic connectivity-->
 
-## 17. Trie
+## Trie
 
 - [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie		
@@ -511,7 +511,7 @@ The problems are classified into 18 major categories as follows. The problems in
 - [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:zap:
 - [ ] 425 Word Squares
 
-## 18. Design
+## Design
 
 - [ ] 359	Logger Rate Limiter		
 - [ ] 346	Moving Average from Data Stream <!--Sliding Window-->
