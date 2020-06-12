@@ -3,6 +3,16 @@
 This repository keeps track of the author's progress in LeetCoding.
 The problems are classified into 18 major categories as follows. The problems in each category are grouped by their tags and difficult levels.  
 
+1. [Array](#array)
+2. [String](#string)
+3. [Math](#math)
+4. [Tree](#tree)
+5. [Backtracking](#backtracking)
+6. [Dynamical Programming](#dynamical-programming)
+7. [LinkedList](#linkedlist)
+8. [Binary Search](#binary-search)
+9. [Matrix](#matrix)
+
 ## 1. Array
 
 ### Basic problems
