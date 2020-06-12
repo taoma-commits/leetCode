@@ -2,8 +2,8 @@ This repository keeps track of the author's progress in LeetCoding.
 The problems are classified into 18 major categories as follows. The problems in each category are grouped by their tags and difficult levels.
 
 ## Table of Contents
-* [Array](#array)
-* [String](#string)
+* [Array](#1.-array)
+* [String](#2.-string)
 
 
 ## 1. Array
