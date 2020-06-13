@@ -295,8 +295,8 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 98	Validate Binary Search Tree <!--Pre-order; In-order--> :zap:
 - [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :zap:
 - [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
-- [ ] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
-- [ ] 109	Convert Sorted List to Binary Search Tree <!--Binary search-->
+- [x] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
+- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; simulate in-order traversal--> :zap::zap:
 - [ ] 173	Binary Search Tree Iterator	<!--In-order-->
 - [ ] 230	Kth Smallest Element in a BST	<!--In-order-->
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS-->
