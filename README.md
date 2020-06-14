@@ -56,16 +56,16 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 
 - [x] 27	Remove Element		
 - [x] [26]  Remove Duplicates from Sorted Array :coffee:
-- [x] 80	Remove Duplicates from Sorted Array II :zap:
+- [x] 80	Remove Duplicates from Sorted Array II :boom:
 - [x] 277	Find the Celebrity
-- [x] [189]	Rotate Array <!--2 methods--> :zap:		
-- [x] [41]	First Missing Positive <!--Bucket-sort--> :zap:
+- [x] [189]	Rotate Array <!--2 methods--> :boom:		
+- [x] [41]	First Missing Positive <!--Bucket-sort--> :boom:
 - [x] [299]	Bulls and Cows :coffee:
-- [x] [134]	Gas Station	:zap:
+- [x] [134]	Gas Station	:boom:
 - [x] 118	Pascal's Triangle
 - [x] 119	Pascal's Triangle II
-- [x] [169]	Majority Element <!-- 6 methods! --> :zap::zap:
-- [x] 229	Majority Element II <!-- BM majority vote --> :zap:
+- [x] [169]	Majority Element <!-- 6 methods! --> :boom::boom:
+- [x] 229	Majority Element II <!-- BM majority vote --> :boom:
 - [x] 274	H-Index
 - [x] 275	H-Index II <!-- Binary Search -->
 - [x] [243]	Shortest Word Distance
@@ -86,7 +86,7 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 334	Increasing Triplet Subsequence		
 - [x] 128	Longest Consecutive Sequence		
 - [x] 164	Maximum Gap	<!-- Bucket Sort -->
-- [x] [287]	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers--> :zap:
+- [x] [287]	Find the Duplicate Number <!--Binary search; Floyd's slow and faster pointers--> :boom:
 - [x] 135	Candy
 - [x] [330]	Patching Array <!--Greedy; overflow--> :coffee:		
 
@@ -151,18 +151,18 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 345	Reverse Vowels of a String			
 - [x] 205	Isomorphic Strings <!--easy-->
 - [x] 293	Flip Game	<!--easy-->
-- [x] 294	Flip Game II :zap:
+- [x] 294	Flip Game II :boom:
 - [x] [290]	Word Pattern <!--easy--> :coffee:
 - [x] 242	Valid Anagram <!--easy-->		
 - [x] 49  Group Anagrams <!--medium-->
 - [x] 249 Group Shifted Strings <!--medium-->
-- [x] 87  Scramble String :zap:
-- [x] 179	Largest Number :zap:
+- [x] 87  Scramble String :boom:
+- [x] 179	Largest Number :boom:
 - [x] 6	  Zig-Zag Conversion
-- [x] 161	One Edit Distance	:zap:
+- [x] 161	One Edit Distance	:boom:
 - [x] 38	Count and Say		
-- [x] 358	Rearrange String k Distance Apart <!-- PQ --> :zap::zap:		
-- [x] 316	Remove Duplicate Letters <!-- Stack --> :zap:		
+- [x] 358	Rearrange String k Distance Apart <!-- PQ --> :boom::boom:		
+- [x] 316	Remove Duplicate Letters <!-- Stack --> :boom:		
 - [x] 271	Encode and Decode Strings 		
 - [x] 168	Excel Sheet Column Title
 - [x] 171	Excel Sheet Column Number <!-- Math -->
@@ -176,9 +176,9 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 ### Challenging problems
 - [x] 157	Read N Characters Given Read4		
 - [x] 158	Read N Characters Given Read4 II - Call multiple times <!-- Buffer design -->
-- [x] 68  Text Justification :zap::zap:
+- [x] 68  Text Justification :boom::boom:
 - [x] 8	  String to Integer (atoi) <!--DFA-->
-- [x] [65] Valid Number <!--DFA--> :zap:
+- [x] [65] Valid Number <!--DFA--> :boom:
 
 
 ### Substring			
@@ -194,9 +194,9 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 125	Valid Palindrome		
 - [x] 266	Palindrome Permutation		
 - [x] 5   Longest Palindromic Substring	<!--3 methods-->
-- [x] 9	  Palindrome Number :zap:
-- [x] 214	Shortest Palindrome	<!--KMP-->:zap:
-- [ ] 336	Palindrome Pairs <!-- Trie -->:zap::zap:
+- [x] 9	  Palindrome Number :boom:
+- [x] 214	Shortest Palindrome	<!--KMP-->:boom:
+- [ ] 336	Palindrome Pairs <!-- Trie -->:boom::boom:
 - [x] 131	Palindrome Partitioning <!-- Backtracking-->		
 - [x] 132	Palindrome Partitioning II <!--DP-->
 - [x] 267	Palindrome Permutation II <!--Backtracking-->
@@ -217,21 +217,21 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 ## Math
 
 ### Basic problems
-- [x] 7	  Reverse Integer :zap:
+- [x] 7	  Reverse Integer :boom:
 - [x] 165	Compare Version Numbers
 - [x] 66	Plus One
 - [x] 258	Add Digits <!--Digital root formula-->
 - [x] 67	Add Binary <!-- XOR -->
 - [x] 43	Multiply Strings (TO-DO)		
 - [x] 29	Divide Two Integers <!-- Bit-manipulation + binary search -->
-- [x] 69	Sqrt(x) <!-- Newton's method, binary search, recursion + bit manipulation --> :zap:
-- [x] 50	Pow(x, n) <!-- fast exponentiation -->:zap:
+- [x] 69	Sqrt(x) <!-- Newton's method, binary search, recursion + bit manipulation --> :boom:
+- [x] 50	Pow(x, n) <!-- fast exponentiation -->:boom:
 - [x] 367	Valid Perfect Square <!-- Newton's method -->
 - [x] 365	Water and Jug Problem		
 - [x] 204	Count Primes <!--sieve of Eratosthenes-->
 
 ### Sum			
-- [x] [1]	Two Sum :zap:		
+- [x] [1]	Two Sum :boom:		
 - [x] [167]	Two Sum II - Input array is sorted :coffee:		
 - [x] 15	3Sum <!-- two-pointer -->
 - [x] 16	3Sum Closest <!-- two-pointer -->
@@ -239,17 +239,17 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 18	4Sum <!-- two-pointer -->		
 
 ### Low frequency problems
-- [x] 231	Power of Two <!--Bit manipulation--> :zap:
+- [x] 231	Power of Two <!--Bit manipulation--> :boom:
 - [x] 326	Power of Three <!-- -->
 - [x] 342	Power of Four
-- [x] 372	Super Pow <!--fast exponentiation; Chinese remainder theorem -->:zap:
-- [x] 233	Number of Digit One	<!--smart-->:zap:
+- [x] 372	Super Pow <!--fast exponentiation; Chinese remainder theorem -->:boom:
+- [x] 233	Number of Digit One	<!--smart-->:boom:
 - [x] 319	Bulb Switcher		
 - [x] 292	Nim Game		
-- [x] 202	Happy Number <!--Floyd's slow and faster pointers-->:zap:
+- [x] 202	Happy Number <!--Floyd's slow and faster pointers-->:boom:
 - [x] 400	Nth Digit
 - [x] [263]	Ugly Number :coffee:
-- [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:zap::zap:
+- [x] 264	Ugly Number II <!--priority queue; 3-pointer; static field-->:boom::boom:
 - [ ] 306	Additive Number
 - [x] 172	Factorial Trailing Zeroes		
 - [ ] 343	Integer Break		
@@ -264,9 +264,9 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 ## Tree
 
 ### Basic problems
-- [x] [144]	Binary Tree Preorder Traversal :zap:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] [94]	Binary Tree Inorder Traversal :zap: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] [145]	Binary Tree Postorder Traversal :zap::zap:<!--Replacing recursion with a stack; delimiter template; double stacks-->
+- [x] [144]	Binary Tree Preorder Traversal :boom:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
+- [x] [94]	Binary Tree Inorder Traversal :boom: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
+- [x] [145]	Binary Tree Postorder Traversal :boom::boom:<!--Replacing recursion with a stack; delimiter template; double stacks-->
 - [x] [102]	Binary Tree Level Order Traversal <!--DFS; double queues BFS; delimiter BFS-->
 
 ### Pre-order			
@@ -281,9 +281,9 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 111	Minimum Depth of Binary Tree			
 - [x] 104	Maximum Depth of Binary Tree
 - [x] 110	Balanced Binary Tree
-- [x] 124	Binary Tree Maximum Path Sum :zap:
-- [x] 250	Count Univalue Subtrees :zap::zap:
-- [x] 366	Find Leaves of Binary Tree :zap:
+- [x] 124	Binary Tree Maximum Path Sum :boom:
+- [x] 250	Count Univalue Subtrees :boom::boom:
+- [x] 366	Find Leaves of Binary Tree :boom:
 - [x] 337	House Robber III <!--Post-order + Pre-order-->
 
 ### BFS 			
@@ -292,13 +292,13 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 199	Binary Tree Right Side View	<!--BFS; DFS-->
 
 ### BST			
-- [x] 98	Validate Binary Search Tree <!--Pre-order; In-order--> :zap:
-- [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :zap:
+- [x] 98	Validate Binary Search Tree <!--Pre-order; In-order--> :boom:
+- [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :boom:
 - [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
 - [x] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
-- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; simulate in-order traversal--> :zap::zap:
-- [ ] 173	Binary Search Tree Iterator	<!--In-order-->
-- [ ] 230	Kth Smallest Element in a BST	<!--In-order-->
+- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; In-order traversal simulation--> :boom::boom:
+- [x] 173	Binary Search Tree Iterator	<!--In-order--> :boom:
+- [x] 230	Kth Smallest Element in a BST	<!--In-order-->
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS-->
 - [ ] 285	Inorder Successor in BST <!--In-order-->
 - [ ] 270	Closest Binary Search Tree Value <!--Pre-order-->
@@ -314,10 +314,10 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [ ] 222	Count Complete Tree Nodes		
 - [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal		
 - [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
-- [ ] 116	Populating Next Right Pointers in Each Node :zap:
-- [ ] 117	Populating Next Right Pointers in Each Node II :zap:
-- [ ] 314	Binary Tree Vertical Order Traversal :zap:
-- [ ] 96	Unique Binary Search Trees :zap:
+- [ ] 116	Populating Next Right Pointers in Each Node :boom:
+- [ ] 117	Populating Next Right Pointers in Each Node II :boom:
+- [ ] 314	Binary Tree Vertical Order Traversal :boom:
+- [ ] 96	Unique Binary Search Trees :boom:
 - [ ] 95	Unique Binary Search Trees II		
 - [ ] 331	Verify Preorder Serialization of a Binary Tree		
 
@@ -329,7 +329,7 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 39	Combination Sum		
 - [x] 40	Combination Sum II <!--how to prune-->		
 - [x] 216	Combination Sum III		
-- [x] 377	Combination Sum IV <!--DP; follow-up--> :zap:
+- [x] 377	Combination Sum IV <!--DP; follow-up--> :boom:
 - [x] 254	Factor Combinations		
 - [x] 46	Permutations		
 - [x] 47	Permutations II		
@@ -337,11 +337,11 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 60	Permutation Sequence <!--String-->
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
-- [x] 320	Generalized Abbreviation :zap::zap: <!--all-in-one backtracking--> 		
+- [x] 320	Generalized Abbreviation :boom::boom: <!--all-in-one backtracking--> 		
 - [x] 93	Restore IP Addresses
-- [x] 282	Expression Add Operators :zap::zap:
-- [x] 140	Word Break II :zap:
-- [x] 351	Android Unlock Patterns :zap:
+- [x] 282	Expression Add Operators :boom::boom:
+- [x] 140	Word Break II :boom:
+- [x] 351	Android Unlock Patterns :boom:
 
 ## Dynamic Programming
 
@@ -350,22 +350,22 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 62	Unique Paths
 - [x] 63	Unique Paths II
 - [x] 120	Triangle
-- [x] 279	Perfect Squares <!--static DP--> :zap:
+- [x] 279	Perfect Squares <!--static DP--> :boom:
 - [x] 139	Word Break
-- [x] 375	Guess Number Higher or Lower II :zap::zap:
-- [x] 312	Burst Balloons :zap::zap:
+- [x] 375	Guess Number Higher or Lower II :boom::boom:
+- [x] 312	Burst Balloons :boom::boom:
 - [x] 322	Coin Change
 
 ### Two dimensional
-- [x] 256	Paint House :zap:
+- [x] 256	Paint House :boom:
 - [x] 265	Paint House II
 - [x] 64	Minimum Path Sum
-- [x] 72	Edit Distance :zap::zap:
+- [x] 72	Edit Distance :boom::boom:
 - [X] 97	Interleaving String
-- [x] 174	Dungeon Game :zap:
+- [x] 174	Dungeon Game :boom:
 - [x] 221	Maximal Square
 - [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
-- [x] 363	Max Sum of Rectangle No Larger Than K :zap::zap: <!-- TreeSet; Prefix Sum -->
+- [x] 363	Max Sum of Rectangle No Larger Than K :boom::boom: <!-- TreeSet; Prefix Sum -->
 
 ### Reduction 			
 - [x] 198	House Robber
@@ -534,11 +534,11 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 
 - [x] 211	Add and Search Word - Data structure design
 - [x] 208	Implement Trie		
-- [x] 212	Word Search II <!--DFS--> :zap:
+- [x] 212	Word Search II <!--DFS--> :boom:
 - [x] 677 Map Sum Pairs
 - [x] 648 Replace Words
-- [x] 642	Design Search Autocomplete System :zap::zap:
-- [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:zap:
+- [x] 642	Design Search Autocomplete System :boom::boom:
+- [x] 421 Maximum XOR of Two Numbers in an Array <!--bit manipulation-->:boom:
 - [ ] 425 Word Squares
 
 ## Design
