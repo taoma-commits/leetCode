@@ -1,5 +1,4 @@
-This repository keeps track of the author's progress in LeetCoding.
-The list of selected LeetCode problems are grouped into 18 major categories. The problems in each category are further grouped by their tags and levels of difficulty.
+This repository keeps track of the author's progress in LeetCoding. The list of selected LeetCode problems are classified into 18 major categories and further grouped by their tags and levels of difficulty. The problems in each group or category are ordered by relevance and then by ascending difficulty levels.
 
 ## Table of Contents
 * [Array](#array)
@@ -296,12 +295,12 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :boom:
 - [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
 - [x] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
-- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; In-order traversal simulation--> :boom::boom:
+- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; In-order traversal simulation--> :boom:
 - [x] 173	Binary Search Tree Iterator	<!--In-order--> :boom:
-- [x] 230	Kth Smallest Element in a BST	<!--In-order-->
-- [ ] 297	Serialize and Deserialize Binary Tree <!--BFS-->
-- [ ] 285	Inorder Successor in BST <!--In-order-->
-- [ ] 270	Closest Binary Search Tree Value <!--Pre-order-->
+- [x] 230	Kth Smallest Element in a BST	<!--In-order; follow-up-->
+- [ ] 297	Serialize and Deserialize Binary Tree <!--BFS--> :boom::boom:
+- [x] 285	In-order Successor in BST <!--In-order-->
+- [x] 270	Closest Binary Search Tree Value <!--Pre-order; Binary Search-->
 - [ ] 272	Closest Binary Search Tree Value II <!--In-order-->
 - [ ] 99	Recover Binary Search Tree <!--In-order-->
 
@@ -312,7 +311,7 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [ ] 255	Verify Preorder Sequence in Binary Search Tree		
 - [ ] 333	Largest BST Subtree		
 - [ ] 222	Count Complete Tree Nodes		
-- [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal		
+- [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
 - [ ] 116	Populating Next Right Pointers in Each Node :boom:
 - [ ] 117	Populating Next Right Pointers in Each Node II :boom:
@@ -329,7 +328,7 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 39	Combination Sum		
 - [x] 40	Combination Sum II <!--how to prune-->		
 - [x] 216	Combination Sum III		
-- [x] 377	Combination Sum IV <!--DP; follow-up--> :boom:
+- [x] 377	Combination Sum IV <!--DP; follow-up-->:boom:
 - [x] 254	Factor Combinations		
 - [x] 46	Permutations		
 - [x] 47	Permutations II		
@@ -337,7 +336,7 @@ The list of selected LeetCode problems are grouped into 18 major categories. The
 - [x] 60	Permutation Sequence <!--String-->
 - [x] 291	Word Pattern II		
 - [x] 17	Letter Combinations of a Phone Number		
-- [x] 320	Generalized Abbreviation :boom::boom: <!--all-in-one backtracking--> 		
+- [x] 320	Generalized Abbreviation :boom::boom:<!--all-in-one backtracking--> 		
 - [x] 93	Restore IP Addresses
 - [x] 282	Expression Add Operators :boom::boom:
 - [x] 140	Word Break II :boom:
