@@ -123,7 +123,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 278	First Bad Version		
 - [ ] 35	Search Insert Position		
 - [x] 33	Search in Rotated Sorted Array <!--Binary Search;-->
-- [ ] 81	Search in Rotated Sorted Array II		
+- [x] 81	Search in Rotated Sorted Array II <!--follow-up-->
 - [ ] 153	Find Minimum in Rotated Sorted Array		
 - [ ] 154	Find Minimum in Rotated Sorted Array II		
 - [ ] 162	Find Peak Element		

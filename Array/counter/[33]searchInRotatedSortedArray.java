@@ -23,3 +23,10 @@ class Solution {
     return -1;
   }
 }
+
+
+/**
+ * performance: 0 ms < 100%
+ * time complexity: O(log(n))
+ * space complexity: O(1)
+ */
