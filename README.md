@@ -122,7 +122,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 324	Wiggle Sort II		
 - [ ] 278	First Bad Version		
 - [ ] 35	Search Insert Position		
-- [ ] 33	Search in Rotated Sorted Array		
+- [x] 33	Search in Rotated Sorted Array <!--Binary Search;-->
 - [ ] 81	Search in Rotated Sorted Array II		
 - [ ] 153	Find Minimum in Rotated Sorted Array		
 - [ ] 154	Find Minimum in Rotated Sorted Array II		
