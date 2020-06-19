@@ -6,7 +6,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
   * [Challenging problems](#challenging-problems)
   * [Interval](#interval)
   * [Counter](#counter)
-  * [Counter](#counter)
+  * [Sorting](#sorting)
 * [String](#string)
   * [Basic problems](#basic-problems)
   * [Challenging problems](#challenging-problems)
@@ -113,9 +113,9 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 228	Summary Ranges		
 - [ ] 163	Missing Ranges
 
-### Counter			
-- [x] 88	Merge Sorted Array		
-- [ ] 75	Sort Colors		
+### Sorting 			
+- [x] [88]	Merge Sorted Array		
+- [ ] 75	Sort Colors	<!--Quick-sort-->
 - [x] 283	Move Zeroes		
 - [ ] 376	Wiggle Subsequence		
 - [ ] 280	Wiggle Sort		
@@ -128,7 +128,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 154	Find Minimum in Rotated Sorted Array II		
 - [ ] 162	Find Peak Element		
 - [ ] 374	Guess Number Higher or Lower		
-- [ ] 34	Find First and Last Position of Element in Sorted Array		
+- [ ] 34	Find First and Last Position of Element in Sorted Array
 - [x] 349	Intersection of Two Arrays		
 - [ ] 350	Intersection of Two Arrays II		
 - [ ] 315	Count of Smaller Numbers After Self		
@@ -449,7 +449,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 364	Nested List Weight Sum II		
 - [ ] 127	Word Ladder		
 - [ ] 51	N-Queens		
-- [ ] 52	N-Queens II		
+- [ ] 52	N-Queens II
 - [ ] 126	Word Ladder II
 
 ## Stack & Priority Queue
