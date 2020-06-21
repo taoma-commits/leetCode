@@ -104,7 +104,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
-- [ ] 295	Find Median from Data Stream		
+- [ ] 295	Find Median from Data Stream
 - [x] [53]	Maximum Subarray <!-- DP; Prefix Sum -->
 - [ ] 325	Maximum Size Subarray Sum Equals k
 - [ ] 209	Minimum Size Subarray Sum
@@ -115,9 +115,9 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 
 ### Sorting 			
 - [x] [88]	Merge Sorted Array		
-- [ ] 75	Sort Colors	<!--Quick-sort-->
-- [x] 283	Move Zeroes		
-- [ ] 376	Wiggle Subsequence		
+- [x] 75	Sort Colors	<!--3-way Quick-sort--> :boom:
+- [x] [283]	Move Zeroes :boom:
+- [ ] 376	Wiggle Subsequence
 - [ ] 280	Wiggle Sort		
 - [ ] 324	Wiggle Sort II		
 - [ ] 278	First Bad Version		

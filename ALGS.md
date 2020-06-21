@@ -97,7 +97,9 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 
 ### Dijkstra 3-way quicksort
 
-**Pseudo-code**
+#### 3-way partition
+
+#### Pseudo-code
 
     - Random  shuffle array;
     - Set lo = lt = 0, hi = N;
