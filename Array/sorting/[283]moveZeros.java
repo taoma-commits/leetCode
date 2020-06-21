@@ -1,24 +1,45 @@
-/*
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Move Zeroes.
-Memory Usage: 47.1 MB, less than 5.59% of Java online submissions for Move Zeroes.
-@twoPointers
-*/
-
-// optimize in extreme cases where nums are most zeros
-
 class Solution {
-    public void moveZeroes(int[] nums) {
-        int last, cur;
-        cur = last = 0;
-        while (cur < nums.length) {
-            if (nums[cur] != 0) {
-                if (cur != last) {
-                    nums[last] = nums[cur];
-                    nums[cur] = 0;
-                }
-                last++;
-            }
-            cur++;
+  public void moveZeroes(int[] nums) {
+    int i = 0;
+    int j = 0;
+    while (i < nums.length) {
+      if (nums[i] != 0) {
+        if (i != j) {
+          nums[j] = nums[i];
+          nums[i] = 0;
         }
+        j++;
+      }
+      i++;
     }
+  }
 }
+
+/**
+ * performance: 0 ms < 100%
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * notes: optimize in extreme cases where nums are most zeros.
+ */
+
+ class Solution {
+   public void moveZeroes(int[] nums) {
+     int i = 0;
+     int j = 0;
+     while (i < nums.length) {
+       if (nums[i] == 0) {
+         i++;
+       } else {
+         nums[j++] = nums[i++];
+       }
+     }
+     while (j < nums.length) {
+       nums[j++] = 0;
+     }
+   }
+ }
+
+ /**
+  * same
+  * not optimized.
+  */

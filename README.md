@@ -117,7 +117,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] [88]	Merge Sorted Array		
 - [x] 75	Sort Colors	<!--3-way Quick-sort--> :boom:
 - [x] [283]	Move Zeroes :boom:
-- [ ] 376	Wiggle Subsequence
+- [x] 376	Wiggle Subsequence <!--greedy-->
 - [ ] 280	Wiggle Sort		
 - [ ] 324	Wiggle Sort II		
 - [ ] 278	First Bad Version		
