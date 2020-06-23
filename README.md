@@ -97,10 +97,10 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 
 ### Interval			
 - [ ] 57	Insert Interval
-- [ ] 56	Merge Intervals
+- [x] 56	Merge Intervals
 - [x] 252	Meeting Rooms <!--TreeMap-->
 - [ ] 253	Meeting Rooms II
-- [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap -->
+- [ ] 352	Data Stream as Disjoint Intervals <!-- TreeMap-->
 
 ### Counter			
 - [ ] 239	Sliding Window Maximum		
@@ -381,7 +381,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
 - [x] 24	Swap Nodes in Pairs
 - [x] 328	Odd Even Linked List
-- [ ] 92	Reverse Linked List II		
+- [ ] 92	Reverse Linked List II
 - [ ] 237	Delete Node in a Linked List		
 - [ ] 19	Remove Nth Node From End of List		
 - [ ] 83	Remove Duplicates from Sorted List		
