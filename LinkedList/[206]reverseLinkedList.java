@@ -16,7 +16,7 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(n)
  * space complexity: O(1)
- * notes: iterative. 
+ * notes: iterative
  */
 
 class Solution {
@@ -31,5 +31,5 @@ class Solution {
 
 /**
  * same
- * notes: recusive. 
+ * notes: recusive.
  */

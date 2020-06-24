@@ -377,11 +377,11 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 ## LinkedList
 
 ### Basic problems 		
-- [x] 206	Reverse Linked List
+- [x] [206]	Reverse Linked List :coffee:
 - [x] 141	Linked List Cycle <!-- Floyd's slow and fast pointers -->
 - [x] 24	Swap Nodes in Pairs
 - [x] 328	Odd Even Linked List
-- [ ] 92	Reverse Linked List II
+- [x] 92	Reverse Linked List II
 - [ ] 237	Delete Node in a Linked List		
 - [ ] 19	Remove Nth Node From End of List		
 - [ ] 83	Remove Duplicates from Sorted List		
