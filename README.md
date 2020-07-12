@@ -1,6 +1,7 @@
 This repository keeps track of the author's progress in LeetCoding. The list of selected LeetCode problems are classified into 18 major categories and further grouped by their tags and levels of difficulty. The problems in each group or category are sorted by relevance and then by difficulty levels in ascending order.
 
 ## Table of Contents
+
 * [Array](#array)
   * [Basic problems](#basic-problems)
   * [Challenging problems](#challenging-problems)
@@ -8,18 +9,18 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
   * [Counter](#counter)
   * [Sorting](#sorting)
 * [String](#string)
-  * [Basic problems](#basic-problems)
-  * [Challenging problems](#challenging-problems)
+  * [Basic problems](#basic-problems-1)
+  * [Challenging problems](#challenging-problems-1)
   * [Substring](#substring)
   * [Palindrome](#palindrome)
   * [Parentheses](#parentheses)
   * [Subsequence](#subsequence)
 * [Math](#math)
-  * [Basic problems](#basic-problems)
+  * [Basic problems](#basic-problems-2)
   * [Sum](#sum)
   * [Low frequency problems](#low-frequency-problems)
 * [Tree](#tree)
-  * [Basic problems](#basic-problems)
+  * [Basic problems](#basic-problems-3)
   * [Pre-order](#pre-order)
   * [BFS](#bfs)
   * [BST](#bst)
@@ -30,8 +31,8 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
   * [Two dimensional](#two-dimensional)
   * [Reduction](#reduction)
 * [LinkedList](#linkedlist)
-  * [Basic problems](#basic-problems)
-  * [Challenging problems](#challenging-problems)
+  * [Basic problems](#basic-problems-4)
+  * [Challenging problems](#challenging-problems-2)
 * [Binary Search](#binary-search)
 * [Matrix](#matrix)
 * [DFS & BFS](#dfs-&-bfs)
@@ -39,15 +40,16 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
   * [Stack](#stack)
   * [Priority queue](#priority-queue)
 * [Bit Manipulation](#bit-manipulation)
-  * [Low frequency problems](#low-frequency-problems)
+  * [Low frequency problems](#low-frequency-problems-1)
 * [Topological Sort](#topological-sort)
 * [Random](#random)
 * [Graph](#graph)
-  * [Basic problems](#basic-problems)
+  * [Basic problems](#basic-problems-5)
   * [Computer graphics](#computer-graphics)
 * [Union Find](#union-find)
 * [Trie](#trie)
 * [Design](#design)
+<!--toc-->
 
 ## Array
 
@@ -119,7 +121,11 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] [283]	Move Zeroes :boom:
 - [x] 376	Wiggle Subsequence <!--greedy-->
 - [x] 280	Wiggle Sort		
+<<<<<<< HEAD
 - [ ] 324	Wiggle Sort II		
+=======
+- [x] 324	Wiggle Sort II		
+>>>>>>> cdee0b0210e8beca43bc6c45db99cfcc4d4f4985
 - [ ] 278	First Bad Version		
 - [x] 35	Search Insert Position 	
 - [x] 33	Search in Rotated Sorted Array <!--Binary Search;-->
