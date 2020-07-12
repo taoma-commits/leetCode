@@ -7,7 +7,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
   * [Challenging problems](#challenging-problems)
   * [Interval](#interval)
   * [Counter](#counter)
-  * [Sorting](#sorting)
+  * [Sort](#sort)
 * [String](#string)
   * [Basic problems](#basic-problems-1)
   * [Challenging problems](#challenging-problems-1)
@@ -115,17 +115,13 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 228	Summary Ranges		
 - [ ] 163	Missing Ranges
 
-### Sorting 			
+### Sort 			
 - [x] [88]	Merge Sorted Array		
 - [x] 75	Sort Colors	<!--3-way Quick-sort--> :boom:
 - [x] [283]	Move Zeroes :boom:
 - [x] 376	Wiggle Subsequence <!--greedy-->
 - [x] 280	Wiggle Sort		
-<<<<<<< HEAD
-- [ ] 324	Wiggle Sort II		
-=======
 - [x] 324	Wiggle Sort II		
->>>>>>> 41d145debebd4a5049bdfcf274deb709bd465f99
 - [ ] 278	First Bad Version		
 - [x] 35	Search Insert Position 	
 - [x] 33	Search in Rotated Sorted Array <!--Binary Search;-->
