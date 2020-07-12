@@ -1,6 +1,7 @@
 This repository keeps track of the author's progress in LeetCoding. The list of selected LeetCode problems are classified into 18 major categories and further grouped by their tags and levels of difficulty. The problems in each group or category are sorted by relevance and then by difficulty levels in ascending order.
 
 ## Table of Contents
+<!--toc-->
 * [Array](#array)
   * [Basic problems](#basic-problems)
   * [Challenging problems](#challenging-problems)
