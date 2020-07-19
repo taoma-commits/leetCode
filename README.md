@@ -49,7 +49,6 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 * [Union Find](#union-find)
 * [Trie](#trie)
 * [Design](#design)
-<!--toc-->
 
 ## Array
 
@@ -119,19 +118,19 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] [88]	Merge Sorted Array		
 - [x] 75	Sort Colors	<!--3-way Quick-sort--> :boom:
 - [x] [283]	Move Zeroes :boom:
-- [x] 376	Wiggle Subsequence <!--greedy-->
-- [x] 280	Wiggle Sort		
-- [x] 324	Wiggle Sort II		
-- [ ] 278	First Bad Version		
-- [x] 35	Search Insert Position 	
+- [x] 376	Wiggle Subsequence <!--Greedy-->
+- [x] 280	Wiggle Sort
+- [x] 324	Wiggle Sort II :boom::boom::boom: <!--3-way Quick select-->
+- [x] 278	First Bad Version <!--Binary Search-->:coffee:
+- [x] 35	Search Insert Position
 - [x] 33	Search in Rotated Sorted Array <!--Binary Search;-->
 - [x] 81	Search in Rotated Sorted Array II <!--follow-up-->
 - [ ] 153	Find Minimum in Rotated Sorted Array		
-- [ ] 154	Find Minimum in Rotated Sorted Array II		
+- [ ] 154	Find Minimum in Rotated Sorted Array II
 - [ ] 162	Find Peak Element		
 - [ ] 374	Guess Number Higher or Lower		
 - [ ] 34	Find First and Last Position of Element in Sorted Array
-- [x] 349	Intersection of Two Arrays		
+- [x] 349	Intersection of Two Arrays
 - [ ] 350	Intersection of Two Arrays II		
 - [ ] 315	Count of Smaller Numbers After Self		
 - [ ] 300	Longest Increasing Subsequence		
@@ -294,10 +293,10 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 
 ### BST			
 - [x] 98	Validate Binary Search Tree <!--Pre-order; In-order--> :boom:
-- [x] 235	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :boom:
-- [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order-->
-- [x] 108	Convert Sorted Array to Binary Search Tree <!--Binary search-->
-- [x] 109	Convert Sorted List to Binary Search Tree <!--Binary search; In-order traversal simulation--> :boom:
+- [x] [235]	Lowest Common Ancestor of a Binary Search Tree <!--Pre-order--> :boom:
+- [x] 236	Lowest Common Ancestor of a Binary Tree	<!--Post-order--> :boom::boom:
+- [x] [108]	Convert Sorted Array to Binary Search Tree <!--Binary search; in-order-->
+- [x] [109]	Convert Sorted List to Binary Search Tree <!--Binary search; In-order traversal simulation--> :boom:
 - [x] 173	Binary Search Tree Iterator	<!--In-order--> :boom:
 - [x] 230	Kth Smallest Element in a BST	<!--In-order; follow-up-->
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS--> :boom::boom:

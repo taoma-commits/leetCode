@@ -1,3 +1,4 @@
+[TOC]
 ***
 # I. Sorting Algorithms
 
@@ -67,6 +68,7 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 
 * Worst-case: array in ascending or descending order. Every partition is out-of-balance. Time complexity $\sim \frac{1}{2}N^2$.
 * Quicksort NOT stable.
+* Quicksort is equivalent to BST.
 
 > **Porposition.** The average number of compares $C_N$ to quicksort an array of $N$ **distinct** keys is $\sim 2N\ln N$.
 
@@ -75,9 +77,10 @@ Non-recursive implementation of merge-sort: pass through array, merging subarray
 The partition keys are at $0$ to $N - 1$. Solve the general term
 \[C_N =  2(N+1)\sum_{i = 3}^{N + 1} \sim 2(N + 1)\int_3^{N+1}\frac{1}{x}\,dx \sim 2(N+1)\ln N.\] :coffee:
 
-### Quick-select
+### Quick select
 
-> **Selection algorithm** given an array of $N$ items, find the $k$-th largest item.
+Given an array of $N$ items, find the $k$-th largest item.
+Use the quick select to find order statistics like min, max, median, etc.
 
 **Pseudo-code**
 
@@ -93,13 +96,13 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 > **Proposition.** Quick-select takes linear time on average.
 
 **Proof.** Rough count of number of compares is
-\[N + N/2 + \cdots + 1 \sim 2N. \]
+\[N + N/2 + N/2^2 + \cdots + 1 \sim 2N. \]
 
-### Dijkstra 3-way quicksort
+### Dijkstra 3-way quicksort and quick-select
 
-#### 3-way partition
+**3-way partition**
 
-#### Pseudo-code
+**Pseudo-code**
 
     - Random  shuffle array;
     - Set lo = lt = 0, hi = N;
@@ -111,7 +114,7 @@ The partition keys are at $0$ to $N - 1$. Solve the general term
 
 
 ***
-## I.2 Non-comparision Sorting Algorithms
+## I.2 Non-comparison Sorting Algorithms
 
 ### Bucket sort
 
@@ -233,6 +236,7 @@ Pf. 1-1 correspondence with quicksort partitioning
 * Post-order (LRN): reverse post-order is always equivalent to topological sort even on a general DAG. Refer to [proof](#topological-sort).
 * In-order (LNR): ascending order.
 * Reverse in-order (RNL): descending order.
+
 ```mermaid
 graph TD;
     A-->B;
@@ -240,6 +244,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
 
 ### BFS of binary tree
 * level order

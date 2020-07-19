@@ -10,6 +10,7 @@ class Solution {
     return helper(0, len - 1);
   }
 
+
   private TreeNode helper(int lo, int hi) {
     if (lo > hi) return null;
     int mid = (lo + hi + 1) >> 1;
@@ -26,7 +27,7 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(n)
  * space complexity: O(log(n)) not counting the output.
- * notes: in-order traversal simulation. 
+ * notes: in-order traversal simulation.
  */
 
 
