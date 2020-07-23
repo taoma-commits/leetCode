@@ -22,6 +22,5 @@ class Solution {
  * performance: 2 ms < 100%, 41 MB < 52%
  * time complexity: O(k * n! / ((n - k)! * k!))
  * space complexity: O(k * n! / ((n - k)! * k!))
- * notes: prune to optimize! 
+ * notes: prune to optimize!
  */
-
