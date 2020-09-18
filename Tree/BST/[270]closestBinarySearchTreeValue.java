@@ -17,6 +17,7 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(height) !
  * space complexity: O(1)
+ * notes: iteration
  */
 
 
@@ -39,4 +40,5 @@ class Solution {
  * performance: 0 ms < 100%
  * time complexity: O(height)!
  * space complexity: O(height)
+ * notes: recursion 
  */

@@ -302,7 +302,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS--> :boom::boom:
 - [x] 285	In-order Successor in BST <!--In-order-->
 - [x] 270	Closest Binary Search Tree Value <!--Pre-order; Binary Search-->
-- [ ] 272	Closest Binary Search Tree Value II <!--In-order-->
+- [x] 272	Closest Binary Search Tree Value II <!--In-order; PQ/stack-->
 - [ ] 99	Recover Binary Search Tree <!--In-order-->
 
 ### Others
