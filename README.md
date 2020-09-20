@@ -265,8 +265,8 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 
 ### Basic problems
 - [x] [144]	Binary Tree Preorder Traversal :boom:<!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] [94]	Binary Tree Inorder Traversal :boom: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
-- [x] [145]	Binary Tree Postorder Traversal :boom::boom:<!--Replacing recursion with a stack; delimiter template; double stacks-->
+- [x] [94]	Binary Tree In-order Traversal :boom: <!--Replacing recursion with a stack; delimiter template; Morris traversal-->
+- [x] [145]	Binary Tree Post-order Traversal :boom::boom:<!--Replacing recursion with a stack; delimiter template; double stacks-->
 - [x] [102]	Binary Tree Level Order Traversal <!--DFS; double queues BFS; delimiter BFS-->
 
 ### Pre-order			
@@ -302,8 +302,8 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 297	Serialize and Deserialize Binary Tree <!--BFS--> :boom::boom:
 - [x] 285	In-order Successor in BST <!--In-order-->
 - [x] 270	Closest Binary Search Tree Value <!--Pre-order; Binary Search-->
-- [x] 272	Closest Binary Search Tree Value II <!--In-order; PQ/stack-->
-- [ ] 99	Recover Binary Search Tree <!--In-order-->
+- [x] 272	Closest Binary Search Tree Value II <!--In-order; PQ; two stacks-->
+- [x] 99	Recover Binary Search Tree <!--In-order; Morris traversal-->
 
 ### Others
 

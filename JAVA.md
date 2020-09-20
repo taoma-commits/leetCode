@@ -263,7 +263,7 @@ data type: ```StringBuilder```: because String type is immutable, we need String
 * Array sorting:
   - ```Arrays.sort(arr, start_idx, end_idx + 1)```
   - ```Arrays.sort(arr, comparator)```
-  - One could initialize a Comparator object in the second field of ```Arrays.srot()```
+  - One could initialize a Comparator object in the second field of ```Arrays.sort()```
   ```
     Arrays.sort(arr, new Comparator<T>() {
       public int compare(obj_1, obj_2) {
