@@ -18,6 +18,6 @@ class Solution {
 /**
  * performance: 11 ms < 80%
  * time complexity: O(n)
- * space complexity: O(n)
+ * space complexity: O(h)
  * notes: monotonic stack
  */

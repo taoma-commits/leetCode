@@ -310,7 +310,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] 156	Binary Tree Upside Down		
 - [x] 114	Flatten Binary Tree to Linked List <!--Pre-order; Morris-traversal-like-->		
 - [x] 255	Verify Preorder Sequence in Binary Search Tree <!--Monotonic Stack--> :boom::boom:
-- [ ] 333	Largest BST Subtree		
+- [ ] 333	Largest BST Subtree
 - [ ] 222	Count Complete Tree Nodes		
 - [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] 106	Construct Binary Tree from Inorder and Postorder Traversal		
