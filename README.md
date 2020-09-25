@@ -308,8 +308,8 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 ### Others
 
 - [x] 156	Binary Tree Upside Down		
-- [ ] 114	Flatten Binary Tree to Linked List		
-- [ ] 255	Verify Preorder Sequence in Binary Search Tree		
+- [x] 114	Flatten Binary Tree to Linked List <!--Pre-order; Morris-traversal-like-->		
+- [x] 255	Verify Preorder Sequence in Binary Search Tree <!--Monotonic Stack--> :boom::boom:
 - [ ] 333	Largest BST Subtree		
 - [ ] 222	Count Complete Tree Nodes		
 - [ ] 105	Construct Binary Tree from Preorder and Inorder Traversal
@@ -367,7 +367,7 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [x] 85	Maximal Rectangle <!-- Monotonic Stack -->
 - [x] 363	Max Sum of Rectangle No Larger Than K :boom::boom: <!-- TreeSet; Prefix Sum -->
 
-### Reduction 			
+### Reduction
 - [x] 198	House Robber
 - [x] 213	House Robber II		
 - [x] 276	Paint Fence		
@@ -464,9 +464,9 @@ This repository keeps track of the author's progress in LeetCoding. The list of 
 - [ ] 388	Longest Absolute File Path		
 - [ ] 394	Decode String		
 - [ ] 224	Basic Calculator		
-- [ ] 227	Basic Calculator II		
+- [ ] 227	Basic Calculator II
 - [ ] 385	Mini Parser		
-- [ ] 84	Largest Rectangle in Histogram
+- [ ] 84	Largest Rectangle in Histogram <!--Monotonic Stack--> :boom::boom:
 
 ### Priority queue			
 - [ ] 215	Kth Largest Element in an Array		
