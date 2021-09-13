@@ -452,7 +452,7 @@ $E < V$. Prune the tree until every vertex is incident to more than one edge. Th
 ## IV 5. Shortest path
 
 * Consider edge weighted digraphs;
-* Single-source shortest paths: the solutio is a **SPT** (shortest path tree);
+* Single-source shortest paths: the solution is a **SPT** (shortest path tree);
 * Edge relaxation: relax $e = v\rightarrow w$ so that `distTo[w] <= distTo[v] + e`;
 
 **Optimality conditions.** The `distTo[]` are the shortest path distances from $s$ iff
